@@ -1,0 +1,54 @@
+{
+  "name": "ohmybeer.ru",
+  "title": "ohmybeer.ru",
+  "description": "ohmybeer.ru",
+  "private": true,
+  "version": "0.0.1",
+  "type": "module",
+  "license": "MIT",
+  "homepage": "https://ohmybeer.ru",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Saturnych/ohmybeer.ru"
+  },
+  "bugs": {
+    "url": "https://github.com/Saturnych/ohmybeer.ru/issues"
+  },
+  "author": {
+    "name": "Denis Glebko",
+    "email": "saturnych@gmail.com",
+    "url": "https://github.com/Saturnych"
+  },
+	"scripts": {
+		"dev": "vite dev --port 3300 --host",
+		"start": "vite dev --host",
+		"build": "vite build",
+		"preview": "vite preview --port 3311 --host",
+		"format": "prettier --write .",
+		"lint": "prettier --check .",
+		"playwright": "playwright install",
+		"test": "playwright test"
+	},
+  "devDependencies": {
+    "@playwright/test": "^1.54.2",
+    "@types/node": "^24.2.1",
+    "dotenv": "^17.2.1",
+    "prettier": "^3.4.2",
+    "typescript": "^5.9.2",
+		"vite": "^7.1.2",
+		"vite-plugin-cross-origin-isolation": "^0.1.6",
+		"vite-plugin-devtools-json": "^0.4.1",
+		"vite-plugin-mkcert": "^1.17.8"
+  },
+  "dependencies": {
+    "hash-wasm": "^4.12.0",
+		"short-uuid": "^5.2.0"
+  },
+  "engines": {
+    "node": ">=22.12.0"
+  },
+  "keywords": [
+    "playwright",
+    "typescript"
+  ]
+}
