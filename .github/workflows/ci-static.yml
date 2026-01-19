@@ -2,7 +2,7 @@ name: Static GH Pages workflow
 
 # Controls when the workflow will run
 on:
-  # Triggers the workflow on push events but only for the 'static' branch
+  # Triggers the workflow on push events but only for the 'redirect' branch
   push:
     branches: [static]
 
@@ -22,27 +22,8 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  # Single deploy job since we're just deploying
   deploy:
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-
-    runs-on: ubuntu-latest
-
-    steps:
-      - name: Checkout code
-        uses: actions/checkout@v4
-
-      - name: Setup Pages
-        uses: actions/configure-pages@v5
-
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
-        with:
-          # Upload entire repository
-          path: './static'
-
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
+    uses: 'Saturnych/actions-workflows/.github/workflows/pages-deploy.yml@develop'
+    with:
+      dir: 'static'
+    secrets: inherit
