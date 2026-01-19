@@ -1,1 +1,1 @@
-# ohmybeer.ru
+# OHMYBEER.ru
