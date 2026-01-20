@@ -4,7 +4,9 @@ import pkg from '../../package.json' with { type: 'json' };
 
 const { title } = pkg;
 const { DEV, PRIVATE_PRICE_URL } = import.meta.env;
-console.log('PRIVATE_PRICE_URL:', PRIVATE_PRICE_URL);
+
+console.log('');
+console.log('PRIVATE_PRICE_URL:', PRIVATE_PRICE_URL?.length);
 
 const fetched = await fetch(PRIVATE_PRICE_URL);
 const remote = await fetched.text();
