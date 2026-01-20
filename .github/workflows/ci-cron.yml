@@ -7,9 +7,6 @@ on:
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
-    outputs:
-      status:
-        value: ${{ jobs.deploy.outputs.status }}
 
 # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
 permissions:
@@ -30,7 +27,7 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
 
     outputs:
-      status: ${{ job.status }}  
+      status: ${{ job.status }}
 
     runs-on: ubuntu-latest
 
