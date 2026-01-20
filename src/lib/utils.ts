@@ -1,7 +1,4 @@
-import short from 'short-uuid';
-import * as hashwasm from 'hash-wasm';
-
-const DEBUG = process.env.NODE_ENV !== 'production';
+// utils
 
 export const postForm = async (frm: Record<string, unknown>, uri: string): Record<string, any> => {
 	const ret = {
@@ -32,29 +29,6 @@ export const postForm = async (frm: Record<string, unknown>, uri: string): Recor
 	return ret;
 };
 
-export const lockResource = (frm: Record<string, unknown>, uri: string, timeoutMsec: number = 10000) => {
-	if (navigator && 'locks' in navigator) {
-		const resource: string = `${frm.uid}_${short.uuid()}`;
-		navigator.locks.request(resource, { ifAvailable: false }, async (lock) => {
-			if (!!lock?.name) {
-				if (DEBUG) console.log(`%cResource '${resource}' occupied`, 'color: yellow');
-				try {
-					let { promise, resolve, reject } = Promise.withResolvers();
-					const result: object = await Promise.race([
-						promise,
-						timeout(timeoutMsec, { error: 'timeout', uid })
-					]);
-					if (DEBUG) console.log('lockResource() result:', result);
-				} catch (err) {
-					console.error('error:', err);
-				}
-				if (DEBUG) console.log(`%cResource '${resource}' free`, 'color: yellow');
-			} else {
-				if (DEBUG) console.log(`%cResource '${resource}' is blocked`, 'color: red');
-			}
-		});
-	}
-};
 
 export const normalize = (str: string): string => {
 	return str
@@ -133,11 +107,6 @@ export const hashWithTextEncoder = (text: string, sep: string = ''): string => {
 	return [...new TextEncoder().encode(text)].map((b) => b.toString(16).padStart(2, '0')).join(sep);
 };
 
-export const arrayBufferHash = async (
-	buffer: Uint8Array | Uint32Array,
-	method: string = 'sha1'
-): string => hashwasm[method](buffer);
-
 export const stringToBase64 = (str) => {
 	// first we use encodeURIComponent to get percent-encoded UTF-8,
 	// then we convert the percent encodings into raw bytes which
@@ -197,7 +166,7 @@ export const parseJson = (data: string, obj?: object[] | object | undefined) => 
 	try {
 		obj = JSON.parse(data);
 	} catch (e) {
-		if (DEBUG) console.error(e);
+		//console.error(e);
 	}
 	return obj;
 };

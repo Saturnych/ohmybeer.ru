@@ -13,7 +13,6 @@ process.env['NODE_TLS_REJECT_UNAUTHORIZED'] = 0;
 test.describe.configure({ mode: 'serial' });
 
 let page: Page;
-let link: string;
 
 test.beforeAll(async ({ browser }) => {
 	console.log('PRIVATE_PRICE_URL:', PRIVATE_PRICE_URL);

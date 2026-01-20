@@ -1,0 +1,32 @@
+---
+import * as cheerio from 'cheerio';
+import pkg from '../../package.json' with { type: 'json' };
+
+const { title } = pkg;
+const { DEV, PRIVATE_PRICE_URL } = import.meta.env;
+console.log('PRIVATE_PRICE_URL:', PRIVATE_PRICE_URL);
+
+const fetched = await fetch(PRIVATE_PRICE_URL);
+const remote = await fetched.text();
+const $ = cheerio.load(remote);
+
+//$('title').text(title);
+//const html = $.html(); // <Fragment set:html={html}>
+
+const table = $('div[id=table-row]').html();
+console.log(table?.length);
+---
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width" />
+		<meta name="generator" content="{Astro.generator}" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<title>{title}</title>
+	</head>
+	<body>
+		<h1>{title}</h1>
+    <div id="main" set:html={table}></div>
+	</body>
+</html>

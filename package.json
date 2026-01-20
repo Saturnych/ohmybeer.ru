@@ -1,7 +1,7 @@
 {
   "name": "ohmybeer.ru",
-  "title": "ohmybeer.ru",
-  "description": "ohmybeer.ru",
+  "title": "Oh, My Beer!",
+  "description": "Oh, My Beer! - Craft Bar",
   "private": true,
   "version": "0.0.1",
   "type": "module",
@@ -20,25 +20,19 @@
     "url": "https://github.com/Saturnych"
   },
 	"scripts": {
-		"dev": "vite dev --port 3300 --host",
-		"start": "vite dev --host",
-		"build": "vite build",
-		"preview": "vite preview --port 3311 --host",
-		"format": "prettier --write .",
-		"lint": "prettier --check .",
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro",
 		"playwright": "playwright install",
 		"test": "playwright test"
 	},
   "devDependencies": {
     "@playwright/test": "^1.54.2",
     "@types/node": "^24.2.1",
-    "dotenv": "^17.2.1",
-    "prettier": "^3.4.2",
-    "typescript": "^5.9.2",
-		"vite": "^7.1.2",
-		"vite-plugin-cross-origin-isolation": "^0.1.6",
-		"vite-plugin-devtools-json": "^0.4.1",
-		"vite-plugin-mkcert": "^1.17.8"
+    "astro": "^5.16.11",
+    "cheerio": "^1.1.2",
+    "typescript": "^5.9.2"
   },
   "dependencies": {
     "hash-wasm": "^4.12.0",
@@ -48,6 +42,7 @@
     "node": ">=22.12.0"
   },
   "keywords": [
+    "astro",
     "playwright",
     "typescript"
   ]
