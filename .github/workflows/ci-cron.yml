@@ -7,6 +7,9 @@ on:
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
+    outputs:
+      status:
+        value: ${{ jobs.deploy.outputs.status }}
 
 # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
 permissions:
@@ -25,6 +28,9 @@ jobs:
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
+
+    outputs:
+      status: ${{ job.status }}  
 
     runs-on: ubuntu-latest
 
@@ -60,3 +66,11 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+
+  email:
+    needs: deploy
+    uses: 'Saturnych/actions-workflows/.github/workflows/email.yml@develop'
+    with:
+      name: 'ohmybeer.ru deploy'
+      status: ${{ needs.deploy.outputs.status }}
+    secrets: inherit
