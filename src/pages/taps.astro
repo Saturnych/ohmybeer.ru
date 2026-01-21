@@ -1,0 +1,11 @@
+---
+import { getCollection } from 'astro:content';
+import Main from '$/layouts/Main.astro';
+
+const taps = await getCollection('taps');
+console.log('taps:', taps);
+---
+
+<Main name="Taps">
+  <div />
+</Main>
