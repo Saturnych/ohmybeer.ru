@@ -23,7 +23,7 @@ concurrency:
 
 jobs:
   build:
-    uses: './.github/workflows/build-dist.yml@develop'
+    uses: './.github/workflows/build-dist.yml'
     secrets: inherit
 
   deploy:
