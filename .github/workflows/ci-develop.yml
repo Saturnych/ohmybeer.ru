@@ -23,7 +23,7 @@ concurrency:
 
 jobs:
   build:
-    uses: './build-dist.yml'
+    uses: './build-dist.yml@develop'
     secrets: inherit
 
   deploy:
