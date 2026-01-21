@@ -29,7 +29,6 @@ export const postForm = async (frm: Record<string, unknown>, uri: string): Recor
 	return ret;
 };
 
-
 export const normalize = (str: string): string => {
 	return str
 		.normalize('NFD')

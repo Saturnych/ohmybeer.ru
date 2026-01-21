@@ -1,49 +1,50 @@
 {
-  "name": "ohmybeer.ru",
-  "title": "Oh, My Beer!",
-  "description": "Oh, My Beer! - Craft Bar",
-  "private": true,
-  "version": "0.0.1",
-  "type": "module",
-  "license": "MIT",
-  "homepage": "https://ohmybeer.ru",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/Saturnych/ohmybeer.ru"
-  },
-  "bugs": {
-    "url": "https://github.com/Saturnych/ohmybeer.ru/issues"
-  },
-  "author": {
-    "name": "Denis Glebko",
-    "email": "saturnych@gmail.com",
-    "url": "https://github.com/Saturnych"
-  },
+	"name": "ohmybeer.ru",
+	"title": "Oh, My Beer!",
+	"description": "Oh, My Beer! - Craft Bar",
+	"private": true,
+	"version": "0.0.1",
+	"type": "module",
+	"license": "MIT",
+	"homepage": "https://ohmybeer.ru",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/Saturnych/ohmybeer.ru"
+	},
+	"bugs": {
+		"url": "https://github.com/Saturnych/ohmybeer.ru/issues"
+	},
+	"author": {
+		"name": "Denis Glebko",
+		"email": "saturnych@gmail.com",
+		"url": "https://github.com/Saturnych"
+	},
 	"scripts": {
-    "dev": "astro dev",
-    "build": "astro build",
-    "preview": "astro preview",
-    "astro": "astro",
+		"dev": "astro dev",
+		"build": "astro build",
+		"preview": "astro preview",
+		"astro": "astro",
+		"format": "prettier . --write",
 		"playwright": "playwright install",
 		"test": "playwright test"
 	},
-  "devDependencies": {
-    "@playwright/test": "^1.54.2",
-    "@types/node": "^24.2.1",
-    "astro": "^5.16.11",
-    "cheerio": "^1.1.2",
-    "typescript": "^5.9.2"
-  },
-  "dependencies": {
-    "hash-wasm": "^4.12.0",
-		"short-uuid": "^5.2.0"
-  },
-  "engines": {
-    "node": ">=22.12.0"
-  },
-  "keywords": [
-    "astro",
-    "playwright",
-    "typescript"
-  ]
+	"devDependencies": {
+		"@playwright/test": "^1.54.2",
+		"@types/node": "^24.2.1",
+		"prettier": "^3.8.0",
+		"prettier-plugin-astro": "^0.14.1",
+		"typescript": "^5.9.2"
+	},
+	"dependencies": {
+		"astro": "^5.16.11",
+		"cheerio": "^1.1.2"
+	},
+	"engines": {
+		"node": ">=22.12.0"
+	},
+	"keywords": [
+		"astro",
+		"playwright",
+		"typescript"
+	]
 }

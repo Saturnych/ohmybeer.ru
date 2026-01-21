@@ -8,7 +8,7 @@ console.log('');
 console.log('title:', title);
 
 interface Props {
-  name?: string;
+	name?: string;
 }
 
 const { name = title }: Props = Astro.props;
@@ -19,6 +19,6 @@ const { name = title }: Props = Astro.props;
 	<Head name={name} title={title} description={description} />
 	<body>
 		<h1>{name}</h1>
-    <slot />
+		<slot />
 	</body>
 </html>

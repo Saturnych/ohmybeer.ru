@@ -2,7 +2,7 @@
 # yarn lockfile v1
 
 
-"@astrojs/compiler@^2.13.0":
+"@astrojs/compiler@^2.13.0", "@astrojs/compiler@^2.9.1":
   version "2.13.0"
   resolved "https://registry.yarnpkg.com/@astrojs/compiler/-/compiler-2.13.0.tgz#a40bef3106fff808bd91b41680275a7e28996d63"
   integrity sha512-mqVORhUJViA28fwHYaWmsXSzLO9osbdZ5ImUfxBarqsYdMlPbqAqGJCxsNzvppp1BEzc1mJNjOVvQqeDN8Vspw==
@@ -662,11 +662,6 @@ ansi-styles@^6.2.1:
   resolved "https://registry.yarnpkg.com/ansi-styles/-/ansi-styles-6.2.3.tgz#c044d5dcc521a076413472597a1acb1f103c4041"
   integrity sha512-4Dj6M28JB+oAH8kFkTLUo+a2jwOFkuqb3yucU0CANcRRUbxS0cP0nZYCGjcc3BNXwRIsUVmDGgzawme7zvJHvg==
 
-any-base@^1.1.0:
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/any-base/-/any-base-1.1.0.tgz#ae101a62bc08a597b4c9ab5b7089d456630549fe"
-  integrity sha512-uMgjozySS8adZZYePpaWs8cxB9/kdzmpX6SgJZ+wbz1K5eYk5QMYDVJaZKhxyIHUdnnJkfR7SVgStgH7LkGUyg==
-
 anymatch@^3.1.3:
   version "3.1.3"
   resolved "https://registry.yarnpkg.com/anymatch/-/anymatch-3.1.3.tgz#790c58b19ba1720a84205b57c618d5ad8524973e"
@@ -1200,11 +1195,6 @@ h3@^1.15.5:
     radix3 "^1.1.2"
     ufo "^1.6.3"
     uncrypto "^0.1.3"
-
-hash-wasm@^4.12.0:
-  version "4.12.0"
-  resolved "https://registry.yarnpkg.com/hash-wasm/-/hash-wasm-4.12.0.tgz#f9f1a9f9121e027a9acbf6db5d59452ace1ef9bb"
-  integrity sha512-+/2B2rYLb48I/evdOIhP+K/DD2ca2fgBjp6O+GBEnCDk2e4rpeXIK8GvIyRPjTezgmWn9gmKwkQjjx6BtqDHVQ==
 
 hast-util-from-html@^2.0.0, hast-util-from-html@^2.0.3:
   version "2.0.3"
@@ -2046,6 +2036,20 @@ postcss@^8.5.3:
     picocolors "^1.1.1"
     source-map-js "^1.2.1"
 
+prettier-plugin-astro@^0.14.1:
+  version "0.14.1"
+  resolved "https://registry.yarnpkg.com/prettier-plugin-astro/-/prettier-plugin-astro-0.14.1.tgz#50bff8a659f2a6a4ff3b1d7ea73f2de93c95b213"
+  integrity sha512-RiBETaaP9veVstE4vUwSIcdATj6dKmXljouXc/DDNwBSPTp8FRkLGDSGFClKsAFeeg+13SB0Z1JZvbD76bigJw==
+  dependencies:
+    "@astrojs/compiler" "^2.9.1"
+    prettier "^3.0.0"
+    sass-formatter "^0.7.6"
+
+prettier@^3.0.0, prettier@^3.8.0:
+  version "3.8.0"
+  resolved "https://registry.yarnpkg.com/prettier/-/prettier-3.8.0.tgz#f72cf71505133f40cfa2ef77a2668cdc558fcd69"
+  integrity sha512-yEPsovQfpxYfgWNhCfECjG5AQaO+K3dp6XERmOepyPDVqcJm+bjyCVO3pmU+nAPe0N5dDvekfGezt/EIiRe1TA==
+
 prismjs@^1.30.0:
   version "1.30.0"
   resolved "https://registry.yarnpkg.com/prismjs/-/prismjs-1.30.0.tgz#d9709969d9d4e16403f6f348c63553b19f0975a9"
@@ -2253,10 +2257,22 @@ rollup@^4.34.9:
     "@rollup/rollup-win32-x64-msvc" "4.55.2"
     fsevents "~2.3.2"
 
+s.color@0.0.15:
+  version "0.0.15"
+  resolved "https://registry.yarnpkg.com/s.color/-/s.color-0.0.15.tgz#6b32cd22d8dba95703a5122ddede2020a1560186"
+  integrity sha512-AUNrbEUHeKY8XsYr/DYpl+qk5+aM+DChopnWOPEzn8YKzOhv4l2zH6LzZms3tOZP3wwdOyc0RmTciyi46HLIuA==
+
 "safer-buffer@>= 2.1.2 < 3.0.0":
   version "2.1.2"
   resolved "https://registry.yarnpkg.com/safer-buffer/-/safer-buffer-2.1.2.tgz#44fa161b0187b9549dd84bb91802f9bd8385cd6a"
   integrity sha512-YZo3K82SD7Riyi0E1EQPojLz7kpepnSQI9IyPbHHg1XXXevb5dJI7tpyN2ADxGcQbHG7vcyRHk0cbwqcQriUtg==
+
+sass-formatter@^0.7.6:
+  version "0.7.9"
+  resolved "https://registry.yarnpkg.com/sass-formatter/-/sass-formatter-0.7.9.tgz#cf77e02e98f81daabd91b185192144d29fc04ca5"
+  integrity sha512-CWZ8XiSim+fJVG0cFLStwDvft1VI7uvXdCNJYXhDvowiv+DsbD1nXLiQ4zrE5UBvj5DWZJ93cwN0NX5PMsr1Pw==
+  dependencies:
+    suf-log "^2.5.3"
 
 sax@^1.4.1:
   version "1.4.4"
@@ -2315,14 +2331,6 @@ shiki@^3.19.0, shiki@^3.20.0:
     "@shikijs/types" "3.21.0"
     "@shikijs/vscode-textmate" "^10.0.2"
     "@types/hast" "^3.0.4"
-
-short-uuid@^5.2.0:
-  version "5.2.0"
-  resolved "https://registry.yarnpkg.com/short-uuid/-/short-uuid-5.2.0.tgz#49378f8c5335a603bc801c279ae521c5d22532dc"
-  integrity sha512-296/Nzi4DmANh93iYBwT4NoYRJuHnKEzefrkSagQbTH/A6NTaB68hSPDjm5IlbI5dx9FXdmtqPcj6N5H+CPm6w==
-  dependencies:
-    any-base "^1.1.0"
-    uuid "^9.0.1"
 
 sisteransi@^1.0.5:
   version "1.0.5"
@@ -2383,6 +2391,13 @@ strip-ansi@^7.1.0:
   integrity sha512-gmBGslpoQJtgnMAvOVqGZpEz9dyoKTCzy2nfz/n8aIFhN/jCE/rCmcxabB6jOOHV+0WNnylOxaxBQPSvcWklhA==
   dependencies:
     ansi-regex "^6.0.1"
+
+suf-log@^2.5.3:
+  version "2.5.3"
+  resolved "https://registry.yarnpkg.com/suf-log/-/suf-log-2.5.3.tgz#0919a7fceea532a99b578c97814c4e335b2d64d1"
+  integrity sha512-KvC8OPjzdNOe+xQ4XWJV2whQA0aM1kGVczMQ8+dStAO6KfEB140JEVQ9dE76ONZ0/Ylf67ni4tILPJB41U0eow==
+  dependencies:
+    s.color "0.0.15"
 
 svgo@^4.0.0:
   version "4.0.0"
@@ -2574,11 +2589,6 @@ unstorage@^1.17.3:
     node-fetch-native "^1.6.7"
     ofetch "^1.5.1"
     ufo "^1.6.3"
-
-uuid@^9.0.1:
-  version "9.0.1"
-  resolved "https://registry.yarnpkg.com/uuid/-/uuid-9.0.1.tgz#e188d4c8853cc722220392c424cd637f32293f30"
-  integrity sha512-b+1eJOlsR9K8HJpow9Ok3fiWOWSIcIzXodvv0rQjVoOVNpWMpxf1wZNpt4y9h10odCNrqnYp1OBzRktckBe3sA==
 
 vfile-location@^5.0.0:
   version "5.0.3"

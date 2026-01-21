@@ -1,23 +1,11 @@
 ---
-import { getTable } from '$/lib/cheerio';
+import { getPriceTable } from '$/lib/price';
 import Main from '$/layouts/Main.astro';
 
-const { DEV, PRIVATE_PRICE_URL } = import.meta.env;
-
-console.log('');
-console.log('PRIVATE_PRICE_URL.length:', PRIVATE_PRICE_URL?.length);
-
-let table: string = '';
-
-if (PRIVATE_PRICE_URL?.length > 0) {
-	const fetched: any = await fetch(PRIVATE_PRICE_URL);
-	const remote: string = await fetched.text();
-	table = getTable(remote);
-}
-
+const table: string = await getPriceTable();
 console.log('table.length:', table?.length);
 ---
 
 <Main name="Taplist">
-  <div id="taplist" set:html={table}></div>
+	<div id="taplist" set:html={table} />
 </Main>
