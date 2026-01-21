@@ -30,7 +30,7 @@ jobs:
     needs: build
     uses: './.github/workflows/pages-deploy.yml'
     with:
-      dir: ${{ needs.build.outputs.dir }}
+      dir: 'dist'
     secrets: inherit
 
   email:
