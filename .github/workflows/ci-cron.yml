@@ -63,11 +63,3 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
-
-  email:
-    needs: deploy
-    uses: 'Saturnych/actions-workflows/.github/workflows/email.yml@develop'
-    with:
-      name: 'ohmybeer.ru deploy'
-      status: ${{ needs.deploy.outputs.status }}
-    secrets: inherit
