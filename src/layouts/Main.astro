@@ -1,11 +1,28 @@
 ---
 import Head from '$/components/Head.astro';
+import Listeners from '$/components/Listeners.astro';
 import pkg from '$/lib/pkg';
 
 const { title, description } = pkg;
 
-console.log('');
-console.log('title:', title);
+console.log('Astro.request.url:', Astro.request.url);
+console.log('Astro.url:', Astro.url);
+const {
+	hash,
+	href,
+	pathname,
+	search,
+	searchParams,
+}: {
+	hash: string,
+	href: string,
+	pathname: string,
+	search: string,
+	searchParams: URLSearchParams
+} = Astro.url;
+
+const code: string = searchParams.get('code') || '';
+console.log('query string code:', code);
 
 interface Props {
 	name?: string;
@@ -17,6 +34,7 @@ const { name = title }: Props = Astro.props;
 <!doctype html>
 <html lang="en">
 	<Head name={name} title={title} description={description} />
+	<Listeners />
 	<body>
 		<h1>{name}</h1>
 		<slot />

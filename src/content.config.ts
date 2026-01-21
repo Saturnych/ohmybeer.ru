@@ -10,7 +10,8 @@ const taps = defineCollection({
 		style: z.string(),
 		brewery: z.string(),
 		country: z.string(),
-		rating: z.number()
+		//abv: z.number(),
+		//ibu: z.number(),
 		//updatedAt: z.date(),
 		//type: z.enum(['Space Probe', 'Mars Rover', 'Comet Lander']),
 		//status: z.enum(['Active', 'Inactive', 'Decommissioned']),

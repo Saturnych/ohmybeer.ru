@@ -1,0 +1,33 @@
+<script>
+  import { delay } from '$/lib/utils';
+
+  const { DEV } = import.meta.env;
+
+  const initPageLoad = (): void => {
+    console.log('initPageLoad');
+  };
+
+  if (window.requestIdleCallback) {
+    window.requestIdleCallback(() => delay(initPageLoad, 1));
+  } else {
+    delay(initPageLoad, 1);
+  }
+
+  document.addEventListener("astro:before-preparation", (evt) => {
+    const from = evt.from.pathname;
+    const to = evt.to.pathname;
+    if (DEV) console.log("astro:before-preparation from:", from, "to:", to);
+  });
+
+  document.addEventListener("astro:after-preparation", (evt) => {
+    if (DEV) console.log("astro:after-preparation");
+  });
+
+  document.addEventListener("astro:after-swap", (evt) => {
+    if (DEV) console.log("astro:after-swap");
+  });
+
+  document.addEventListener("astro:page-load", (evt) => {
+    if (DEV) console.log("astro:page-load");
+  });
+</script>

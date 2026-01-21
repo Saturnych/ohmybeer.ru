@@ -6,7 +6,19 @@
 		"style": "Kolsch",
 		"brewery": "Big Village",
 		"country": "Россия",
-		"rating": 4.25,
+		"abv": 5.5,
+		"ibu": 20,
+		"updatedAt": "20.01.2026 22:43"
+	},
+	{
+		"id": "2",
+		"tap": 2,
+		"name": "Ледяное",
+		"style": "Helles",
+		"brewery": "Augustine",
+		"country": "Россия",
+		"abv": 5.5,
+		"ibu": 20,
 		"updatedAt": "20.01.2026 22:43"
 	}
 ]

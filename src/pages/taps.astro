@@ -1,9 +1,13 @@
 ---
 import { getCollection } from 'astro:content';
+import { searchTaps } from '$/lib/untappd';
 import Main from '$/layouts/Main.astro';
 
-const taps = await getCollection('taps');
+const taps: Record<string,any>[] = await getCollection('taps');
 console.log('taps:', taps);
+
+const { beers } = await searchTaps(taps);
+console.log('beers:', JSON.stringify(beers,null,2));
 ---
 
 <Main name="Taps">
