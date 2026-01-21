@@ -1,13 +1,10 @@
 ---
 import { getTable } from '$/lib/cheerio';
-import Head from '$/components/Head.astro';
-import pkg from '$/lib/pkg';
+import Main from '$/layouts/Main.astro';
 
-const { title, description } = pkg;
 const { DEV, PRIVATE_PRICE_URL } = import.meta.env;
 
 console.log('');
-console.log('title:', title);
 console.log('PRIVATE_PRICE_URL.length:', PRIVATE_PRICE_URL?.length);
 
 let table: string = '';
@@ -21,10 +18,6 @@ if (PRIVATE_PRICE_URL?.length > 0) {
 console.log('table.length:', table?.length);
 ---
 
-<html lang="en">
-	<Head title={title} description={description} />
-	<body>
-		<h1>{title}</h1>
-    <div id="main" set:html={table}></div>
-	</body>
-</html>
+<Main name="Taplist">
+  <div id="taplist" set:html={table}></div>
+</Main>

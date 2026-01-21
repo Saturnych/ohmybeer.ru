@@ -1,11 +1,12 @@
 ---
 interface Props {
   title: string;
+  name?: string;
   description?: string;
   generator?: string;
 }
 
-const { title, description = "", generator = Astro.generator }: Props = Astro.props;
+const { title, name = "", description = "", generator = Astro.generator }: Props = Astro.props;
 ---
 <head>
   <meta charset="utf-8" />
@@ -31,5 +32,5 @@ const { title, description = "", generator = Astro.generator }: Props = Astro.pr
   <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16x16.png" />
   <link rel="icon" type="image/x-icon" sizes="16x16" href="/favicon.ico" />
   <link rel="manifest" href="/manifest.json" />
-  <title>{title}</title>
+  <title>{name} || {title}</title>
 </head>

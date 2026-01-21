@@ -1,0 +1,24 @@
+---
+import Head from '$/components/Head.astro';
+import pkg from '$/lib/pkg';
+
+const { title, description } = pkg;
+
+console.log('');
+console.log('title:', title);
+
+interface Props {
+  name?: string;
+}
+
+const { name = title }: Props = Astro.props;
+---
+
+<!doctype html>
+<html lang="en">
+	<Head name={name} title={title} description={description} />
+	<body>
+		<h1>{name}</h1>
+    <slot />
+	</body>
+</html>
