@@ -1,13 +1,20 @@
-name: Build GH Pages workflow
+name: Deploy GH Pages workflow
 
 on:
   workflow_call:
     outputs:
-      dir:
-        value: 'dist'
+      status:
+        value: ${{ jobs.deploy.outputs.status }}
 
 jobs:
-  build:
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    outputs:
+      status: ${{ job.status }}
+
     runs-on: ubuntu-latest
 
     steps:
@@ -30,3 +37,15 @@ jobs:
         run: |
           yarn
           yarn build
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: './dist'
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
