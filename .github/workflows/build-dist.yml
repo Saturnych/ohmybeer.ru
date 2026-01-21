@@ -1,0 +1,32 @@
+name: Build GH Pages workflow
+
+on:
+  workflow_call:
+    outputs:
+      dir:
+        value: 'dist'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v5
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22.12.0'
+          cache: 'yarn'
+
+      - name: Build static
+        env:
+          PUBLIC_APP_NAME: ${{ vars.PUBLIC_APP_NAME }}
+          PUBLIC_APP_DOMAIN: ${{ vars.PUBLIC_APP_DOMAIN }}
+          PUBLIC_APP_URL: ${{ vars.PUBLIC_APP_URL }}
+          PRIVATE_PRICE_URL: ${{ secrets.PRIVATE_PRICE_URL }}
+
+        run: |
+          yarn
+          yarn build
