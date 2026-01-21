@@ -48,7 +48,7 @@ jobs:
 
   deploy:
     needs: build
-    uses: './.github/workflows/pages-deploy.yml'
+    uses: 'Saturnych/actions-workflows/.github/workflows/pages-deploy.yml@develop'
     with:
       dir: 'dist'
     secrets: inherit
