@@ -6,7 +6,6 @@ const {
 	PRIVATE_UNTAPPD_CLIENT_SECRET,
 } =
 	import.meta.env;
-if (DEV) console.log(` PRIVATE_UNTAPPD_API_URL.length:`, PRIVATE_UNTAPPD_API_URL?.length);
 
 // https://api.untappd.com/v4/method_name?client_id=CLIENTID&client_secret=CLIENTSECRET
 // https://api.untappd.com/v4/search/beer?q=Pliny
@@ -28,14 +27,14 @@ export const untappdApiCall = async (method_name: string, qstring?: string): Rec
 	} catch (err) {
 		console.error('untappdApiCall error:', err);
 	}
-	return Object.assign(data, { now: Date.now() });
+	return data;
 };
 
 export const searchBeer = async (brewery: string, name: string): Promise<Record<string, any>> => {
 	const qstring: string = encodeURI(`q=${brewery} ${name}`);
 	const result = await untappdApiCall('search/beer', qstring);
 	console.log('searchBeer result:', result);
-	return Object.assign({ beers: {} }, result.response);
+	return Object.assign({ beers: {}, now: Date.now() }, result.response);
 };
 
 export const searchTaps = async (taps: any[]): Promise<Record<string, any>> => {
