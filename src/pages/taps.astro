@@ -1,5 +1,5 @@
 ---
-import { getCollection } from 'astro:content';
+import { getCollection, getEntry } from 'astro:content';
 import { searchTaps } from '$/lib/untappd';
 import Main from '$/layouts/Main.astro';
 
@@ -10,11 +10,11 @@ console.log('');
 const taps: Record<string, any>[] = await getCollection('taps');
 console.log('taps:', taps);
 
-const breweries: Record<string, any>[] = await getCollection('breweries');
-console.log('breweries:', breweries);
-
 const beers: Record<string, any>[] = await getCollection('beers');
 console.log('beers:', beers);
+
+const brewery: Record<string, any> = await getEntry('breweries', beers[0].data.brewery.id);
+console.log('brewery:', brewery);
 
 if (DEV) {
 	//const { beers } = await searchTaps(taps);
