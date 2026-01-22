@@ -6,9 +6,7 @@ const {
 	PRIVATE_UNTAPPD_CLIENT_SECRET,
 } =
 	import.meta.env;
-console.log(` PRIVATE_UNTAPPD_API_URL.length:`, PRIVATE_UNTAPPD_API_URL?.length);
-console.log(` PRIVATE_UNTAPPD_CLIENT_ID.length:`, PRIVATE_UNTAPPD_CLIENT_ID?.length);
-console.log(` PRIVATE_UNTAPPD_CLIENT_SECRET.length:`, PRIVATE_UNTAPPD_CLIENT_SECRET?.length);
+if (DEV) console.log(` PRIVATE_UNTAPPD_API_URL.length:`, PRIVATE_UNTAPPD_API_URL?.length);
 
 // https://api.untappd.com/v4/method_name?client_id=CLIENTID&client_secret=CLIENTSECRET
 // https://api.untappd.com/v4/search/beer?q=Pliny
