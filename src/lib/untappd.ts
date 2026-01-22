@@ -1,6 +1,11 @@
 // untappd
-const { DEV, PRIVATE_UNTAPPD_API_URL, PRIVATE_UNTAPPD_CLIENT_ID, PRIVATE_UNTAPPD_CLIENT_SECRET } =
-	import.meta.env;
+const {
+	DEV,
+	PRIVATE_UNTAPPD_API_URL,
+	PRIVATE_UNTAPPD_CLIENT_ID,
+	PRIVATE_UNTAPPD_CLIENT_SECRET,
+	PRIVATE_UNTAPPD_ACCESS_TOKEN,
+} = import.meta.env;
 
 // https://api.untappd.com/v4/method_name?client_id=CLIENTID&client_secret=CLIENTSECRET
 // https://api.untappd.com/v4/method_name?access_token=ACESSTOKENHERE
@@ -13,7 +18,10 @@ export const untappdApiCall = async (
 	let data: Record<string, any> = {};
 	try {
 		if ((PRIVATE_UNTAPPD_API_URL || '').length > 0) {
-			const apiURI: string = `${PRIVATE_UNTAPPD_API_URL}/${method_name}?${qstring ? qstring + '&' : ''}client_id=${PRIVATE_UNTAPPD_CLIENT_ID}&client_secret=${PRIVATE_UNTAPPD_CLIENT_SECRET}`;
+			const auth: string = !!PRIVATE_UNTAPPD_ACCESS_TOKEN
+				? `access_token=${PRIVATE_UNTAPPD_ACCESS_TOKEN}`
+				: `client_id=${PRIVATE_UNTAPPD_CLIENT_ID}&client_secret=${PRIVATE_UNTAPPD_CLIENT_SECRET}`;
+			const apiURI: string = `${PRIVATE_UNTAPPD_API_URL}/${method_name}?${qstring ? qstring + '&' : ''}${auth}`;
 			const response: any = await fetch(apiURI, {
 				method: 'GET',
 				headers: {
@@ -37,18 +45,11 @@ export const searchBeer = async (brewery: string, name: string): Promise<Record<
 };
 
 export const searchTaps = async (taps: any[]): Promise<Record<string, any>> => {
-	const { brewery, name } = taps[1].data;
+	const { brewery, name } = taps[0].data;
 	console.log('brewery:', brewery);
 	console.log('name:', name);
 	return await searchBeer(brewery, name);
 };
-
-/*
-method: 'GET',
-    headers: {
-        'Authorization': `Basic ${credentials}` // The Authorization header
-    }
-*/
 
 /*
 {
