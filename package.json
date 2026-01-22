@@ -20,7 +20,7 @@
 		"url": "https://github.com/Saturnych"
 	},
 	"scripts": {
-		"dev": "astro dev",
+		"dev": "astro dev --host --mode development --port 3333",
 		"build": "astro build",
 		"preview": "astro preview",
 		"astro": "astro",
@@ -30,13 +30,13 @@
 	},
 	"devDependencies": {
 		"@playwright/test": "^1.54.2",
-		"@types/node": "^24.2.1",
-		"prettier": "^3.8.0",
+		"@types/node": "^25.0.10",
+		"prettier": "^3.8.1",
 		"prettier-plugin-astro": "^0.14.1",
 		"typescript": "^5.9.2"
 	},
 	"dependencies": {
-		"astro": "^5.16.11",
+		"astro": "^5.16.13",
 		"cheerio": "^1.1.2"
 	},
 	"engines": {
