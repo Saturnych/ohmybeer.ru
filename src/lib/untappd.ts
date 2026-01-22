@@ -3,6 +3,7 @@ const { DEV, PRIVATE_UNTAPPD_API_URL, PRIVATE_UNTAPPD_CLIENT_ID, PRIVATE_UNTAPPD
 	import.meta.env;
 
 // https://api.untappd.com/v4/method_name?client_id=CLIENTID&client_secret=CLIENTSECRET
+// https://api.untappd.com/v4/method_name?access_token=ACESSTOKENHERE
 // https://api.untappd.com/v4/search/beer?q=Pliny
 
 export const untappdApiCall = async (
