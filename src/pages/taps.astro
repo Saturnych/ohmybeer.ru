@@ -5,18 +5,20 @@ import Main from '$/layouts/Main.astro';
 
 const { DEV } = import.meta.env;
 
+console.log('');
+
 const taps: Record<string, any>[] = await getCollection('taps');
 console.log('taps:', taps);
+
+const breweries: Record<string, any>[] = await getCollection('breweries');
+console.log('breweries:', breweries);
+
+const beers: Record<string, any>[] = await getCollection('beers');
+console.log('beers:', beers);
 
 if (DEV) {
 	//const { beers } = await searchTaps(taps);
 	//console.log('beers:', JSON.stringify(beers, null, 2));
-
-	const breweries: Record<string, any>[] = await getCollection('breweries');
-	console.log('breweries:', breweries);
-
-	const beers: Record<string, any>[] = await getCollection('beers');
-	console.log('beers:', beers);
 }
 ---
 
