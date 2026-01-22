@@ -26,7 +26,7 @@ export const setCookie = (
 	value: string,
 	exphours: number = 10000,
 	secure: boolean = true,
-	path: string = '/'
+	path: string = '/',
 ): void => {
 	if (isBrowser) {
 		// browser environment
@@ -56,7 +56,7 @@ export const parseCookieHeader = (header: string): Record<string, string> => {
 		const cookie = ck.trim().split(';')[0].split('=');
 		cookies[cookie[0]] = cookie[1];
 		return {
-			[cookie[0]]: cookie[1]
+			[cookie[0]]: cookie[1],
 		};
 	});
 	return cookies;

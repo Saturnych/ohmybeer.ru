@@ -1,6 +1,5 @@
 ---
 import Head from '$/components/Head.astro';
-import Listeners from '$/components/Listeners.astro';
 import pkg from '$/lib/pkg';
 
 const { title, description } = pkg;
@@ -15,7 +14,6 @@ const { name = title }: Props = Astro.props;
 <!doctype html>
 <html lang="en">
 	<Head name={name} title={title} description={description} />
-	<Listeners />
 	<body>
 		<h1>{name}</h1>
 		<slot />

@@ -8,7 +8,7 @@ const { DEV, PRIVATE_UNTAPPD_API_URL, PRIVATE_UNTAPPD_CLIENT_ID, PRIVATE_UNTAPPD
 
 export const untappdApiCall = async (
 	method_name: string,
-	qstring?: string
+	qstring?: string,
 ): Record<string, any> => {
 	let data: Record<string, any> = {};
 	try {
@@ -18,8 +18,8 @@ export const untappdApiCall = async (
 				method: 'GET',
 				headers: {
 					//'Authorization': `Bearer ${token}`,
-					'Content-Type': 'application/json'
-				}
+					'Content-Type': 'application/json',
+				},
 			});
 			data = await response.json();
 		}

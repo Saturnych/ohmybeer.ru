@@ -4,5 +4,5 @@ import { defineConfig } from 'astro/config';
 export default defineConfig({
 	output: 'static',
 	//outDir: './dist',
-	publicDir: './static' // .public
+	publicDir: './static', // .public
 });

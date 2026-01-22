@@ -5,13 +5,13 @@ export const postForm = async (frm: Record<string, unknown>, uri: string): Recor
 		status: 400,
 		error: true,
 		message: '',
-		data: {}
+		data: {},
 	};
 	try {
 		const post = await fetch(uri, {
 			method: 'POST',
 			headers: { 'Content-Type': 'application/json' },
-			body: JSON.stringify(frm)
+			body: JSON.stringify(frm),
 		});
 		ret.status = post.status;
 		ret.error = !post.ok;
@@ -43,7 +43,7 @@ export const parseCookieHeader = (header: string): Record<string, string> => {
 		const cookie = ck.trim().split(';')[0].split('=');
 		cookies[cookie[0]] = cookie[1];
 		return {
-			[cookie[0]]: cookie[1]
+			[cookie[0]]: cookie[1],
 		};
 	});
 	return cookies;
@@ -60,7 +60,7 @@ export const promiseState = async (p: Promise): Promise<string> => {
 	const t = {};
 	return Promise.race([p, t]).then(
 		(v) => (v === t ? 'pending' : 'fulfilled'),
-		() => 'rejected'
+		() => 'rejected',
 	);
 };
 
@@ -81,7 +81,7 @@ export const validateEmail = (email: string): boolean =>
 	!!String(email)
 		.toLowerCase()
 		.match(
-			/^(([^<>()[\]\\.,;:\s@']+(\.[^<>()[\]\\.,;:\s@']+)*)|('.+'))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/g
+			/^(([^<>()[\]\\.,;:\s@']+(\.[^<>()[\]\\.,;:\s@']+)*)|('.+'))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/g,
 		);
 
 export const getRandomString = (num: number = 8): string =>
@@ -113,7 +113,7 @@ export const stringToBase64 = (str) => {
 	return btoa(
 		encodeURIComponent(str).replace(/%([0-9A-F]{2})/g, function toSolidBytes(match, p1) {
 			return String.fromCharCode('0x' + p1);
-		})
+		}),
 	);
 };
 
@@ -125,7 +125,7 @@ export const base64ToString = (str) => {
 			.map(function (c) {
 				return '%' + ('00' + c.charCodeAt(0).toString(16)).slice(-2);
 			})
-			.join('')
+			.join(''),
 	);
 };
 
@@ -148,7 +148,7 @@ export const arrayBufferToBase64 = (buffer: ArrayBuffer | Uint8Array) => {
 };
 
 export const parseFingerprint2 = (
-	comps: unknown[] = []
+	comps: unknown[] = [],
 ): { components: unknown[]; hash: string } => {
 	const components: unknown[] = {};
 	let sum = 0;
