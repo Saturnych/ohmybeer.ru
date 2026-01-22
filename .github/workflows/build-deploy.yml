@@ -33,6 +33,9 @@ jobs:
           PUBLIC_APP_DOMAIN: ${{ vars.PUBLIC_APP_DOMAIN }}
           PUBLIC_APP_URL: ${{ vars.PUBLIC_APP_URL }}
           PRIVATE_PRICE_URL: ${{ secrets.PRIVATE_PRICE_URL }}
+          PRIVATE_UNTAPPD_API_URL: ${{ secrets.PRIVATE_UNTAPPD_API_URL }}
+          PRIVATE_UNTAPPD_CLIENT_ID: ${{ secrets.PRIVATE_UNTAPPD_CLIENT_ID }}
+          PRIVATE_UNTAPPD_CLIENT_SECRET: ${{ secrets.PRIVATE_UNTAPPD_CLIENT_SECRET }}
 
         run: |
           yarn
