@@ -5,9 +5,14 @@ import '$/styles/global.css';
 interface Props {
 	title?: string;
 	description?: string;
+	lang?: string;
 }
 
-const { title = siteData.seo.metaTitle, description = siteData.seo.metaDescription } = Astro.props;
+const {
+	title = siteData.seo.metaTitle,
+	description = siteData.seo.metaDescription,
+	lang = 'ru',
+} = Astro.props;
 
 // Build LocalBusiness structured data
 const structuredData = {
@@ -16,15 +21,15 @@ const structuredData = {
 	name: siteData.name,
 	description: description,
 	url: Astro.url.origin,
-	telephone: siteData.phone,
+	phone: siteData.phone,
 	email: siteData.email,
 	address: {
 		'@type': 'PostalAddress',
 		streetAddress: siteData.address.full.split(',')[0],
-		addressLocality: 'New York',
-		addressRegion: 'NY',
+		addressLocality: 'Нагорный р-н',
+		addressRegion: 'Москва',
 		postalCode: siteData.address.full.match(/\d{5}/)?.[0] || '',
-		addressCountry: 'US',
+		addressCountry: 'RU',
 	},
 	geo: {
 		'@type': 'GeoCoordinates',
@@ -34,15 +39,9 @@ const structuredData = {
 	openingHoursSpecification: [
 		{
 			'@type': 'OpeningHoursSpecification',
-			dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday'],
-			opens: '17:00',
-			closes: '01:00',
-		},
-		{
-			'@type': 'OpeningHoursSpecification',
-			dayOfWeek: ['Friday', 'Saturday', 'Sunday'],
-			opens: '15:00',
-			closes: '02:00',
+			dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'],
+			opens: '13:00',
+			closes: '23:00',
 		},
 	],
 	priceRange: '$$',
@@ -106,7 +105,7 @@ const structuredData = {
 		<meta name="generator" content={Astro.generator} />
 	</head>
 	<body>
-		<a href="#main-content" class="sr-only">Skip to main content</a>
+		<a href="#main-content" class="sr-only">На главную</a>
 		<slot />
 	</body>
 </html>
