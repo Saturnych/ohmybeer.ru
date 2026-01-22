@@ -30,7 +30,7 @@ export const searchBeer = async (brewery: string, name: string): Promise<Record<
 	const qstring: string = encodeURI(`q=${brewery} ${name}`);
 	const result = await untappdApiCall('search/beer', qstring);
 	console.log('searchBeer result:', result);
-	return result.response;
+	return Object.assign({ beers: {} }, result.response);
 };
 
 export const searchTaps = async (taps: any[]): Promise<Record<string, any>> => {
