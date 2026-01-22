@@ -3,7 +3,6 @@ import { getPriceTable } from '$/lib/price';
 import Main from '$/layouts/Main.astro';
 
 const table: string = await getPriceTable();
-console.log('table.length:', table?.length);
 ---
 
 <Main name="Taplist">
