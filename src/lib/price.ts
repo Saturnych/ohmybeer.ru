@@ -1,7 +1,6 @@
 import { getTable } from '$/lib/cheerio';
 
 const { DEV, PRIVATE_PRICE_URL } = import.meta.env;
-if (DEV) console.log(` PRIVATE_PRICE_URL.length:`, PRIVATE_PRICE_URL?.length);
 
 export const getPriceTable = async (): string => {
 	let res: string;
