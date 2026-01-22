@@ -1,26 +1,24 @@
 // untappd
-const {
-	DEV,
-	PRIVATE_UNTAPPD_API_URL,
-	PRIVATE_UNTAPPD_CLIENT_ID,
-	PRIVATE_UNTAPPD_CLIENT_SECRET,
-} =
+const { DEV, PRIVATE_UNTAPPD_API_URL, PRIVATE_UNTAPPD_CLIENT_ID, PRIVATE_UNTAPPD_CLIENT_SECRET } =
 	import.meta.env;
 
 // https://api.untappd.com/v4/method_name?client_id=CLIENTID&client_secret=CLIENTSECRET
 // https://api.untappd.com/v4/search/beer?q=Pliny
 
-export const untappdApiCall = async (method_name: string, qstring?: string): Record<string, any> => {
+export const untappdApiCall = async (
+	method_name: string,
+	qstring?: string
+): Record<string, any> => {
 	let data: Record<string, any> = {};
 	try {
 		if ((PRIVATE_UNTAPPD_API_URL || '').length > 0) {
-			const apiURI: string = `${PRIVATE_UNTAPPD_API_URL}/${method_name}?${qstring ? qstring+'&' : ''}client_id=${PRIVATE_UNTAPPD_CLIENT_ID}&client_secret=${PRIVATE_UNTAPPD_CLIENT_SECRET}`;
+			const apiURI: string = `${PRIVATE_UNTAPPD_API_URL}/${method_name}?${qstring ? qstring + '&' : ''}client_id=${PRIVATE_UNTAPPD_CLIENT_ID}&client_secret=${PRIVATE_UNTAPPD_CLIENT_SECRET}`;
 			const response: any = await fetch(apiURI, {
 				method: 'GET',
 				headers: {
 					//'Authorization': `Bearer ${token}`,
-					'Content-Type': 'application/json',
-				},
+					'Content-Type': 'application/json'
+				}
 			});
 			data = await response.json();
 		}

@@ -9,7 +9,7 @@ const taps = defineCollection({
 		name: z.string(),
 		style: z.string(),
 		brewery: z.string(),
-		country: z.string(),
+		country: z.string()
 		//abv: z.number(),
 		//ibu: z.number(),
 		//updatedAt: z.date(),
