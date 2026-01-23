@@ -2,7 +2,11 @@
 import { getCollection, getEntry } from 'astro:content';
 import { searchTaps } from '$/lib/untappd';
 import { getPriceTable } from '$/lib/price';
+import siteData from '$/data/site.json';
 import Layout from '$/layouts/Layout.astro';
+
+const header = `На кранах`;
+const title = `${header} || ${siteData.name}`;
 
 const { DEV } = import.meta.env;
 
@@ -26,10 +30,10 @@ if (DEV) {
 }
 ---
 
-<Layout name="Taps">
+<Layout title={title}>
 	<section class="menu section section--alt" aria-labelledby="taps-title" id="taps">
 		<div class="container container--narrow">
-			<h2 id="taps-title" class="section__title">На кранах</h2>
+			<h2 id="taps-title" class="section__title">{header}</h2>
 			<Fragment set:html={priceTable} />
 		</div>
 	</section>
