@@ -8,33 +8,31 @@ const description = `Страница не найдена`;
 ---
 
 <Layout title={title} description={description}>
-	<main id="main-content">
-		<section class="error section" aria-labelledby="error-title">
-			<div class="container container--narrow">
-				<div class="error__content">
-					<h1 id="error-title" class="error__title">
-						{header}
+	<section class="error section" aria-labelledby="error-title">
+		<div class="container container--narrow">
+			<div class="error__content">
+				<h1 id="error-title" class="error__title">
+					{header}
 
-						<div class="error__decoration" aria-hidden="true">
-							<span class="error__line"></span>
-							<span class="error__diamond">◇</span>
-							<span class="error__line"></span>
-						</div>
+					<div class="error__decoration" aria-hidden="true">
+						<span class="error__line"></span>
+						<span class="error__diamond">◇</span>
+						<span class="error__line"></span>
+					</div>
 
-						<h2 class="error__subtitle">{description}</h2>
+					<h2 class="error__subtitle">{description}</h2>
 
-						<p class="error__message">Извините, страница, которую вы ищете, не найдена.</p>
+					<p class="error__message">Извините, страница, которую вы ищете, не найдена.</p>
 
-						<div class="error__actions">
-							<a href="/" class="btn">
-								<span>На главную</span>
-							</a>
-						</div>
-					</h1>
-				</div>
+					<div class="error__actions">
+						<a href="/" class="btn">
+							<span>На главную</span>
+						</a>
+					</div>
+				</h1>
 			</div>
-		</section>
-	</main>
+		</div>
+	</section>
 
 	<style>
 		.error {

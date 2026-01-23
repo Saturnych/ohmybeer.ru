@@ -1,20 +1,24 @@
 ---
 import { getCollection, getEntry } from 'astro:content';
 import { searchTaps } from '$/lib/untappd';
+import { getPriceTable } from '$/lib/price';
 import Layout from '$/layouts/Layout.astro';
 
 const { DEV } = import.meta.env;
 
 console.log('');
 
+const priceTable = await getPriceTable();
+console.log('priceTable.length:', priceTable.length);
+
 const taps: Record<string, any>[] = await getCollection('taps');
-console.log('taps:', taps);
+console.log('taps.length:', taps.length);
 
 const beers: Record<string, any>[] = await getCollection('beers');
-console.log('beers:', beers);
+console.log('beers.length:', beers.length);
 
 const brewery: Record<string, any> = await getEntry('breweries', beers[0].data.brewery.id);
-console.log('brewery:', brewery);
+console.log('brewery:', brewery.data);
 
 if (DEV) {
 	//const search = await searchTaps(taps);
@@ -23,5 +27,10 @@ if (DEV) {
 ---
 
 <Layout name="Taps">
-	<div></div>
+	<section class="menu section section--alt" aria-labelledby="taps-title" id="taps">
+		<div class="container container--narrow">
+			<h2 id="taps-title" class="section__title">На кранах</h2>
+			<Fragment set:html={priceTable} />
+		</div>
+	</section>
 </Layout>

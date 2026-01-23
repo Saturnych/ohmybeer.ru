@@ -8,16 +8,16 @@ const currentYear = new Date().getFullYear();
 	<div class="container">
 		<div class="footer__content">
 			<div class="footer__brand">
-				<a href="#top" class="footer__logo" aria-label="Return to top">
+				<a href="/#top" class="footer__logo" aria-label="На главную">
 					<span class="footer__logo-text">{siteData.shortName}</span>
 				</a>
 				<p class="footer__tagline"><Fragment set:html={siteData.tagline} /></p>
 			</div>
 
 			<nav class="footer__nav" aria-label="Footer navigation">
-				<a href="#menu" class="footer__link">На кранах</a>
-				<a href="#location" class="footer__link">Расположение</a>
-				<a href="#contact" class="footer__link">Контакты</a>
+				<a href="/taps" class="footer__link">На кранах</a>
+				<a href="/#location" class="footer__link">Расположение</a>
+				<a href="/#contact" class="footer__link">Контакты</a>
 			</nav>
 
 			<div class="footer__back-to-top">
