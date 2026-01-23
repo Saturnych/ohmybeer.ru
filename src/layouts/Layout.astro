@@ -1,7 +1,9 @@
 ---
-import pkg from '$/lib/pkg';
-import siteData from '$/data/site.json';
 import '$/styles/global.css';
+import siteData from '$/data/site.json';
+import pkg from '$/lib/pkg';
+
+const { author } = pkg;
 
 interface Props {
 	name?: string;
@@ -113,7 +115,7 @@ const structuredData = {
 
 		<!-- Additional SEO -->
 		<meta name="robots" content="index, follow" />
-		<meta name="author" content={siteData.author} />
+		<meta name="author" content={author?.name || siteData.author} />
 		<meta name="generator" content={Astro.generator} />
 
 		<!-- Structured Data / JSON-LD -->
