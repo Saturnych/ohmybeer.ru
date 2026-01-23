@@ -1,14 +1,17 @@
 ---
+import pkg from '$/lib/pkg';
 import siteData from '$/data/site.json';
 import '$/styles/global.css';
 
 interface Props {
+	name?: string;
 	title?: string;
 	description?: string;
 	lang?: string;
 }
 
 const {
+	name = siteData.name,
 	title = siteData.seo.metaTitle,
 	description = siteData.seo.metaDescription,
 	lang = 'ru',
@@ -46,7 +49,7 @@ const structuredData = {
 	],
 	priceRange: '$$',
 	servesCuisine: 'Bar',
-	image: `${Astro.url.origin}/images/logo.svg`,
+	image: `${Astro.url.origin}/assets/logo.png`,
 };
 ---
 
@@ -62,9 +65,28 @@ const structuredData = {
 		<meta name="title" content={title} />
 		<meta name="description" content={description} />
 
-		<!-- Favicon -->
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<link rel="apple-touch-icon" href="/favicon.svg" />
+		<!-- Theme Color -->
+		<meta name="theme-color" content="#1a1a18" />
+		<meta name="msapplication-TileColor" content="#1a1a18" />
+		<meta name="msapplication-TileImage" content="/assets/ms-icon-144x144.png" />
+
+		<!-- Favicon & manifest -->
+		<link rel="apple-touch-icon" sizes="57x57" href="/assets/apple-icon-57x57.png" />
+		<link rel="apple-touch-icon" sizes="60x60" href="/assets/apple-icon-60x60.png" />
+		<link rel="apple-touch-icon" sizes="72x72" href="/assets/apple-icon-72x72.png" />
+		<link rel="apple-touch-icon" sizes="76x76" href="/assets/apple-icon-76x76.png" />
+		<link rel="apple-touch-icon" sizes="114x114" href="/assets/apple-icon-114x114.png" />
+		<link rel="apple-touch-icon" sizes="120x120" href="/assets/apple-icon-120x120.png" />
+		<link rel="apple-touch-icon" sizes="144x144" href="/assets/apple-icon-144x144.png" />
+		<link rel="apple-touch-icon" sizes="152x152" href="/assets/apple-icon-152x152.png" />
+		<link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-icon-180x180.png" />
+		<link rel="icon" type="image/png" sizes="192x192" href="/assets/android-icon-192x192.png" />
+		<link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32x32.png" />
+		<link rel="icon" type="image/png" sizes="96x96" href="/assets/favicon-96x96.png" />
+		<link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16x16.png" />
+		<link rel="icon" type="image/x-icon" sizes="16x16" href="/favicon.ico" />
+		<link rel="manifest" href="/manifest.json" />
+		<link rel="canonical" href={Astro.url} />
 
 		<!-- Fonts - Google Fonts with display=swap for performance -->
 		<link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -79,30 +101,23 @@ const structuredData = {
 		<meta property="og:url" content={Astro.url} />
 		<meta property="og:title" content={title} />
 		<meta property="og:description" content={description} />
-		<meta property="og:image" content={`${Astro.url.origin}/images/logo.svg`} />
-		<meta property="og:locale" content="en_US" />
+		<meta property="og:image" content={`${Astro.url.origin}/assets/logo.png`} />
+		<meta property="og:locale" content="ru_RU" />
 
 		<!-- Twitter -->
 		<meta name="twitter:card" content="summary_large_image" />
 		<meta name="twitter:url" content={Astro.url} />
 		<meta name="twitter:title" content={title} />
 		<meta name="twitter:description" content={description} />
-		<meta name="twitter:image" content={`${Astro.url.origin}/images/logo.svg`} />
+		<meta name="twitter:image" content={`${Astro.url.origin}/assets/logo.png`} />
 
 		<!-- Additional SEO -->
 		<meta name="robots" content="index, follow" />
-		<meta name="author" content={siteData.name} />
-		<link rel="canonical" href={Astro.url} />
-
-		<!-- Theme Color -->
-		<meta name="theme-color" content="#1a1a18" />
-		<meta name="msapplication-TileColor" content="#1a1a18" />
+		<meta name="author" content={siteData.author} />
+		<meta name="generator" content={Astro.generator} />
 
 		<!-- Structured Data / JSON-LD -->
 		<script type="application/ld+json" set:html={JSON.stringify(structuredData)} />
-
-		<!-- Generator -->
-		<meta name="generator" content={Astro.generator} />
 	</head>
 	<body>
 		<a href="#main-content" class="sr-only">На главную</a>
