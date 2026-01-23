@@ -18,7 +18,7 @@
 		"everyday": "с 13:00 до 23:00",
 		"holiday": null
 	},
-	"tagline": "Крафтовый бар. Отличные напитки. Лучшие люди.",
+	"tagline": "<nobr>Крафтовый бар.</nobr> <nobr>Отличные напитки.</nobr> <nobr>Лучшие люди.</nobr>",
 	"menu": [
 		{
 			"category": "Drafts",
@@ -30,29 +30,20 @@
 			]
 		},
 		{
-			"category": "Wines",
-			"items": [
-				{ "name": "House Red", "description": "Spanish Garnacha", "badge": null },
-				{ "name": "House White", "description": "Italian Pinot Grigio", "badge": null },
-				{
-					"name": "Natural Selection",
-					"description": "Rotating organic picks",
-					"badge": "featured"
-				},
-				{ "name": "Prosecco", "description": "By the glass or bottle", "badge": null }
-			]
-		},
-		{
-			"category": "Spirits",
+			"category": "Craft Cocktails",
 			"items": [
 				{
-					"name": "Quiet Old Fashioned",
-					"description": "Bourbon, bitters, orange",
+					"name": "Oh, My Beer!",
+					"description": "A refreshing blend of beer and citrus",
 					"badge": "featured"
 				},
-				{ "name": "Negroni", "description": "Gin, Campari, sweet vermouth", "badge": null },
-				{ "name": "Whiskey Sour", "description": "Rye, lemon, egg white", "badge": null },
-				{ "name": "Mezcal Mule", "description": "Smoky twist on the classic", "badge": "seasonal" }
+				{ "name": "Beer Garden", "description": "A classic beer cocktail", "badge": null },
+				{ "name": "Beer Martini", "description": "A twist on the classic martini", "badge": null },
+				{
+					"name": "Beer Mojito",
+					"description": "A refreshing twist on the classic mojito",
+					"badge": null
+				}
 			]
 		}
 	],

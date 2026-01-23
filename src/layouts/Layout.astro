@@ -3,8 +3,6 @@ import '$/styles/global.css';
 import siteData from '$/data/site.json';
 import pkg from '$/lib/pkg';
 import Navbar from '$/components/Navbar.astro';
-import Header from '$/components/Header.astro';
-import InfoBar from '$/components/InfoBar.astro';
 import Footer from '$/components/Footer.astro';
 
 const { author } = pkg;
@@ -128,8 +126,6 @@ const structuredData = {
 	<body>
 		<a href="#main-content" class="sr-only">На главную</a>
 		<Navbar />
-		<Header />
-		<InfoBar />
 		<main id="main-content">
 			<slot />
 		</main>
