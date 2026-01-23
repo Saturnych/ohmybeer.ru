@@ -2,6 +2,10 @@
 import '$/styles/global.css';
 import siteData from '$/data/site.json';
 import pkg from '$/lib/pkg';
+import Navbar from '$/components/Navbar.astro';
+import Header from '$/components/Header.astro';
+import InfoBar from '$/components/InfoBar.astro';
+import Footer from '$/components/Footer.astro';
 
 const { author } = pkg;
 
@@ -123,7 +127,13 @@ const structuredData = {
 	</head>
 	<body>
 		<a href="#main-content" class="sr-only">На главную</a>
-		<slot />
+		<Navbar />
+		<Header />
+		<InfoBar />
+		<main id="main-content">
+			<slot />
+		</main>
+		<Footer />
 	</body>
 </html>
 
@@ -137,6 +147,19 @@ const structuredData = {
 	@media (prefers-reduced-motion: no-preference) {
 		html {
 			scroll-behavior: smooth;
+		}
+	}
+
+	/* Page-level scroll margin for section anchors */
+	/* Account for sticky navbar (60px) */
+	section[id] {
+		scroll-margin-top: 120px;
+	}
+
+	/* Mobile: account for bottom bar and navbar */
+	@media (max-width: 640px) {
+		section[id] {
+			scroll-margin-top: 80px;
 		}
 	}
 </style>

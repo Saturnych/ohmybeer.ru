@@ -12,7 +12,7 @@ const navItems = [
 
 <nav class="navbar" aria-label="Main navigation">
 	<div class="navbar__container">
-		<a href="#top" class="navbar__logo" aria-label={`${siteData.name} - Наверх`}>
+		<a href={navItems[0].href} class="navbar__logo" aria-label={siteData.name}>
 			<span class="navbar__logo-text">{siteData.shortName}</span>
 		</a>
 
@@ -32,7 +32,7 @@ const navItems = [
 						<a
 							href={item.href}
 							class="navbar__link"
-							{...(item.href.startsWith('#')
+							{...(item.href.startsWith('/#')
 								? {}
 								: {
 										target: item.href.startsWith('http') ? '_blank' : undefined,
