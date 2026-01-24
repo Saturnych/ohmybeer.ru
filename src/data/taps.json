@@ -1,24 +1,272 @@
 [
 	{
-		"id": "1",
+		"id": 0,
 		"tap": 1,
-		"name": "Village Kolsch",
-		"style": "Kolsch",
 		"brewery": "Big Village",
+		"beer": "Village Kolsch",
+		"style": "Kolsch",
+		"format": "РОЗЛИВ",
 		"country": "Россия",
-		"abv": 5.5,
-		"ibu": 20,
-		"updatedAt": "20.01.2026 22:43"
+		"updatedAt": "2026-01-23T18:17:00.000Z"
 	},
 	{
-		"id": "2",
+		"id": 1,
 		"tap": 2,
-		"name": "Ледяное",
-		"style": "Helles",
-		"brewery": "Augustine",
+		"brewery": "Zagovor",
+		"beer": "Liquid Sapience",
+		"style": "NZ Pils",
+		"format": "РОЗЛИВ",
 		"country": "Россия",
-		"abv": 5.5,
-		"ibu": 20,
-		"updatedAt": "20.01.2026 22:43"
+		"updatedAt": "2026-01-23T18:17:00.000Z"
+	},
+	{
+		"id": 2,
+		"tap": 3,
+		"brewery": "Augustine",
+		"beer": "Ледяное",
+		"style": "Helles",
+		"format": "РОЗЛИВ",
+		"country": "Россия",
+		"updatedAt": "2026-01-23T18:17:00.000Z"
+	},
+	{
+		"id": 3,
+		"tap": 4,
+		"brewery": "Stamm",
+		"beer": "Oversampling",
+		"style": "NEIPA",
+		"format": "РОЗЛИВ",
+		"country": "Россия",
+		"updatedAt": "2026-01-23T18:17:00.000Z"
+	},
+	{
+		"id": 4,
+		"tap": 5,
+		"brewery": "Stamm",
+		"beer": "StraBenbahn",
+		"style": "Weisse",
+		"format": "РОЗЛИВ",
+		"country": "Россия",
+		"updatedAt": "2026-01-23T18:17:00.000Z"
+	},
+	{
+		"id": 5,
+		"tap": 6,
+		"brewery": "Gletcher",
+		"beer": "Milk Of Amnesia",
+		"style": "Milkshake IPA",
+		"format": "Розлив",
+		"country": "Россия",
+		"updatedAt": "2026-01-23T18:17:00.000Z"
+	},
+	{
+		"id": 6,
+		"tap": 7,
+		"brewery": "Одна тонна",
+		"beer": "Sunday Draft: Enigma + Idaho 7",
+		"style": "NE Pale Ale",
+		"format": "РОЗЛИВ",
+		"country": "Россия",
+		"updatedAt": "2026-01-23T18:17:00.000Z"
+	},
+	{
+		"id": 7,
+		"tap": 8,
+		"brewery": "On The Bones",
+		"beer": "Санный спорт",
+		"style": "Helles",
+		"format": "РОЗЛИВ",
+		"country": "Россия",
+		"updatedAt": "2026-01-23T18:17:00.000Z"
+	},
+	{
+		"id": 8,
+		"tap": 9,
+		"brewery": "Midnight Project",
+		"beer": "Zhigulikeller",
+		"style": "IPL",
+		"format": "РОЗЛИВ",
+		"country": "Россия",
+		"updatedAt": "2026-01-23T18:17:00.000Z"
+	},
+	{
+		"id": 9,
+		"tap": 10,
+		"brewery": "ZAGOVOR",
+		"beer": "Здорово и Вечно",
+		"style": "",
+		"format": "РОЗЛИВ",
+		"country": "Россия",
+		"updatedAt": "2026-01-23T18:17:00.000Z"
+	},
+	{
+		"id": 10,
+		"tap": 11,
+		"brewery": "Stamm",
+		"beer": "Kite Rider",
+		"style": "NZ Lager",
+		"format": "РОЗЛИВ",
+		"country": "Россия",
+		"updatedAt": "2026-01-23T18:17:00.000Z"
+	},
+	{
+		"id": 11,
+		"tap": 12,
+		"brewery": "Saint Loony",
+		"beer": "King of my Castle",
+		"style": "Sour",
+		"format": "РОЗЛИВ",
+		"country": "Россия",
+		"updatedAt": "2026-01-23T18:17:00.000Z"
+	},
+	{
+		"id": 12,
+		"tap": 13,
+		"brewery": "Augustine",
+		"beer": "Имперский Стаут",
+		"style": "RIS",
+		"format": "РОЗЛИВ",
+		"country": "Россия",
+		"updatedAt": "2026-01-23T18:17:00.000Z"
+	},
+	{
+		"id": 13,
+		"tap": 14,
+		"brewery": "Заповедник",
+		"beer": "Абанамат",
+		"style": "",
+		"format": "РОЗЛИВ",
+		"country": "Россия",
+		"updatedAt": "2026-01-23T18:17:00.000Z"
+	},
+	{
+		"id": 14,
+		"tap": 16,
+		"brewery": "Plan B",
+		"beer": "Rise Of The Zombies",
+		"style": "APA",
+		"format": "РОЗЛИВ",
+		"country": "Россия",
+		"updatedAt": "2026-01-23T18:17:00.000Z"
+	},
+	{
+		"id": 15,
+		"tap": 17,
+		"brewery": "ZAGOVOR",
+		"beer": "Midnight Moscow",
+		"style": "IPA",
+		"format": "РОЗЛИВ",
+		"country": "Россия",
+		"updatedAt": "2026-01-23T18:17:00.000Z"
+	},
+	{
+		"id": 16,
+		"tap": 18,
+		"brewery": "Saliwa",
+		"beer": "Михалыч",
+		"style": "DIPA",
+		"format": "РОЗЛИВ",
+		"country": "Россия",
+		"updatedAt": "2026-01-23T18:17:00.000Z"
+	},
+	{
+		"id": 17,
+		"tap": 19,
+		"brewery": "Augustine",
+		"beer": "Карт",
+		"style": "",
+		"format": "",
+		"country": "",
+		"updatedAt": "2026-01-23T18:17:00.000Z"
+	},
+	{
+		"id": 18,
+		"tap": 20,
+		"brewery": "Plan B",
+		"beer": "Ковбой Мальборо",
+		"style": "AIPA",
+		"format": "РОЗЛИВ",
+		"country": "Россия",
+		"updatedAt": "2026-01-23T18:17:00.000Z"
+	},
+	{
+		"id": 19,
+		"tap": 21,
+		"brewery": "White Stone",
+		"beer": "Вишневый Бум",
+		"style": "Sour",
+		"format": "РОЗЛИВ",
+		"country": "Россия",
+		"updatedAt": "2026-01-23T18:17:00.000Z"
+	},
+	{
+		"id": 20,
+		"tap": 22,
+		"brewery": "White Stone",
+		"beer": "В Духе Времени 79",
+		"style": "IPA",
+		"format": "РОЗЛИВ",
+		"country": "Россия",
+		"updatedAt": "2026-01-23T18:17:00.000Z"
+	},
+	{
+		"id": 21,
+		"tap": 23,
+		"brewery": "Solbirs",
+		"beer": "The Bomb",
+		"style": "NEIPA",
+		"format": "РОЗЛИВ",
+		"country": "Россия",
+		"updatedAt": "2026-01-23T18:17:00.000Z"
+	},
+	{
+		"id": 22,
+		"tap": 24,
+		"brewery": "Big Village",
+		"beer": "Pacification",
+		"style": "NE Pale Ale",
+		"format": "РОЗЛИВ",
+		"country": "Россия",
+		"updatedAt": "2026-01-23T18:17:00.000Z"
+	},
+	{
+		"id": 23,
+		"tap": 25,
+		"brewery": "Horror Brewing",
+		"beer": "Heresie",
+		"style": "DIPA",
+		"format": "РОЗЛИВ",
+		"country": "Россия",
+		"updatedAt": "2026-01-23T18:17:00.000Z"
+	},
+	{
+		"id": 24,
+		"tap": 31,
+		"brewery": "",
+		"beer": "Black Sheep Irish Stout",
+		"style": "",
+		"format": "РОЗЛИВ",
+		"country": "Россия",
+		"updatedAt": "2026-01-23T18:17:00.000Z"
+	},
+	{
+		"id": 25,
+		"tap": 32,
+		"brewery": "Хамовники",
+		"beer": "Кеговое",
+		"style": "",
+		"format": "РОЗЛИВ",
+		"country": "Россия",
+		"updatedAt": "2026-01-23T18:17:00.000Z"
+	},
+	{
+		"id": 26,
+		"tap": 33,
+		"brewery": "ZAVOD",
+		"beer": "Ticket To London",
+		"style": "Bitter",
+		"format": "РОЗЛИВ",
+		"country": "Россия",
+		"updatedAt": "2026-01-23T18:17:00.000Z"
 	}
 ]

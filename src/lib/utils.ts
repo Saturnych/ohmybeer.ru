@@ -1,4 +1,15 @@
 // utils
+export const dateToIntlFormat = (
+	strDate: string,
+	format: Record<string, string> = {
+		dateStyle: 'short', // 'full'
+		timeStyle: 'short', // 'long'
+		timeZone: 'Europe/Moscow',
+	},
+	locale: string = 'ru-RU',
+): string => {
+	return new Intl.DateTimeFormat(locale, format).format(new Date(strDate));
+};
 
 export const postForm = async (frm: Record<string, unknown>, uri: string): Record<string, any> => {
 	const ret = {
