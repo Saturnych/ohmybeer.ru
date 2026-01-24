@@ -1,7 +1,7 @@
 ---
 import { getCollection, getEntry } from 'astro:content';
+import { getPriceTableData } from '$/lib/price';
 import { searchTaps } from '$/lib/untappd';
-import { getPriceTable } from '$/lib/price';
 import siteData from '$/data/site.json';
 import Layout from '$/layouts/Layout.astro';
 
@@ -12,19 +12,17 @@ const { DEV } = import.meta.env;
 
 console.log('');
 
-const priceTable = await getPriceTable();
-console.log('priceTable.length:', priceTable.length);
-
-const taps: Record<string, any>[] = await getCollection('taps');
-console.log('taps.length:', taps.length);
-
-const beers: Record<string, any>[] = await getCollection('beers');
-console.log('beers.length:', beers.length);
-
-const brewery: Record<string, any> = await getEntry('breweries', beers[0].data.brewery.id);
-console.log('brewery:', brewery.data);
+const { taps, updatedAt } = await getPriceTableData();
+console.log('taps:', taps);
+console.log('updatedAt:', updatedAt);
 
 if (DEV) {
+	//const taps: Record<string, any>[] = await getCollection('taps');
+	//console.log('taps.length:', taps.length);
+	//const beers: Record<string, any>[] = await getCollection('beers');
+	//console.log('beers.length:', beers.length);
+	//const brewery: Record<string, any> = await getEntry('breweries', beers[0].data.brewery.id);
+	//console.log('brewery:', brewery.data);
 	//const search = await searchTaps(taps);
 	//console.log('searchTaps:', JSON.stringify(search, null, 2));
 }
@@ -34,7 +32,7 @@ if (DEV) {
 	<section class="menu section section--alt" aria-labelledby="taps-title" id="taps">
 		<div class="container container--narrow">
 			<h2 id="taps-title" class="section__title">{header}</h2>
-			<Fragment set:html={priceTable} />
+			<Fragment set:html={''} />
 		</div>
 	</section>
 </Layout>
