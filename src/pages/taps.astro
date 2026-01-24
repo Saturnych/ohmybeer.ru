@@ -27,7 +27,7 @@ if (taps?.length < 1) {
 				id,
 			};
 		});
-		updatedAt = dateToIntlFormat(tapsCollection[0].data.updatedAt);
+		updatedAt = tapsCollection[0].data.updatedAt; //dateToIntlFormat(tapsCollection[0].data.updatedAt);
 	}
 } else {
 	// save taps.json
