@@ -1,5 +1,6 @@
 // cheerio
 import * as cheerio from 'cheerio';
+import { dateToIntlFormat } from '$/lib/utils';
 
 export const getLocatorHtml = (source: string, path: string): string => {
 	const $ = cheerio.load(source);
@@ -19,14 +20,15 @@ export const getTableData = (source: string): string => {
 		.split(' ')
 		.map((m) => m.trim())
 		.filter((f) => !!f);
-	const updatedAt: string = `${updated[0]
+	const updatedAtStr: string = `${updated[0]
 		.split('.')
 		.map((m) => m.trim())
 		.reverse()
 		.join('-')}T${updated[1]}`;
+	const updatedAt: string = dateToIntlFormat(updatedAtStr);
 	const taps: object[] = [];
 	const table = $('div[id=table-row]').find('.table').find('tbody').children('tr');
-	table.each((index, el) => {
+	table.each((id, el) => {
 		const tap: number = Number($(el).find('.tap-num').text());
 		const name: string = $(el).find('.tap-name').text();
 		const parsed: string[] = name
@@ -56,14 +58,14 @@ export const getTableData = (source: string): string => {
 		const format: string = data[1];
 		const country: string = data[2];
 		taps.push({
-			index,
+			id,
 			tap,
 			brewery,
 			beer,
 			style,
 			format,
 			country,
-			updatedAt: new Date(updatedAt),
+			updatedAt,
 		});
 	});
 	return { taps, updatedAt };

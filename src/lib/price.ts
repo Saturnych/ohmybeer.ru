@@ -3,11 +3,18 @@ import { getTableData } from '$/lib/cheerio';
 const { PRIVATE_PRICE_URL } = import.meta.env;
 
 export const getPriceTableData = async (): Record<string, object> => {
-	let res: Record<string, object>;
-	if ((PRIVATE_PRICE_URL || '').length > 0) {
-		const response: any = await fetch(PRIVATE_PRICE_URL);
-		const remote: string = await response.text();
-		res = getTableData(remote);
+	let res: Record<string, object> = {
+		taps: [],
+		updatedAt: new Date(),
+	};
+	try {
+		if ((PRIVATE_PRICE_URL || '').length > 0) {
+			const response: any = await fetch(PRIVATE_PRICE_URL);
+			const remote: string = await response.text();
+			res = getTableData(remote);
+		}
+	} catch (err) {
+		console.error(err);
 	}
 	return res;
 };
