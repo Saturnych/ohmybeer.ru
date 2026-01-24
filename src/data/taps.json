@@ -173,10 +173,10 @@
 		"id": 17,
 		"tap": 19,
 		"brewery": "Augustine",
-		"beer": "Карт",
-		"style": "",
-		"format": "",
-		"country": "",
+		"beer": "Карт-Бланш",
+		"style": "Blanche",
+		"format": "РОЗЛИВ",
+		"country": "Россия",
 		"updatedAt": "2026-01-23T18:17:00.000Z"
 	},
 	{
