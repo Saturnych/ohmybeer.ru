@@ -16,9 +16,7 @@ console.log('');
 const tapsCollection: Record<string, any>[] = await getCollection('taps');
 console.log('tapsCollection.length:', tapsCollection?.length);
 
-//let { taps, updatedAt } = await getPriceTableData();
-let taps = [],
-	updatedAt = new Date();
+let { taps, updatedAt } = await getPriceTableData();
 console.log('taps.length:', taps?.length);
 
 if (taps?.length < 1) {
