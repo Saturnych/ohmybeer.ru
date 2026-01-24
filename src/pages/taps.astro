@@ -13,27 +13,29 @@ const { DEV } = import.meta.env;
 
 console.log('');
 
-const tapsCollection: Record<string, any>[] = await getCollection('taps');
-console.log('tapsCollection.length:', tapsCollection?.length);
-
 let { taps, updatedAt } = await getPriceTableData();
-console.log('taps.length:', taps?.length);
+let tapsCollection: Record<string, any>[] = [];
 
 if (taps?.length < 1) {
-	taps = tapsCollection.map((tci) => {
-		const { id, data } = tci;
-		return {
-			...data,
-			updatedAt: dateToIntlFormat(data.updatedAt),
-			id,
-		};
-	});
-	updatedAt =
-		tapsCollection?.length > 0
-			? dateToIntlFormat(tapsCollection[0].data.updatedAt)
-			: dateToIntlFormat(String(new Date()));
+	tapsCollection = await getCollection('taps');
+	if (tapsCollection?.length > 0) {
+		taps = tapsCollection.map((tci) => {
+			const { id, data } = tci;
+			return {
+				...data,
+				updatedAt: dateToIntlFormat(data.updatedAt),
+				id,
+			};
+		});
+		updatedAt = dateToIntlFormat(tapsCollection[0].data.updatedAt);
+	}
+} else {
+	// save taps.json
+	//
+	tapsCollection = await getCollection('taps');
 }
-console.log('taps:', taps);
+console.log('taps.length:', taps?.length);
+console.log('tapsCollection.length:', tapsCollection?.length);
 
 if (DEV) {
 	//const beers: Record<string, any>[] = await getCollection('beers');
