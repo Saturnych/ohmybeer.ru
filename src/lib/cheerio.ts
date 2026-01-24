@@ -25,7 +25,7 @@ export const getTableData = (source: string): string => {
 		.map((m) => m.trim())
 		.reverse()
 		.join('-')}T${updated[1]}`;
-	const updatedAt: string = dateToIntlFormat(updatedAtStr);
+	const updatedAt: string = String(new Date(updatedAtStr));
 	const taps: object[] = [];
 	const table = $('div[id=table-row]').find('.table').find('tbody').children('tr');
 	table.each((id, el) => {
