@@ -30,7 +30,10 @@ if (taps?.length < 1) {
 			id,
 		};
 	});
-	updatedAt = dateToIntlFormat(tapsCollection[0].data.updatedAt);
+	updatedAt =
+		tapsCollection?.length > 0
+			? dateToIntlFormat(tapsCollection[0].data.updatedAt)
+			: dateToIntlFormat(String(new Date()));
 }
 console.log('taps:', taps);
 
