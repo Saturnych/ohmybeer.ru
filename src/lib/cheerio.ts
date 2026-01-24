@@ -31,6 +31,7 @@ export const getTableData = (source: string): string => {
 	table.each((id, el) => {
 		const tap: number = Number($(el).find('.tap-num').text());
 		const name: string = $(el).find('.tap-name').text();
+		// Augustine - Карт-Бланш (Blanche), РОЗЛИВ, Россия
 		const parsed: string[] = name
 			.split('-')
 			.map((m) => m.trim())
