@@ -31,9 +31,9 @@ test('price page check', async () => {
 	await page.goto(PRIVATE_PRICE_URL, { waitUntil: 'domcontentloaded' });
 	const title = await page.title();
 	console.log('price page title:', title);
-	await expect(title).toBe('OH MY BEER!'); //toBe(pkg.title);
+	//await expect(title).toBe(pkg.title);
 	const content = await page.content();
 	console.log('price page content:', content);
-	//const priceTable = await page.getByRole('div', { id: 'table-row' });
-	//await expect(priceTable).toBeVisible();
+	const priceTable = await page.getByRole('div', { id: 'table-row' });
+	await expect(priceTable).toBeVisible();
 });

@@ -2,6 +2,8 @@
 import * as cheerio from 'cheerio';
 import { dateToIntlFormat } from '$/lib/utils';
 
+const { DEV } = import.meta.env;
+
 export const getLocatorHtml = (source: string, path: string): string => {
 	const $ = cheerio.load(source);
 	//$('title').text(title);
@@ -20,20 +22,21 @@ export const getTableData = (source: string): string => {
 		.split(' ')
 		.map((m) => m.trim())
 		.filter((f) => !!f);
-	const updatedAtStr: string = `${updated[0]
+	const updatedAt: string = `${updated[0]
 		.split('.')
 		.map((m) => m.trim())
 		.reverse()
 		.join('-')}T${updated[1]}`;
-	const updatedAt: string = dateToIntlFormat(updatedAtStr);
+	console.log('updatedAt:', updatedAt);
 	const taps: object[] = [];
 	const table = $('div[id=table-row]').find('.table').find('tbody').children('tr');
 	table.each((id, el) => {
 		const tap: number = Number($(el).find('.tap-num').text());
 		const name: string = $(el).find('.tap-name').text();
 		// Augustine - Карт-Бланш (Blanche), РОЗЛИВ, Россия
+		// Black Sheep Irish Stout, РОЗЛИВ, Россия
 		const parsed: string[] = name
-			.split('-')
+			.split(' - ')
 			.map((m) => m.trim())
 			.filter((f) => !!f);
 		const [brewery, data]: [string, string[]] =
