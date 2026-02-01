@@ -10,8 +10,7 @@ const header = `На кранах`;
 const title = `${header} || ${siteData.name}`;
 
 const { DEV } = import.meta.env;
-
-console.log('');
+console.log('DEV:', DEV);
 
 let { taps, updatedAt } = await getPriceTableData();
 let tapsCollection: Record<string, any>[] = [];
@@ -23,19 +22,18 @@ if (taps?.length < 1) {
 			const { id, data } = tci;
 			return {
 				...data,
-				//updatedAt: dateToIntlFormat(data.updatedAt),
 				id,
 			};
 		});
-		updatedAt = tapsCollection[0].data.updatedAt; //dateToIntlFormat(tapsCollection[0].data.updatedAt);
 	}
-} else {
-	// save taps.json
-	//
-	tapsCollection = await getCollection('taps');
+} else if (DEV) {
+	const jsonBuffer = Buffer.from(JSON.stringify(taps, null, 2), 'utf-8');
+	fs.writeFileSync('./src/data/taps.json', jsonBuffer);
 }
-console.log('taps.length:', taps?.length);
-console.log('tapsCollection.length:', tapsCollection?.length);
+
+updatedAt = taps.length > 0 ? dateToIntlFormat(taps[0].updatedAt) : '';
+console.log('taps.length:', taps.length);
+console.log('updatedAt:', updatedAt);
 
 if (DEV) {
 	//const beers: Record<string, any>[] = await getCollection('beers');
@@ -62,7 +60,7 @@ if (DEV) {
 							<div class="menu__item-header">
 								<span class="menu__item-name">{item.tap}.</span>
 								<span class="menu__item-name">
-									{`${!!item.brewery ? item.brewery + ' - ' : '⟡'}`}
+									{`${!!item.brewery ? item.brewery + ' -' : '⟡'}`}
 								</span>
 								<span class="menu__item-name">{item.beer}</span>
 								<span class="badge">{`${!!item.style ? item.style : '★'}`}</span>
