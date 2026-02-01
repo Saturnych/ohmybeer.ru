@@ -1,0 +1,19 @@
+{
+  "bid": 6524734,
+  "beer_name": "VILLAGE HELLES ",
+  "beer_label": "https://assets.untappd.com/site/beer_logos/beer-6524734_09545_sm.jpeg",
+  "beer_abv": 5,
+  "beer_slug": "big-village-brewery-village-helles",
+  "beer_ibu": 20,
+  "beer_description": "Линейка \"Village\"\r\nКлассическая интерпретация немецкого Хеллеса: солод Пилснер, охмеление Tettnanger/Mittelfrueh, дрожжевой штамм из Германии. Легкий, сухой с элегантной солодовой базой и ненавязчивой хмелевой горечью",
+  "created_at": "Wed, 10 Dec 2025 07:44:28 +0000",
+  "beer_style": "Lager - Helles",
+  "in_production": 1,
+  "auth_rating": 0,
+  "wish_list": false,
+  "checkin_count": 132,
+  "id": "big-village-brewery-village-helles",
+  "brewery": "big-village-brewery",
+  "term": "Big Village Village Helles",
+  "parsed_term": "Big Village Village Helles"
+}

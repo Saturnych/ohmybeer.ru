@@ -1,4 +1,5 @@
-// untappd
+import { saveJsonFile } from '$/lib/utils';
+
 const {
 	DEV,
 	PRIVATE_UNTAPPD_API_URL,
@@ -37,18 +38,45 @@ export const untappdApiCall = async (
 	return data;
 };
 
-export const searchBeer = async (brewery: string, name: string): Promise<Record<string, any>> => {
-	const qstring: string = encodeURI(`q=${brewery} ${name}`);
+export const searchBeer = async (brewery: string, beer: string): Promise<Record<string, any>> => {
+	const qstring: string = encodeURI(`q=${brewery}${beer}`);
 	const result = await untappdApiCall('search/beer', qstring);
-	console.log('searchBeer result:', result);
 	return Object.assign({ beers: {}, now: Date.now() }, result.response);
 };
 
-export const searchTaps = async (taps: any[]): Promise<Record<string, any>> => {
-	const { brewery, name } = taps[0].data;
-	console.log('brewery:', brewery);
-	console.log('name:', name);
-	return await searchBeer(brewery, name);
+export const searchTap = async (tap: Record<string, any>): Promise<Record<string, any>> => {
+	const { beers, found, term, parsed_term } = await searchBeer(
+		tap.brewery ? tap.brewery + ' ' : '',
+		tap.beer,
+	);
+	if (DEV) console.log('tap.beer:', tap.beer);
+	let beer: Record<string, any>, brewery: Record<string, any>;
+	if (DEV) console.log('found:', found);
+	if (!!found > 0) {
+		beer = beers.items[0].beer;
+		console.log('beer:', beers.items[0].beer);
+		beer.checkin_count = beers.items[0].checkin_count;
+		beer.id = beer.beer_slug;
+		brewery = beers.items[0].brewery;
+		brewery.id = brewery.brewery_slug;
+		beer.brewery = brewery.id;
+		beer.term = term;
+		beer.parsed_term = parsed_term;
+		if (DEV) {
+			saveJsonFile(beer, `./src/data/beers/${beer.id}.json`);
+			saveJsonFile(brewery, `./src/data/breweries/${brewery.id}.json`);
+		}
+	}
+	return { beer, brewery };
+};
+
+export const searchTaps = async (taps: any[]): Promise<Record<string, any>[]> => {
+	const results: any[] = [];
+	for (let i: number = 0; i < taps.length; i++) {
+		const { beer, brewery } = await searchTap(taps[i]);
+		if (!!beer && !!brewery) results.push({ beer, brewery });
+	}
+	return results;
 };
 
 /*

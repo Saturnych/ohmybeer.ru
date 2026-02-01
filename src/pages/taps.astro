@@ -2,7 +2,7 @@
 import { getCollection, getEntry } from 'astro:content';
 import { getPriceTableData } from '$/lib/price';
 import { searchTaps } from '$/lib/untappd';
-import { dateToIntlFormat } from '$/lib/utils';
+import { dateToIntlFormat, saveJsonFile } from '$/lib/utils';
 import siteData from '$/data/site.json';
 import Layout from '$/layouts/Layout.astro';
 
@@ -27,8 +27,7 @@ if (taps?.length < 1) {
 		});
 	}
 } else if (DEV) {
-	const jsonBuffer = Buffer.from(JSON.stringify(taps, null, 2), 'utf-8');
-	fs.writeFileSync('./src/data/taps.json', jsonBuffer);
+	saveJsonFile(taps, './src/data/taps.json');
 }
 
 updatedAt = taps.length > 0 ? dateToIntlFormat(taps[0].updatedAt) : '';
@@ -36,12 +35,15 @@ console.log('taps.length:', taps.length);
 console.log('updatedAt:', updatedAt);
 
 if (DEV) {
-	//const beers: Record<string, any>[] = await getCollection('beers');
-	//console.log('beers.length:', beers.length);
-	//const brewery: Record<string, any> = await getEntry('breweries', beers[0].data.brewery.id);
+	const beersCollection: Record<string, any>[] = await getCollection('beers');
+	//console.log('beersCollection:', beersCollection);
+	const brewery: Record<string, any> =
+		beersCollection.length > 0
+			? await getEntry('breweries', beersCollection[0].data.brewery.id)
+			: undefined;
 	//console.log('brewery:', brewery.data);
 	//const search = await searchTaps(taps);
-	//console.log('searchTaps:', JSON.stringify(search, null, 2));
+	//console.log('searchTaps:', search);
 }
 ---
 

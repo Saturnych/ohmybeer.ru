@@ -1,0 +1,23 @@
+{
+  "brewery_id": 35255,
+  "brewery_name": "Gletcher Brewery (Глетчер)",
+  "brewery_slug": "gletcher-brewery-gletcher",
+  "brewery_page_url": "/GletcherBrewery",
+  "brewery_type": "Micro Brewery",
+  "brewery_label": "https://assets.untappd.com/site/brewery_logos/brewery-35255_e4d7f.jpeg",
+  "country_name": "Russia",
+  "contact": {
+    "twitter": "",
+    "facebook": "https://www.facebook.com/gletcherbrewery",
+    "instagram": "Gletcher_Brewery",
+    "url": "http://gletcherbrewery.com/"
+  },
+  "location": {
+    "brewery_city": "Klin",
+    "brewery_state": "Московская область",
+    "lat": 56.3576012,
+    "lng": 36.6974983
+  },
+  "brewery_active": 1,
+  "id": "gletcher-brewery-gletcher"
+}

@@ -1,0 +1,19 @@
+{
+  "bid": 1148976,
+  "beer_name": "Карт-Бланш",
+  "beer_label": "https://assets.untappd.com/site/beer_logos/beer-1148976_43e08_sm.jpeg",
+  "beer_abv": 4.7,
+  "beer_slug": "augustine-avgustin-kartblansh",
+  "beer_ibu": 9,
+  "beer_description": "",
+  "created_at": "Sat, 04 Jul 2015 15:57:22 +0000",
+  "beer_style": "Wheat Beer - Witbier / Blanche",
+  "in_production": 1,
+  "auth_rating": 0,
+  "wish_list": false,
+  "checkin_count": 1243,
+  "id": "augustine-avgustin-kartblansh",
+  "brewery": "augustine-avgustin",
+  "term": "Augustine Карт-Бланш",
+  "parsed_term": "Augustine Карт-Бланш"
+}

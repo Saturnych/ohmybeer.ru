@@ -1,0 +1,19 @@
+{
+  "bid": 5302822,
+  "beer_name": "The Bomb",
+  "beer_label": "https://assets.untappd.com/site/beer_logos/beer-5302822_91ff1_sm.jpeg",
+  "beer_abv": 6.6,
+  "beer_slug": "solbirs-brewery-the-bomb",
+  "beer_ibu": 50,
+  "beer_description": "Добротный мутный Хейзик с посягательствами на звание стилёвого ньюингланда. Охмелили небезызвестной парой Mosaic и Galaxy. Если лето нравится, то и \"The Bomb\" зайдёт.",
+  "created_at": "Wed, 05 Apr 2023 09:26:35 +0000",
+  "beer_style": "IPA - New England / Hazy",
+  "in_production": 1,
+  "auth_rating": 0,
+  "wish_list": false,
+  "checkin_count": 496,
+  "id": "solbirs-brewery-the-bomb",
+  "brewery": "solbirs-brewery",
+  "term": "Solbirs The Bomb",
+  "parsed_term": "Solbirs The Bomb"
+}

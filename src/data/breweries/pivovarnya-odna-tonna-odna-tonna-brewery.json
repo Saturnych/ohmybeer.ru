@@ -1,0 +1,23 @@
+{
+  "brewery_id": 36782,
+  "brewery_name": "Пивоварня Одна тонна / Odna Tonna Brewery",
+  "brewery_slug": "pivovarnya-odna-tonna-odna-tonna-brewery",
+  "brewery_page_url": "/OdnaTonnaBrewery",
+  "brewery_type": "Micro Brewery",
+  "brewery_label": "https://assets.untappd.com/site/brewery_logos/brewery-36782_68239.jpeg",
+  "country_name": "Russia",
+  "contact": {
+    "twitter": "",
+    "facebook": "https://www.facebook.com/OdnaTonnaBrewery",
+    "instagram": "OdnaTonnaBrewery",
+    "url": "http://1tonna.ru"
+  },
+  "location": {
+    "brewery_city": "Zhukovskiy",
+    "brewery_state": "Московская область",
+    "lat": 55.6106987,
+    "lng": 38.0929985
+  },
+  "brewery_active": 1,
+  "id": "pivovarnya-odna-tonna-odna-tonna-brewery"
+}

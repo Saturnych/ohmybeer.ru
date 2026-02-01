@@ -47,6 +47,10 @@ const beers = defineCollection({
 		created_at: z.string(),
 		in_production: z.number(),
 		checkin_count: z.number().optional(),
+		term: z.string().optional(),
+		parsed_term: z.string().optional(),
+		//pubDate: z.coerce.date().optional(),
+		//updatedDate: z.coerce.date().optional(),
 		// Reference a single brewery from the `breweries` collection by `id`
 		brewery: reference('breweries'),
 	}),
@@ -62,10 +66,8 @@ const taps = defineCollection({
 		format: z.string().optional(),
 		country: z.string().optional(),
 		updatedAt: z.string(),
-		abv: z.number().optional(),
-		ibu: z.number().optional(),
-		//type: z.enum(['Space Probe', 'Mars Rover', 'Comet Lander']),
-		//status: z.enum(['Active', 'Inactive', 'Decommissioned']),
+		//abv: z.number().optional(),
+		//ibu: z.number().optional(),
 		//comments: z.array(z.string()),
 	}),
 });
