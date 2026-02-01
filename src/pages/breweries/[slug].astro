@@ -1,0 +1,201 @@
+---
+import { getCollection, getEntry } from 'astro:content';
+import siteData from '$/data/site.json';
+import Layout from '$/layouts/Layout.astro';
+
+const { DEV } = import.meta.env;
+console.log('DEV:', DEV);
+
+export const getStaticPaths = async () => {
+	const breweriesCollection = await getCollection('breweries');
+	const breweries: Record<string, any>[] = breweriesCollection.map((item) => item.data);
+	console.log('breweries?.length:', breweries?.length);
+	return breweries.map((item) => ({ params: { slug: item.brewery_slug } }));
+};
+
+const breweryCollection = await getEntry('breweries', Astro.params.slug);
+const brewery: Record<string, any> = breweryCollection.data;
+console.log('brewery:', brewery);
+
+const header = `Пивоварни`;
+const title = `${header} || ${siteData.name}`;
+---
+
+<Layout title={title}>
+	<section class="articles section" aria-labelledby="articles-title">
+		<div class="container">
+			<h2 id="articles-title" class="section__title">{header}</h2>
+			<article class="article-card">
+				<div class="article-card__content">
+					<h4 class="menu__category-title">{brewery.brewery_name}</h4>
+				</div>
+			</article>
+		</div>
+	</section>
+</Layout>
+
+<style>
+	.articles__grid {
+		display: grid;
+		grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+		gap: var(--space-8);
+		margin-top: var(--space-10);
+	}
+
+	.articles__empty {
+		text-align: center;
+		padding: var(--space-16) var(--space-4);
+	}
+
+	.articles__empty-text {
+		font-size: var(--text-lg);
+		color: var(--color-text-muted);
+		font-style: italic;
+	}
+
+	@media (max-width: 768px) {
+		.articles__grid {
+			grid-template-columns: 1fr;
+			gap: var(--space-6);
+		}
+	}
+
+	@media (max-width: 640px) {
+		.articles__grid {
+			gap: var(--space-4);
+		}
+	}
+
+	.article-card {
+		display: flex;
+		flex-direction: column;
+		background-color: var(--color-bg-mid);
+		border-radius: var(--radius-md);
+		overflow: hidden;
+		transition:
+			transform var(--transition-normal),
+			box-shadow var(--transition-normal);
+	}
+
+	.article-card:hover {
+		transform: translateY(-4px);
+		box-shadow: var(--shadow-medium);
+	}
+
+	.article-card__image-link {
+		display: block;
+		overflow: hidden;
+		line-height: 0;
+	}
+
+	.article-card__image {
+		width: 50%;
+		height: 100px;
+		object-fit: cover;
+		transition: transform var(--transition-slow);
+	}
+
+	.article-card:hover .article-card__image {
+		transform: scale(1.05);
+	}
+
+	.article-card__content {
+		padding: var(--space-6);
+		display: flex;
+		flex-direction: column;
+		flex: 1;
+	}
+
+	.article-card__date {
+		font-size: var(--text-sm);
+		color: var(--color-text-muted);
+		text-transform: uppercase;
+		letter-spacing: 0.1em;
+		margin-bottom: var(--space-3);
+	}
+
+	.article-card__title {
+		font-size: var(--text-xl);
+		margin-bottom: var(--space-3);
+		line-height: var(--leading-tight);
+	}
+
+	.article-card__link {
+		color: var(--color-secondary);
+		text-decoration: none;
+		transition: color var(--transition-fast);
+	}
+
+	.article-card__link:hover {
+		color: var(--color-primary);
+	}
+
+	.article-card__link:focus-visible {
+		outline: 2px solid var(--color-primary);
+		outline-offset: 2px;
+		border-radius: var(--radius-sm);
+	}
+
+	.article-card__excerpt {
+		color: var(--color-text);
+		line-height: var(--leading-relaxed);
+		margin-bottom: var(--space-4);
+		flex: 1;
+	}
+
+	.article-card__author {
+		font-size: var(--text-sm);
+		color: var(--color-text-muted);
+		margin-bottom: var(--space-4);
+		font-style: italic;
+	}
+
+	.article-card__read-more {
+		display: inline-flex;
+		align-items: center;
+		gap: var(--space-2);
+		font-size: var(--text-sm);
+		font-weight: 600;
+		text-transform: uppercase;
+		letter-spacing: 0.1em;
+		color: var(--color-primary);
+		text-decoration: none;
+		transition:
+			gap var(--transition-fast),
+			color var(--transition-fast);
+		align-self: flex-start;
+	}
+
+	.article-card__read-more:hover {
+		gap: var(--space-3);
+		color: var(--color-secondary);
+	}
+
+	.article-card__read-more:focus-visible {
+		outline: 2px solid var(--color-primary);
+		outline-offset: 2px;
+		border-radius: var(--radius-sm);
+	}
+
+	.article-card__arrow {
+		transition: transform var(--transition-fast);
+	}
+
+	.article-card__read-more:hover .article-card__arrow {
+		transform: translateX(4px);
+	}
+
+	@media (max-width: 640px) {
+		.article-card__content {
+			padding: var(--space-4);
+		}
+
+		.article-card__title {
+			font-size: var(--text-lg);
+		}
+
+		.article-card__image {
+			height: 180px;
+		}
+	}
+</style>

@@ -1,16 +1,16 @@
 ---
-import { getCollection, getEntry } from 'astro:content';
+import { getCollection } from 'astro:content';
 import { getPriceTableData } from '$/lib/price';
 import { searchTaps } from '$/lib/untappd';
 import { dateToIntlFormat, saveJsonFile } from '$/lib/utils';
 import siteData from '$/data/site.json';
 import Layout from '$/layouts/Layout.astro';
 
-const header = `На кранах`;
-const title = `${header} || ${siteData.name}`;
-
 const { DEV } = import.meta.env;
 console.log('DEV:', DEV);
+
+const header = `На кранах`;
+const title = `${header} || ${siteData.name}`;
 
 let { taps, updatedAt } = await getPriceTableData();
 let tapsCollection: Record<string, any>[] = [];
@@ -18,33 +18,33 @@ let tapsCollection: Record<string, any>[] = [];
 if (taps?.length < 1) {
 	tapsCollection = await getCollection('taps');
 	if (tapsCollection?.length > 0) {
-		taps = tapsCollection.map((tci) => {
-			const { id, data } = tci;
+		taps = tapsCollection.map((item) => {
+			const { id, data } = item;
 			return {
 				...data,
 				id,
 			};
 		});
 	}
-} else if (DEV) {
-	saveJsonFile(taps, './src/data/taps.json');
+}
+
+if (DEV) {
+	if (taps?.length > 0) {
+		saveJsonFile(taps, './src/data/taps.json');
+	}
+	let search = { results: [], taps: [] };
+	//search = await searchTaps(taps);
+	if (search?.taps?.length > 0) {
+		taps = Object.assign(taps, search.taps);
+		console.log('search?.taps:', taps);
+		saveJsonFile(taps, './src/data/search.taps.json');
+	}
 }
 
 updatedAt = taps.length > 0 ? dateToIntlFormat(taps[0].updatedAt) : '';
-console.log('taps.length:', taps.length);
 console.log('updatedAt:', updatedAt);
-
-if (DEV) {
-	const beersCollection: Record<string, any>[] = await getCollection('beers');
-	//console.log('beersCollection:', beersCollection);
-	const brewery: Record<string, any> =
-		beersCollection.length > 0
-			? await getEntry('breweries', beersCollection[0].data.brewery.id)
-			: undefined;
-	//console.log('brewery:', brewery.data);
-	//const search = await searchTaps(taps);
-	//console.log('searchTaps:', search);
-}
+console.log('taps.length:', taps.length);
+//console.log('taps:', taps);
 ---
 
 <Layout title={title}>
@@ -72,7 +72,7 @@ if (DEV) {
 									</span>
 								)}
 							</div>
-							<p class="menu__item-desc">{item.description}</p>
+							{item.badge && <p class="menu__item-desc">{item.description}</p>}
 						</li>
 					))
 				}

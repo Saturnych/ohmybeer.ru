@@ -7,7 +7,7 @@
     "style": "Pale Ale",
     "format": "РОЗЛИВ",
     "country": "Россия",
-    "updatedAt": "2026-02-01T13:01"
+    "updatedAt": "2026-02-01T22:06"
   },
   {
     "id": 1,
@@ -17,7 +17,7 @@
     "style": "NZ Pils",
     "format": "РОЗЛИВ",
     "country": "Россия",
-    "updatedAt": "2026-02-01T13:01"
+    "updatedAt": "2026-02-01T22:06"
   },
   {
     "id": 2,
@@ -27,7 +27,7 @@
     "style": "Helles",
     "format": "РОЗЛИВ",
     "country": "Россия",
-    "updatedAt": "2026-02-01T13:01"
+    "updatedAt": "2026-02-01T22:06"
   },
   {
     "id": 3,
@@ -37,7 +37,7 @@
     "style": "NEIPA",
     "format": "РОЗЛИВ",
     "country": "Россия",
-    "updatedAt": "2026-02-01T13:01"
+    "updatedAt": "2026-02-01T22:06"
   },
   {
     "id": 4,
@@ -47,7 +47,7 @@
     "style": "Weisse",
     "format": "РОЗЛИВ",
     "country": "Россия",
-    "updatedAt": "2026-02-01T13:01"
+    "updatedAt": "2026-02-01T22:06"
   },
   {
     "id": 5,
@@ -57,7 +57,7 @@
     "style": "Milkshake IPA",
     "format": "Розлив",
     "country": "Россия",
-    "updatedAt": "2026-02-01T13:01"
+    "updatedAt": "2026-02-01T22:06"
   },
   {
     "id": 6,
@@ -67,7 +67,7 @@
     "style": "NE Pale Ale",
     "format": "РОЗЛИВ",
     "country": "Россия",
-    "updatedAt": "2026-02-01T13:01"
+    "updatedAt": "2026-02-01T22:06"
   },
   {
     "id": 7,
@@ -77,7 +77,7 @@
     "style": "IPA",
     "format": "РОЗЛИВ",
     "country": "Россия",
-    "updatedAt": "2026-02-01T13:01"
+    "updatedAt": "2026-02-01T22:06"
   },
   {
     "id": 8,
@@ -87,7 +87,7 @@
     "style": "IPL",
     "format": "РОЗЛИВ",
     "country": "Россия",
-    "updatedAt": "2026-02-01T13:01"
+    "updatedAt": "2026-02-01T22:06"
   },
   {
     "id": 9,
@@ -96,7 +96,7 @@
     "beer": "Здорово и Вечно",
     "format": "РОЗЛИВ",
     "country": "Россия",
-    "updatedAt": "2026-02-01T13:01"
+    "updatedAt": "2026-02-01T22:06"
   },
   {
     "id": 10,
@@ -106,7 +106,7 @@
     "style": "NZ Lager",
     "format": "РОЗЛИВ",
     "country": "Россия",
-    "updatedAt": "2026-02-01T13:01"
+    "updatedAt": "2026-02-01T22:06"
   },
   {
     "id": 11,
@@ -116,7 +116,7 @@
     "style": "RIS",
     "format": "РОЗЛИВ",
     "country": "Россия",
-    "updatedAt": "2026-02-01T13:01"
+    "updatedAt": "2026-02-01T22:06"
   },
   {
     "id": 12,
@@ -126,7 +126,7 @@
     "style": "Сухой Сидр",
     "format": "РОЗЛИВ",
     "country": "Россия",
-    "updatedAt": "2026-02-01T13:01"
+    "updatedAt": "2026-02-01T22:06"
   },
   {
     "id": 13,
@@ -136,7 +136,7 @@
     "style": "APA",
     "format": "РОЗЛИВ",
     "country": "Россия",
-    "updatedAt": "2026-02-01T13:01"
+    "updatedAt": "2026-02-01T22:06"
   },
   {
     "id": 14,
@@ -146,7 +146,7 @@
     "style": "IPA",
     "format": "РОЗЛИВ",
     "country": "Россия",
-    "updatedAt": "2026-02-01T13:01"
+    "updatedAt": "2026-02-01T22:06"
   },
   {
     "id": 15,
@@ -156,7 +156,7 @@
     "style": "DIPA",
     "format": "РОЗЛИВ",
     "country": "Россия",
-    "updatedAt": "2026-02-01T13:01"
+    "updatedAt": "2026-02-01T22:06"
   },
   {
     "id": 16,
@@ -166,7 +166,7 @@
     "style": "Blanche",
     "format": "РОЗЛИВ",
     "country": "Россия",
-    "updatedAt": "2026-02-01T13:01"
+    "updatedAt": "2026-02-01T22:06"
   },
   {
     "id": 17,
@@ -176,7 +176,7 @@
     "style": "AIPA",
     "format": "РОЗЛИВ",
     "country": "Россия",
-    "updatedAt": "2026-02-01T13:01"
+    "updatedAt": "2026-02-01T22:06"
   },
   {
     "id": 18,
@@ -186,7 +186,7 @@
     "style": "Sour",
     "format": "РОЗЛИВ",
     "country": "Россия",
-    "updatedAt": "2026-02-01T13:01"
+    "updatedAt": "2026-02-01T22:06"
   },
   {
     "id": 19,
@@ -196,7 +196,7 @@
     "style": "IPA",
     "format": "РОЗЛИВ",
     "country": "Россия",
-    "updatedAt": "2026-02-01T13:01"
+    "updatedAt": "2026-02-01T22:06"
   },
   {
     "id": 20,
@@ -206,7 +206,7 @@
     "style": "NEIPA",
     "format": "РОЗЛИВ",
     "country": "Россия",
-    "updatedAt": "2026-02-01T13:01"
+    "updatedAt": "2026-02-01T22:06"
   },
   {
     "id": 21,
@@ -216,7 +216,7 @@
     "style": "NE Pale Ale",
     "format": "РОЗЛИВ",
     "country": "Россия",
-    "updatedAt": "2026-02-01T13:01"
+    "updatedAt": "2026-02-01T22:06"
   },
   {
     "id": 22,
@@ -226,7 +226,7 @@
     "style": "DIPA",
     "format": "РОЗЛИВ",
     "country": "Россия",
-    "updatedAt": "2026-02-01T13:01"
+    "updatedAt": "2026-02-01T22:06"
   },
   {
     "id": 23,
@@ -234,7 +234,7 @@
     "beer": "Black Sheep Irish Stout",
     "format": "РОЗЛИВ",
     "country": "Россия",
-    "updatedAt": "2026-02-01T13:01"
+    "updatedAt": "2026-02-01T22:06"
   },
   {
     "id": 24,
@@ -243,7 +243,7 @@
     "beer": "Кеговое",
     "format": "РОЗЛИВ",
     "country": "Россия",
-    "updatedAt": "2026-02-01T13:01"
+    "updatedAt": "2026-02-01T22:06"
   },
   {
     "id": 25,
@@ -253,6 +253,6 @@
     "style": "English Pale Ale",
     "format": "РОЗЛИВ",
     "country": "Россия",
-    "updatedAt": "2026-02-01T13:01"
+    "updatedAt": "2026-02-01T22:06"
   }
 ]

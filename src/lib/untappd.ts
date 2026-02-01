@@ -74,9 +74,20 @@ export const searchTaps = async (taps: any[]): Promise<Record<string, any>[]> =>
 	const results: any[] = [];
 	for (let i: number = 0; i < taps.length; i++) {
 		const { beer, brewery } = await searchTap(taps[i]);
-		if (!!beer && !!brewery) results.push({ beer, brewery });
+		if (!!beer && !!brewery) {
+			results.push({ beer, brewery });
+			taps[i].brewery_name = brewery.brewery_name;
+			taps[i].brewery_slug = brewery.brewery_slug;
+			taps[i].brewery_type = brewery.brewery_type;
+			taps[i].beer_name = beer.beer_name;
+			taps[i].beer_slug = beer.beer_slug;
+			taps[i].beer_abv = beer.beer_abv;
+			taps[i].beer_ibu = beer.beer_ibu;
+			taps[i].beer_style = beer.beer_style;
+			taps[i].term = beer.term;
+		}
 	}
-	return results;
+	return { results, taps };
 };
 
 /*
