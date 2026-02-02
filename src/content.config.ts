@@ -74,13 +74,33 @@ const taps = defineCollection({
 		format: z.string().optional(),
 		country: z.string().optional(),
 		updatedAt: z.string(),
-		//abv: z.number().optional(),
-		//ibu: z.number().optional(),
 		//comments: z.array(z.string()),
 	}),
 });
 
-export const collections = { taps, breweries, beers };
+const search = defineCollection({
+	loader: file('./src/data/search.json', { parser: (text) => JSON.parse(text) }),
+	schema: z.object({
+		tap: z.number(),
+		brewery: z.string().optional(),
+		brewery_name: z.string().optional(),
+		brewery_slug: z.string().optional(),
+		brewery_type: z.string().optional(),
+		beer: z.string(),
+		beer_name: z.string().optional(),
+		beer_slug: z.string().optional(),
+		beer_abv: z.number().optional(),
+		beer_ibu: z.number().optional(),
+		beer_style: z.string().optional(),
+		style: z.string().optional(),
+		format: z.string().optional(),
+		country: z.string().optional(),
+		updatedAt: z.string(),
+		//comments: z.array(z.string()),
+	}),
+});
+
+export const collections = { beers, breweries, taps, search };
 
 /*
 {
