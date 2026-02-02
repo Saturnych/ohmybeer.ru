@@ -31,14 +31,14 @@ const search: Record<string, any[]> = ({
 	taps: [],
 } = await searchTaps(taps));
 if (search?.taps?.length > 0) {
-	console.log(`\nsearch search.taps:`, search.taps[18]);
+	console.log(`\nsearch search.taps.length:`, search.taps.length);
 	saveJsonFile(search?.taps, './src/data/search.json');
 	taps = taps.map((tap) => {
 		let { beer, brewery, hash } = tap;
 		if (!hash) hash = hashWithTextEncoder(`${brewery ? brewery + ' ' : ''}${beer}`);
-		console.log(`\nsearch hash:`, hash);
+		//console.log(`\nsearch hash:`, hash);
 		const foundTap = search.taps.find((tap) => tap.hash === hash);
-		console.log(`\nsearch foundTap:`, foundTap?.beer_slug, foundTap?.hash);
+		//console.log(`\nsearch foundTap:`, foundTap?.beer_slug, foundTap?.hash);
 		return foundTap ? Object.assign(tap, foundTap) : tap;
 	});
 }
