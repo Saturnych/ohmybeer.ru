@@ -4,6 +4,7 @@ import siteData from '$/data/site.json';
 import Layout from '$/layouts/Layout.astro';
 
 const { DEV } = import.meta.env;
+console.log('');
 console.log('DEV:', DEV);
 
 export const getStaticPaths = async () => {
@@ -15,7 +16,7 @@ export const getStaticPaths = async () => {
 
 const breweryCollection = await getEntry('breweries', Astro.params.slug);
 const brewery: Record<string, any> = breweryCollection.data;
-console.log('brewery:', brewery);
+console.log('brewery:', brewery?.brewery_name);
 
 const header = `Пивоварни`;
 const title = `${header} || ${siteData.name}`;

@@ -4,6 +4,7 @@ import siteData from '$/data/site.json';
 import Layout from '$/layouts/Layout.astro';
 
 const { DEV } = import.meta.env;
+console.log('');
 console.log('DEV:', DEV);
 
 const breweriesCollection = await getCollection('breweries');
