@@ -1,0 +1,20 @@
+{
+  "bid": 3318394,
+  "beer_name": "Схватка",
+  "beer_label": "https://assets.untappd.com/site/beer_logos/beer-3318394_ea1de_sm.jpeg",
+  "beer_abv": 5.4,
+  "beer_slug": "white-stone-shvatka",
+  "beer_ibu": 50,
+  "beer_description": "Этот Pale Ale для кого-то резкий и колючий, как третья линия, для кого-то слишком мощный и далёкий, как великаны второй, а для кого-то - уютный и добродушный, как могучие игроки первой. Пиво сварено в честь Регбийного Клуба \"Спартак Москва\", и если ты держишь эту банку в руках, то ты либо лучший из лучших, либо сказочный везунчик!",
+  "created_at": "Sat, 06 Jul 2019 16:29:44 +0000",
+  "beer_style": "Pale Ale - American",
+  "in_production": 1,
+  "auth_rating": 0,
+  "wish_list": false,
+  "checkin_count": 836,
+  "id": "white-stone-shvatka",
+  "brewery": "white-stone",
+  "term": "White Stone Схватка",
+  "parsed_term": "White Stone Схватка",
+  "hash": "57686974652053746f6e6520d0a1d185d0b2d0b0d182d0bad0b0"
+}

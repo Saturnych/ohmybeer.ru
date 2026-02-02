@@ -1,0 +1,20 @@
+{
+  "bid": 6570017,
+  "beer_name": "Liquid Sapience",
+  "beer_label": "https://assets.untappd.com/site/beer_logos/beer-6570017_51446_sm.jpeg",
+  "beer_abv": 4.7,
+  "beer_slug": "zagovor-brewery-liquid-sapience",
+  "beer_ibu": 45,
+  "beer_description": "New Zealand Pilsner with Riwaka hops. ",
+  "created_at": "Fri, 16 Jan 2026 11:41:41 +0000",
+  "beer_style": "Pilsner - New Zealand",
+  "in_production": 1,
+  "auth_rating": 0,
+  "wish_list": false,
+  "checkin_count": 322,
+  "id": "zagovor-brewery-liquid-sapience",
+  "brewery": "zagovor-brewery",
+  "term": "Zagovor Liquid Sapience",
+  "parsed_term": "Zagovor Liquid Sapience",
+  "hash": "5a61676f766f72204c69717569642053617069656e6365"
+}

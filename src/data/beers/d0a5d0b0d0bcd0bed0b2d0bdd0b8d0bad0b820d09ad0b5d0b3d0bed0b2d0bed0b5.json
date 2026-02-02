@@ -1,0 +1,20 @@
+{
+  "bid": 1183914,
+  "beer_name": "Hamovniki Kegovoe (Хамовники Кеговое)",
+  "beer_label": "https://assets.untappd.com/site/beer_logos/beer-1183914_2ec2c_sm.jpeg",
+  "beer_abv": 5.5,
+  "beer_slug": "moscow-brewing-company-moskovskaya-pivovarennaya-kompaniya-hamovniki-kegovoe-hamovniki-kegovoe",
+  "beer_ibu": 0,
+  "beer_description": "Насыщенное плотное ароматное пиво. Это первое российское пиво с \"лавинным эффектом\", которое при наливе обогащается смесью азота и углекислого газа.",
+  "created_at": "Sat, 01 Aug 2015 23:33:45 +0000",
+  "beer_style": "Märzen",
+  "in_production": 1,
+  "auth_rating": 0,
+  "wish_list": false,
+  "checkin_count": 1979,
+  "id": "moscow-brewing-company-moskovskaya-pivovarennaya-kompaniya-hamovniki-kegovoe-hamovniki-kegovoe",
+  "brewery": "moscow-brewing-company-moskovskaya-pivovarennaya-kompaniya",
+  "term": "Хамовники Кеговое",
+  "parsed_term": "Хамовники Кеговое",
+  "hash": "d0a5d0b0d0bcd0bed0b2d0bdd0b8d0bad0b820d09ad0b5d0b3d0bed0b2d0bed0b5"
+}

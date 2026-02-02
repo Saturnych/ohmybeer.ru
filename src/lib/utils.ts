@@ -1,3 +1,5 @@
+import fs from 'fs';
+
 // utils
 export const dateToIntlFormat = (
 	strDate: string,
@@ -11,8 +13,31 @@ export const dateToIntlFormat = (
 	return new Intl.DateTimeFormat(locale, format).format(new Date(strDate));
 };
 
-export const saveJsonFile = async (data: Record<string, any>, filename: string): Promise<void> =>
-	fs.writeFileSync(filename, Buffer.from(JSON.stringify(data, null, 2), 'utf-8'));
+export const fileExists = (filename: string): boolean => {
+	try {
+		fs.accessSync(filename, fs.constants.F_OK);
+		return true;
+	} catch (err) {
+		return false;
+	}
+};
+
+export const readFileSync = (filename: string): string => {
+	try {
+		return fs.readFileSync(filename, 'utf-8');
+	} catch (err) {
+		return '';
+	}
+};
+
+export const saveJsonFile = (data: Record<string, any>, filename: string): boolean => {
+	try {
+		fs.writeFileSync(filename, Buffer.from(JSON.stringify(data, null, 2)));
+		return true;
+	} catch (err) {
+		return false;
+	}
+};
 
 export const postForm = async (frm: Record<string, unknown>, uri: string): Record<string, any> => {
 	const ret = {

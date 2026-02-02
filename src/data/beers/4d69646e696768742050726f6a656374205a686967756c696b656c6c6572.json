@@ -1,0 +1,20 @@
+{
+  "bid": 3069407,
+  "beer_name": "Zhigulikkeller",
+  "beer_label": "https://assets.untappd.com/site/beer_logos/beer-3069407_25e13_sm.jpeg",
+  "beer_abv": 4.5,
+  "beer_slug": "midnight-project-zhigulikkeller",
+  "beer_ibu": 37,
+  "beer_description": "Collaboration w/ Mikkeller and Selfmade brewery.\r\n\r\nAccording to GOST but GOES beyond. \r\n\r\nDDH Citra & Simcoe hops",
+  "created_at": "Wed, 06 Feb 2019 20:05:50 +0000",
+  "beer_style": "Lager - IPL (India Pale Lager)",
+  "in_production": 1,
+  "auth_rating": 0,
+  "wish_list": false,
+  "checkin_count": 6642,
+  "id": "midnight-project-zhigulikkeller",
+  "brewery": "midnight-project",
+  "term": "Midnight Project Zhigulikeller",
+  "parsed_term": "Midnight Project Zhigulikeller",
+  "hash": "4d69646e696768742050726f6a656374205a686967756c696b656c6c6572"
+}

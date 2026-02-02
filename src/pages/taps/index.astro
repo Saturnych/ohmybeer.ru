@@ -12,11 +12,12 @@ console.log('DEV:', DEV);
 const header = `На кранах`;
 const title = `${header} || ${siteData.name}`;
 
-let { taps, updatedAt } = await getPriceTableData();
-let tapsCollection: Record<string, any>[] = [];
+let { taps, updatedAt }: { taps: any[]; updatedAt: string } = await getPriceTableData();
+
+//const searchCollection: Record<string, any>[] = await getCollection('search');
 
 if (taps?.length < 1) {
-	tapsCollection = await getCollection('taps');
+	const tapsCollection: Record<string, any>[] = await getCollection('taps');
 	if (tapsCollection?.length > 0) {
 		taps = tapsCollection.map((item) => {
 			const { id, data } = item;
@@ -28,28 +29,21 @@ if (taps?.length < 1) {
 	}
 }
 
-const searchCollection: Record<string, any>[] = await getCollection('search');
-if (searchCollection?.length > 0) {
-	taps = searchCollection.map((item) => {
-		const { id, data } = item;
-		return {
-			...data,
-			id,
-		};
+const search: Record<string, any[]> = ({
+	results: [],
+	taps: [],
+} = await searchTaps(taps));
+if (search?.taps?.length > 0) {
+	taps = taps.map((tap) => {
+		const { hash } = tap;
+		const foundTap = search.taps.find((tap) => tap.hash === hash);
+		return foundTap ? Object.assign(tap, foundTap) : tap;
 	});
+	console.log('search taps.length:', taps.length);
+	saveJsonFile(taps, './src/data/search.json');
 }
-
-if (DEV) {
-	if (taps?.length > 0) {
-		saveJsonFile(taps, './src/data/taps.json');
-	}
-	let search = { results: [], taps: [] };
-	//search = await searchTaps(taps);
-	if (search?.taps?.length > 0) {
-		taps = Object.assign(taps, search.taps);
-		console.log('search?.taps:', taps);
-		saveJsonFile(taps, './src/data/search.taps.json');
-	}
+if (taps?.length > 0) {
+	saveJsonFile(taps, './src/data/taps.json');
 }
 
 updatedAt = taps.length > 0 ? dateToIntlFormat(taps[0].updatedAt) : '';

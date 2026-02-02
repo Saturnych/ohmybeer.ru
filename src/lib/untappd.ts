@@ -1,4 +1,10 @@
-import { hashCode, saveJsonFile } from '$/lib/utils';
+import {
+	fileExists,
+	hashWithTextEncoder,
+	parseJson,
+	readFileSync,
+	saveJsonFile,
+} from '$/lib/utils';
 
 const {
 	DEV,
@@ -38,49 +44,62 @@ export const untappdApiCall = async (
 	return data;
 };
 
-export const searchBeer = async (brewery: string, beer: string): Promise<Record<string, any>> => {
-	const qstring: string = encodeURI(`q=${brewery}${beer}`);
+export const searchBeer = async (searchstring: string): Promise<Record<string, any>> => {
+	const qstring: string = encodeURI(`q=${searchstring}`);
 	const result = await untappdApiCall('search/beer', qstring);
 	return Object.assign({ beers: {}, now: Date.now() }, result.response);
 };
 
 export const searchTap = async (tap: Record<string, any>): Promise<Record<string, any>> => {
-	let { beers, found, term, parsed_term } = await searchBeer(
-		tap.brewery ? tap.brewery + ' ' : '',
-		tap.beer,
-	);
-
-	if (!found && tap.brewery?.length > 1 && tap.brewery.startsWith('White Stone')) {
-		const searched = await searchBeer('WS Brew ', tap.beer);
-		if (!!searched.found) {
-			beers = searched.beers;
-			found = searched.found;
-			term = searched.term;
-			parsed_term = searched.parsed_term;
-		}
-	}
-	if (DEV) console.log('found:', found);
-
 	let beer: Record<string, any>, brewery: Record<string, any>;
-	if (!!found > 0) {
-		beer = beers.items[0].beer;
-		beer.checkin_count = beers.items[0].checkin_count;
-		beer.id = beer.beer_slug;
-		brewery = beers.items[0].brewery;
-		brewery.id = brewery.brewery_slug;
-		beer.brewery = brewery.id;
-		beer.term = term;
-		beer.parsed_term = parsed_term;
-		beer.hash = hashCode(term);
-		if (DEV) {
-			saveJsonFile(beer, `./src/data/beers/${beer.id}.json`);
-			saveJsonFile(brewery, `./src/data/breweries/${brewery.id}.json`);
+	let searchstring: string = `${tap.brewery ? tap.brewery + ' ' : ''}${tap.beer}`;
+	let searchstringHash: string = hashWithTextEncoder(searchstring);
+
+	const beerContent = readFileSync(`./src/data/beers/${searchstringHash}.json`);
+	beer = !!beerContent ? parseJson(beerContent) : null;
+	if (beer?.id) {
+		const breweryContent = readFileSync(`./src/data/breweries/${beer.brewery}.json`);
+		brewery = !!breweryContent ? parseJson(breweryContent) : null;
+	}
+
+	if (!beer || !brewery) {
+		let { beers, found, term, parsed_term } = await searchBeer(searchstring);
+
+		if (!found && tap.brewery?.length > 1 && tap.brewery.startsWith('White Stone')) {
+			tap.brewery = 'WS Brew';
+			searchstring = `WS Brew ${tap.beer}`;
+			const searched = await searchBeer(searchstring);
+			if (!!searched.found) {
+				beers = searched.beers;
+				found = searched.found;
+				term = searched.term;
+				parsed_term = searched.parsed_term;
+				searchstringHash = hashWithTextEncoder(searchstring);
+			}
+		}
+		console.log('found:', found);
+
+		if (!!found > 0) {
+			beer = beers.items[0].beer;
+			beer.checkin_count = beers.items[0].checkin_count;
+			beer.id = beer.beer_slug;
+			brewery = beers.items[0].brewery;
+			brewery.id = brewery.brewery_slug;
+			beer.brewery = brewery.id;
+			beer.term = term;
+			beer.parsed_term = parsed_term;
+			beer.hash = searchstringHash;
+			const beerFile = `./src/data/beers/${searchstringHash}.json`;
+			if (!fileExists(beerFile)) saveJsonFile(beer, beerFile);
+			const breweryFile = `./src/data/breweries/${brewery.id}.json`;
+			if (!fileExists(breweryFile)) saveJsonFile(brewery, breweryFile);
 		}
 	}
+
 	return { beer, brewery };
 };
 
-export const searchTaps = async (taps: any[]): Promise<Record<string, any>[]> => {
+export const searchTaps = async (taps: any[]): Promise<Record<string, any[]>> => {
 	const results: any[] = [];
 	for (let i: number = 0; i < taps.length; i++) {
 		const { beer, brewery } = await searchTap(taps[i]);
@@ -95,6 +114,7 @@ export const searchTaps = async (taps: any[]): Promise<Record<string, any>[]> =>
 			taps[i].beer_ibu = beer.beer_ibu;
 			taps[i].beer_style = beer.beer_style.trim();
 			taps[i].term = beer.term.trim();
+			taps[i].hash = beer.hash;
 		}
 	}
 	return { results, taps };
