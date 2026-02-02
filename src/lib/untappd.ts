@@ -95,7 +95,7 @@ export const searchTap = async (tap: Record<string, any>): Promise<Record<string
 			const beerHashFile = `./src/data/beers/${searchstringHash}.json`;
 			if (!fileExists(beerHashFile)) saveJsonFile(beer, beerHashFile);
 			const beerFile = `./src/data/beers/${beer.id}.json`;
-			saveJsonFile(beer, beerFile);
+			if (!fileExists(beerFile)) saveJsonFile(beer, beerFile);
 			const breweryFile = `./src/data/breweries/${brewery.id}.json`;
 			if (!fileExists(breweryFile)) saveJsonFile(brewery, breweryFile);
 		}
