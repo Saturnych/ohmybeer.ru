@@ -1,0 +1,20 @@
+{
+  "bid": 6527336,
+  "beer_name": "PACIFICATION",
+  "beer_label": "https://assets.untappd.com/site/beer_logos/beer-6527336_d898d_sm.jpeg",
+  "beer_abv": 6,
+  "beer_slug": "big-village-brewery-pacification",
+  "beer_ibu": 25,
+  "beer_description": "Хейзи Пейл Эль с щепоткой лактозы, массивной овсяной базой и мягкой сливочной текстурой, охмелённый увесистыми порциями Mosaic/Nelson Sauvin/Sabro",
+  "created_at": "Fri, 12 Dec 2025 09:41:15 +0000",
+  "beer_style": "Pale Ale - New England / Hazy",
+  "in_production": 1,
+  "auth_rating": 0,
+  "wish_list": false,
+  "checkin_count": 296,
+  "id": "big-village-brewery-pacification",
+  "brewery": "big-village-brewery",
+  "term": "Big Village Pacification",
+  "parsed_term": "Big Village Pacification",
+  "hash": "4269672056696c6c61676520506163696669636174696f6e"
+}

@@ -1,0 +1,20 @@
+{
+  "bid": 1963594,
+  "beer_name": "АБАНАМАТ",
+  "beer_label": "https://assets.untappd.com/site/beer_logos/beer-1963594_ced82_sm.jpeg",
+  "beer_abv": 5,
+  "beer_slug": "zapovednik-abanamat",
+  "beer_ibu": 0,
+  "beer_description": "Сухой сидр, яблоки для которого собраны непосредственно на территории и в окрестностях Мемориального музея-заповедника А. С. Пушкина «Михайловское». Часть яблок собрана в саду дома, в котором жил Валерий Карпов, он же Марков из \"Заповедника\" Сергея Довлатова. Для АБАНАМАТА мы давили сок из Антоновки, Мельбы, Китайки и Лешуги (так в наших местах называют дикую яблоню).",
+  "created_at": "Thu, 23 Feb 2017 02:12:56 +0000",
+  "beer_style": "Cider - Dry",
+  "in_production": 1,
+  "auth_rating": 0,
+  "wish_list": false,
+  "checkin_count": 7647,
+  "id": "zapovednik-abanamat",
+  "brewery": "zapovednik",
+  "term": "Заповедник Абанамат",
+  "parsed_term": "Заповедник Абанамат",
+  "hash": "d097d0b0d0bfd0bed0b2d0b5d0b4d0bdd0b8d0ba20d090d0b1d0b0d0bdd0b0d0bcd0b0d182"
+}

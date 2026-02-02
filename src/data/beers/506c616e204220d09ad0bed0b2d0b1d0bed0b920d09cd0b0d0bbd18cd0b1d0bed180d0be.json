@@ -1,0 +1,20 @@
+{
+  "bid": 673144,
+  "beer_name": "Ковбой Мальборо",
+  "beer_label": "https://assets.untappd.com/site/beer_logos/beer-673144_e905f_sm.jpeg",
+  "beer_abv": 6.5,
+  "beer_slug": "plan-b-brewery-kovboj-malboro",
+  "beer_ibu": 50,
+  "beer_description": "",
+  "created_at": "Thu, 08 May 2014 16:11:03 +0000",
+  "beer_style": "IPA - American",
+  "in_production": 1,
+  "auth_rating": 0,
+  "wish_list": false,
+  "checkin_count": 14691,
+  "id": "plan-b-brewery-kovboj-malboro",
+  "brewery": "plan-b-brewery",
+  "term": "Plan B Ковбой Мальборо",
+  "parsed_term": "Plan B Ковбой Мальборо",
+  "hash": "506c616e204220d09ad0bed0b2d0b1d0bed0b920d09cd0b0d0bbd18cd0b1d0bed180d0be"
+}

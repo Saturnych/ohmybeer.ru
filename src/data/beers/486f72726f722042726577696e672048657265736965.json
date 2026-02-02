@@ -1,0 +1,20 @@
+{
+  "bid": 6488385,
+  "beer_name": "Heresie",
+  "beer_label": "https://assets.untappd.com/site/beer_logos/beer-6488385_194f0_sm.jpeg",
+  "beer_abv": 8,
+  "beer_slug": "horror-brewing-heresie",
+  "beer_ibu": 0,
+  "beer_description": "Наш новый сорт — коллаборация с Mager Brewery.\r\nВдохновившись творчеством бельгийской группы Univers Zero, мы посвящаем сорт их самому мрачному альбому Heresie. Разноплановые мелодические наслоения, сбивки ритма и тональности, диссоциативные ходы порождают своеобразную картину — ужасную в своей красоте и красивую до ужаса. Как если бы Барток или Шостакович писали для рок-группы.\r\n\r\nВ нашем сорте хмели Columbus, Krush (HBC 586), Citra, Idaho 7 Cryo создают, казалось бы, невообразимый хаос в ароматах и вкусе, но позже всё выстраивается в сложный и притягательный образ. Запретный, как ересь — и от этого ещё более желанный.\r\n",
+  "created_at": "Tue, 11 Nov 2025 11:36:16 +0000",
+  "beer_style": "IPA - Imperial / Double",
+  "in_production": 1,
+  "auth_rating": 0,
+  "wish_list": false,
+  "checkin_count": 214,
+  "id": "horror-brewing-heresie",
+  "brewery": "horror-brewing",
+  "term": "Horror Brewing Heresie",
+  "parsed_term": "Horror Brewing Heresie",
+  "hash": "486f72726f722042726577696e672048657265736965"
+}
