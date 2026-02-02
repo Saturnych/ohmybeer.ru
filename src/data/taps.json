@@ -361,7 +361,7 @@
   {
     "id": 18,
     "tap": 21,
-    "brewery": "WS Brew",
+    "brewery": "White Stone",
     "beer": "Вишневый Бум",
     "style": "Sour",
     "format": "РОЗЛИВ",
@@ -375,8 +375,8 @@
     "beer_abv": 4.2,
     "beer_ibu": 7,
     "beer_style": "Fruit Beer",
-    "term": "WS Brew Вишневый Бум",
-    "hash": "5753204272657720d092d0b8d188d0bdd0b5d0b2d18bd0b920d091d183d0bc"
+    "term": "Вишневый Бум",
+    "hash": "57686974652053746f6e6520d092d0b8d188d0bdd0b5d0b2d18bd0b920d091d183d0bc"
   },
   {
     "id": 19,

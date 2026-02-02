@@ -21,13 +21,15 @@ const {
 export const untappdApiCall = async (
 	method_name: string,
 	qstring?: string,
+	skipToken?: boolean,
 ): Record<string, any> => {
 	let data: Record<string, any> = {};
 	try {
 		if ((PRIVATE_UNTAPPD_API_URL || '').length > 0) {
-			const auth: string = !!PRIVATE_UNTAPPD_ACCESS_TOKEN
-				? `access_token=${PRIVATE_UNTAPPD_ACCESS_TOKEN}`
-				: `client_id=${PRIVATE_UNTAPPD_CLIENT_ID}&client_secret=${PRIVATE_UNTAPPD_CLIENT_SECRET}`;
+			const auth: string =
+				!!PRIVATE_UNTAPPD_ACCESS_TOKEN && !skipToken
+					? `access_token=${PRIVATE_UNTAPPD_ACCESS_TOKEN}`
+					: `client_id=${PRIVATE_UNTAPPD_CLIENT_ID}&client_secret=${PRIVATE_UNTAPPD_CLIENT_SECRET}`;
 			const apiURI: string = `${PRIVATE_UNTAPPD_API_URL}/${method_name}?${qstring ? qstring + '&' : ''}${auth}`;
 			const response: any = await fetch(apiURI, {
 				method: 'GET',
@@ -46,8 +48,9 @@ export const untappdApiCall = async (
 
 export const searchBeer = async (searchstring: string): Promise<Record<string, any>> => {
 	const qstring: string = encodeURI(`q=${searchstring}`);
-	const result = await untappdApiCall('search/beer', qstring);
-	return Object.assign({ beers: {}, now: Date.now() }, result.response);
+	let result = await untappdApiCall('search/beer', qstring);
+	if (result.meta.code !== 200) result = await untappdApiCall('search/beer', qstring, true);
+	return Object.assign({ beers: {}, now: Date.now(), meta: result.meta }, result.response);
 };
 
 export const searchTap = async (tap: Record<string, any>): Promise<Record<string, any>> => {
@@ -56,8 +59,10 @@ export const searchTap = async (tap: Record<string, any>): Promise<Record<string
 	let searchstringHash: string = hashWithTextEncoder(searchstring);
 
 	const beerContent = readFileSync(`./src/data/beers/${searchstringHash}.json`);
+	//console.log('searchstringHash:', searchstringHash);
 	beer = !!beerContent ? parseJson(beerContent) : null;
-	if (beer?.id) {
+	//console.log('beer:', beer?.id);
+	if (beer?.brewery) {
 		const breweryContent = readFileSync(`./src/data/breweries/${beer.brewery}.json`);
 		brewery = !!breweryContent ? parseJson(breweryContent) : null;
 	}
@@ -65,11 +70,9 @@ export const searchTap = async (tap: Record<string, any>): Promise<Record<string
 	if (!beer || !brewery) {
 		let { beers, term, parsed_term, found } = await searchBeer(searchstring);
 
-		if (!found && tap.brewery?.length > 1 && tap.brewery.startsWith('White Stone')) {
-			tap.brewery = 'WS Brew';
-			searchstring = `WS Brew ${tap.beer}`;
-			const searched = await searchBeer(searchstring);
-			console.log('searched:', searched);
+		if (!found) {
+			const searched = await searchBeer(tap.beer);
+			//console.log('searched:', searched);
 			if (!!searched.found) {
 				beers = searched.beers;
 				found = searched.found;
