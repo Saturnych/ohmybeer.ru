@@ -1,0 +1,23 @@
+{
+  "brewery_id": 454914,
+  "brewery_name": "SALIWA",
+  "brewery_slug": "saliwa-brew",
+  "brewery_page_url": "/SALIWABROVAR",
+  "brewery_type": "Nano Brewery",
+  "brewery_label": "https://assets.untappd.com/site/brewery_logos/brewery-454914_89102.jpeg",
+  "country_name": "Russia",
+  "contact": {
+    "twitter": "",
+    "facebook": "",
+    "instagram": "saliwa_spb",
+    "url": "https://t.me/saliwa_spb"
+  },
+  "location": {
+    "brewery_city": "Saint Petersburg",
+    "brewery_state": "Санкт-Петербург",
+    "lat": 59.9873009,
+    "lng": 30.3430996
+  },
+  "brewery_active": 1,
+  "id": "saliwa-brew"
+}

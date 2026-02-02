@@ -1,0 +1,20 @@
+{
+  "bid": 6543347,
+  "beer_name": "Kite Rider",
+  "beer_label": "https://assets.untappd.com/site/beer_logos/beer-6543347_aed2c_sm.jpeg",
+  "beer_abv": 5.5,
+  "beer_slug": "stamm-brewing-kite-rider",
+  "beer_ibu": 0,
+  "beer_description": "Lager hopped with Nelson Sauvin",
+  "created_at": "Tue, 23 Dec 2025 09:57:56 +0000",
+  "beer_style": "Lager - Other",
+  "in_production": 1,
+  "auth_rating": 0,
+  "wish_list": false,
+  "checkin_count": 282,
+  "id": "stamm-brewing-kite-rider",
+  "brewery": "stamm-brewing",
+  "term": "Stamm Kite Rider",
+  "parsed_term": "Stamm Kite Rider",
+  "hash": 1837579241
+}

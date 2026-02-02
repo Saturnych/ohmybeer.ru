@@ -1,16 +1,16 @@
 ---
-import { getCollection, getEntry } from 'astro:content';
+import { getCollection } from 'astro:content';
 import { getPriceTableData } from '$/lib/price';
 import { searchTaps } from '$/lib/untappd';
-import { dateToIntlFormat } from '$/lib/utils';
+import { dateToIntlFormat, saveJsonFile } from '$/lib/utils';
 import siteData from '$/data/site.json';
 import Layout from '$/layouts/Layout.astro';
 
-const header = `На кранах`;
-const title = `${header} || ${siteData.name}`;
-
 const { DEV } = import.meta.env;
 console.log('DEV:', DEV);
+
+const header = `На кранах`;
+const title = `${header} || ${siteData.name}`;
 
 let { taps, updatedAt } = await getPriceTableData();
 let tapsCollection: Record<string, any>[] = [];
@@ -18,31 +18,44 @@ let tapsCollection: Record<string, any>[] = [];
 if (taps?.length < 1) {
 	tapsCollection = await getCollection('taps');
 	if (tapsCollection?.length > 0) {
-		taps = tapsCollection.map((tci) => {
-			const { id, data } = tci;
+		taps = tapsCollection.map((item) => {
+			const { id, data } = item;
 			return {
 				...data,
 				id,
 			};
 		});
 	}
-} else if (DEV) {
-	const jsonBuffer = Buffer.from(JSON.stringify(taps, null, 2), 'utf-8');
-	fs.writeFileSync('./src/data/taps.json', jsonBuffer);
+}
+
+const searchCollection: Record<string, any>[] = await getCollection('search');
+if (searchCollection?.length > 0) {
+	taps = searchCollection.map((item) => {
+		const { id, data } = item;
+		return {
+			...data,
+			id,
+		};
+	});
+}
+
+if (DEV) {
+	if (taps?.length > 0) {
+		saveJsonFile(taps, './src/data/taps.json');
+	}
+	let search = { results: [], taps: [] };
+	//search = await searchTaps(taps);
+	if (search?.taps?.length > 0) {
+		taps = Object.assign(taps, search.taps);
+		console.log('search?.taps:', taps);
+		saveJsonFile(taps, './src/data/search.taps.json');
+	}
 }
 
 updatedAt = taps.length > 0 ? dateToIntlFormat(taps[0].updatedAt) : '';
-console.log('taps.length:', taps.length);
 console.log('updatedAt:', updatedAt);
-
-if (DEV) {
-	//const beers: Record<string, any>[] = await getCollection('beers');
-	//console.log('beers.length:', beers.length);
-	//const brewery: Record<string, any> = await getEntry('breweries', beers[0].data.brewery.id);
-	//console.log('brewery:', brewery.data);
-	//const search = await searchTaps(taps);
-	//console.log('searchTaps:', JSON.stringify(search, null, 2));
-}
+console.log('taps.length:', taps.length);
+//console.log('taps:', taps);
 ---
 
 <Layout title={title}>
@@ -58,19 +71,22 @@ if (DEV) {
 					taps.map((item) => (
 						<li class="menu__item">
 							<div class="menu__item-header">
-								<span class="menu__item-name">{item.tap}.</span>
 								<span class="menu__item-name">
-									{`${!!item.brewery ? item.brewery + ' -' : '⟡'}`}
+									{`${item.tap}. `}
+									{`${!!item.brewery_name && item.brewery_name?.length < 20 && !!item.brewery ? item.brewery_name : !!item.brewery ? item.brewery : '⟡'} -`}
 								</span>
-								<span class="menu__item-name">{item.beer}</span>
-								<span class="badge">{`${!!item.style ? item.style : '★'}`}</span>
-								{item.badge && (
-									<span class={`badge badge--${item.badge}`}>
-										{item.badge === 'featured' ? '★ Featured' : '⟡ Seasonal'}
-									</span>
+								<span class="menu__item-name">
+									{!!item.beer_name && item.beer_name?.length < 30 ? item.beer_name : item.beer}
+								</span>
+								<span class="badge">{item.beer_style || item.style || '★'}</span>
+								{!!item.beer_abv && (
+									<span class={`badge badge--featured`}>ABV: {item.beer_abv}</span>
+								)}
+								{!!item.beer_ibu && (
+									<span class={`badge badge--seasonal`}>IBU:{item.beer_ibu}</span>
 								)}
 							</div>
-							<p class="menu__item-desc">{item.description}</p>
+							{item.badge && <p class="menu__item-desc">{item.description}</p>}
 						</li>
 					))
 				}

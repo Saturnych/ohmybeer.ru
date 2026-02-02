@@ -1,0 +1,20 @@
+{
+  "bid": 1443184,
+  "beer_name": "Rise Of The Zombies",
+  "beer_label": "https://assets.untappd.com/site/beer_logos/beer-1443184_90bd9_sm.jpeg",
+  "beer_abv": 6.3,
+  "beer_slug": "plan-b-brewery-rise-of-the-zombies",
+  "beer_ibu": 50,
+  "beer_description": "Мощное пиво, где горечь абсолютно не давит и отлично вписывается в общую хвойно-цитрусовую картину на легком фруктовом фоне.",
+  "created_at": "Fri, 26 Feb 2016 18:43:39 +0000",
+  "beer_style": "Pale Ale - American",
+  "in_production": 1,
+  "auth_rating": 0,
+  "wish_list": false,
+  "checkin_count": 6585,
+  "id": "plan-b-brewery-rise-of-the-zombies",
+  "brewery": "plan-b-brewery",
+  "term": "Plan B Rise Of The Zombies",
+  "parsed_term": "Plan B Rise Of The Zombies",
+  "hash": 1403903255
+}

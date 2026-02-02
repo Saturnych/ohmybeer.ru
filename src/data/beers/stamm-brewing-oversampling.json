@@ -1,0 +1,20 @@
+{
+  "bid": 6536200,
+  "beer_name": "Oversampling",
+  "beer_label": "https://assets.untappd.com/site/beer_logos/beer-6536200_47074_sm.jpeg",
+  "beer_abv": 7,
+  "beer_slug": "stamm-brewing-oversampling",
+  "beer_ibu": 0,
+  "beer_description": "New England IPA, hopped with Krush, Cashmere, Citra, Strata",
+  "created_at": "Thu, 18 Dec 2025 11:10:40 +0000",
+  "beer_style": "IPA - New England / Hazy",
+  "in_production": 1,
+  "auth_rating": 0,
+  "wish_list": false,
+  "checkin_count": 457,
+  "id": "stamm-brewing-oversampling",
+  "brewery": "stamm-brewing",
+  "term": "Stamm Oversampling",
+  "parsed_term": "Stamm Oversampling",
+  "hash": -583652005
+}

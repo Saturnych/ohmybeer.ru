@@ -11,6 +11,9 @@ export const dateToIntlFormat = (
 	return new Intl.DateTimeFormat(locale, format).format(new Date(strDate));
 };
 
+export const saveJsonFile = async (data: Record<string, any>, filename: string): Promise<void> =>
+	fs.writeFileSync(filename, Buffer.from(JSON.stringify(data, null, 2), 'utf-8'));
+
 export const postForm = async (frm: Record<string, unknown>, uri: string): Record<string, any> => {
 	const ret = {
 		status: 400,

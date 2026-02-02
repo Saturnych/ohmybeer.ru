@@ -1,0 +1,20 @@
+{
+  "bid": 6245262,
+  "beer_name": "Tripod",
+  "beer_label": "https://assets.untappd.com/site/beer_logos/beer-6245262_5e778_sm.jpeg",
+  "beer_abv": 5.5,
+  "beer_slug": "horror-brewing-tripod",
+  "beer_ibu": 0,
+  "beer_description": "Light and dry ale with hops from the UK",
+  "created_at": "Mon, 28 Apr 2025 12:06:30 +0000",
+  "beer_style": "Pale Ale - English",
+  "in_production": 1,
+  "auth_rating": 0,
+  "wish_list": false,
+  "checkin_count": 270,
+  "id": "horror-brewing-tripod",
+  "brewery": "horror-brewing",
+  "term": "Horror Brewing Tripod",
+  "parsed_term": "Horror Brewing Tripod",
+  "hash": 1471368848
+}

@@ -1,0 +1,23 @@
+{
+  "brewery_id": 533612,
+  "brewery_name": "Horror Brewing ",
+  "brewery_slug": "horror-brewing",
+  "brewery_page_url": "/HorrorBrewing",
+  "brewery_type": "Contract Brewery",
+  "brewery_label": "https://assets.untappd.com/site/brewery_logos/brewery-533612_9de36.jpeg",
+  "country_name": "Russia",
+  "contact": {
+    "twitter": "",
+    "facebook": "",
+    "instagram": "horror_brewing",
+    "url": ""
+  },
+  "location": {
+    "brewery_city": "Moscow",
+    "brewery_state": "Moscow",
+    "lat": 0,
+    "lng": 0
+  },
+  "brewery_active": 1,
+  "id": "horror-brewing"
+}

@@ -1,4 +1,5 @@
-// untappd
+import { hashCode, saveJsonFile } from '$/lib/utils';
+
 const {
 	DEV,
 	PRIVATE_UNTAPPD_API_URL,
@@ -37,18 +38,66 @@ export const untappdApiCall = async (
 	return data;
 };
 
-export const searchBeer = async (brewery: string, name: string): Promise<Record<string, any>> => {
-	const qstring: string = encodeURI(`q=${brewery} ${name}`);
+export const searchBeer = async (brewery: string, beer: string): Promise<Record<string, any>> => {
+	const qstring: string = encodeURI(`q=${brewery}${beer}`);
 	const result = await untappdApiCall('search/beer', qstring);
-	console.log('searchBeer result:', result);
 	return Object.assign({ beers: {}, now: Date.now() }, result.response);
 };
 
-export const searchTaps = async (taps: any[]): Promise<Record<string, any>> => {
-	const { brewery, name } = taps[0].data;
-	console.log('brewery:', brewery);
-	console.log('name:', name);
-	return await searchBeer(brewery, name);
+export const searchTap = async (tap: Record<string, any>): Promise<Record<string, any>> => {
+	let { beers, found, term, parsed_term } = await searchBeer(
+		tap.brewery ? tap.brewery + ' ' : '',
+		tap.beer,
+	);
+
+	if (!found && tap.brewery?.length > 1 && tap.brewery.startsWith('White Stone')) {
+		const searched = await searchBeer('WS Brew ', tap.beer);
+		if (!!searched.found) {
+			beers = searched.beers;
+			found = searched.found;
+			term = searched.term;
+			parsed_term = searched.parsed_term;
+		}
+	}
+	if (DEV) console.log('found:', found);
+
+	let beer: Record<string, any>, brewery: Record<string, any>;
+	if (!!found > 0) {
+		beer = beers.items[0].beer;
+		beer.checkin_count = beers.items[0].checkin_count;
+		beer.id = beer.beer_slug;
+		brewery = beers.items[0].brewery;
+		brewery.id = brewery.brewery_slug;
+		beer.brewery = brewery.id;
+		beer.term = term;
+		beer.parsed_term = parsed_term;
+		beer.hash = hashCode(term);
+		if (DEV) {
+			saveJsonFile(beer, `./src/data/beers/${beer.id}.json`);
+			saveJsonFile(brewery, `./src/data/breweries/${brewery.id}.json`);
+		}
+	}
+	return { beer, brewery };
+};
+
+export const searchTaps = async (taps: any[]): Promise<Record<string, any>[]> => {
+	const results: any[] = [];
+	for (let i: number = 0; i < taps.length; i++) {
+		const { beer, brewery } = await searchTap(taps[i]);
+		if (!!beer && !!brewery) {
+			results.push({ beer, brewery });
+			taps[i].brewery_name = brewery.brewery_name.trim();
+			taps[i].brewery_slug = brewery.brewery_slug;
+			taps[i].brewery_type = brewery.brewery_type.trim();
+			taps[i].beer_name = beer.beer_name.trim();
+			taps[i].beer_slug = beer.beer_slug;
+			taps[i].beer_abv = beer.beer_abv;
+			taps[i].beer_ibu = beer.beer_ibu;
+			taps[i].beer_style = beer.beer_style.trim();
+			taps[i].term = beer.term.trim();
+		}
+	}
+	return { results, taps };
 };
 
 /*

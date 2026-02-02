@@ -47,6 +47,10 @@ const beers = defineCollection({
 		created_at: z.string(),
 		in_production: z.number(),
 		checkin_count: z.number().optional(),
+		term: z.string().optional(),
+		parsed_term: z.string().optional(),
+		//pubDate: z.coerce.date().optional(),
+		//updatedDate: z.coerce.date().optional(),
 		// Reference a single brewery from the `breweries` collection by `id`
 		brewery: reference('breweries'),
 	}),
@@ -57,20 +61,46 @@ const taps = defineCollection({
 	schema: z.object({
 		tap: z.number(),
 		brewery: z.string().optional(),
+		brewery_name: z.string().optional(),
+		brewery_slug: z.string().optional(),
+		brewery_type: z.string().optional(),
 		beer: z.string(),
+		beer_name: z.string().optional(),
+		beer_slug: z.string().optional(),
+		beer_abv: z.number().optional(),
+		beer_ibu: z.number().optional(),
+		beer_style: z.string().optional(),
 		style: z.string().optional(),
 		format: z.string().optional(),
 		country: z.string().optional(),
 		updatedAt: z.string(),
-		abv: z.number().optional(),
-		ibu: z.number().optional(),
-		//type: z.enum(['Space Probe', 'Mars Rover', 'Comet Lander']),
-		//status: z.enum(['Active', 'Inactive', 'Decommissioned']),
 		//comments: z.array(z.string()),
 	}),
 });
 
-export const collections = { taps, breweries, beers };
+const search = defineCollection({
+	loader: file('./src/data/search.json', { parser: (text) => JSON.parse(text) }),
+	schema: z.object({
+		tap: z.number(),
+		brewery: z.string().optional(),
+		brewery_name: z.string().optional(),
+		brewery_slug: z.string().optional(),
+		brewery_type: z.string().optional(),
+		beer: z.string(),
+		beer_name: z.string().optional(),
+		beer_slug: z.string().optional(),
+		beer_abv: z.number().optional(),
+		beer_ibu: z.number().optional(),
+		beer_style: z.string().optional(),
+		style: z.string().optional(),
+		format: z.string().optional(),
+		country: z.string().optional(),
+		updatedAt: z.string(),
+		//comments: z.array(z.string()),
+	}),
+});
+
+export const collections = { beers, breweries, taps, search };
 
 /*
 {
