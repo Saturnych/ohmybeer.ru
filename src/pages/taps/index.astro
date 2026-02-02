@@ -2,13 +2,9 @@
 import { getCollection } from 'astro:content';
 import { getPriceTableData } from '$/lib/price';
 import { searchTaps } from '$/lib/untappd';
-import { dateToIntlFormat, saveJsonFile } from '$/lib/utils';
+import { dateToIntlFormat, hashWithTextEncoder, saveJsonFile } from '$/lib/utils';
 import siteData from '$/data/site.json';
 import Layout from '$/layouts/Layout.astro';
-
-const { DEV } = import.meta.env;
-console.log('');
-console.log('DEV:', DEV);
 
 const header = `На кранах`;
 const title = `${header} || ${siteData.name}`;
@@ -35,13 +31,16 @@ const search: Record<string, any[]> = ({
 	taps: [],
 } = await searchTaps(taps));
 if (search?.taps?.length > 0) {
+	console.log(`\nsearch search.taps:`, search.taps[18]);
+	saveJsonFile(search?.taps, './src/data/search.json');
 	taps = taps.map((tap) => {
-		const { hash } = tap;
+		let { beer, brewery, hash } = tap;
+		if (!hash) hash = hashWithTextEncoder(`${brewery ? brewery + ' ' : ''}${beer}`);
+		console.log(`\nsearch hash:`, hash);
 		const foundTap = search.taps.find((tap) => tap.hash === hash);
+		console.log(`\nsearch foundTap:`, foundTap?.beer_slug, foundTap?.hash);
 		return foundTap ? Object.assign(tap, foundTap) : tap;
 	});
-	console.log('search taps.length:', taps.length);
-	saveJsonFile(taps, './src/data/search.json');
 }
 if (taps?.length > 0) {
 	saveJsonFile(taps, './src/data/taps.json');

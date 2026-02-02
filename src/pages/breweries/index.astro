@@ -1,15 +1,11 @@
 ---
-import { getCollection, getEntry } from 'astro:content';
+import { getCollection } from 'astro:content';
 import siteData from '$/data/site.json';
 import Layout from '$/layouts/Layout.astro';
 
-const { DEV } = import.meta.env;
-console.log('');
-console.log('DEV:', DEV);
-
 const breweriesCollection = await getCollection('breweries');
 const breweries: Record<string, any>[] = breweriesCollection.map((item) => item.data);
-console.log('breweries?.length:', breweries?.length);
+console.log(`\nbreweries?.length:`, breweries?.length);
 
 const header = `Пивоварни`;
 const title = `${header} || ${siteData.name}`;

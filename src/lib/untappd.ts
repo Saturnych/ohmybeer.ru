@@ -63,23 +63,23 @@ export const searchTap = async (tap: Record<string, any>): Promise<Record<string
 	}
 
 	if (!beer || !brewery) {
-		let { beers, found, term, parsed_term } = await searchBeer(searchstring);
+		let { beers, term, parsed_term, found } = await searchBeer(searchstring);
 
 		if (!found && tap.brewery?.length > 1 && tap.brewery.startsWith('White Stone')) {
 			tap.brewery = 'WS Brew';
 			searchstring = `WS Brew ${tap.beer}`;
 			const searched = await searchBeer(searchstring);
+			console.log('searched:', searched);
 			if (!!searched.found) {
 				beers = searched.beers;
 				found = searched.found;
 				term = searched.term;
 				parsed_term = searched.parsed_term;
-				searchstringHash = hashWithTextEncoder(searchstring);
 			}
 		}
 		console.log('found:', found);
 
-		if (!!found > 0) {
+		if (found && found > 0) {
 			beer = beers.items[0].beer;
 			beer.checkin_count = beers.items[0].checkin_count;
 			beer.id = beer.beer_slug;
