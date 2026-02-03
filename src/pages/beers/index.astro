@@ -9,6 +9,6 @@ const description = `Страница не найдена`;
 const fullDescription = `Извините, страница, которую вы ищете, не найдена.`;
 ---
 
-<Layout title={title} description={description}>
+<Layout title={title} description={description} redirect={'/'}>
 	<Error header={header} description={description} fullDescription={fullDescription} />
 </Layout>

@@ -34,7 +34,6 @@ export const untappdApiCall = async (
 			const response: any = await fetch(apiURI, {
 				method: 'GET',
 				headers: {
-					//'Authorization': `Bearer ${token}`,
 					'Content-Type': 'application/json',
 				},
 			});
@@ -58,8 +57,7 @@ export const searchTap = async (tap: Record<string, any>): Promise<Record<string
 	let searchstring: string = `${tap.brewery ? tap.brewery + ' ' : ''}${tap.beer}`;
 	let searchstringHash: string = hashWithTextEncoder(searchstring);
 
-	const beerContent = readFileSync(`./src/data/beers/${searchstringHash}.json`);
-	//console.log('searchstringHash:', searchstringHash);
+	const beerContent = readFileSync(`./src/data/beers_hash/${searchstringHash}.json`);
 	beer = !!beerContent ? parseJson(beerContent) : null;
 	//console.log('beer:', beer?.id);
 	if (beer?.brewery) {
@@ -92,7 +90,7 @@ export const searchTap = async (tap: Record<string, any>): Promise<Record<string
 			beer.term = term;
 			beer.parsed_term = parsed_term;
 			beer.hash = searchstringHash;
-			const beerHashFile = `./src/data/beers/${searchstringHash}.json`;
+			const beerHashFile = `./src/data/beers_hash/${searchstringHash}.json`;
 			if (!fileExists(beerHashFile)) saveJsonFile(beer, beerHashFile);
 			const beerFile = `./src/data/beers/${beer.id}.json`;
 			if (!fileExists(beerFile)) saveJsonFile(beer, beerFile);

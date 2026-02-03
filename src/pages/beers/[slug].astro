@@ -4,16 +4,19 @@ import siteData from '$/data/site.json';
 import Layout from '$/layouts/Layout.astro';
 
 export const getStaticPaths = async () => {
-	const breweriesCollection = await getCollection('breweries');
-	const breweries: Record<string, any>[] = breweriesCollection.map((item) => item.data);
-	return breweries.map((item) => ({ params: { slug: item.brewery_slug } }));
+	const beersCollection = await getCollection('beers');
+	const beers: Record<string, any>[] = beersCollection.map((item) => item.data);
+	return beers.map((item) => ({ params: { slug: item.beer_slug } }));
 };
 
-const breweryCollection = await getEntry('breweries', Astro.params.slug);
+const beerCollection = await getEntry('beers', Astro.params.slug);
+const beer: Record<string, any> = beerCollection.data;
+const breweryCollection = await getEntry('breweries', beer.brewery.id);
 const brewery: Record<string, any> = breweryCollection.data;
 console.log(`\nbrewery:`, brewery?.brewery_name);
+console.log(`beer:`, beer?.beer_name);
 
-const header = `Пивоварни`;
+const header = `Сорта пива`;
 const title = `${header} || ${siteData.name}`;
 ---
 
@@ -23,7 +26,7 @@ const title = `${header} || ${siteData.name}`;
 			<h2 id="articles-title" class="section__title">{header}</h2>
 			<article class="article-card">
 				<div class="article-card__content">
-					<h4 class="menu__category-title">{brewery.brewery_name}</h4>
+					<h4 class="menu__category-title">{brewery.brewery_name} - {beer.beer_name}</h4>
 				</div>
 			</article>
 		</div>

@@ -6,12 +6,13 @@ import { dateToIntlFormat, hashWithTextEncoder, saveJsonFile } from '$/lib/utils
 import siteData from '$/data/site.json';
 import Layout from '$/layouts/Layout.astro';
 
+const { DEV } = import.meta.env;
+console.log('');
+
 const header = `На кранах`;
 const title = `${header} || ${siteData.name}`;
 
 let { taps, updatedAt }: { taps: any[]; updatedAt: string } = await getPriceTableData();
-
-//const searchCollection: Record<string, any>[] = await getCollection('search');
 
 if (taps?.length < 1) {
 	const tapsCollection: Record<string, any>[] = await getCollection('taps');
@@ -36,9 +37,8 @@ if (search?.taps?.length > 0) {
 	taps = taps.map((tap) => {
 		let { beer, brewery, hash } = tap;
 		if (!hash) hash = hashWithTextEncoder(`${brewery ? brewery + ' ' : ''}${beer}`);
-		//console.log(`\nsearch hash:`, hash);
 		const foundTap = search.taps.find((tap) => tap.hash === hash);
-		//console.log(`\nsearch foundTap:`, foundTap?.beer_slug, foundTap?.hash);
+		//if (DEV) console.log(`\nsearch foundTap:`, foundTap?.beer_slug, foundTap?.hash);
 		return foundTap ? Object.assign(tap, foundTap) : tap;
 	});
 }

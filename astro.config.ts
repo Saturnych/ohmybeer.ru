@@ -5,4 +5,7 @@ export default defineConfig({
 	output: 'static',
 	//outDir: './dist',
 	publicDir: './static', // .public
+	redirects: {
+		'/beers': '/taps',
+	},
 });
