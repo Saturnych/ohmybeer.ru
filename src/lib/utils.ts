@@ -13,9 +13,9 @@ export const dateToIntlFormat = (
 	return new Intl.DateTimeFormat(locale, format).format(new Date(strDate));
 };
 
-export const fileExists = (filename: string): boolean => {
+export const fileExists = (filename: string, mode: number = fs.constants.F_OK): boolean => {
 	try {
-		fs.accessSync(filename, fs.constants.F_OK);
+		fs.accessSync(filename, mode); // fs.constants.R_OK, fs.constants.W_OK
 		return true;
 	} catch (err) {
 		return false;
