@@ -65,13 +65,15 @@ console.log('taps.length:', taps.length);
 					taps.map((item) => (
 						<li class="menu__item">
 							<div class="menu__item-header">
-								<span class="menu__item-name">
-									{`${item.tap}. `}
-									{`${!!item.brewery_name && item.brewery_name?.length < 20 && !!item.brewery ? item.brewery_name : !!item.brewery ? item.brewery : '⟡'} -`}
-								</span>
-								<span class="menu__item-name">
-									{!!item.beer_name && item.beer_name?.length < 30 ? item.beer_name : item.beer}
-								</span>
+								<a href={`/beers/${item.beer_slug}`}>
+									<span class="menu__item-name">
+										{`${item.tap}. `}
+										{`${!!item.brewery_name && item.brewery_name?.length < 20 && !!item.brewery ? item.brewery_name : !!item.brewery ? item.brewery : '⟡'} -`}
+									</span>
+									<span class="menu__item-name">
+										{!!item.beer_name && item.beer_name?.length < 30 ? item.beer_name : item.beer}
+									</span>
+								</a>
 								<span class="badge">{item.beer_style || item.style || '★'}</span>
 								{!!item.beer_abv && (
 									<span class={`badge badge--featured`}>ABV: {item.beer_abv}</span>
@@ -204,6 +206,21 @@ console.log('taps.length:', taps.length);
 	.menu__item-name {
 		font-weight: 600;
 		color: var(--color-secondary);
+	}
+
+	.menu__item a {
+		color: var(--color-secondary);
+		text-decoration: none;
+		transition: color var(--transition-fast);
+	}
+
+	.menu__item a:hover {
+		color: var(--color-secondary);
+	}
+
+	.menu__item a:focus-visible {
+		outline: 2px solid var(--color-secondary);
+		outline-offset: 2px;
 	}
 
 	.menu__item-desc {
