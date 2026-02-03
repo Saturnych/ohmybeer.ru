@@ -44,6 +44,12 @@ const title = `${header} || ${siteData.name}`;
 					</div>
 
 				</div>
+				<div class="article-card__link">
+                    <a href={`/taps/`} class="article-card__read-more">
+                        <span class="article-card__arrow" aria-hidden="true">&lt;-</span>
+                        Назад
+                    </a>
+				</div>
 			</div>
 		</div>
 	</section>
@@ -139,6 +145,7 @@ const title = `${header} || ${siteData.name}`;
 		color: var(--color-secondary);
 		text-decoration: none;
 		transition: color var(--transition-fast);
+		margin-top: var(--space-4);
 	}
 
 	.article-card__link:hover {
