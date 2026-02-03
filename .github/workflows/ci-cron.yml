@@ -2,6 +2,7 @@ name: Cron GH Pages workflow
 
 on:
   schedule:
+    #- cron: '0 * * * *'
     - cron: '0 */2 * * *'
     #- cron: '*/20 * * * *'
 

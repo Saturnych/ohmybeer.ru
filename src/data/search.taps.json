@@ -16,7 +16,8 @@
     "beer_abv": 5.4,
     "beer_ibu": 50,
     "beer_style": "Pale Ale - American",
-    "term": "White Stone Схватка"
+    "term": "White Stone Схватка",
+    "hash": "57686974652053746f6e6520d0a1d185d0b2d0b0d182d0bad0b0"
   },
   {
     "id": 1,
@@ -35,7 +36,8 @@
     "beer_abv": 4.7,
     "beer_ibu": 45,
     "beer_style": "Pilsner - New Zealand",
-    "term": "Zagovor Liquid Sapience"
+    "term": "Zagovor Liquid Sapience",
+    "hash": "5a61676f766f72204c69717569642053617069656e6365"
   },
   {
     "id": 2,
@@ -54,7 +56,8 @@
     "beer_abv": 5,
     "beer_ibu": 20,
     "beer_style": "Lager - Helles",
-    "term": "Big Village Village Helles"
+    "term": "Big Village Village Helles",
+    "hash": "4269672056696c6c6167652056696c6c6167652048656c6c6573"
   },
   {
     "id": 3,
@@ -73,7 +76,8 @@
     "beer_abv": 7,
     "beer_ibu": 0,
     "beer_style": "IPA - New England / Hazy",
-    "term": "Stamm Oversampling"
+    "term": "Stamm Oversampling",
+    "hash": "5374616d6d204f76657273616d706c696e67"
   },
   {
     "id": 4,
@@ -92,7 +96,8 @@
     "beer_abv": 4.5,
     "beer_ibu": 0,
     "beer_style": "Wheat Beer - Hefeweizen",
-    "term": "Stamm StraBenbahn"
+    "term": "Stamm StraBenbahn",
+    "hash": "5374616d6d205374726142656e6261686e"
   },
   {
     "id": 5,
@@ -111,7 +116,8 @@
     "beer_abv": 5.5,
     "beer_ibu": 35,
     "beer_style": "IPA - Milkshake",
-    "term": "Gletcher Milk Of Amnesia"
+    "term": "Gletcher Milk Of Amnesia",
+    "hash": "476c657463686572204d696c6b204f6620416d6e65736961"
   },
   {
     "id": 6,
@@ -130,7 +136,8 @@
     "beer_abv": 5.8,
     "beer_ibu": 0,
     "beer_style": "Pale Ale - New England / Hazy",
-    "term": "Одна тонна Sunday Draft: Enigma   Idaho 7"
+    "term": "Одна тонна Sunday Draft: Enigma   Idaho 7",
+    "hash": "d09ed0b4d0bdd0b020d182d0bed0bdd0bdd0b02053756e6461792044726166743a20456e69676d61202b20496461686f2037"
   },
   {
     "id": 7,
@@ -149,7 +156,8 @@
     "beer_abv": 7,
     "beer_ibu": 70,
     "beer_style": "IPA - American",
-    "term": "Big Village Roadside Story"
+    "term": "Big Village Roadside Story",
+    "hash": "4269672056696c6c61676520526f6164736964652053746f7279"
   },
   {
     "id": 8,
@@ -168,7 +176,8 @@
     "beer_abv": 4.5,
     "beer_ibu": 37,
     "beer_style": "Lager - IPL (India Pale Lager)",
-    "term": "Midnight Project Zhigulikeller"
+    "term": "Midnight Project Zhigulikeller",
+    "hash": "4d69646e696768742050726f6a656374205a686967756c696b656c6c6572"
   },
   {
     "id": 9,
@@ -186,7 +195,8 @@
     "beer_abv": 5.5,
     "beer_ibu": 30,
     "beer_style": "Lager - Dortmunder / Export",
-    "term": "ZAGOVOR Здорово и Вечно"
+    "term": "ZAGOVOR Здорово и Вечно",
+    "hash": "5a41474f564f5220d097d0b4d0bed180d0bed0b2d0be20d0b820d092d0b5d187d0bdd0be"
   },
   {
     "id": 10,
@@ -205,7 +215,8 @@
     "beer_abv": 5.5,
     "beer_ibu": 0,
     "beer_style": "Lager - Other",
-    "term": "Stamm Kite Rider"
+    "term": "Stamm Kite Rider",
+    "hash": "5374616d6d204b697465205269646572"
   },
   {
     "id": 11,
@@ -224,7 +235,8 @@
     "beer_abv": 8.2,
     "beer_ibu": 45,
     "beer_style": "Stout - Russian Imperial",
-    "term": "Augustine Имперский Стаут"
+    "term": "Augustine Имперский Стаут",
+    "hash": "417567757374696e6520d098d0bcd0bfd0b5d180d181d0bad0b8d0b920d0a1d182d0b0d183d182"
   },
   {
     "id": 12,
@@ -243,7 +255,8 @@
     "beer_abv": 5,
     "beer_ibu": 0,
     "beer_style": "Cider - Dry",
-    "term": "Заповедник Абанамат"
+    "term": "Заповедник Абанамат",
+    "hash": "d097d0b0d0bfd0bed0b2d0b5d0b4d0bdd0b8d0ba20d090d0b1d0b0d0bdd0b0d0bcd0b0d182"
   },
   {
     "id": 13,
@@ -262,7 +275,8 @@
     "beer_abv": 6.3,
     "beer_ibu": 50,
     "beer_style": "Pale Ale - American",
-    "term": "Plan B Rise Of The Zombies"
+    "term": "Plan B Rise Of The Zombies",
+    "hash": "506c616e20422052697365204f6620546865205a6f6d62696573"
   },
   {
     "id": 14,
@@ -281,7 +295,8 @@
     "beer_abv": 6,
     "beer_ibu": 55,
     "beer_style": "IPA - American",
-    "term": "ZAGOVOR Midnight Moscow"
+    "term": "ZAGOVOR Midnight Moscow",
+    "hash": "5a41474f564f52204d69646e69676874204d6f73636f77"
   },
   {
     "id": 15,
@@ -300,7 +315,8 @@
     "beer_abv": 8,
     "beer_ibu": 60,
     "beer_style": "IPA - Imperial / Double",
-    "term": "Saliwa Михалыч"
+    "term": "Saliwa Михалыч",
+    "hash": "53616c69776120d09cd0b8d185d0b0d0bbd18bd187"
   },
   {
     "id": 16,
@@ -319,7 +335,8 @@
     "beer_abv": 4.7,
     "beer_ibu": 9,
     "beer_style": "Wheat Beer - Witbier / Blanche",
-    "term": "Augustine Карт-Бланш"
+    "term": "Augustine Карт-Бланш",
+    "hash": "417567757374696e6520d09ad0b0d180d1822dd091d0bbd0b0d0bdd188"
   },
   {
     "id": 17,
@@ -338,7 +355,8 @@
     "beer_abv": 6.5,
     "beer_ibu": 50,
     "beer_style": "IPA - American",
-    "term": "Plan B Ковбой Мальборо"
+    "term": "Plan B Ковбой Мальборо",
+    "hash": "506c616e204220d09ad0bed0b2d0b1d0bed0b920d09cd0b0d0bbd18cd0b1d0bed180d0be"
   },
   {
     "id": 18,
@@ -357,7 +375,8 @@
     "beer_abv": 4.2,
     "beer_ibu": 7,
     "beer_style": "Fruit Beer",
-    "term": "WS Brew Вишневый Бум"
+    "term": "Вишневый Бум",
+    "hash": "57686974652053746f6e6520d092d0b8d188d0bdd0b5d0b2d18bd0b920d091d183d0bc"
   },
   {
     "id": 19,
@@ -376,7 +395,8 @@
     "beer_abv": 6.2,
     "beer_ibu": 71,
     "beer_style": "IPA - American",
-    "term": "White Stone В Духе Времени 79"
+    "term": "White Stone В Духе Времени 79",
+    "hash": "57686974652053746f6e6520d09220d094d183d185d0b520d092d180d0b5d0bcd0b5d0bdd0b8203739"
   },
   {
     "id": 20,
@@ -395,7 +415,8 @@
     "beer_abv": 6.6,
     "beer_ibu": 50,
     "beer_style": "IPA - New England / Hazy",
-    "term": "Solbirs The Bomb"
+    "term": "Solbirs The Bomb",
+    "hash": "536f6c626972732054686520426f6d62"
   },
   {
     "id": 21,
@@ -414,7 +435,8 @@
     "beer_abv": 6,
     "beer_ibu": 25,
     "beer_style": "Pale Ale - New England / Hazy",
-    "term": "Big Village Pacification"
+    "term": "Big Village Pacification",
+    "hash": "4269672056696c6c61676520506163696669636174696f6e"
   },
   {
     "id": 22,
@@ -433,7 +455,8 @@
     "beer_abv": 8,
     "beer_ibu": 0,
     "beer_style": "IPA - Imperial / Double",
-    "term": "Horror Brewing Heresie"
+    "term": "Horror Brewing Heresie",
+    "hash": "486f72726f722042726577696e672048657265736965"
   },
   {
     "id": 23,
@@ -450,7 +473,8 @@
     "beer_abv": 4,
     "beer_ibu": 0,
     "beer_style": "Stout - Irish Dry",
-    "term": "Black Sheep Irish Stout"
+    "term": "Black Sheep Irish Stout",
+    "hash": "426c61636b2053686565702049726973682053746f7574"
   },
   {
     "id": 24,
@@ -468,7 +492,8 @@
     "beer_abv": 5.5,
     "beer_ibu": 0,
     "beer_style": "Märzen",
-    "term": "Хамовники Кеговое"
+    "term": "Хамовники Кеговое",
+    "hash": "d0a5d0b0d0bcd0bed0b2d0bdd0b8d0bad0b820d09ad0b5d0b3d0bed0b2d0bed0b5"
   },
   {
     "id": 25,
@@ -487,6 +512,7 @@
     "beer_abv": 5.5,
     "beer_ibu": 0,
     "beer_style": "Pale Ale - English",
-    "term": "Horror Brewing Tripod"
+    "term": "Horror Brewing Tripod",
+    "hash": "486f72726f722042726577696e6720547269706f64"
   }
 ]
