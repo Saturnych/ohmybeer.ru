@@ -19,39 +19,14 @@
 		"holiday": null
 	},
 	"tagline": "<nobr>Крафтовый бар.</nobr> <nobr>Отличные напитки.</nobr> <nobr>Лучшие люди.</nobr>",
-	"menu": [
-		{
-			"category": "Drafts",
-			"items": [
-				{ "name": "House Pilsner", "description": "Crisp, clean, local", "badge": null },
-				{ "name": "Brooklyn Lager", "description": "Amber Vienna-style", "badge": null },
-				{ "name": "Rotating IPA", "description": "Ask your bartender", "badge": "seasonal" },
-				{ "name": "Guinness", "description": "The classic stout", "badge": null }
-			]
-		},
-		{
-			"category": "Craft Cocktails",
-			"items": [
-				{
-					"name": "Oh, My Beer!",
-					"description": "A refreshing blend of beer and citrus",
-					"badge": "featured"
-				},
-				{ "name": "Beer Garden", "description": "A classic beer cocktail", "badge": null },
-				{ "name": "Beer Martini", "description": "A twist on the classic martini", "badge": null },
-				{
-					"name": "Beer Mojito",
-					"description": "A refreshing twist on the classic mojito",
-					"badge": null
-				}
-			]
-		}
-	],
 	"social": {
 		"telegram": "https://t.me/ohmybeerbar"
 	},
 	"seo": {
 		"metaTitle": "Oh, My Beer! || Крафтовый бар в Москве",
-		"metaDescription": "Oh, My Beer! - это крафтовый бар на юге Москвы, где вы можете насладиться широким выбором крафтовых напитков."
+		"metaDescription": "Oh, My Beer! - это крафтовый бар на юге Москвы, где вы можете насладиться широким выбором крафтовых напитков.",
+		"metaKeywords": "крафт, крафтовый бар, крафтовые напитки, крафтовое пиво, пиво, сидр, Москва, метро Варшавская",
+		"yandexVerification": "efc99e8f94e546d5",
+		"metrikaID": 106629449
 	}
 }

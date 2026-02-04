@@ -2,6 +2,7 @@
 import '$/styles/global.css';
 import siteData from '$/data/site.json';
 import pkg from '$/lib/pkg';
+import Metrika from '$/components/Metrika.astro';
 import Navbar from '$/components/Navbar.astro';
 import Footer from '$/components/Footer.astro';
 
@@ -11,6 +12,7 @@ interface Props {
 	name?: string;
 	title?: string;
 	description?: string;
+	keywords?: string;
 	lang?: string;
 	redirect?: string;
 }
@@ -19,6 +21,7 @@ const {
 	name = siteData.name,
 	title = siteData.seo.metaTitle,
 	description = siteData.seo.metaDescription,
+	keywords = siteData.seo.metaKeywords,
 	lang = 'ru',
 	redirect,
 } = Astro.props;
@@ -72,6 +75,7 @@ const structuredData = {
 		<title>{title}</title>
 		<meta name="title" content={title} />
 		<meta name="description" content={description} />
+		<meta name="keywords" content={keywords} />
 
 		<!-- Theme Color -->
 		<meta name="theme-color" content="#1a1a18" />
@@ -124,10 +128,12 @@ const structuredData = {
 		<meta name="robots" content="index, follow" />
 		<meta name="author" content={author?.name || siteData.author} />
 		<meta name="generator" content={Astro.generator} />
-		<meta name="yandex-verification" content="efc99e8f94e546d5" />
+		<meta name="yandex-verification" content={siteData.seo.yandexVerification} />
 
 		<!-- Structured Data / JSON-LD -->
 		<script type="application/ld+json" set:html={JSON.stringify(structuredData)} />
+
+		<Metrika />
 	</head>
 	<body>
 		<a href="#main-content" class="sr-only">На главную</a>
