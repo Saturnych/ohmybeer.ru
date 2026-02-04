@@ -22,13 +22,14 @@
 	"scripts": {
 		"dev": "astro dev --host --mode development --port 3333",
 		"build": "astro build",
-		"preview": "astro preview",
+		"preview": "astro preview --host --mode development --port 3333",
 		"astro": "astro",
 		"format": "prettier . --write",
 		"playwright": "playwright install",
 		"test": "playwright test"
 	},
 	"devDependencies": {
+		"@astrojs/sitemap": "^3.7.0",
 		"@playwright/test": "^1.58.1",
 		"@types/node": "^25.2.0",
 		"dotenv": "^17.2.3",
