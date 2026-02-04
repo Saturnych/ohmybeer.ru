@@ -18,9 +18,11 @@ console.log(`beer:`, beer?.beer_name);
 
 const header = `Пиво и сидры`;
 const title = `${brewery.brewery_name} - ${beer.beer_name} || ${header} || ${siteData.name}`;
+const description = `${brewery.brewery_name} - ${beer.beer_name}: ${beer.beer_description}`;
+
 ---
 
-<Layout title={title}>
+<Layout title={title} description={description}>
 	<section class="articles section" aria-labelledby="articles-title">
 		<div class="container">
 			<h2 id="articles-title" class="section__title">{header}</h2>
