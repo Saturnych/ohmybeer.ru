@@ -34,7 +34,7 @@ const title = `${brewery.brewery_name} - ${beer.beer_name} || ${header} || ${sit
                         <span class="badge badge--featured">Чекинов в UNTAPPD: {beer.checkin_count}</span>
     				</div>
     				<div>
-						<span class="badge">{beer.beer_style || beer.style || '★'}</span>
+						<span class="badge badge--seasonal">{beer.beer_style || beer.style || '★'}</span>
 					</div>
 					<div>
 						{!!beer.beer_abv && <span class={`badge badge--featured`}>ABV: {beer.beer_abv}</span>}

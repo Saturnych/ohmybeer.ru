@@ -74,15 +74,18 @@ console.log('taps.length:', taps.length);
 										{!!item.beer_name && item.beer_name?.length < 30 ? item.beer_name : item.beer}
 									</span>
 								</a>
-								<span class="badge">{item.beer_style || item.style || '★'}</span>
+								<span class="badge badge--seasonal">{item.beer_style || item.style || '★'}</span>
 								{!!item.beer_abv && (
 									<span class={`badge badge--featured`}>ABV: {item.beer_abv}</span>
 								)}
 								{!!item.beer_ibu && (
 									<span class={`badge badge--seasonal`}>IBU:{item.beer_ibu}</span>
 								)}
+								<a href={`/beers/${item.beer_slug}`}>
+									<span class="badge"> &gt; </span>
+								</a>
 							</div>
-							{item.badge && <p class="menu__item-desc">{item.description}</p>}
+							{item.desc && <p class="menu__item-desc">{item.desc}</p>}
 						</li>
 					))
 				}

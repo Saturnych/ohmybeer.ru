@@ -16,6 +16,8 @@
 	--color-primary-dim: #a88920;
 	--color-secondary: #f5f0e6; /* Warm cream */
 	--color-accent: #a85a32; /* Terracotta */
+	--color-okay: green;
+	--color-error: red;
 
 	--color-text: #e8e4dc; /* Off-white */
 	--color-text-muted: #9a968e;
@@ -349,7 +351,7 @@ small {
 	text-transform: uppercase;
 	letter-spacing: 0.05em;
 	border-radius: var(--radius-sm);
-	background-color: var(--color-accent);
+	background-color: var(--color-okay);
 	color: var(--color-secondary);
 }
 
