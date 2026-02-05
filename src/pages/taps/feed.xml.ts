@@ -18,11 +18,13 @@ const getYMLFeed = async (site: string = pkg.homepage): Promise<string> => {
 
 	const { updatedAt } = taps[0];
 
+	const isAvailable = (beer_slug: string) => !!taps.find((tap) => tap.beer_slug === beer_slug);
+
 	// <vendorCode>VNDR-0005A, VNDR-0005B</vendorCode>
 	const offers: Record<string, any>[] = [
 		{
 			id: 3318394,
-			available: !!taps.find((tap) => tap.beer_slug === 'white-stone-shvatka'),
+			available: isAvailable('white-stone-shvatka'),
 			categoryId: 101,
 			count: 500,
 			measure: 'mlit',
@@ -39,7 +41,7 @@ const getYMLFeed = async (site: string = pkg.homepage): Promise<string> => {
 		},
 		{
 			id: 3069407,
-			available: !!taps.find((tap) => tap.beer_slug === 'midnight-project-zhigulikkeller'),
+			available: isAvailable('midnight-project-zhigulikkeller'),
 			categoryId: 101,
 			count: 500,
 			measure: 'mlit',
@@ -57,7 +59,7 @@ const getYMLFeed = async (site: string = pkg.homepage): Promise<string> => {
 		},
 		{
 			id: 1963594,
-			available: !!taps.find((tap) => tap.beer_slug === 'zapovednik-abanamat'),
+			available: isAvailable('zapovednik-abanamat'),
 			categoryId: categories.find((category) => category.name === 'Сидр')?.id || categories[0].id,
 			count: 500,
 			measure: 'mlit',
