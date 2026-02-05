@@ -2727,6 +2727,11 @@ wrap-ansi@^9.0.0:
     string-width "^7.0.0"
     strip-ansi "^7.1.0"
 
+xldx@^0.0.1:
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/xldx/-/xldx-0.0.1.tgz#65450a4195571b270ae6b8c8f805c035b1f1771f"
+  integrity sha512-ogQFr+uZRDhPi2h4F4SHs20zFs+lcYeLDw4CROKbG43fFjSa3K7x2HWxuZm4qkqNaSNutoL0x4X9RA4vWqOtfg==
+
 xxhash-wasm@^1.1.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/xxhash-wasm/-/xxhash-wasm-1.1.0.tgz#ffe7f0b98220a4afac171e3fb9b6d1f8771f015e"

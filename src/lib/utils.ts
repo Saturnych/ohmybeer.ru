@@ -208,3 +208,12 @@ export const parseJson = (data: string, obj?: object[] | object | undefined) => 
 	}
 	return obj;
 };
+
+export const encodeHTMLEntities = (str: string): string => {
+	return String(str)
+		.replace(/&/g, '&amp;')
+		.replace(/</g, '&lt;')
+		.replace(/>/g, '&gt;')
+		.replace(/"/g, '&quot;')
+		.replace(/'/g, '&apos;');
+};

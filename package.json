@@ -39,7 +39,8 @@
 	},
 	"dependencies": {
 		"astro": "^5.17.1",
-		"cheerio": "^1.2.0"
+		"cheerio": "^1.2.0",
+		"xldx": "^0.0.1"
 	},
 	"engines": {
 		"node": ">=22.15.0"
