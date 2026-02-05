@@ -16,6 +16,9 @@ const getYMLFeed = async (site: string = pkg.homepage): Promise<string> => {
 	const taps: Record<string, any>[] = tapsCollection.map((item) => item.data);
 	console.log(taps?.length);
 
+	const { updatedAt } = taps[0];
+
+	// <vendorCode>VNDR-0005A, VNDR-0005B</vendorCode>
 	const offers: Record<string, any>[] = [
 		{
 			id: 3318394,
@@ -31,6 +34,8 @@ const getYMLFeed = async (site: string = pkg.homepage): Promise<string> => {
 			description:
 				'Этот Pale Ale для кого-то резкий и колючий, как третья линия, для кого-то слишком мощный и далёкий, как великаны второй, а для кого-то - уютный и добродушный, как могучие игроки первой. Пиво сварено в честь Регбийного Клуба "Спартак Москва", и если ты держишь эту банку в руках, то ты либо лучший из лучших, либо сказочный везунчик!',
 			url: `${site}beers/white-stone-shvatka/`,
+			abv: '5.4',
+			ibu: '50',
 		},
 		{
 			id: 3069407,
@@ -47,6 +52,8 @@ const getYMLFeed = async (site: string = pkg.homepage): Promise<string> => {
 			description:
 				'Collaboration w/ Mikkeller and Selfmade brewery. According to GOST but GOES beyond. DDH Citra & Simcoe hops',
 			url: `${site}beers/midnight-project-zhigulikkeller/`,
+			abv: '4.5',
+			ibu: '37',
 		},
 		{
 			id: 1963594,
@@ -62,10 +69,12 @@ const getYMLFeed = async (site: string = pkg.homepage): Promise<string> => {
 			description:
 				'Сухой сидр, яблоки для которого собраны непосредственно на территории и в окрестностях Мемориального музея-заповедника А. С. Пушкина «Михайловское». Часть яблок собрана в саду дома, в котором жил Валерий Карпов, он же Марков из "Заповедника" Сергея Довлатова. Для АБАНАМАТА мы давили сок из Антоновки, Мельбы, Китайки и Лешуги (так в наших местах называют дикую яблоню).',
 			url: `${site}beers/zapovednik-abanamat/`,
+			abv: '5',
 		},
 	];
 
-	return `<yml_catalog>
+	return `<?xml version="1.0" encoding="UTF-8"?>
+	<yml_catalog date="${updatedAt}">
   <shop>
     <categories>
       ${categories.map((category) => `<category id="${category.id}">${category.name}</category>`).join('\n')}
@@ -84,6 +93,10 @@ const getYMLFeed = async (site: string = pkg.homepage): Promise<string> => {
         <shortDescription>${encodeHTMLEntities(offer.shortDescription)}</shortDescription>
         <description>${encodeHTMLEntities(offer.description)}</description>
         <url>${offer.url}</url>
+        ${offer.abv ? `<param name="ABV">${offer.abv}</param>` : ''}
+        ${offer.ibu ? `<param name="IBU">${offer.ibu}</param>` : ''}
+        <age unit="year">18</age>
+        <pickup>true</pickup>
       </offer>`,
 				)
 				.join('\n')}
