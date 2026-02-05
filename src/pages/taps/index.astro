@@ -65,7 +65,7 @@ console.log('taps.length:', taps.length);
 					taps.map((item) => (
 						<li class="menu__item">
 							<div class="menu__item-header">
-								<a href={`/beers/${item.beer_slug}`}>
+								<a href={`/beers/${item.beer_slug}/`}>
 									<span class="menu__item-name">
 										{`${item.tap}. `}
 										{`${!!item.brewery_name && item.brewery_name?.length < 20 && !!item.brewery ? item.brewery_name : !!item.brewery ? item.brewery : '⟡'} -`}
@@ -81,7 +81,7 @@ console.log('taps.length:', taps.length);
 								{!!item.beer_ibu && (
 									<span class={`badge badge--seasonal`}>IBU:{item.beer_ibu}</span>
 								)}
-								<a href={`/beers/${item.beer_slug}`}>
+								<a href={`/beers/${item.beer_slug}/`}>
 									<span class="badge"> &gt; </span>
 								</a>
 							</div>

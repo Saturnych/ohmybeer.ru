@@ -2,7 +2,7 @@
 import siteData from '$/data/site.json';
 
 const navItems = [
-	{ label: 'На кранах', href: '/taps' },
+	{ label: 'На кранах', href: '/taps/' },
 	{ label: 'Расположение', href: '/#location' },
 	{ label: 'Контакты', href: '/#contact' },
 ];
@@ -10,7 +10,7 @@ const navItems = [
 
 <nav class="navbar" aria-label="Main navigation">
 	<div class="navbar__container">
-		<a href="/#top" class="navbar__logo" aria-label={siteData.name}>
+		<a href="/" class="navbar__logo" aria-label={siteData.name}>
 			<span class="navbar__logo-text">{siteData.shortName}</span>
 		</a>
 
