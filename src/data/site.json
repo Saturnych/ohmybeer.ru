@@ -11,9 +11,12 @@
 		"crossStreets": "рядом со ст. м. Варшавская"
 	},
 	"coordinates": {
-		"lat": 55.65164,
-		"lng": 37.61346
+		"lat": 55.651646,
+		"lng": 37.613452
 	},
+	"ymEmbedUrl": "https://yandex.ru/map-widget/v1/?z=12&ol=biz&oid=46074874210",
+	"ymFullUrl": "https://yandex.ru/maps/?ll=37.613452%2C55.651646&z=17&l=map&source=constructor&oid=46074874210",
+	"ymShortUrl": "https://yandex.ru/maps/-/CPENeOM3",
 	"openingHours": {
 		"everyday": "с 13:00 до 23:00",
 		"holiday": null

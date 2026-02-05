@@ -1,12 +1,13 @@
 ---
 import siteData from '$/data/site.json';
 
-const { coordinates, address, openingHours } = siteData;
+const { name, address, openingHours, ymEmbedUrl, ymShortUrl } = siteData;
 
-const mapsUrl = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(address.full)}`;
+const mapsUrl = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(address.full + ', ' + name)}`;
 
 // OpenStreetMap embed URL - using the coordinates from the data
-const osmEmbedUrl = `https://www.openstreetmap.org/export/embed.html?bbox=${coordinates.lng - 0.005}%2C${coordinates.lat - 0.003}%2C${coordinates.lng + 0.005}%2C${coordinates.lat + 0.003}&layer=mapnik&marker=${coordinates.lat}%2C${coordinates.lng}`;
+//const osmEmbedUrl = `https://www.openstreetmap.org/export/embed.html?bbox=${coordinates.lng - 0.005}%2C${coordinates.lat - 0.003}%2C${coordinates.lng + 0.005}%2C${coordinates.lat + 0.003}&layer=mapnik&marker=${coordinates.lat}%2C${coordinates.lng}`;
+//const osmFullUrl = `https://www.openstreetmap.org/?mlat=${coordinates.lat}&mlon=${coordinates.lng}#map=17/${coordinates.lat}/${coordinates.lng}`;
 ---
 
 <section class="location section section--alt" aria-labelledby="location-title" id="location">
@@ -47,16 +48,12 @@ const osmEmbedUrl = `https://www.openstreetmap.org/export/embed.html?bbox=${coor
 			<div class="location__map-wrapper">
 				<iframe
 					class="location__map"
-					title="Location of The Quiet Bar on OpenStreetMap"
-					src={osmEmbedUrl}
+					title="Мы на карте"
+					src={ymEmbedUrl}
 					loading="lazy"
-					referrerpolicy="no-referrer"></iframe>
-				<a
-					href={`https://www.openstreetmap.org/?mlat=${coordinates.lat}&mlon=${coordinates.lng}#map=17/${coordinates.lat}/${coordinates.lng}`}
-					class="location__map-link"
-					target="_blank"
-					rel="noopener noreferrer"
-				>
+					referrerpolicy="no-referrer"
+					frameborder="0"></iframe>
+				<a href={ymShortUrl} class="location__map-link" target="_blank" rel="noopener noreferrer">
 					На большую карту
 				</a>
 			</div>
