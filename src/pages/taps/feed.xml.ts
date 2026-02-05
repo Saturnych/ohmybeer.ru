@@ -38,7 +38,7 @@ const getYMLFeed = async (site: string = pkg.homepage): Promise<string> => {
         <shortDescription>Lager - IPL (India Pale Lager), ABV: 4.5, IBU: 37, Чекинов в UNTAPPD: 6642</shortDescription>
         <url>${site}/beers/midnight-project-zhigulikkeller/</url>
       </offer>
-      <offer id="3069407">
+      <offer id="1963594">
         <name>Заповедник - АБАНАМАТ</name>
         <vendor>Заповедник</vendor>
         <categoryId>102</categoryId>
