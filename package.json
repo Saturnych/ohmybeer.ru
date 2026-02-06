@@ -40,7 +40,8 @@
 	"dependencies": {
 		"astro": "^5.17.1",
 		"cheerio": "^1.2.0",
-		"read-excel-file": "^6.0.3"
+		"read-excel-file": "^6.0.3",
+		"xlsx": "^0.18.5"
 	},
 	"engines": {
 		"node": ">=22.15.0"

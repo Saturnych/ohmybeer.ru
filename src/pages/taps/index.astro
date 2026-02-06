@@ -1,6 +1,6 @@
 ---
 import { getCollection } from 'astro:content';
-import { getPriceTableData } from '$/lib/price';
+import { getPriceTableData, parseExcelPrice, readExcelFile } from '$/lib/price';
 import { searchTaps } from '$/lib/untappd';
 import { dateToIntlFormat, hashWithTextEncoder, saveJsonFile } from '$/lib/utils';
 import siteData from '$/data/site.json';
@@ -8,6 +8,12 @@ import Layout from '$/layouts/Layout.astro';
 
 const { DEV } = import.meta.env;
 console.log('');
+
+const filename = './src/data/rozliv.xlsx';
+const workbook = readExcelFile(filename);
+console.log('workbook:', Object.keys(workbook));
+const priceData = parseExcelPrice(workbook);
+console.log('priceData:', priceData);
 
 const header = `На кранах`;
 const title = `${header} || ${siteData.name}`;
