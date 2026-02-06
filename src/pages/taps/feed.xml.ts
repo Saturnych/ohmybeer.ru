@@ -1,79 +1,59 @@
 import type { APIRoute } from 'astro';
-import { getCollection } from 'astro:content';
+import { getCollection, getEntry } from 'astro:content';
 import { encodeHTMLEntities } from '$/lib/utils';
 import pkg from '$/lib/pkg';
 
 const getYMLFeed = async (site: string = pkg.homepage): Promise<string> => {
-	const categories = [
-		{ id: 101, name: 'Пиво', find: [] },
-		{ id: 102, name: 'Сидр', find: ['сидр', 'cider'] },
+	const categories: Record<string, string | number>[] = [
+		{ id: 101, name: 'Пиво' },
+		{ id: 102, name: 'Сидр' },
 	];
 
 	const beersCollection = await getCollection('beers');
 	const beers: Record<string, any>[] = beersCollection.map((item) => item.data);
-	console.log(beers?.length);
+	console.log(beers[0]);
 	const tapsCollection = await getCollection('taps');
 	const taps: Record<string, any>[] = tapsCollection.map((item) => item.data);
 	console.log(taps?.length);
 
 	const { updatedAt } = taps[0];
 
-	const isAvailable = (beer_slug: string) => !!taps.find((tap) => tap.beer_slug === beer_slug);
+	const findTap = (beer_slug: string) => taps.find((tap) => tap.beer_slug === beer_slug);
 
-	// <vendorCode>VNDR-0005A, VNDR-0005B</vendorCode>
-	const offers: Record<string, any>[] = [
-		{
-			id: 3318394,
-			available: isAvailable('white-stone-shvatka'),
-			categoryId: 101,
-			count: 500,
-			measure: 'mlit',
+	const isCider = (beer_style: string, beer_description: string): boolean => {
+		return (
+			beer_style.toLowerCase().includes('cider') ||
+			beer_description.toLowerCase().includes('cider') ||
+			beer_description.toLowerCase().includes('сидр')
+		);
+	};
+
+	const offers: Record<string, string | number | boolean>[] = [];
+	for (const beer of beers) {
+		const breweryCollection = await getEntry(beer.brewery.collection, beer.brewery.id);
+		const brewery: Record<string, any> = breweryCollection.data;
+		const tap = findTap(beer.beer_slug);
+		offers.push({
+			id: beer.bid,
+			available: !!tap,
+			categoryId: isCider(beer.beer_style, beer.beer_description)
+				? categories[1].id
+				: categories[0].id,
+			count: 0.5,
+			measure: 'lit',
 			price: 1,
 			currencyId: 'RUB',
-			name: 'White Stone - Схватка',
-			vendor: 'White Stone',
-			shortDescription: 'Pale Ale - American, ABV: 5.4, IBU: 50, Чекинов в UNTAPPD: 836',
-			description:
-				'Этот Pale Ale для кого-то резкий и колючий, как третья линия, для кого-то слишком мощный и далёкий, как великаны второй, а для кого-то - уютный и добродушный, как могучие игроки первой. Пиво сварено в честь Регбийного Клуба "Спартак Москва", и если ты держишь эту банку в руках, то ты либо лучший из лучших, либо сказочный везунчик!',
-			url: `${site}beers/white-stone-shvatka/`,
-			abv: '5.4',
-			ibu: '50',
-		},
-		{
-			id: 3069407,
-			available: isAvailable('midnight-project-zhigulikkeller'),
-			categoryId: 101,
-			count: 500,
-			measure: 'mlit',
-			price: 1,
-			currencyId: 'RUB',
-			name: 'Midnight Project - Zhigulikkeller',
-			vendor: 'Midnight Project',
-			shortDescription:
-				'Lager - IPL (India Pale Lager), ABV: 4.5, IBU: 37, Чекинов в UNTAPPD: 6642',
-			description:
-				'Collaboration w/ Mikkeller and Selfmade brewery. According to GOST but GOES beyond. DDH Citra & Simcoe hops',
-			url: `${site}beers/midnight-project-zhigulikkeller/`,
-			abv: '4.5',
-			ibu: '37',
-		},
-		{
-			id: 1963594,
-			available: isAvailable('zapovednik-abanamat'),
-			categoryId: categories.find((category) => category.name === 'Сидр')?.id || categories[0].id,
-			count: 500,
-			measure: 'mlit',
-			price: 1,
-			currencyId: 'RUB',
-			name: 'Заповедник - АБАНАМАТ',
-			vendor: 'Заповедник',
-			shortDescription: 'Cider - Dry, ABV: 5, Чекинов в UNTAPPD: 7647',
-			description:
-				'Сухой сидр, яблоки для которого собраны непосредственно на территории и в окрестностях Мемориального музея-заповедника А. С. Пушкина «Михайловское». Часть яблок собрана в саду дома, в котором жил Валерий Карпов, он же Марков из "Заповедника" Сергея Довлатова. Для АБАНАМАТА мы давили сок из Антоновки, Мельбы, Китайки и Лешуги (так в наших местах называют дикую яблоню).',
-			url: `${site}beers/zapovednik-abanamat/`,
-			abv: '5',
-		},
-	];
+			name: `${brewery.brewery_name} - ${beer.beer_name}`,
+			vendor: brewery.brewery_name,
+			shortDescription: `${beer.beer_style}${beer.beer_abv > 0 ? ', ABV: ' + beer.beer_abv : ''}${beer.beer_ibu > 0 ? ', IBU: ' + beer.beer_ibu : ''}, Чекинов в Untappd: ${beer.checkin_count}`,
+			description: beer.beer_description,
+			url: `${site}beers/${beer.beer_slug}/`,
+			abv: beer.beer_abv,
+			ibu: beer.beer_ibu,
+			tap: tap ? tap.tap : 1000,
+		});
+	}
+	offers.sort((a, b) => a.tap - b.tap);
 
 	return `<?xml version="1.0" encoding="UTF-8"?>
 	<yml_catalog date="${updatedAt}">
@@ -95,10 +75,10 @@ const getYMLFeed = async (site: string = pkg.homepage): Promise<string> => {
         <shortDescription>${encodeHTMLEntities(offer.shortDescription)}</shortDescription>
         <description>${encodeHTMLEntities(offer.description)}</description>
         <url>${offer.url}</url>
-        ${offer.abv ? `<param name="ABV">${offer.abv}</param>` : ''}
-        ${offer.ibu ? `<param name="IBU">${offer.ibu}</param>` : ''}
+        ${offer.abv > 0 ? `<param name="ABV">${offer.abv}</param>` : ''}
+        ${offer.ibu > 0 ? `<param name="IBU">${offer.ibu}</param>` : ''}
+        <pickup>${String(offer.available)}</pickup>
         <age unit="year">18</age>
-        <pickup>true</pickup>
       </offer>`,
 				)
 				.join('\n')}
