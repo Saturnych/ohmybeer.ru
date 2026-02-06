@@ -39,8 +39,8 @@ const getYMLFeed = async (site: string = pkg.homepage): Promise<string> => {
 			categoryId: isCider(beer.beer_style, beer.beer_description)
 				? categories[1].id
 				: categories[0].id,
-			count: 0.5,
-			measure: 'lit',
+			count: 500,
+			measure: 'мл',
 			price: 1,
 			currencyId: 'RUB',
 			name: `${!!tap?.brewery && brewery.brewery_name?.length > 20 ? tap.brewery : brewery.brewery_name} - ${beer.beer_name}`,
