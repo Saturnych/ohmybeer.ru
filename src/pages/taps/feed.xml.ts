@@ -11,10 +11,10 @@ const getYMLFeed = async (site: string = pkg.homepage): Promise<string> => {
 
 	const beersCollection = await getCollection('beers');
 	const beers: Record<string, any>[] = beersCollection.map((item) => item.data);
-	console.log(beers[0]);
+	console.log(beers?.length);
 	const tapsCollection = await getCollection('taps');
 	const taps: Record<string, any>[] = tapsCollection.map((item) => item.data);
-	console.log(taps?.length);
+	console.log(taps[0]);
 
 	const { updatedAt } = taps[0];
 
@@ -43,7 +43,7 @@ const getYMLFeed = async (site: string = pkg.homepage): Promise<string> => {
 			measure: 'lit',
 			price: 1,
 			currencyId: 'RUB',
-			name: `${brewery.brewery_name} - ${beer.beer_name}`,
+			name: `${!!tap?.brewery && brewery.brewery_name?.length > 20 ? tap.brewery : brewery.brewery_name} - ${beer.beer_name}`,
 			vendor: brewery.brewery_name,
 			shortDescription: `${beer.beer_style}${beer.beer_abv > 0 ? ', ABV: ' + beer.beer_abv : ''}${beer.beer_ibu > 0 ? ', IBU: ' + beer.beer_ibu : ''}, Чекинов в Untappd: ${beer.checkin_count}`,
 			description: beer.beer_description,
