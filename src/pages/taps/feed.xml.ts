@@ -41,7 +41,7 @@ const getYMLFeed = async (site: string = pkg.homepage): Promise<string> => {
 				: categories[0].id,
 			count: 500,
 			measure: 'mlit',
-			price: 1,
+			price: !!tap?.price ? Math.round(tap.price / 2) : 1,
 			currencyId: 'RUB',
 			name: `${!!tap?.brewery && brewery.brewery_name?.length > 20 ? tap.brewery : brewery.brewery_name} - ${beer.beer_name}`,
 			vendor: brewery.brewery_name,

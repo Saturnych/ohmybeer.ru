@@ -49,6 +49,7 @@ const beers = defineCollection({
 		checkin_count: z.number().optional(),
 		term: z.string().optional(),
 		parsed_term: z.string().optional(),
+		price: z.number().optional(),
 		//pubDate: z.coerce.date().optional(),
 		//updatedDate: z.coerce.date().optional(),
 		// Reference a single brewery from the `breweries` collection by `id`
@@ -73,6 +74,7 @@ const taps = defineCollection({
 		style: z.string().optional(),
 		format: z.string().optional(),
 		country: z.string().optional(),
+		price: z.number().optional(),
 		updatedAt: z.string(),
 		//comments: z.array(z.string()),
 	}),
