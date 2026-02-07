@@ -1,4 +1,54 @@
+import axios from 'axios';
+import axiosRetry from 'axios-retry';
 import fs from 'fs';
+
+export const axiosRetryConfig = (axiosClient: any = axios, config?: Record<string, any>): void => {
+	// Pass the axios instance to the retry function and call it
+	if (!config)
+		config = {
+			retries: 5, // Number of retries (Defaults to 3)
+			//retryDelay: (...arg) => axiosRetry.exponentialDelay(...arg, 1000), // Exponential delay with backoff of 1000ms
+			retryDelay: (retryCount) => retryCount * 2000, // Increase timeout by 2000ms per retry
+			//retryCondition: () => true, // Retry all errors
+			retryCondition(error) {
+				// Conditional check the error status code
+				switch (error.response.status) {
+					case 503:
+					case 429:
+						return true; // Retry request with response status code 503 or 429
+					default:
+						return false; // Do not retry the others
+				}
+			},
+		};
+	axiosRetry(axiosClient, config);
+};
+
+export const axiosRequest = async (
+	uri: string,
+	baseURL: string,
+	headers: Record<string, any> = {},
+	type: 'get' | 'put' | 'post' | 'patch' | 'delete' = 'get',
+	data: Buffer | string | object = null,
+	params: Record<string, any> = null,
+	retryConfig?: Record<string, any>,
+	cb?: Function,
+	eb?: Function,
+): Promise<Record<string, any>> => {
+	try {
+		const axiosClient = axios.create({ baseURL, headers });
+		axiosRetryConfig(axiosClient, retryConfig);
+		if (cb) {
+			return axiosClient[type](uri, data, params).then((resp) => cb(resp));
+		} else {
+			return axiosClient[type](uri, data, params);
+		}
+	} catch (error) {
+		console.error('axiosRequest error:', error);
+		// if (axios.isAxiosError(error)) {}
+		return eb ? eb(error) : { error };
+	}
+};
 
 // utils
 export const dateToIntlFormat = (

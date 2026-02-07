@@ -1,32 +1,16 @@
-import * as fs from 'fs';
-import * as XLSX from 'xlsx/xlsx.mjs';
+import xlsx from 'node-xlsx';
 import { getTableData } from '$/lib/cheerio';
-import { fileExists } from '$/lib/utils';
+import { axiosRequest, fileExists } from '$/lib/utils';
 
 const { PRIVATE_PRICE_URL } = import.meta.env;
 
-export const readExcelFile = (filename: string): Record<string, any> => {
+export const parseExcelFile = (
+	filename: string,
+): Record<string, { name: string; data: any[] }>[] => {
 	if (!fileExists(filename)) {
 		return null;
 	}
-	XLSX.set_fs(fs);
-	const workbook = XLSX.readFile(filename);
-	return workbook?.Sheets || {};
-};
-
-export const parseExcelPrice = (data: Record<string, any>): Record<string, any>[] => {
-	const result: Record<string, any>[] = [];
-	for (const name in data) {
-		const sheet = data[name];
-		for (const cell in sheet) {
-			const col = cell.substring(0, 1);
-			const row = cell.substring(1);
-			if (sheet[cell]?.v) {
-				result.push({ col, row, name: sheet[cell].v });
-			}
-		}
-	}
-	return result;
+	return xlsx.parse(filename);
 };
 
 export const getPriceTableData = async (): Record<string, object> => {
@@ -36,8 +20,9 @@ export const getPriceTableData = async (): Record<string, object> => {
 	};
 	try {
 		if ((PRIVATE_PRICE_URL || '').length > 0) {
-			const response: any = await fetch(PRIVATE_PRICE_URL);
-			const remote: string = await response.text();
+			const url: URL = new URL(PRIVATE_PRICE_URL);
+			const response: any = await axiosRequest(url.pathname, url.origin);
+			const remote: string = response?.data || '';
 			res = getTableData(remote);
 		}
 	} catch (err) {

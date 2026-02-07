@@ -1,6 +1,5 @@
 // cheerio
 import * as cheerio from 'cheerio';
-import { dateToIntlFormat } from '$/lib/utils';
 
 const { DEV } = import.meta.env;
 
@@ -27,7 +26,7 @@ export const getTableData = (source: string): string => {
 		.map((m) => m.trim())
 		.reverse()
 		.join('-')}T${updated[1]}`;
-	console.log('updatedAt:', updatedAt);
+	if (DEV) console.log('getTableData updatedAt:', updatedAt);
 	const taps: object[] = [];
 	const table = $('div[id=table-row]').find('.table').find('tbody').children('tr');
 	table.each((id, el) => {
@@ -64,6 +63,7 @@ export const getTableData = (source: string): string => {
 		taps.push({
 			id,
 			tap,
+			name,
 			brewery,
 			beer,
 			style,

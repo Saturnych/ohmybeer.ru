@@ -39,9 +39,11 @@
 	},
 	"dependencies": {
 		"astro": "^5.17.1",
+		"axios": "^1.13.4",
+		"axios-retry": "^4.5.0",
 		"cheerio": "^1.2.0",
-		"read-excel-file": "^6.0.3",
-		"xlsx": "^0.18.5"
+		"node-xlsx": "^0.24.0",
+		"read-excel-file": "^6.0.3"
 	},
 	"engines": {
 		"node": ">=22.15.0"
