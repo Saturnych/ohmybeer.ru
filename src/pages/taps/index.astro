@@ -9,9 +9,6 @@ import Layout from '$/layouts/Layout.astro';
 const { DEV } = import.meta.env;
 console.log('');
 
-const header = `На кранах`;
-const title = `${header} || ${siteData.name}`;
-
 let { taps, updatedAt }: { taps: any[]; updatedAt: string } = await getPriceTableData();
 
 if (taps?.length < 1) {
@@ -58,6 +55,9 @@ updatedAt = taps.length > 0 ? dateToIntlFormat(taps[0].updatedAt) : '';
 console.log('updatedAt:', updatedAt);
 console.log('taps.length:', taps.length);
 //console.log('taps:', taps);
+
+const header = `На кранах`;
+const title = `${header} || ${siteData.name}`;
 ---
 
 <Layout title={title}>

@@ -9,12 +9,27 @@ export const getStaticPaths = async () => {
 	return beers.map((item) => ({ params: { slug: item.beer_slug } }));
 };
 
+let taps: Record<string, any>[] = [];
+const tapsCollection: Record<string, any>[] = await getCollection('taps');
+if (tapsCollection?.length > 0) {
+	taps = tapsCollection.map((item) => {
+		const { id, data } = item;
+		return {
+			...data,
+			id,
+		};
+	});
+}
+
 const beerCollection = await getEntry('beers', Astro.params.slug);
 const beer: Record<string, any> = beerCollection.data;
 const breweryCollection = await getEntry('breweries', beer.brewery.id);
 const brewery: Record<string, any> = breweryCollection.data;
-console.log(`\nbrewery:`, brewery?.brewery_name);
-console.log(`beer:`, beer?.beer_name);
+//console.log(`\nbrewery:`, brewery?.brewery_name);
+//console.log(`beer:`, beer?.beer_name);
+
+const tap = taps.find((tap) => tap.beer_slug === beer.beer_slug);
+//console.log(`tap:`, tap?.beer_name);
 
 const header = `Пиво и сидры`;
 const title = `${brewery.brewery_name} - ${beer.beer_name} || ${header} || ${siteData.name}`;
@@ -30,7 +45,7 @@ const description = `${brewery.brewery_name} - ${beer.beer_name}: ${beer.beer_de
 				<h3 class="article-card__title">
 					{brewery.brewery_name} - {beer.beer_name}
 				</h3>
-				{!!beer.beer_description && <p class="article-card__excerpt">{beer.beer_description}</p>}
+				{!!beer.beer_description && <p class="article-card__excerpt" set:html={beer.beer_description ? beer.beer_description.replace(/[\n]+/g, '<br />').trim() : ''}></p>}
 				<div class="articles__grid">
     				<div>
                         <span class="badge badge--featured">Чекинов в UNTAPPD: {beer.checkin_count}</span>
@@ -44,7 +59,9 @@ const description = `${brewery.brewery_name} - ${beer.beer_name}: ${beer.beer_de
 					<div>
 						{!!beer.beer_ibu && <span class={`badge badge--seasonal`}>IBU:{beer.beer_ibu}</span>}
 					</div>
-
+					<div>
+					    {!!tap?.price && <span class="badge">{Math.round(tap.price / 2) + ' ₽'}</span>}
+					</div>
 				</div>
 				<div class="article-card__link">
                     <a href={`/taps/`} class="article-card__read-more">
