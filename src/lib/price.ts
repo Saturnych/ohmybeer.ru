@@ -30,9 +30,3 @@ export const getPriceTableData = async (): Record<string, object> => {
 	}
 	return res;
 };
-
-export const saveTaps = async (): Record<string, object> => {
-	const { taps, updatedAt } = await getPriceTableData();
-
-	return { taps, updatedAt };
-};
