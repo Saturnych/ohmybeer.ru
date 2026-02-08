@@ -40,7 +40,9 @@ if (taps?.length > 0) {
 		if (!hash) hash = hashWithTextEncoder(`${brewery ? brewery + ' ' : ''}${beer}`);
 		let price: number = 0;
 		if (pricelist?.length > 0) {
-			price = pricelist.find((item) => item[0] === name && isNumeric(item[1]))?.[1] || 0;
+			const row: any[] = pricelist.find((item) => item[0] === name);
+			const last: number = (row?.length || 0) - 1;
+			price = last > 0 && isNumeric(row[last]) ? row[last] : 0;
 		}
 		let foundTap;
 		if (search?.taps?.length > 0) {
