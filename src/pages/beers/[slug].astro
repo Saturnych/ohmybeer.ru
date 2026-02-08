@@ -9,6 +9,13 @@ export const getStaticPaths = async () => {
 	return beers.map((item) => ({ params: { slug: item.beer_slug } }));
 };
 
+const beerCollection = await getEntry('beers', Astro.params.slug);
+const beer: Record<string, any> = beerCollection.data;
+const breweryCollection = await getEntry('breweries', beer.brewery.id);
+const brewery: Record<string, any> = breweryCollection.data;
+//console.log(`\nbrewery:`, brewery?.brewery_name);
+//console.log(`beer:`, beer?.beer_name);
+
 let taps: Record<string, any>[] = [];
 const tapsCollection: Record<string, any>[] = await getCollection('taps');
 if (tapsCollection?.length > 0) {
@@ -20,13 +27,6 @@ if (tapsCollection?.length > 0) {
 		};
 	});
 }
-
-const beerCollection = await getEntry('beers', Astro.params.slug);
-const beer: Record<string, any> = beerCollection.data;
-const breweryCollection = await getEntry('breweries', beer.brewery.id);
-const brewery: Record<string, any> = breweryCollection.data;
-//console.log(`\nbrewery:`, brewery?.brewery_name);
-//console.log(`beer:`, beer?.beer_name);
 
 const tap = taps.find((tap) => tap.beer_slug === beer.beer_slug);
 //console.log(`tap:`, tap?.beer_name);
