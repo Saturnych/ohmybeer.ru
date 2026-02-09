@@ -1,17 +1,7 @@
-import xlsx from 'node-xlsx';
 import { getTableData } from '$/lib/cheerio';
-import { axiosRequest, fileExists } from '$/lib/utils';
+import { axiosRequest } from '$/lib/utils';
 
 const { PRIVATE_PRICE_URL } = import.meta.env;
-
-export const parseExcelFile = (
-	filename: string,
-): Record<string, { name: string; data: any[] }>[] => {
-	if (!fileExists(filename)) {
-		return null;
-	}
-	return xlsx.parse(filename);
-};
 
 export const getPriceTableData = async (): Record<string, object> => {
 	let res: Record<string, object> = {

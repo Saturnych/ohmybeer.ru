@@ -1,6 +1,7 @@
 import axios from 'axios';
 import axiosRetry from 'axios-retry';
 import fs from 'fs';
+import xlsx from 'node-xlsx';
 
 export const axiosRetryConfig = (axiosClient: any = axios, config?: Record<string, any>): void => {
 	// Pass the axios instance to the retry function and call it
@@ -87,6 +88,15 @@ export const saveJsonFile = (data: Record<string, any>, filename: string): boole
 	} catch (err) {
 		return false;
 	}
+};
+
+export const parseExcelFile = (
+	filename: string,
+): Record<string, { name: string; data: any[] }>[] => {
+	if (!fileExists(filename)) {
+		return null;
+	}
+	return xlsx.parse(filename);
 };
 
 export const postForm = async (frm: Record<string, unknown>, uri: string): Record<string, any> => {

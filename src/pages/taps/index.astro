@@ -1,8 +1,14 @@
 ---
 import { getCollection } from 'astro:content';
-import { getPriceTableData, parseExcelFile } from '$/lib/price';
+import { getPriceTableData } from '$/lib/price';
 import { searchTaps } from '$/lib/untappd';
-import { dateToIntlFormat, hashWithTextEncoder, isNumeric, saveJsonFile } from '$/lib/utils';
+import {
+	dateToIntlFormat,
+	hashWithTextEncoder,
+	isNumeric,
+	parseExcelFile,
+	saveJsonFile,
+} from '$/lib/utils';
 import siteData from '$/data/site.json';
 import Layout from '$/layouts/Layout.astro';
 
