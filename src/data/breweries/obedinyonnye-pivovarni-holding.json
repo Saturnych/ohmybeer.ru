@@ -1,23 +1,23 @@
 {
-  "brewery_id": 78690,
-  "brewery_name": "Объединённые Пивоварни - Холдинг",
-  "brewery_slug": "obedinyonnye-pivovarni-holding",
-  "brewery_page_url": "/w/obedinyonnye-pivovarni-holding/78690",
-  "brewery_type": "Macro Brewery",
-  "brewery_label": "https://assets.untappd.com/site/brewery_logos/brewery-78690_28362.jpeg",
-  "country_name": "Russia",
-  "contact": {
-    "twitter": "",
-    "facebook": "",
-    "instagram": "",
-    "url": "https://unitedbrew.com/"
-  },
-  "location": {
-    "brewery_city": "Saint Petersburg",
-    "brewery_state": "Санкт-Петербург",
-    "lat": 59.8927002,
-    "lng": 30.4911995
-  },
-  "brewery_active": 1,
-  "id": "obedinyonnye-pivovarni-holding"
+	"brewery_id": 78690,
+	"brewery_name": "Объединённые Пивоварни - Холдинг",
+	"brewery_slug": "obedinyonnye-pivovarni-holding",
+	"brewery_page_url": "/w/obedinyonnye-pivovarni-holding/78690",
+	"brewery_type": "Macro Brewery",
+	"brewery_label": "https://assets.untappd.com/site/brewery_logos/brewery-78690_28362.jpeg",
+	"country_name": "Russia",
+	"contact": {
+		"twitter": "",
+		"facebook": "",
+		"instagram": "",
+		"url": "https://unitedbrew.com/"
+	},
+	"location": {
+		"brewery_city": "Saint Petersburg",
+		"brewery_state": "Санкт-Петербург",
+		"lat": 59.8927002,
+		"lng": 30.4911995
+	},
+	"brewery_active": 1,
+	"id": "obedinyonnye-pivovarni-holding"
 }

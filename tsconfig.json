@@ -9,8 +9,9 @@
 		"baseUrl": "./",
 		"types": ["astro/client"],
 		"paths": {
+			"$/*": ["src/*"],
 			"~/*": ["src/*"],
-			"$/*": ["src/*"]
+			"@/*": ["src/*"]
 		}
 	}
 }

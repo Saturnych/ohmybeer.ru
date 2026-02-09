@@ -1,23 +1,23 @@
 {
-  "brewery_id": 158657,
-  "brewery_name": "Augustine (Августин)",
-  "brewery_slug": "augustine-avgustin",
-  "brewery_page_url": "/AugustinebeerAdmin",
-  "brewery_type": "Micro Brewery",
-  "brewery_label": "https://assets.untappd.com/site/brewery_logos/brewery-158657_fb18a.jpeg",
-  "country_name": "Russia",
-  "contact": {
-    "twitter": "",
-    "facebook": "",
-    "instagram": "",
-    "url": "https://vk.com/augustine_tula"
-  },
-  "location": {
-    "brewery_city": "Тула",
-    "brewery_state": "Тульская Область",
-    "lat": 54.1790009,
-    "lng": 37.5984993
-  },
-  "brewery_active": 1,
-  "id": "augustine-avgustin"
+	"brewery_id": 158657,
+	"brewery_name": "Augustine (Августин)",
+	"brewery_slug": "augustine-avgustin",
+	"brewery_page_url": "/AugustinebeerAdmin",
+	"brewery_type": "Micro Brewery",
+	"brewery_label": "https://assets.untappd.com/site/brewery_logos/brewery-158657_fb18a.jpeg",
+	"country_name": "Russia",
+	"contact": {
+		"twitter": "",
+		"facebook": "",
+		"instagram": "",
+		"url": "https://vk.com/augustine_tula"
+	},
+	"location": {
+		"brewery_city": "Тула",
+		"brewery_state": "Тульская Область",
+		"lat": 54.1790009,
+		"lng": 37.5984993
+	},
+	"brewery_active": 1,
+	"id": "augustine-avgustin"
 }

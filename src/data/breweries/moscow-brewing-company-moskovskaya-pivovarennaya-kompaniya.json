@@ -1,23 +1,23 @@
 {
-  "brewery_id": 7165,
-  "brewery_name": "Moscow Brewing Company (Московская Пивоваренная Компания)",
-  "brewery_slug": "moscow-brewing-company-moskovskaya-pivovarennaya-kompaniya",
-  "brewery_page_url": "/Moscow_Brewing_Company___",
-  "brewery_type": "Macro Brewery",
-  "brewery_label": "https://assets.untappd.com/site/brewery_logos/brewery-MoskovskayaPivovarennayaKompaniya_7165.jpeg",
-  "country_name": "Russia",
-  "contact": {
-    "twitter": "mosbrew",
-    "facebook": "https://www.facebook.com/BEERandTALK",
-    "instagram": "mosbrew",
-    "url": "https://mosbrew.ru"
-  },
-  "location": {
-    "brewery_city": "Mytishchi",
-    "brewery_state": "Moskovskaya oblast'",
-    "lat": 55.9347,
-    "lng": 37.7425003
-  },
-  "brewery_active": 1,
-  "id": "moscow-brewing-company-moskovskaya-pivovarennaya-kompaniya"
+	"brewery_id": 7165,
+	"brewery_name": "Moscow Brewing Company (Московская Пивоваренная Компания)",
+	"brewery_slug": "moscow-brewing-company-moskovskaya-pivovarennaya-kompaniya",
+	"brewery_page_url": "/Moscow_Brewing_Company___",
+	"brewery_type": "Macro Brewery",
+	"brewery_label": "https://assets.untappd.com/site/brewery_logos/brewery-MoskovskayaPivovarennayaKompaniya_7165.jpeg",
+	"country_name": "Russia",
+	"contact": {
+		"twitter": "mosbrew",
+		"facebook": "https://www.facebook.com/BEERandTALK",
+		"instagram": "mosbrew",
+		"url": "https://mosbrew.ru"
+	},
+	"location": {
+		"brewery_city": "Mytishchi",
+		"brewery_state": "Moskovskaya oblast'",
+		"lat": 55.9347,
+		"lng": 37.7425003
+	},
+	"brewery_active": 1,
+	"id": "moscow-brewing-company-moskovskaya-pivovarennaya-kompaniya"
 }

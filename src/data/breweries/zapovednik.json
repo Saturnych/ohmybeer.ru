@@ -1,23 +1,23 @@
 {
-  "brewery_id": 327074,
-  "brewery_name": "Заповедник",
-  "brewery_slug": "zapovednik",
-  "brewery_page_url": "/Zapovednick",
-  "brewery_type": "Cidery",
-  "brewery_label": "https://assets.untappd.com/site/brewery_logos/brewery-327074_c95ca.jpeg",
-  "country_name": "Russia",
-  "contact": {
-    "twitter": "",
-    "facebook": "",
-    "instagram": "zapovednick",
-    "url": "https://t.me/zapovednick"
-  },
-  "location": {
-    "brewery_city": "Pushkinskiye Gory",
-    "brewery_state": "Pskovskaya oblast'",
-    "lat": 57.0257988,
-    "lng": 28.9298992
-  },
-  "brewery_active": 1,
-  "id": "zapovednik"
+	"brewery_id": 327074,
+	"brewery_name": "Заповедник",
+	"brewery_slug": "zapovednik",
+	"brewery_page_url": "/Zapovednick",
+	"brewery_type": "Cidery",
+	"brewery_label": "https://assets.untappd.com/site/brewery_logos/brewery-327074_c95ca.jpeg",
+	"country_name": "Russia",
+	"contact": {
+		"twitter": "",
+		"facebook": "",
+		"instagram": "zapovednick",
+		"url": "https://t.me/zapovednick"
+	},
+	"location": {
+		"brewery_city": "Pushkinskiye Gory",
+		"brewery_state": "Pskovskaya oblast'",
+		"lat": 57.0257988,
+		"lng": 28.9298992
+	},
+	"brewery_active": 1,
+	"id": "zapovednik"
 }

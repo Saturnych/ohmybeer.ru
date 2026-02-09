@@ -5,5 +5,14 @@ yarn.lock
 bun.lock
 bun.lockb
 
+# dev data
+.data/
+
+# dependencies
+node_modules/
+
 # Miscellaneous
-/static/
+static/
+
+# tests
+test-results/
