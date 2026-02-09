@@ -1,6 +1,7 @@
 const {
-	PUBLIC_UNTAPPD_API_URL,
-	PUBLIC_UNTAPPD_REDIRECT_URL,
+	PUBLIC_UNTAPPD_API_URL = 'https://api.untappd.com/v4',
+	PUBLIC_UNTAPPD_OAUTH_URL = 'https://untappd.com/oauth/authenticate/',
+	PUBLIC_UNTAPPD_REDIRECT_URL = 'http://localhost:3300',
 	PUBLIC_UNTAPPD_CLIENT_ID,
 	PRIVATE_UNTAPPD_CLIENT_ID,
 	PRIVATE_UNTAPPD_CLIENT_SECRET,
@@ -11,6 +12,11 @@ const {
 // https://api.untappd.com/v4/method_name?access_token=ACESSTOKENHERE
 // https://api.untappd.com/v4/search/beer?q=Pliny
 // https://untappd.com/oauth/authenticate/?client_id=CLIENTID&response_type=code&redirect_url=http://localhost:3300
+//
+
+export const untappdOauthUri = (): string => {
+	return `${PUBLIC_UNTAPPD_OAUTH_URL}?client_id=${PUBLIC_UNTAPPD_CLIENT_ID}&response_type=code&redirect_url=${PUBLIC_UNTAPPD_REDIRECT_URL}`;
+};
 
 export const untappdApiCall = async (
 	method_name: string,
