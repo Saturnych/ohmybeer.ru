@@ -1,7 +1,7 @@
 ---
 import { getCollection } from 'astro:content';
 import { getPriceTableData } from '$/lib/price';
-import { searchTaps } from '$/lib/untappd';
+import { searchTaps } from '$/lib/search';
 import {
 	dateToIntlFormat,
 	hashWithTextEncoder,
@@ -12,8 +12,8 @@ import {
 import siteData from '$/data/site.json';
 import Layout from '$/layouts/Layout.astro';
 
-const { DEV } = import.meta.env;
-console.log('');
+const { DEV, PUBLIC_UNTAPPD_API_URL } = import.meta.env;
+console.log(`\n PUBLIC_UNTAPPD_API_URL:`, PUBLIC_UNTAPPD_API_URL);
 
 let { taps, updatedAt }: { taps: any[]; updatedAt: string } = await getPriceTableData();
 
