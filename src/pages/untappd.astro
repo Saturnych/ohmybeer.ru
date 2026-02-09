@@ -1,0 +1,11 @@
+---
+import { untappdOauthUri } from '$/lib/untappd';
+
+const oauthUri: string = untappdOauthUri();
+
+if (!!oauthUri) {
+	return Astro.redirect(oauthUri);
+} else {
+	return Astro.redirect('/');
+}
+---
