@@ -8,6 +8,9 @@ bun.lockb
 # dev data
 .data/
 
+# site data
+src/data/
+
 # dependencies
 node_modules/
 
