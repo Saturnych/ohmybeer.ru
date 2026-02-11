@@ -38,7 +38,6 @@ const beers = defineCollection({
 	schema: z.object({
 		bid: z.number(),
 		beer_name: z.string(),
-		beer_label: z.string(),
 		beer_abv: z.number(),
 		beer_slug: z.string(),
 		beer_ibu: z.number(),
