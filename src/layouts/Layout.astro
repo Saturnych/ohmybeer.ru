@@ -61,7 +61,7 @@ const structuredData = {
 	],
 	priceRange: '$$',
 	servesCuisine: 'Bar',
-	image: `${Astro.url.origin}/assets/logo.png`,
+	image: !!image ? image : `${Astro.url.origin}/assets/logo.png`,
 };
 ---
 
