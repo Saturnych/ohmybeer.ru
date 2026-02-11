@@ -1,0 +1,20 @@
+{
+  "bid": 6431947,
+  "beer_name": "СВАН СОНГ",
+  "beer_label": "https://assets.untappd.com/site/beer_logos/beer-6431947_91140_sm.jpeg",
+  "beer_abv": 8,
+  "beer_slug": "saliwa-svan-song",
+  "beer_ibu": 40,
+  "beer_description": "Год уже близится к концу, а мы до сих пор не\r\nотпраздновали своё пятилетие. Когда, если не сейчас?\r\nДвойной хейзи IPA, охмелённый блендом из пяти\r\nлюбимых хмелей. Сброжен Космиками при поддержке\r\nещё пары штаммов.",
+  "created_at": "Thu, 02 Oct 2025 06:59:07 +0000",
+  "beer_style": "IPA - Imperial / Double New England / Hazy",
+  "in_production": 1,
+  "auth_rating": 0,
+  "wish_list": false,
+  "checkin_count": 425,
+  "id": "saliwa-svan-song",
+  "brewery": "saliwa-brew",
+  "term": "Saliwa СВАН СОНГ",
+  "parsed_term": "Saliwa СВАН СОНГ",
+  "hash": "53616c69776120d0a1d092d090d09d20d0a1d09ed09dd093"
+}

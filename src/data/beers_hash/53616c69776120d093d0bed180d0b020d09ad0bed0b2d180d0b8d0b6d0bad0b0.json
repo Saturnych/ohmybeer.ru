@@ -1,0 +1,20 @@
+{
+  "bid": 6431952,
+  "beer_name": "Гора Коврижка",
+  "beer_label": "https://assets.untappd.com/site/beer_logos/beer-6431952_7a3dc_sm.jpeg",
+  "beer_abv": 5,
+  "beer_slug": "saliwa-gora-kovrizhka",
+  "beer_ibu": 20,
+  "beer_description": "Новозеландский пилснер, охмелённый Нельсон Совином. Посвящаем нашему маскоту Ковриге, который больше всех разбирается в классическом пивоварении и даже имеет диплом! \r\nЧестные 45 суток вызревания в форфасе!",
+  "created_at": "Thu, 02 Oct 2025 07:13:38 +0000",
+  "beer_style": "Pilsner - New Zealand",
+  "in_production": 1,
+  "auth_rating": 0,
+  "wish_list": false,
+  "checkin_count": 151,
+  "id": "saliwa-gora-kovrizhka",
+  "brewery": "saliwa-brew",
+  "term": "Saliwa Гора Коврижка",
+  "parsed_term": "Saliwa Гора Коврижка",
+  "hash": "53616c69776120d093d0bed180d0b020d09ad0bed0b2d180d0b8d0b6d0bad0b0"
+}

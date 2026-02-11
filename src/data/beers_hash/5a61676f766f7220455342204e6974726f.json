@@ -1,0 +1,20 @@
+{
+  "bid": 6399023,
+  "beer_name": "ESB - Nitro",
+  "beer_label": "https://assets.untappd.com/site/beer_logos/beer-6399023_d6114_sm.jpeg",
+  "beer_abv": 5.6,
+  "beer_slug": "zagovor-brewery-esb-nitro",
+  "beer_ibu": 30,
+  "beer_description": "Extra Special Bitter on NITRO, for extra smoothness! Fuggles & EKG hops mixed with true british yeast.",
+  "created_at": "Wed, 03 Sep 2025 06:25:26 +0000",
+  "beer_style": "Bitter - Extra Special / Strong (ESB)",
+  "in_production": 1,
+  "auth_rating": 0,
+  "wish_list": false,
+  "checkin_count": 337,
+  "id": "zagovor-brewery-esb-nitro",
+  "brewery": "zagovor-brewery",
+  "term": "Zagovor ESB Nitro",
+  "parsed_term": "Zagovor ESB Nitro",
+  "hash": "5a61676f766f7220455342204e6974726f"
+}
