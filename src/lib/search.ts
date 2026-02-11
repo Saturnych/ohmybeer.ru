@@ -41,6 +41,7 @@ export const searchTap = async (tap: Record<string, any>): Promise<Record<string
 			}
 		}
 		console.log('found:', found);
+		console.log('beers:', beers[0]);
 
 		if (found && found > 0) {
 			beer = beers.items[0].beer;
@@ -74,6 +75,7 @@ export const searchTaps = async (taps: any[]): Promise<Record<string, any[]>> =>
 			taps[i].brewery_slug = brewery.brewery_slug;
 			taps[i].brewery_type = brewery.brewery_type.trim();
 			taps[i].beer_name = beer.beer_name.trim();
+			taps[i].beer_label = beer.beer_label;
 			taps[i].beer_slug = beer.beer_slug;
 			taps[i].beer_abv = beer.beer_abv;
 			taps[i].beer_ibu = beer.beer_ibu;

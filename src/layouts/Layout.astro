@@ -14,6 +14,7 @@ interface Props {
 	description?: string;
 	keywords?: string;
 	lang?: string;
+	image?: string;
 	redirect?: string;
 }
 
@@ -23,8 +24,10 @@ const {
 	description = siteData.seo.metaDescription,
 	keywords = siteData.seo.metaKeywords,
 	lang = 'ru',
+	image,
 	redirect,
 } = Astro.props;
+console.log('image:', image);
 
 // Build LocalBusiness structured data
 const structuredData = {
@@ -114,7 +117,7 @@ const structuredData = {
 		<meta property="og:url" content={Astro.url} />
 		<meta property="og:title" content={title} />
 		<meta property="og:description" content={description} />
-		<meta property="og:image" content={`${Astro.url.origin}/assets/logo.png`} />
+		<meta property="og:image" content={`${image ? image : '${Astro.url.origin}/assets/logo.png'}`} />
 		<meta property="og:locale" content="ru_RU" />
 
 		<!-- Twitter -->
@@ -122,7 +125,10 @@ const structuredData = {
 		<meta name="twitter:url" content={Astro.url} />
 		<meta name="twitter:title" content={title} />
 		<meta name="twitter:description" content={description} />
-		<meta name="twitter:image" content={`${Astro.url.origin}/assets/logo.png`} />
+		<meta
+			name="twitter:image"
+			content={`${image ? image : '${Astro.url.origin}/assets/logo.png'}`}
+		/>
 
 		<!-- Additional SEO -->
 		<meta name="robots" content="index, follow" />
