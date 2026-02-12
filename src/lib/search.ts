@@ -41,13 +41,22 @@ export const searchTap = async (tap: Record<string, any>): Promise<Record<string
 			}
 		}
 		console.log('found:', found);
-		console.log('beers:', beers[0]);
+		console.log('beers.items.length:', beers.items?.length);
 
 		if (found && found > 0) {
-			beer = beers.items[0].beer;
-			beer.checkin_count = beers.items[0].checkin_count;
+			let i: number = 0;
+			beers.items.forEach((item, index) => {
+				if (
+					((!!tap.brewery && item.brewery.brewery_name.trim().startsWith(tap.brewery.trim())) ||
+						!tap.brewery) &&
+					item.beer.beer_name.trim() === tap.beer.trim()
+				)
+					i = index;
+			});
+			beer = beers.items[i].beer;
+			beer.checkin_count = beers.items[i].checkin_count;
 			beer.id = beer.beer_slug;
-			brewery = beers.items[0].brewery;
+			brewery = beers.items[i].brewery;
 			brewery.id = brewery.brewery_slug;
 			beer.brewery = brewery.id;
 			beer.term = term;
