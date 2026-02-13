@@ -1,3 +1,4 @@
+import micromatch from 'micromatch';
 import { untappdApiCall } from '$/lib/untappd';
 import {
 	fileExists,
@@ -46,12 +47,14 @@ export const searchTap = async (tap: Record<string, any>): Promise<Record<string
 		if (found && found > 0) {
 			let i: number = 0;
 			beers.items.forEach((item, index) => {
-				if (
-					((!!tap.brewery && item.brewery.brewery_name.trim().startsWith(tap.brewery.trim())) ||
-						!tap.brewery) &&
-					item.beer.beer_name.trim() === tap.beer.trim()
-				)
-					i = index;
+				const breweryMatches: boolean = !!tap.brewery
+					? micromatch.isMatch(item.brewery.brewery_name.trim(), `${tap.brewery.trim()}*`)
+					: !tap.brewery;
+				const beerMatches: boolean = micromatch.isMatch(
+					item.beer.beer_name.trim(),
+					`${tap.beer.trim()}*`,
+				);
+				if (breweryMatches && beerMatches) i = index;
 			});
 			beer = beers.items[i].beer;
 			beer.checkin_count = beers.items[i].checkin_count;

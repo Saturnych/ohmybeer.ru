@@ -1,0 +1,20 @@
+{
+  "bid": 6588283,
+  "beer_name": "Whites And Box",
+  "beer_label": "https://assets.untappd.com/site/beer_logos/beer-6588283_e54b7_sm.jpeg",
+  "beer_abv": 6.5,
+  "beer_slug": "stamm-brewing-whites-and-box",
+  "beer_ibu": 0,
+  "beer_description": "Зимний Hefeweizen",
+  "created_at": "Mon, 02 Feb 2026 09:11:16 +0000",
+  "beer_style": "Wheat Beer - Hefeweizen",
+  "in_production": 1,
+  "auth_rating": 0,
+  "wish_list": false,
+  "checkin_count": 91,
+  "id": "stamm-brewing-whites-and-box",
+  "brewery": "stamm-brewing",
+  "term": "Stamm Whites and Box",
+  "parsed_term": "Stamm Whites and Box",
+  "hash": "5374616d6d2057686974657320616e6420426f78"
+}

@@ -42,6 +42,7 @@
 		"axios": "^1.13.4",
 		"axios-retry": "^4.5.0",
 		"cheerio": "^1.2.0",
+		"micromatch": "^4.0.8",
 		"node-xlsx": "^0.24.0"
 	},
 	"engines": {

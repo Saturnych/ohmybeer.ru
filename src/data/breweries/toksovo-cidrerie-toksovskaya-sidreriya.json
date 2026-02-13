@@ -1,0 +1,24 @@
+{
+  "brewery_id": 554446,
+  "brewery_name": "Toksovo Cidrerie / Токсовская Сидрерия",
+  "brewery_slug": "toksovo-cidrerie-toksovskaya-sidreriya",
+  "brewery_page_url": "/toxidre",
+  "brewery_type": "Cidery",
+  "brewery_label": "https://assets.untappd.com/site/brewery_logos/brewery-554446_7630b.jpeg",
+  "brewery_stamp": "/brewery_logos/brewery-554446_7630b.jpeg",
+  "country_name": "Russia",
+  "contact": {
+    "twitter": "",
+    "facebook": "",
+    "instagram": "toxidre",
+    "url": "http://onthebones.ru"
+  },
+  "location": {
+    "brewery_city": "",
+    "brewery_state": "",
+    "lat": 0,
+    "lng": 0
+  },
+  "brewery_active": 1,
+  "id": "toksovo-cidrerie-toksovskaya-sidreriya"
+}
