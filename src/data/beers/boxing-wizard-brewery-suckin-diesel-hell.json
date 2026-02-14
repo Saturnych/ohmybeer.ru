@@ -1,0 +1,20 @@
+{
+  "bid": 5774322,
+  "beer_name": "Suckin' Diesel Hell",
+  "beer_label": "https://assets.untappd.com/site/beer_logos/beer-5774322_bb334_sm.jpeg",
+  "beer_abv": 5,
+  "beer_slug": "boxing-wizard-brewery-suckin-diesel-hell",
+  "beer_ibu": 18,
+  "beer_description": "Традиционный Хель в мюнхенском стиле: немецкие дрожжи, немецкий хмель, британский акцент.",
+  "created_at": "Wed, 03 Apr 2024 14:44:36 +0000",
+  "beer_style": "Lager - Helles",
+  "in_production": 1,
+  "auth_rating": 0,
+  "wish_list": false,
+  "checkin_count": 589,
+  "id": "boxing-wizard-brewery-suckin-diesel-hell",
+  "brewery": "boxing-wizard-brewery",
+  "term": "Boxing Wizard Suckin' Diesel",
+  "parsed_term": "Boxing Wizard Suckin' Diesel",
+  "hash": "426f78696e672057697a617264205375636b696e272044696573656c"
+}
