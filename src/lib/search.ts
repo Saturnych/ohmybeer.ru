@@ -11,8 +11,8 @@ import {
 export const searchBeer = async (searchstring: string): Promise<Record<string, any>> => {
 	const qstring: string = encodeURI(`q=${searchstring}`);
 	let result = await untappdApiCall('search/beer', qstring);
-	if (result.meta.code !== 200) result = await untappdApiCall('search/beer', qstring, true);
-	return Object.assign({ beers: {}, now: Date.now(), meta: result.meta }, result.response);
+	if (result?.meta?.code !== 200) result = await untappdApiCall('search/beer', qstring, true);
+	return Object.assign({ beers: {}, now: Date.now(), meta: result?.meta }, result?.response);
 };
 
 export const searchTap = async (tap: Record<string, any>): Promise<Record<string, any>> => {

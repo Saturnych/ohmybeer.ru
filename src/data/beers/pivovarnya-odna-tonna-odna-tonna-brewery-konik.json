@@ -1,0 +1,20 @@
+{
+  "bid": 6562075,
+  "beer_name": "Коник",
+  "beer_label": "https://assets.untappd.com/site/beer_logos/beer-6562075_be5f1_sm.jpeg",
+  "beer_abv": 5.2,
+  "beer_slug": "pivovarnya-odna-tonna-odna-tonna-brewery-konik",
+  "beer_ibu": 0,
+  "beer_description": "Коник - свежающий кёльш с лёгким, летним характером и мягким балансом. Во вкусе — цветочные ноты, аккуратная солодовая сладость и чистый, сухой финиш. Охмелён Hallertau Mittelfrüh и Hallertau Blanc, которые добавляют тонкую травянистость и свежий виноградно-цветочный штрих.",
+  "created_at": "Thu, 08 Jan 2026 21:06:28 +0000",
+  "beer_style": "Kölsch",
+  "in_production": 1,
+  "auth_rating": 0,
+  "wish_list": false,
+  "checkin_count": 149,
+  "id": "pivovarnya-odna-tonna-odna-tonna-brewery-konik",
+  "brewery": "pivovarnya-odna-tonna-odna-tonna-brewery",
+  "term": "Одна тонна Коник",
+  "parsed_term": "Одна тонна Коник",
+  "hash": "d09ed0b4d0bdd0b020d182d0bed0bdd0bdd0b020d09ad0bed0bdd0b8d0ba"
+}

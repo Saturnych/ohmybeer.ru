@@ -1,0 +1,20 @@
+{
+  "bid": 6487563,
+  "beer_name": "Farout Faded Fantasy Super Grand Sale",
+  "beer_label": "https://assets.untappd.com/site/beer_logos/beer-6487563_69e7c_sm.jpeg",
+  "beer_abv": 5,
+  "beer_slug": "red-button-brewery-farout-faded-fantasy-super-grand-sale",
+  "beer_ibu": 0,
+  "beer_description": "Настоящая глубина вкуса рождается в терпении. Наш Golden Lager создан по методу двойной варки, чтобы подарить вам кристальную чистоту, насыщенный солодовый характер и идеально сбалансированный вкус. Ощутите классику, выверенную до мелочей.",
+  "created_at": "Mon, 10 Nov 2025 11:03:48 +0000",
+  "beer_style": "Lager - Other",
+  "in_production": 1,
+  "auth_rating": 0,
+  "wish_list": false,
+  "checkin_count": 195,
+  "id": "red-button-brewery-farout-faded-fantasy-super-grand-sale",
+  "brewery": "red-button-brewery",
+  "term": "Red Button Farout Faded Fantasy Super Grand Sale",
+  "parsed_term": "Red Button Farout Faded Fantasy Super Grand Sale",
+  "hash": "52656420427574746f6e204661726f75742046616465642046616e74617379205375706572204772616e642053616c65"
+}

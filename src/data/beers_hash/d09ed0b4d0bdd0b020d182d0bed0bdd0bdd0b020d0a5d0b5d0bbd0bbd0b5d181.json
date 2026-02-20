@@ -1,0 +1,20 @@
+{
+  "bid": 462767,
+  "beer_name": "Хеллес / Helles",
+  "beer_label": "https://assets.untappd.com/site/beer_logos/beer-462767_35033_sm.jpeg",
+  "beer_abv": 4.5,
+  "beer_slug": "pivovarnya-odna-tonna-odna-tonna-brewery-helles-helles",
+  "beer_ibu": 0,
+  "beer_description": "Светло-соломенное, прозрачное пиво с солодовым вкусом и слабым пряным ароматом благородного баварского хмеля.",
+  "created_at": "Fri, 27 Sep 2013 15:43:09 +0000",
+  "beer_style": "Lager - Helles",
+  "in_production": 1,
+  "auth_rating": 0,
+  "wish_list": false,
+  "checkin_count": 2061,
+  "id": "pivovarnya-odna-tonna-odna-tonna-brewery-helles-helles",
+  "brewery": "pivovarnya-odna-tonna-odna-tonna-brewery",
+  "term": "Одна тонна Хеллес",
+  "parsed_term": "Одна тонна Хеллес",
+  "hash": "d09ed0b4d0bdd0b020d182d0bed0bdd0bdd0b020d0a5d0b5d0bbd0bbd0b5d181"
+}

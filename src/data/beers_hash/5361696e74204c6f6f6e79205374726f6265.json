@@ -1,0 +1,20 @@
+{
+  "bid": 6455947,
+  "beer_name": "Strobe",
+  "beer_label": "https://assets.untappd.com/site/beer_logos/beer-6455947_51ceb_sm.jpeg",
+  "beer_abv": 6,
+  "beer_slug": "saint-loony-strobe",
+  "beer_ibu": 0,
+  "beer_description": "Этот сауэр эль - настоящий взрыв тропиков и лета. Яркая кислинка черной смородины, сочная сладость маракуйи и кремовая нежность гуавы создают невероятно освежающий и гармоничный букет. Идеальный баланс сладкого и кислого в каждом глотке.",
+  "created_at": "Wed, 22 Oct 2025 17:27:57 +0000",
+  "beer_style": "Pale Ale - Fruited",
+  "in_production": 1,
+  "auth_rating": 0,
+  "wish_list": false,
+  "checkin_count": 29,
+  "id": "saint-loony-strobe",
+  "brewery": "saint-loony",
+  "term": "Saint Loony Strobe",
+  "parsed_term": "Saint Loony Strobe",
+  "hash": "5361696e74204c6f6f6e79205374726f6265"
+}
