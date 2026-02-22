@@ -1,0 +1,24 @@
+{
+  "brewery_id": 569329,
+  "brewery_name": "Родное яблочко ",
+  "brewery_slug": "rodnoe-yablochko",
+  "brewery_page_url": "/w/rodnoe-yablochko/569329",
+  "brewery_type": "Cidery",
+  "brewery_label": "https://assets.untappd.com/site/assets/images/temp/badge-brewery-default.png",
+  "brewery_stamp": "/assets/images/temp/badge-brewery-default.png",
+  "country_name": "Russia",
+  "contact": {
+    "twitter": "",
+    "facebook": "",
+    "instagram": "",
+    "url": ""
+  },
+  "location": {
+    "brewery_city": "Protvino",
+    "brewery_state": "Moskovskaya oblast'",
+    "lat": 54.8841019,
+    "lng": 37.2160988
+  },
+  "brewery_active": 1,
+  "id": "rodnoe-yablochko"
+}

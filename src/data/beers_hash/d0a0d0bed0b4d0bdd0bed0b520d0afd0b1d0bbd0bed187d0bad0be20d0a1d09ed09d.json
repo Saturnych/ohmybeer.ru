@@ -1,0 +1,20 @@
+{
+  "bid": 6096385,
+  "beer_name": "Сон",
+  "beer_label": "https://assets.untappd.com/site/beer_logos/beer-6096385_acbc8_sm.jpeg",
+  "beer_abv": 5.5,
+  "beer_slug": "rodnoe-yablochko-son",
+  "beer_ibu": 0,
+  "beer_description": "Сухой яблочный сидр, который имеет спокойный, глубокий характер. Процесс его производства — самый долгий из всех сидров \"Родное Яблочко\", как и зима, которую он символизирует. Сидр вызывает ассоциацию с морозным воздухом, который врывается в форточку и приносит яркую, покалывающую свежесть и надежду на оттепель. ",
+  "created_at": "Sun, 15 Dec 2024 13:29:01 +0000",
+  "beer_style": "Cider - Dry",
+  "in_production": 1,
+  "auth_rating": 0,
+  "wish_list": false,
+  "checkin_count": 103,
+  "id": "rodnoe-yablochko-son",
+  "brewery": "rodnoe-yablochko",
+  "term": "Родное Яблочко СОН",
+  "parsed_term": "Родное Яблочко СОН",
+  "hash": "d0a0d0bed0b4d0bdd0bed0b520d0afd0b1d0bbd0bed187d0bad0be20d0a1d09ed09d"
+}
