@@ -21,6 +21,7 @@
 	},
 	"scripts": {
 		"dev": "astro dev --host --mode development --port 3333",
+		"dev:local": "astro dev --mode development --port 3333",
 		"build": "astro build",
 		"preview": "astro preview --host --mode development --port 3333",
 		"astro": "astro",
