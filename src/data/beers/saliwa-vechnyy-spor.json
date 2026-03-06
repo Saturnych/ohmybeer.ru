@@ -1,0 +1,20 @@
+{
+  "bid": 6589709,
+  "beer_name": "Вечный Спор",
+  "beer_label": "https://assets.untappd.com/site/beer_logos/beer-6589709_1b550_sm.jpeg",
+  "beer_abv": 7.1,
+  "beer_slug": "saliwa-vechnyy-spor",
+  "beer_ibu": 20,
+  "beer_description": "Неипка с двойным сухим охмелением Краш, Цитра и Нельсон Совин.",
+  "created_at": "Wed, 04 Feb 2026 10:52:13 +0000",
+  "beer_style": "IPA - New England / Hazy",
+  "in_production": 1,
+  "auth_rating": 0,
+  "wish_list": false,
+  "checkin_count": 24,
+  "id": "saliwa-vechnyy-spor",
+  "brewery": "saliwa-brew",
+  "term": "Saliwa Вечный Спор",
+  "parsed_term": "Saliwa Вечный Спор",
+  "hash": "53616c69776120d092d0b5d187d0bdd18bd0b920d0a1d0bfd0bed180"
+}

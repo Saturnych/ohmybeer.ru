@@ -1,0 +1,20 @@
+{
+  "bid": 6352087,
+  "beer_name": "Murquell Pilsner (3 Months' Aging)",
+  "beer_label": "https://assets.untappd.com/site/assets/images/temp/badge-beer-default.png",
+  "beer_abv": 5.5,
+  "beer_slug": "plan-b-brewery-murquell-pilsner-3-months-aging",
+  "beer_ibu": 30,
+  "beer_description": "Murquell Pilsner (3 Months' Aging)",
+  "created_at": "Fri, 25 Jul 2025 10:42:19 +0000",
+  "beer_style": "Pilsner - Czech / Bohemian",
+  "in_production": 1,
+  "auth_rating": 0,
+  "wish_list": false,
+  "checkin_count": 1,
+  "id": "plan-b-brewery-murquell-pilsner-3-months-aging",
+  "brewery": "plan-b-brewery",
+  "term": "Plan B Murquell Pilsner",
+  "parsed_term": "Plan B Murquell Pilsner",
+  "hash": "506c616e2042204d75727175656c6c2050696c736e6572"
+}

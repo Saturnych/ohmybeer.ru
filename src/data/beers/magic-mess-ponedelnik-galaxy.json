@@ -1,0 +1,20 @@
+{
+  "bid": 6573866,
+  "beer_name": "Понедельник Galaxy",
+  "beer_label": "https://assets.untappd.com/site/beer_logos/beer-6573866_e0cfc_sm.jpeg",
+  "beer_abv": 5,
+  "beer_slug": "magic-mess-ponedelnik-galaxy",
+  "beer_ibu": 0,
+  "beer_description": "",
+  "created_at": "Mon, 19 Jan 2026 07:40:35 +0000",
+  "beer_style": "Lager - IPL (India Pale Lager)",
+  "in_production": 1,
+  "auth_rating": 0,
+  "wish_list": false,
+  "checkin_count": 0,
+  "id": "magic-mess-ponedelnik-galaxy",
+  "brewery": "magic-mess",
+  "term": "Magic Mess Понедельник",
+  "parsed_term": "Magic Mess Понедельник",
+  "hash": "4d61676963204d65737320d09fd0bed0bdd0b5d0b4d0b5d0bbd18cd0bdd0b8d0ba"
+}

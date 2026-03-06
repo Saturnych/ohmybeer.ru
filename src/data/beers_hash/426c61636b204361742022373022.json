@@ -1,0 +1,20 @@
+{
+  "bid": 1070427,
+  "beer_name": "70",
+  "beer_label": "https://assets.untappd.com/site/beer_logos/beer-1070427_c6c65_sm.jpeg",
+  "beer_abv": 6.6,
+  "beer_slug": "black-cat-brewery-70",
+  "beer_ibu": 70,
+  "beer_description": "70 IPA - дебютный сорт, свареный впервые в 2015 году.\r\nКлассический сухой американский айпиэй, охмеленный Citra и Cascade.",
+  "created_at": "Sat, 02 May 2015 23:26:02 +0000",
+  "beer_style": "IPA - American",
+  "in_production": 1,
+  "auth_rating": 0,
+  "wish_list": false,
+  "checkin_count": 3911,
+  "id": "black-cat-brewery-70",
+  "brewery": "black-cat-brewery",
+  "term": "Black Cat \"70\"",
+  "parsed_term": "Black Cat \"70\"",
+  "hash": "426c61636b204361742022373022"
+}
