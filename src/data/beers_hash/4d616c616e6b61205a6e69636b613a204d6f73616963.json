@@ -1,0 +1,20 @@
+{
+  "bid": 6604722,
+  "beer_name": "Znička: Mosaic",
+  "beer_label": "https://assets.untappd.com/site/beer_logos/beer-6604722_12cb0_sm.jpeg",
+  "beer_abv": 6,
+  "beer_slug": "malanka-znicka-mosaic",
+  "beer_ibu": 30,
+  "beer_description": "We continue our experiments with a new series of hazy IPAs called Znička! This time, we not only loaded Znička with juicy Mosaic hops, but also added a plant-based lactose analogue to make it a little sweeter and silkier, similar to a real creamy milkshake cocktail. And the aromas of tropical pineapples turn every glass into a desired pina colada.",
+  "created_at": "Tue, 17 Feb 2026 09:35:54 +0000",
+  "beer_style": "IPA - New England / Hazy",
+  "in_production": 1,
+  "auth_rating": 0,
+  "wish_list": false,
+  "checkin_count": 125,
+  "id": "malanka-znicka-mosaic",
+  "brewery": "malanka",
+  "term": "Malanka Znicka: Mosaic",
+  "parsed_term": "Malanka Znicka: Mosaic",
+  "hash": "4d616c616e6b61205a6e69636b613a204d6f73616963"
+}

@@ -1,0 +1,20 @@
+{
+  "bid": 6611804,
+  "beer_name": "Zatlum: Simcoe",
+  "beer_label": "https://assets.untappd.com/site/beer_logos/beer-6611804_e70c2_sm.jpeg",
+  "beer_abv": 7,
+  "beer_slug": "malanka-zatlum-simcoe",
+  "beer_ibu": 80,
+  "beer_description": "Something dark again from Malanka! Zatlum, our rich, black IPA, this time was made distinctly roasted so that the taste matches the color even more. We dry-hopped it with the unique Simcoe, which brought aromas of morning mists in mountain forests and shades of moist black soil. This Zatlum is darker than the night!",
+  "created_at": "Mon, 23 Feb 2026 10:27:14 +0000",
+  "beer_style": "IPA - Black / Cascadian Dark Ale",
+  "in_production": 1,
+  "auth_rating": 0,
+  "wish_list": false,
+  "checkin_count": 119,
+  "id": "malanka-zatlum-simcoe",
+  "brewery": "malanka",
+  "term": "Malanka Zaltum: Simcoe",
+  "parsed_term": "Malanka Zaltum: Simcoe",
+  "hash": "4d616c616e6b61205a616c74756d3a2053696d636f65"
+}

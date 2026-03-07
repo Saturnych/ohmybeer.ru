@@ -1,0 +1,24 @@
+{
+  "brewery_id": 431182,
+  "brewery_name": "Malanka",
+  "brewery_slug": "malanka",
+  "brewery_page_url": "/Malanka",
+  "brewery_type": "Nano Brewery",
+  "brewery_label": "https://assets.untappd.com/site/brewery_logos/brewery-431182_d709f.jpeg",
+  "brewery_stamp": "/brewery_logos/brewery-431182_d709f.jpeg",
+  "country_name": "Belarus",
+  "contact": {
+    "twitter": "brovar_malanka",
+    "facebook": "https://www.facebook.com/brovar.malanka/",
+    "instagram": "brovar.malanka",
+    "url": "https://malanka.beer"
+  },
+  "location": {
+    "brewery_city": "Minsk",
+    "brewery_state": "Minskaja voblasć",
+    "lat": 53.8400002,
+    "lng": 27.5713997
+  },
+  "brewery_active": 1,
+  "id": "malanka"
+}
