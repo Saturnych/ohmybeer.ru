@@ -24,7 +24,7 @@ export const untappdAuthGetToken = async (code: string): Promise<string> => {
 	try {
 		if ((PRIVATE_UNTAPPD_AUTH_URL || '').length > 0) {
 			const authURI: string = `${PRIVATE_UNTAPPD_AUTH_URL}/?client_id=${PRIVATE_UNTAPPD_CLIENT_ID}&client_secret=${PRIVATE_UNTAPPD_CLIENT_SECRET}&response_type=code&redirect_url=${PUBLIC_UNTAPPD_REDIRECT_URL}&code=${code}`;
-			const response: any = await fetch(authURI, {
+			const response: Response = await fetch(authURI, {
 				method: 'GET',
 				headers: {
 					'Content-Type': 'application/json',
@@ -46,8 +46,8 @@ export const untappdApiCall = async (
 	method_name: string,
 	qstring?: string,
 	skipToken?: boolean,
-): Promise<Record<string, any>> => {
-	let data: Record<string, any> = {};
+): Promise<Record<string, string | number | undefined>> => {
+	let data: Record<string, string | number | undefined> = {};
 	try {
 		if ((PUBLIC_UNTAPPD_API_URL || '').length > 0) {
 			const auth: string =
@@ -55,7 +55,7 @@ export const untappdApiCall = async (
 					? `access_token=${PRIVATE_UNTAPPD_ACCESS_TOKEN}`
 					: `client_id=${PRIVATE_UNTAPPD_CLIENT_ID}&client_secret=${PRIVATE_UNTAPPD_CLIENT_SECRET}`;
 			const apiURI: string = `${PUBLIC_UNTAPPD_API_URL}/${method_name}?${qstring ? qstring + '&' : ''}${auth}`;
-			const response: any = await fetch(apiURI, {
+			const response: Response = await fetch(apiURI, {
 				method: 'GET',
 				headers: {
 					'Content-Type': 'application/json',
