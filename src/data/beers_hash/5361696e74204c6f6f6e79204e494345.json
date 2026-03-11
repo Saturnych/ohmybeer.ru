@@ -1,0 +1,20 @@
+{
+  "bid": 6455933,
+  "beer_name": "Nice",
+  "beer_label": "https://assets.untappd.com/site/beer_logos/beer-6455933_2b58e_sm.jpeg",
+  "beer_abv": 6,
+  "beer_slug": "saint-loony-nice",
+  "beer_ibu": 0,
+  "beer_description": "Солнечный эликсир! Нежная сладость манго, свежесть ананаса и глубокая цитрусовая нота красного апельсина сливаются в идеальной гармонии. Наслаждение, которое хочется растянуть.",
+  "created_at": "Wed, 22 Oct 2025 17:15:01 +0000",
+  "beer_style": "Sour - Fruited",
+  "in_production": 1,
+  "auth_rating": 0,
+  "wish_list": false,
+  "checkin_count": 61,
+  "id": "saint-loony-nice",
+  "brewery": "saint-loony",
+  "term": "Saint Loony NICE",
+  "parsed_term": "Saint Loony NICE",
+  "hash": "5361696e74204c6f6f6e79204e494345"
+}
