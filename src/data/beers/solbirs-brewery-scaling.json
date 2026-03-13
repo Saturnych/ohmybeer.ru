@@ -1,0 +1,20 @@
+{
+  "bid": 4387454,
+  "beer_name": "Scaling",
+  "beer_label": "https://assets.untappd.com/site/beer_logos/beer-4387454_7229d_sm.jpeg",
+  "beer_abv": 6.6,
+  "beer_slug": "solbirs-brewery-scaling",
+  "beer_ibu": 40,
+  "beer_description": "Свежий, тропический микс хмелей Strata/Talus/Citra Lupomax на базе New England Ipa c использованием жидких вермонтовских дрожжей - почувствуй сочность в тропическом масштабе. ",
+  "created_at": "Wed, 30 Jun 2021 16:32:52 +0000",
+  "beer_style": "IPA - New England / Hazy",
+  "in_production": 1,
+  "auth_rating": 0,
+  "wish_list": false,
+  "checkin_count": 577,
+  "id": "solbirs-brewery-scaling",
+  "brewery": "solbirs-brewery",
+  "term": "Solbirs Scaling",
+  "parsed_term": "Solbirs Scaling",
+  "hash": "536f6c62697273205363616c696e67"
+}
