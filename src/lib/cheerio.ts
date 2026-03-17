@@ -30,10 +30,11 @@ export const getTableData = (source: string): string => {
 	const taps: object[] = [];
 	const table = $('div[id=table-row]').find('.table').find('tbody').children('tr');
 	table.each((id, el) => {
-		const tap: number = Number($(el).find('.tap-num').text());
-		const name: string = $(el).find('.tap-name').text();
+		const tap: number = Number($(el).find('.tap-num').text().trim());
+		const name: string = $(el).find('.tap-name').text().replace(`"`, ` - `).replace(`"`, ``);
 		// Augustine - Карт-Бланш (Blanche), РОЗЛИВ, Россия
 		// Black Sheep Irish Stout, РОЗЛИВ, Россия
+		if (DEV) console.log('getTableData tap:', tap, 'name:', name);
 		const parsed: string[] = name
 			.split(' - ')
 			.map((m) => m.trim())
@@ -43,6 +44,7 @@ export const getTableData = (source: string): string => {
 				? [
 						parsed[0],
 						parsed[1]
+							.replaceAll(`"`, ``)
 							.split(',')
 							.map((m) => m.trim())
 							.filter((f) => !!f),
@@ -54,6 +56,7 @@ export const getTableData = (source: string): string => {
 							.map((m) => m.trim())
 							.filter((f) => !!f),
 					];
+		if (DEV) console.log('getTableData brewery:', brewery, 'data:', data);
 		const [beer, style]: string[] = data[0]
 			.split('(')
 			.map((m) => m.replaceAll(')', '').trim())
