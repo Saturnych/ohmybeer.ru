@@ -310,8 +310,9 @@
   {
     "id": 14,
     "tap": 18,
-    "name": "Black Cat \"70\"  (IPA), РОЗЛИВ, Россия",
-    "beer": "Black Cat \"70\"",
+    "name": "Black Cat  - 70  (IPA), РОЗЛИВ, Россия",
+    "brewery": "Black Cat",
+    "beer": "70",
     "style": "IPA",
     "format": "РОЗЛИВ",
     "country": "Россия",
@@ -325,8 +326,8 @@
     "beer_abv": 6.6,
     "beer_ibu": 70,
     "beer_style": "IPA - American",
-    "term": "Black Cat \"70\"",
-    "hash": "426c61636b204361742022373022"
+    "term": "Black Cat 70",
+    "hash": "426c61636b20436174203730"
   },
   {
     "id": 15,
