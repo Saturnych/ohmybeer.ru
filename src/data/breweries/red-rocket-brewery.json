@@ -1,0 +1,24 @@
+{
+  "brewery_id": 407643,
+  "brewery_name": "Red Rocket Brewery",
+  "brewery_slug": "red-rocket-brewery",
+  "brewery_page_url": "/RedRocketBC",
+  "brewery_type": "Micro Brewery",
+  "brewery_label": "https://assets.untappd.com/site/brewery_logos/brewery-407643_f7b87.jpeg",
+  "brewery_stamp": "/brewery_logos/brewery-407643_f7b87.jpeg",
+  "country_name": "Russia",
+  "contact": {
+    "twitter": "",
+    "facebook": "",
+    "instagram": "redrocketbrewery",
+    "url": ""
+  },
+  "location": {
+    "brewery_city": "Екатеринбург",
+    "brewery_state": "Свердловская область",
+    "lat": 56.8431015,
+    "lng": 60.645401
+  },
+  "brewery_active": 1,
+  "id": "red-rocket-brewery"
+}

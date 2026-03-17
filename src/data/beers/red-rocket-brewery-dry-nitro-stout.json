@@ -1,0 +1,20 @@
+{
+  "bid": 4818820,
+  "beer_name": "DRY NITRO STOUT",
+  "beer_label": "https://assets.untappd.com/site/beer_logos/beer-4818820_99408_sm.jpeg",
+  "beer_abv": 4.2,
+  "beer_slug": "red-rocket-brewery-dry-nitro-stout",
+  "beer_ibu": 0,
+  "beer_description": "",
+  "created_at": "Fri, 29 Apr 2022 18:32:57 +0000",
+  "beer_style": "Stout - Irish Dry",
+  "in_production": 1,
+  "auth_rating": 0,
+  "wish_list": false,
+  "checkin_count": 1224,
+  "id": "red-rocket-brewery-dry-nitro-stout",
+  "brewery": "red-rocket-brewery",
+  "term": "Red Rocket Dry Nitro Stout",
+  "parsed_term": "Red Rocket Dry Nitro Stout",
+  "hash": "52656420526f636b657420447279204e6974726f2053746f7574"
+}
