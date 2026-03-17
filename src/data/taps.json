@@ -8,7 +8,7 @@
     "style": "APA",
     "format": "РОЗЛИВ",
     "country": "Россия",
-    "updatedAt": "2026-03-15T22:27",
+    "updatedAt": "2026-03-16T22:14",
     "brewery_name": "Boxing Wizard Brewery",
     "brewery_slug": "boxing-wizard-brewery",
     "brewery_type": "Micro Brewery",
@@ -24,29 +24,6 @@
   },
   {
     "id": 1,
-    "tap": 2,
-    "name": "Malanka - Znicka: Mosaic (NEIPA), РОЗЛИВ, Россия",
-    "brewery": "Malanka",
-    "beer": "Znicka: Mosaic",
-    "style": "NEIPA",
-    "format": "РОЗЛИВ",
-    "country": "Россия",
-    "updatedAt": "2026-03-15T22:27",
-    "brewery_name": "Malanka",
-    "brewery_slug": "malanka",
-    "brewery_type": "Nano Brewery",
-    "beer_name": "Znička: Mosaic",
-    "beer_label": "https://assets.untappd.com/site/beer_logos/beer-6604722_12cb0_sm.jpeg",
-    "beer_slug": "malanka-znicka-mosaic",
-    "beer_abv": 6,
-    "beer_ibu": 30,
-    "beer_style": "IPA - New England / Hazy",
-    "term": "Malanka Znicka: Mosaic",
-    "hash": "4d616c616e6b61205a6e69636b613a204d6f73616963",
-    "price": 1100
-  },
-  {
-    "id": 2,
     "tap": 3,
     "name": "Augustine - Ледяное (Helles), РОЗЛИВ, Россия",
     "brewery": "Augustine",
@@ -54,7 +31,7 @@
     "style": "Helles",
     "format": "РОЗЛИВ",
     "country": "Россия",
-    "updatedAt": "2026-03-15T22:27",
+    "updatedAt": "2026-03-16T22:14",
     "brewery_name": "Augustine (Августин)",
     "brewery_slug": "augustine-avgustin",
     "brewery_type": "Micro Brewery",
@@ -69,7 +46,7 @@
     "price": 760
   },
   {
-    "id": 3,
+    "id": 2,
     "tap": 4,
     "name": "Saliwa - Вечный Спор (DDH NEIPA), РОЗЛИВ, Россия",
     "brewery": "Saliwa",
@@ -77,7 +54,7 @@
     "style": "DDH NEIPA",
     "format": "РОЗЛИВ",
     "country": "Россия",
-    "updatedAt": "2026-03-15T22:27",
+    "updatedAt": "2026-03-16T22:14",
     "brewery_name": "SALIWA",
     "brewery_slug": "saliwa-brew",
     "brewery_type": "Nano Brewery",
@@ -92,7 +69,7 @@
     "price": 1040
   },
   {
-    "id": 4,
+    "id": 3,
     "tap": 5,
     "name": "Stamm - StraBenbahn (Weisse), РОЗЛИВ, Россия",
     "brewery": "Stamm",
@@ -100,7 +77,7 @@
     "style": "Weisse",
     "format": "РОЗЛИВ",
     "country": "Россия",
-    "updatedAt": "2026-03-15T22:27",
+    "updatedAt": "2026-03-16T22:14",
     "brewery_name": "Stamm Brewing",
     "brewery_slug": "stamm-brewing",
     "brewery_type": "Micro Brewery",
@@ -115,7 +92,7 @@
     "price": 700
   },
   {
-    "id": 5,
+    "id": 4,
     "tap": 6,
     "name": "Gletcher - Milk Of Amnesia (Milkshake IPA), Розлив, Россия",
     "brewery": "Gletcher",
@@ -123,7 +100,7 @@
     "style": "Milkshake IPA",
     "format": "Розлив",
     "country": "Россия",
-    "updatedAt": "2026-03-15T22:27",
+    "updatedAt": "2026-03-16T22:14",
     "brewery_name": "Gletcher Brewery (Глетчер)",
     "brewery_slug": "gletcher-brewery-gletcher",
     "brewery_type": "Micro Brewery",
@@ -138,7 +115,7 @@
     "price": 600
   },
   {
-    "id": 6,
+    "id": 5,
     "tap": 7,
     "name": "Malanka - Zaltum: Simcoe (Black IPA), РОЗЛИВ, Россия",
     "brewery": "Malanka",
@@ -146,7 +123,7 @@
     "style": "Black IPA",
     "format": "РОЗЛИВ",
     "country": "Россия",
-    "updatedAt": "2026-03-15T22:27",
+    "updatedAt": "2026-03-16T22:14",
     "brewery_name": "Malanka",
     "brewery_slug": "malanka",
     "brewery_type": "Nano Brewery",
@@ -161,7 +138,7 @@
     "price": 1100
   },
   {
-    "id": 7,
+    "id": 6,
     "tap": 9,
     "name": "Plan B - Murquell Pilsner (Pils), РОЗЛИВ, Россия",
     "brewery": "Plan B",
@@ -169,7 +146,7 @@
     "style": "Pils",
     "format": "РОЗЛИВ",
     "country": "Россия",
-    "updatedAt": "2026-03-15T22:27",
+    "updatedAt": "2026-03-16T22:14",
     "brewery_name": "Plan B Brewery",
     "brewery_slug": "plan-b-brewery",
     "brewery_type": "Micro Brewery",
@@ -184,7 +161,7 @@
     "price": 760
   },
   {
-    "id": 8,
+    "id": 7,
     "tap": 10,
     "name": "Midnight Project - Zhigulikeller (IPL), РОЗЛИВ, Россия",
     "brewery": "Midnight Project",
@@ -192,7 +169,7 @@
     "style": "IPL",
     "format": "РОЗЛИВ",
     "country": "Россия",
-    "updatedAt": "2026-03-15T22:27",
+    "updatedAt": "2026-03-16T22:14",
     "brewery_name": "Midnight Project",
     "brewery_slug": "midnight-project",
     "brewery_type": "Micro Brewery",
@@ -207,7 +184,7 @@
     "price": 840
   },
   {
-    "id": 9,
+    "id": 8,
     "tap": 11,
     "name": "Magic Mess - Понедельник (Lager), РОЗЛИВ, Россия",
     "brewery": "Magic Mess",
@@ -215,7 +192,7 @@
     "style": "Lager",
     "format": "РОЗЛИВ",
     "country": "Россия",
-    "updatedAt": "2026-03-15T22:27",
+    "updatedAt": "2026-03-16T22:14",
     "brewery_name": "Magic Mess",
     "brewery_slug": "magic-mess",
     "brewery_type": "Micro Brewery",
@@ -230,7 +207,7 @@
     "price": 760
   },
   {
-    "id": 10,
+    "id": 9,
     "tap": 12,
     "name": "Saint Loony - NICE (Sour), РОЗЛИВ, Россия",
     "brewery": "Saint Loony",
@@ -238,7 +215,7 @@
     "style": "Sour",
     "format": "РОЗЛИВ",
     "country": "Россия",
-    "updatedAt": "2026-03-15T22:27",
+    "updatedAt": "2026-03-16T22:14",
     "brewery_name": "Saint Loony",
     "brewery_slug": "saint-loony",
     "brewery_type": "Micro Brewery",
@@ -253,7 +230,7 @@
     "price": 900
   },
   {
-    "id": 11,
+    "id": 10,
     "tap": 13,
     "name": "Augustine - Имперский Стаут (RIS), РОЗЛИВ, Россия",
     "brewery": "Augustine",
@@ -261,7 +238,7 @@
     "style": "RIS",
     "format": "РОЗЛИВ",
     "country": "Россия",
-    "updatedAt": "2026-03-15T22:27",
+    "updatedAt": "2026-03-16T22:14",
     "brewery_name": "Augustine (Августин)",
     "brewery_slug": "augustine-avgustin",
     "brewery_type": "Micro Brewery",
@@ -276,7 +253,7 @@
     "price": 780
   },
   {
-    "id": 12,
+    "id": 11,
     "tap": 14,
     "name": "Родное Яблочко - СОН (Сухой Сидр), РОЗЛИВ, Россия ",
     "brewery": "Родное Яблочко",
@@ -284,7 +261,7 @@
     "style": "Сухой Сидр",
     "format": "РОЗЛИВ",
     "country": "Россия",
-    "updatedAt": "2026-03-15T22:27",
+    "updatedAt": "2026-03-16T22:14",
     "brewery_name": "Родное яблочко",
     "brewery_slug": "rodnoe-yablochko",
     "brewery_type": "Cidery",
@@ -299,7 +276,7 @@
     "price": 780
   },
   {
-    "id": 13,
+    "id": 12,
     "tap": 16,
     "name": "Plan B - Rise Of The Zombies (APA), РОЗЛИВ, Россия",
     "brewery": "Plan B",
@@ -307,7 +284,7 @@
     "style": "APA",
     "format": "РОЗЛИВ",
     "country": "Россия",
-    "updatedAt": "2026-03-15T22:27",
+    "updatedAt": "2026-03-16T22:14",
     "brewery_name": "Plan B Brewery",
     "brewery_slug": "plan-b-brewery",
     "brewery_type": "Micro Brewery",
@@ -322,7 +299,7 @@
     "price": 720
   },
   {
-    "id": 14,
+    "id": 13,
     "tap": 17,
     "name": "ZAGOVOR - Midnight Moscow (IPA), РОЗЛИВ, Россия",
     "brewery": "ZAGOVOR",
@@ -330,7 +307,7 @@
     "style": "IPA",
     "format": "РОЗЛИВ",
     "country": "Россия",
-    "updatedAt": "2026-03-15T22:27",
+    "updatedAt": "2026-03-16T22:14",
     "brewery_name": "Zagovor Brewery",
     "brewery_slug": "zagovor-brewery",
     "brewery_type": "Micro Brewery",
@@ -345,14 +322,14 @@
     "price": 1000
   },
   {
-    "id": 15,
+    "id": 14,
     "tap": 18,
     "name": "Black Cat \"70\"  (IPA), РОЗЛИВ, Россия",
     "beer": "Black Cat \"70\"",
     "style": "IPA",
     "format": "РОЗЛИВ",
     "country": "Россия",
-    "updatedAt": "2026-03-15T22:27",
+    "updatedAt": "2026-03-16T22:14",
     "brewery_name": "Black Cat Brewery",
     "brewery_slug": "black-cat-brewery",
     "brewery_type": "Micro Brewery",
@@ -367,7 +344,7 @@
     "price": 780
   },
   {
-    "id": 16,
+    "id": 15,
     "tap": 20,
     "name": "Plan B - Ковбой Мальборо (AIPA), РОЗЛИВ, Россия",
     "brewery": "Plan B",
@@ -375,7 +352,7 @@
     "style": "AIPA",
     "format": "РОЗЛИВ",
     "country": "Россия",
-    "updatedAt": "2026-03-15T22:27",
+    "updatedAt": "2026-03-16T22:14",
     "brewery_name": "Plan B Brewery",
     "brewery_slug": "plan-b-brewery",
     "brewery_type": "Micro Brewery",
@@ -390,7 +367,7 @@
     "price": 720
   },
   {
-    "id": 17,
+    "id": 16,
     "tap": 21,
     "name": "White Stone - Вишневый Бум (Sour), РОЗЛИВ, Россия",
     "brewery": "White Stone",
@@ -398,7 +375,7 @@
     "style": "Sour",
     "format": "РОЗЛИВ",
     "country": "Россия",
-    "updatedAt": "2026-03-15T22:27",
+    "updatedAt": "2026-03-16T22:14",
     "brewery_name": "WS Brew",
     "brewery_slug": "ws-brew",
     "brewery_type": "Micro Brewery",
@@ -413,7 +390,7 @@
     "price": 740
   },
   {
-    "id": 18,
+    "id": 17,
     "tap": 22,
     "name": "Stamm - Alpha Hops: Citra (IPA), РОЗЛИВ, Россия",
     "brewery": "Stamm",
@@ -421,7 +398,7 @@
     "style": "IPA",
     "format": "РОЗЛИВ",
     "country": "Россия",
-    "updatedAt": "2026-03-15T22:27",
+    "updatedAt": "2026-03-16T22:14",
     "brewery_name": "Stamm Brewing",
     "brewery_slug": "stamm-brewing",
     "brewery_type": "Micro Brewery",
@@ -436,7 +413,7 @@
     "price": 900
   },
   {
-    "id": 19,
+    "id": 18,
     "tap": 23,
     "name": "Solbirs - Scaling (NEIPA) , РОЗЛИВ, Россия",
     "brewery": "Solbirs",
@@ -444,7 +421,7 @@
     "style": "NEIPA",
     "format": "РОЗЛИВ",
     "country": "Россия",
-    "updatedAt": "2026-03-15T22:27",
+    "updatedAt": "2026-03-16T22:14",
     "brewery_name": "Solbirs Brewery",
     "brewery_slug": "solbirs-brewery",
     "brewery_type": "Micro Brewery",
@@ -459,7 +436,7 @@
     "price": 800
   },
   {
-    "id": 20,
+    "id": 19,
     "tap": 24,
     "name": "Одна тонна - Коник (Kolsch), РОЗЛИВ, Россия",
     "brewery": "Одна тонна",
@@ -467,7 +444,7 @@
     "style": "Kolsch",
     "format": "РОЗЛИВ",
     "country": "Россия",
-    "updatedAt": "2026-03-15T22:27",
+    "updatedAt": "2026-03-16T22:14",
     "brewery_name": "Пивоварня Одна тонна / Odna Tonna Brewery",
     "brewery_slug": "pivovarnya-odna-tonna-odna-tonna-brewery",
     "brewery_type": "Micro Brewery",
@@ -482,7 +459,7 @@
     "price": 780
   },
   {
-    "id": 21,
+    "id": 20,
     "tap": 25,
     "name": "Horror Brewing - Heresie (DIPA),  РОЗЛИВ ,Россия",
     "brewery": "Horror Brewing",
@@ -490,7 +467,7 @@
     "style": "DIPA",
     "format": "РОЗЛИВ",
     "country": "Россия",
-    "updatedAt": "2026-03-15T22:27",
+    "updatedAt": "2026-03-16T22:14",
     "brewery_name": "Horror Brewing",
     "brewery_slug": "horror-brewing",
     "brewery_type": "Contract Brewery",
@@ -505,13 +482,13 @@
     "price": 900
   },
   {
-    "id": 22,
+    "id": 21,
     "tap": 31,
     "name": "Black Sheep Irish Stout, РОЗЛИВ, Россия",
     "beer": "Black Sheep Irish Stout",
     "format": "РОЗЛИВ",
     "country": "Россия",
-    "updatedAt": "2026-03-15T22:27",
+    "updatedAt": "2026-03-16T22:14",
     "brewery_name": "Объединённые Пивоварни - Холдинг",
     "brewery_slug": "obedinyonnye-pivovarni-holding",
     "brewery_type": "Macro Brewery",
@@ -526,14 +503,14 @@
     "price": 600
   },
   {
-    "id": 23,
+    "id": 22,
     "tap": 32,
     "name": "Хамовники - Кеговое, РОЗЛИВ, Россия",
     "brewery": "Хамовники",
     "beer": "Кеговое",
     "format": "РОЗЛИВ",
     "country": "Россия",
-    "updatedAt": "2026-03-15T22:27",
+    "updatedAt": "2026-03-16T22:14",
     "brewery_name": "Moscow Brewing Company (Московская Пивоваренная Компания)",
     "brewery_slug": "moscow-brewing-company-moskovskaya-pivovarennaya-kompaniya",
     "brewery_type": "Macro Brewery",
@@ -546,27 +523,5 @@
     "term": "Хамовники Кеговое",
     "hash": "d0a5d0b0d0bcd0bed0b2d0bdd0b8d0bad0b820d09ad0b5d0b3d0bed0b2d0bed0b5",
     "price": 600
-  },
-  {
-    "id": 24,
-    "tap": 33,
-    "name": "Zagovor  - ESB Nitro, РОЗЛИВ, Россия",
-    "brewery": "Zagovor",
-    "beer": "ESB Nitro",
-    "format": "РОЗЛИВ",
-    "country": "Россия",
-    "updatedAt": "2026-03-15T22:27",
-    "brewery_name": "Zagovor Brewery",
-    "brewery_slug": "zagovor-brewery",
-    "brewery_type": "Micro Brewery",
-    "beer_name": "ESB - Nitro",
-    "beer_label": "https://assets.untappd.com/site/beer_logos/beer-6399023_d6114_sm.jpeg",
-    "beer_slug": "zagovor-brewery-esb-nitro",
-    "beer_abv": 5.6,
-    "beer_ibu": 30,
-    "beer_style": "Bitter - Extra Special / Strong (ESB)",
-    "term": "Zagovor ESB Nitro",
-    "hash": "5a61676f766f7220455342204e6974726f",
-    "price": 800
   }
 ]
