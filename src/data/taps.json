@@ -2,6 +2,7 @@
   {
     "id": 0,
     "tap": 1,
+    "raw": "Boxing Wizard - Straight Run (APA), РОЗЛИВ, Россия",
     "name": "Boxing Wizard - Straight Run (APA), РОЗЛИВ, Россия",
     "brewery": "Boxing Wizard",
     "beer": "Straight Run",
@@ -25,6 +26,7 @@
   {
     "id": 1,
     "tap": 3,
+    "raw": "Augustine - Ледяное (Helles), РОЗЛИВ, Россия",
     "name": "Augustine - Ледяное (Helles), РОЗЛИВ, Россия",
     "brewery": "Augustine",
     "beer": "Ледяное",
@@ -48,6 +50,7 @@
   {
     "id": 2,
     "tap": 4,
+    "raw": "Saliwa - Вечный Спор (DDH NEIPA), РОЗЛИВ, Россия",
     "name": "Saliwa - Вечный Спор (DDH NEIPA), РОЗЛИВ, Россия",
     "brewery": "Saliwa",
     "beer": "Вечный Спор",
@@ -71,6 +74,7 @@
   {
     "id": 3,
     "tap": 5,
+    "raw": "Stamm - StraBenbahn (Weisse), РОЗЛИВ, Россия",
     "name": "Stamm - StraBenbahn (Weisse), РОЗЛИВ, Россия",
     "brewery": "Stamm",
     "beer": "StraBenbahn",
@@ -94,6 +98,7 @@
   {
     "id": 4,
     "tap": 6,
+    "raw": "Gletcher - Milk Of Amnesia (Milkshake IPA), Розлив, Россия",
     "name": "Gletcher - Milk Of Amnesia (Milkshake IPA), Розлив, Россия",
     "brewery": "Gletcher",
     "beer": "Milk Of Amnesia",
@@ -117,6 +122,7 @@
   {
     "id": 5,
     "tap": 7,
+    "raw": "Malanka - Zaltum: Simcoe (Black IPA), РОЗЛИВ, Россия",
     "name": "Malanka - Zaltum: Simcoe (Black IPA), РОЗЛИВ, Россия",
     "brewery": "Malanka",
     "beer": "Zaltum: Simcoe",
@@ -140,6 +146,7 @@
   {
     "id": 6,
     "tap": 9,
+    "raw": "Plan B - Murquell Pilsner (Pils), РОЗЛИВ, Россия",
     "name": "Plan B - Murquell Pilsner (Pils), РОЗЛИВ, Россия",
     "brewery": "Plan B",
     "beer": "Murquell Pilsner",
@@ -163,6 +170,7 @@
   {
     "id": 7,
     "tap": 10,
+    "raw": "Midnight Project - Zhigulikeller (IPL), РОЗЛИВ, Россия",
     "name": "Midnight Project - Zhigulikeller (IPL), РОЗЛИВ, Россия",
     "brewery": "Midnight Project",
     "beer": "Zhigulikeller",
@@ -186,6 +194,7 @@
   {
     "id": 8,
     "tap": 11,
+    "raw": "Magic Mess - Понедельник (Lager), РОЗЛИВ, Россия",
     "name": "Magic Mess - Понедельник (Lager), РОЗЛИВ, Россия",
     "brewery": "Magic Mess",
     "beer": "Понедельник",
@@ -209,6 +218,7 @@
   {
     "id": 9,
     "tap": 12,
+    "raw": "Saint Loony - NICE (Sour), РОЗЛИВ, Россия",
     "name": "Saint Loony - NICE (Sour), РОЗЛИВ, Россия",
     "brewery": "Saint Loony",
     "beer": "NICE",
@@ -232,6 +242,7 @@
   {
     "id": 10,
     "tap": 13,
+    "raw": "Augustine - Имперский Стаут (RIS), РОЗЛИВ, Россия",
     "name": "Augustine - Имперский Стаут (RIS), РОЗЛИВ, Россия",
     "brewery": "Augustine",
     "beer": "Имперский Стаут",
@@ -255,7 +266,8 @@
   {
     "id": 11,
     "tap": 14,
-    "name": "Родное Яблочко - СОН (Сухой Сидр), РОЗЛИВ, Россия ",
+    "raw": "Родное Яблочко - СОН (Сухой Сидр), РОЗЛИВ, Россия",
+    "name": "Родное Яблочко - СОН (Сухой Сидр), РОЗЛИВ, Россия",
     "brewery": "Родное Яблочко",
     "beer": "СОН",
     "style": "Сухой Сидр",
@@ -278,6 +290,7 @@
   {
     "id": 12,
     "tap": 16,
+    "raw": "Plan B - Rise Of The Zombies (APA), РОЗЛИВ, Россия",
     "name": "Plan B - Rise Of The Zombies (APA), РОЗЛИВ, Россия",
     "brewery": "Plan B",
     "beer": "Rise Of The Zombies",
@@ -301,6 +314,7 @@
   {
     "id": 13,
     "tap": 17,
+    "raw": "ZAGOVOR - Midnight Moscow (IPA), РОЗЛИВ, Россия",
     "name": "ZAGOVOR - Midnight Moscow (IPA), РОЗЛИВ, Россия",
     "brewery": "ZAGOVOR",
     "beer": "Midnight Moscow",
@@ -324,6 +338,7 @@
   {
     "id": 14,
     "tap": 18,
+    "raw": "Black Cat \"70\"  (IPA), РОЗЛИВ, Россия",
     "name": "Black Cat  - 70  (IPA), РОЗЛИВ, Россия",
     "brewery": "Black Cat",
     "beer": "70",
@@ -342,11 +357,12 @@
     "beer_style": "IPA - American",
     "term": "Black Cat 70",
     "hash": "426c61636b20436174203730",
-    "price": 0
+    "price": 780
   },
   {
     "id": 15,
     "tap": 20,
+    "raw": "Plan B - Ковбой Мальборо (AIPA), РОЗЛИВ, Россия",
     "name": "Plan B - Ковбой Мальборо (AIPA), РОЗЛИВ, Россия",
     "brewery": "Plan B",
     "beer": "Ковбой Мальборо",
@@ -370,6 +386,7 @@
   {
     "id": 16,
     "tap": 21,
+    "raw": "White Stone - Вишневый Бум (Sour), РОЗЛИВ, Россия",
     "name": "White Stone - Вишневый Бум (Sour), РОЗЛИВ, Россия",
     "brewery": "White Stone",
     "beer": "Вишневый Бум",
@@ -393,6 +410,7 @@
   {
     "id": 17,
     "tap": 22,
+    "raw": "Stamm - Alpha Hops: Citra (IPA), РОЗЛИВ, Россия",
     "name": "Stamm - Alpha Hops: Citra (IPA), РОЗЛИВ, Россия",
     "brewery": "Stamm",
     "beer": "Alpha Hops: Citra",
@@ -416,6 +434,7 @@
   {
     "id": 18,
     "tap": 23,
+    "raw": "Solbirs - Scaling (NEIPA) , РОЗЛИВ, Россия",
     "name": "Solbirs - Scaling (NEIPA) , РОЗЛИВ, Россия",
     "brewery": "Solbirs",
     "beer": "Scaling",
@@ -439,6 +458,7 @@
   {
     "id": 19,
     "tap": 24,
+    "raw": "Одна тонна - Коник (Kolsch), РОЗЛИВ, Россия",
     "name": "Одна тонна - Коник (Kolsch), РОЗЛИВ, Россия",
     "brewery": "Одна тонна",
     "beer": "Коник",
@@ -462,6 +482,7 @@
   {
     "id": 20,
     "tap": 25,
+    "raw": "Horror Brewing - Heresie (DIPA),  РОЗЛИВ ,Россия",
     "name": "Horror Brewing - Heresie (DIPA),  РОЗЛИВ ,Россия",
     "brewery": "Horror Brewing",
     "beer": "Heresie",
@@ -485,6 +506,7 @@
   {
     "id": 21,
     "tap": 31,
+    "raw": "Black Sheep Irish Stout, РОЗЛИВ, Россия",
     "name": "Black Sheep Irish Stout, РОЗЛИВ, Россия",
     "beer": "Black Sheep Irish Stout",
     "format": "РОЗЛИВ",
@@ -506,6 +528,7 @@
   {
     "id": 22,
     "tap": 32,
+    "raw": "Хамовники - Кеговое, РОЗЛИВ, Россия",
     "name": "Хамовники - Кеговое, РОЗЛИВ, Россия",
     "brewery": "Хамовники",
     "beer": "Кеговое",

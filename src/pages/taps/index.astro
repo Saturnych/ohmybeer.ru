@@ -39,11 +39,12 @@ if (taps?.length > 0) {
 	const workbook = parseExcelFile(filename);
 	const pricelist = workbook?.length > 0 ? workbook[0].data || [] : [];
 	taps = taps.map((tap) => {
-		let { beer, brewery, hash, name } = tap;
+		let { beer, brewery, hash, raw, name } = tap;
 		if (!hash) hash = hashWithTextEncoder(`${brewery ? brewery + ' ' : ''}${beer}`);
 		let price: number = 0;
 		if (pricelist?.length > 0) {
-			const row: any[] = pricelist.find((item) => item[0] === name);
+			const row: any[] = pricelist.find((item) => item[0].trim() === raw);
+			if (DEV) console.log(row);
 			const last: number = (row?.length || 0) - 1;
 			price = last > 0 && isNumeric(row[last]) ? row[last] : 0;
 		}

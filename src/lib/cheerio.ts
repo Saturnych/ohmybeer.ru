@@ -31,10 +31,10 @@ export const getTableData = (source: string): string => {
 	const table = $('div[id=table-row]').find('.table').find('tbody').children('tr');
 	table.each((id, el) => {
 		const tap: number = Number($(el).find('.tap-num').text().trim());
-		const name: string = $(el).find('.tap-name').text().replace(`"`, ` - `).replace(`"`, ``);
+		const raw: string = $(el).find('.tap-name').text().trim();
+		const name: string = raw.replace(`"`, ` - `).replace(`"`, ``);
 		// Augustine - Карт-Бланш (Blanche), РОЗЛИВ, Россия
 		// Black Sheep Irish Stout, РОЗЛИВ, Россия
-		if (DEV) console.log('getTableData tap:', tap, 'name:', name);
 		const parsed: string[] = name
 			.split(' - ')
 			.map((m) => m.trim())
@@ -56,7 +56,6 @@ export const getTableData = (source: string): string => {
 							.map((m) => m.trim())
 							.filter((f) => !!f),
 					];
-		if (DEV) console.log('getTableData brewery:', brewery, 'data:', data);
 		const [beer, style]: string[] = data[0]
 			.split('(')
 			.map((m) => m.replaceAll(')', '').trim())
@@ -66,6 +65,7 @@ export const getTableData = (source: string): string => {
 		taps.push({
 			id,
 			tap,
+			raw,
 			name,
 			brewery,
 			beer,
