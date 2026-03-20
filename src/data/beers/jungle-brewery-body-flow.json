@@ -1,0 +1,20 @@
+{
+  "bid": 6573855,
+  "beer_name": "Body Flow",
+  "beer_label": "https://assets.untappd.com/site/beer_logos/beer-6573855_e790f_sm.jpeg",
+  "beer_abv": 6.7,
+  "beer_slug": "jungle-brewery-body-flow",
+  "beer_ibu": 65,
+  "beer_description": "West Coast American IPA with Chinook Cryo, McKenzie, Southern Cross, Cascade hops",
+  "created_at": "Mon, 19 Jan 2026 06:51:54 +0000",
+  "beer_style": "IPA - American",
+  "in_production": 1,
+  "auth_rating": 0,
+  "wish_list": false,
+  "checkin_count": 312,
+  "id": "jungle-brewery-body-flow",
+  "brewery": "jungle-brewery",
+  "term": "Jungle Body Flow",
+  "parsed_term": "Jungle Body Flow",
+  "hash": "4a756e676c6520426f647920466c6f77"
+}
