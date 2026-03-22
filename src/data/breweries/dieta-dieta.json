@@ -1,0 +1,24 @@
+{
+  "brewery_id": 391808,
+  "brewery_name": "DIETA / ДИЕТА",
+  "brewery_slug": "dieta-dieta",
+  "brewery_page_url": "/dietabrewery",
+  "brewery_type": "Contract Brewery",
+  "brewery_label": "https://assets.untappd.com/site/brewery_logos/brewery-391808_a32a1.jpeg",
+  "brewery_stamp": "/brewery_logos/brewery-391808_a32a1.jpeg",
+  "country_name": "Russia",
+  "contact": {
+    "twitter": "",
+    "facebook": "http://fb.com/dietabrewery",
+    "instagram": "dietabrewery",
+    "url": "http://vk.com/dietabrewery"
+  },
+  "location": {
+    "brewery_city": "Saint Petersburg",
+    "brewery_state": "Санкт-Петербург",
+    "lat": 59.9393005,
+    "lng": 30.3609009
+  },
+  "brewery_active": 1,
+  "id": "dieta-dieta"
+}

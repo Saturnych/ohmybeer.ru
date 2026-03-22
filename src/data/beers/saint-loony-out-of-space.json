@@ -1,0 +1,20 @@
+{
+  "bid": 6386074,
+  "beer_name": "OUT OF SPACE",
+  "beer_label": "https://assets.untappd.com/site/beer_logos/beer-6386074_8acc1_sm.jpeg",
+  "beer_abv": 6,
+  "beer_slug": "saint-loony-out-of-space",
+  "beer_ibu": 0,
+  "beer_description": "Малина, ежевика, гуава (Sour ale) Заряд тропической энергии! Сочная малина, глубокая\r\nежевика и экзотическая гуава объединяются в мощном вкусовом бусте. Насыщенный, яркий и\r\nс энергичной кислинкой — как импульс для ваших рецепторов.",
+  "created_at": "Fri, 22 Aug 2025 18:52:37 +0000",
+  "beer_style": "Sour - Fruited Gose",
+  "in_production": 1,
+  "auth_rating": 0,
+  "wish_list": false,
+  "checkin_count": 137,
+  "id": "saint-loony-out-of-space",
+  "brewery": "saint-loony",
+  "term": "Saint Loony Out Of Space",
+  "parsed_term": "Saint Loony Out Of Space",
+  "hash": "5361696e74204c6f6f6e79204f7574204f66205370616365"
+}

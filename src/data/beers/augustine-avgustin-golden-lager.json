@@ -1,0 +1,20 @@
+{
+  "bid": 819527,
+  "beer_name": "Голден Лагер",
+  "beer_label": "https://assets.untappd.com/site/beer_logos/beer-819527_2a2c5_sm.jpeg",
+  "beer_abv": 4.5,
+  "beer_slug": "augustine-avgustin-golden-lager",
+  "beer_ibu": 18,
+  "beer_description": "",
+  "created_at": "Sun, 21 Sep 2014 13:15:48 +0000",
+  "beer_style": "Lager - Pale",
+  "in_production": 1,
+  "auth_rating": 0,
+  "wish_list": false,
+  "checkin_count": 1049,
+  "id": "augustine-avgustin-golden-lager",
+  "brewery": "augustine-avgustin",
+  "term": "Augustine Golden Lager",
+  "parsed_term": "Augustine Golden Lager",
+  "hash": "417567757374696e6520476f6c64656e204c61676572"
+}
