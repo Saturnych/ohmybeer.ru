@@ -548,7 +548,7 @@
     "beer_style": "Märzen",
     "term": "Хамовники Кеговое",
     "hash": "d0a5d0b0d0bcd0bed0b2d0bdd0b8d0bad0b820d09ad0b5d0b3d0bed0b2d0bed0b5",
-    "price": 600
+    "price": 660
   },
   {
     "id": 23,
@@ -572,6 +572,6 @@
     "beer_style": "Stout - Irish Dry",
     "term": "Red Rocket Dry Nitro Stout",
     "hash": "52656420526f636b657420447279204e6974726f2053746f7574",
-    "price": 600
+    "price": 660
   }
 ]
