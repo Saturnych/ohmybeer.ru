@@ -1,0 +1,20 @@
+{
+  "bid": 6620376,
+  "beer_name": "Верный Путь",
+  "beer_label": "https://assets.untappd.com/site/beer_logos/beer-6620376_5a3d0_sm.jpeg",
+  "beer_abv": 6,
+  "beer_slug": "white-stone-vernyy-put",
+  "beer_ibu": 74,
+  "beer_description": "Верный Путь\r\nIndia Pale Ale\r\nABV: 6%\r\nPlato: 15%\r\nIBU: 74\r\nHops: Superdelic, McKenzie, HBC 638\r\n\r\nСтоишь на обочине и видишь, как в твою сторону несётся машина. В ней — команда Paradox, они отмечают свой день рождения! Окна открыты, ветер развевает волосы, слышен смех. За плечами у ребят тысячи километров и 12 лет пути. Водитель смотрит в зеркало заднего вида и видит счастливых коллег, которые тянутся в багажник. Машина тормозит рядом, и тебе протягивают баночку нового IPA. Открой и выпей за их счастливую дорогу и верный путь!",
+  "created_at": "Tue, 03 Mar 2026 09:50:06 +0000",
+  "beer_style": "IPA - American",
+  "in_production": 1,
+  "auth_rating": 0,
+  "wish_list": false,
+  "checkin_count": 0,
+  "id": "white-stone-vernyy-put",
+  "brewery": "white-stone",
+  "term": "White Stone Верный Путь",
+  "parsed_term": "White Stone Верный Путь",
+  "hash": "57686974652053746f6e6520d092d0b5d180d0bdd18bd0b920d09fd183d182d18c"
+}
