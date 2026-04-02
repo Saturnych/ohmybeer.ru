@@ -57,7 +57,7 @@ export const dateToIntlFormat = (
 	format: Record<string, string> = {
 		dateStyle: 'short', // 'full'
 		timeStyle: 'short', // 'long'
-		timeZone: 'Europe/London',
+		timeZone: 'Europe/Moscow',
 	},
 	locale: string = 'ru-RU',
 ): string => {
