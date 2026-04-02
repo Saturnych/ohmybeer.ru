@@ -1,0 +1,24 @@
+{
+  "brewery_id": 97048,
+  "brewery_name": "Пётр Петрович (Petr Petrovich)",
+  "brewery_slug": "pyotr-petrovich-petr-petrovich",
+  "brewery_page_url": "/PetrPetrovich",
+  "brewery_type": "Brew Pub",
+  "brewery_label": "https://assets.untappd.com/site/brewery_logos/brewery-97048_9d94b.jpeg",
+  "brewery_stamp": "/brewery_logos/brewery-97048_9d94b.jpeg",
+  "country_name": "Russia",
+  "contact": {
+    "twitter": "",
+    "facebook": "",
+    "instagram": "restoran_petr_petrovich",
+    "url": "http://www.petrpetrovich.ru/"
+  },
+  "location": {
+    "brewery_city": "Tula",
+    "brewery_state": "Тульская область",
+    "lat": 54.1837006,
+    "lng": 37.5919991
+  },
+  "brewery_active": 1,
+  "id": "pyotr-petrovich-petr-petrovich"
+}

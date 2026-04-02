@@ -1,0 +1,24 @@
+{
+  "brewery_id": 557099,
+  "brewery_name": "Осьминогец / Osminogets",
+  "brewery_slug": "osminogec-osminogets",
+  "brewery_page_url": "/Osminogets",
+  "brewery_type": "Nano Brewery",
+  "brewery_label": "https://assets.untappd.com/site/brewery_logos/brewery-557099_6841d.jpeg",
+  "brewery_stamp": "/brewery_logos/brewery-557099_6841d.jpeg",
+  "country_name": "Russia",
+  "contact": {
+    "twitter": "",
+    "facebook": "",
+    "instagram": "osminogets",
+    "url": ""
+  },
+  "location": {
+    "brewery_city": "Rostov",
+    "brewery_state": "Rostovskaya oblast'",
+    "lat": 47.2416992,
+    "lng": 39.7296982
+  },
+  "brewery_active": 1,
+  "id": "osminogec-osminogets"
+}

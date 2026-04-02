@@ -1,0 +1,20 @@
+{
+  "bid": 6595943,
+  "beer_name": "Harbinger of Spring | Предвестник Весны",
+  "beer_label": "https://assets.untappd.com/site/beer_logos/beer-6595943_82640_sm.jpeg",
+  "beer_abv": 4.2,
+  "beer_slug": "pyotr-petrovich-petr-petrovich-harbinger-of-spring-predvestnik-vesny",
+  "beer_ibu": 12,
+  "beer_description": "Каждый холодный зимний день мы все ждём скорейшего приближения солнца и тепла. Чтобы птицы снова запели, трава начала зеленеть и воздух стал свежим и лёгким. Такой же лёгкости начинает хотеться и от напитков. Плотные и тягучие сорта сменяются чем-то незамысловатым и утоляющим жажду. Так у нас и родилась идея создания лёгкого освежающего лагера в американском стиле, где мягкая солодовая база переплетается с умеренным цитрусовым тоном хмеля Citra. Весна уже в пути!",
+  "created_at": "Mon, 09 Feb 2026 10:38:55 +0000",
+  "beer_style": "Lager - American Light",
+  "in_production": 1,
+  "auth_rating": 0,
+  "wish_list": false,
+  "checkin_count": 48,
+  "id": "pyotr-petrovich-petr-petrovich-harbinger-of-spring-predvestnik-vesny",
+  "brewery": "pyotr-petrovich-petr-petrovich",
+  "term": "Петр Петрович Harbinger of Spring",
+  "parsed_term": "Петр Петрович Harbinger of Spring",
+  "hash": "d09fd0b5d182d18020d09fd0b5d182d180d0bed0b2d0b8d1872048617262696e676572206f6620537072696e67"
+}

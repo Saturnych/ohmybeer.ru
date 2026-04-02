@@ -1,0 +1,20 @@
+{
+  "bid": 6654956,
+  "beer_name": "Простота Без Пестроты",
+  "beer_label": "https://assets.untappd.com/site/beer_logos/beer-6654956_07de4_sm.jpeg",
+  "beer_abv": 8.5,
+  "beer_slug": "osminogec-osminogets-prostota-bez-pestroty",
+  "beer_ibu": 30,
+  "beer_description": "Двойной джуси айпиэй с тройным охмелением совместно с баром «Сосна и Липа»: охмеление в три этапа Galaxy, Nelson Sauvin Amplifire и Citra Cryo",
+  "created_at": "Tue, 31 Mar 2026 18:36:09 +0000",
+  "beer_style": "IPA - Imperial / Double New England / Hazy",
+  "in_production": 1,
+  "auth_rating": 0,
+  "wish_list": false,
+  "checkin_count": 0,
+  "id": "osminogec-osminogets-prostota-bez-pestroty",
+  "brewery": "osminogec-osminogets",
+  "term": "Осьминогец Простота Без Пестроты",
+  "parsed_term": "Осьминогец Простота Без Пестроты",
+  "hash": "d09ed181d18cd0bcd0b8d0bdd0bed0b3d0b5d18620d09fd180d0bed181d182d0bed182d0b020d091d0b5d0b720d09fd0b5d181d182d180d0bed182d18b"
+}

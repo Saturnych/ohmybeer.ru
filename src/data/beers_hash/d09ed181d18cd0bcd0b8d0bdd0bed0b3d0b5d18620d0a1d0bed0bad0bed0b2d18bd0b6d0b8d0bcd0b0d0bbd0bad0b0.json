@@ -1,0 +1,20 @@
+{
+  "bid": 6641015,
+  "beer_name": "Соковыжималка",
+  "beer_label": "https://assets.untappd.com/site/beer_logos/beer-6641015_1811a_sm.jpeg",
+  "beer_abv": 6.5,
+  "beer_slug": "osminogec-osminogets-sokovyzhimalka",
+  "beer_ibu": 0,
+  "beer_description": "Фруктовый насыщенный желтовато-пастельный саур эль с комбинацией манго, банана и клубники. Не путайте с Сокоотжималкой. ",
+  "created_at": "Fri, 20 Mar 2026 08:54:07 +0000",
+  "beer_style": "Sour - Fruited",
+  "in_production": 1,
+  "auth_rating": 0,
+  "wish_list": false,
+  "checkin_count": 9,
+  "id": "osminogec-osminogets-sokovyzhimalka",
+  "brewery": "osminogec-osminogets",
+  "term": "Осьминогец Соковыжималка",
+  "parsed_term": "Осьминогец Соковыжималка",
+  "hash": "d09ed181d18cd0bcd0b8d0bdd0bed0b3d0b5d18620d0a1d0bed0bad0bed0b2d18bd0b6d0b8d0bcd0b0d0bbd0bad0b0"
+}

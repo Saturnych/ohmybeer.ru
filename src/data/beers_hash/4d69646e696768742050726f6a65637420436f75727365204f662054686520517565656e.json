@@ -1,0 +1,20 @@
+{
+  "bid": 6536205,
+  "beer_name": "Course of the Queen",
+  "beer_label": "https://assets.untappd.com/site/beer_logos/beer-6536205_b543f_sm.jpeg",
+  "beer_abv": 6.3,
+  "beer_slug": "midnight-project-course-of-the-queen",
+  "beer_ibu": 40,
+  "beer_description": "Ход Королевы — наш новый совместный релиз с друзьями Valaduta. В этот раз мы решили сыграть партию в редком для нас стиле ESB.\r\n\r\nЭто сорт про выверенный баланс и спокойную уверенность: без резких движений, когда всё решает точность и чувство момента. Как в хорошей шахматной партии, где один правильный ход меняет всю расстановку сил.\r\n\r\nВаш ход.",
+  "created_at": "Thu, 18 Dec 2025 11:17:04 +0000",
+  "beer_style": "Bitter - Extra Special / Strong (ESB)",
+  "in_production": 1,
+  "auth_rating": 0,
+  "wish_list": false,
+  "checkin_count": 526,
+  "id": "midnight-project-course-of-the-queen",
+  "brewery": "midnight-project",
+  "term": "Midnight Project Course Of The Queen",
+  "parsed_term": "Midnight Project Course Of The Queen",
+  "hash": "4d69646e696768742050726f6a65637420436f75727365204f662054686520517565656e"
+}
