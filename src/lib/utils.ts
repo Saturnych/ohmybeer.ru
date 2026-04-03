@@ -61,7 +61,8 @@ export const dateToIntlFormat = (
 	},
 	locale: string = 'ru-RU',
 ): string => {
-	return new Intl.DateTimeFormat(locale, format).format(new Date(strDate));
+	const timeZone: string = Intl.DateTimeFormat().resolvedOptions().timeZone || 'UTC';
+	return new Intl.DateTimeFormat(locale, { ...format, timeZone }).format(new Date(strDate));
 };
 
 export const fileExists = (filename: string, mode: number = fs.constants.F_OK): boolean => {
