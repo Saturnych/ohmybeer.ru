@@ -1,0 +1,20 @@
+{
+  "bid": 6654446,
+  "beer_name": "Static Cloud",
+  "beer_label": "https://assets.untappd.com/site/beer_logos/beer-6654446_60d33_sm.jpeg",
+  "beer_abv": 6.7,
+  "beer_slug": "plan-b-brewery-static-cloud",
+  "beer_ibu": 40,
+  "beer_description": "Simcoe / Galaxy / Mosaic",
+  "created_at": "Tue, 31 Mar 2026 06:29:15 +0000",
+  "beer_style": "IPA - New England / Hazy",
+  "in_production": 1,
+  "auth_rating": 0,
+  "wish_list": false,
+  "checkin_count": 7,
+  "id": "plan-b-brewery-static-cloud",
+  "brewery": "plan-b-brewery",
+  "term": "Plan B Static Cloud",
+  "parsed_term": "Plan B Static Cloud",
+  "hash": "506c616e20422053746174696320436c6f7564"
+}
