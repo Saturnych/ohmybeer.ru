@@ -44,8 +44,7 @@
 		"axios-retry": "^4.5.0",
 		"cheerio": "^1.2.0",
 		"micromatch": "^4.0.8",
-		"node-xlsx": "^0.24.0",
-		"yarn": "^1.22.22"
+		"node-xlsx": "^0.24.0"
 	},
 	"engines": {
 		"node": ">=22.15.0"
