@@ -1,0 +1,20 @@
+{
+  "bid": 6662373,
+  "beer_name": "Praha 10",
+  "beer_label": "https://assets.untappd.com/site/beer_logos/beer-6662373_bcd7b_sm.jpeg",
+  "beer_abv": 4.2,
+  "beer_slug": "stamm-brewing-praha-10",
+  "beer_ibu": 0,
+  "beer_description": "",
+  "created_at": "Mon, 06 Apr 2026 08:34:18 +0000",
+  "beer_style": "Lager - Světlé (Czech Pale)",
+  "in_production": 1,
+  "auth_rating": 0,
+  "wish_list": false,
+  "checkin_count": 12,
+  "id": "stamm-brewing-praha-10",
+  "brewery": "stamm-brewing",
+  "term": "Stamm Praha 10",
+  "parsed_term": "Stamm Praha 10",
+  "hash": "5374616d6d205072616861203130"
+}
