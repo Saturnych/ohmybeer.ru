@@ -165,7 +165,7 @@
     "beer_style": "IPA - Session New England / Hazy",
     "term": "Jungle Spin it Baby One More Time",
     "hash": "4a756e676c65205370696e2069742042616279204f6e65204d6f72652054696d65",
-    "price": 0
+    "price": 1100
   },
   {
     "id": 7,
@@ -189,7 +189,7 @@
     "beer_style": "IPA - American",
     "term": "Jungle Rising High",
     "hash": "4a756e676c6520526973696e672048696768",
-    "price": 0
+    "price": 1100
   },
   {
     "id": 8,
