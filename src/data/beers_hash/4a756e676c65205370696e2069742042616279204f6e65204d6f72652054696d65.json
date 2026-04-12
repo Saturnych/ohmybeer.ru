@@ -1,0 +1,20 @@
+{
+  "bid": 6645506,
+  "beer_name": "Spin It Baby One More Time",
+  "beer_label": "https://assets.untappd.com/site/beer_logos/beer-6645506_7e8b1_sm.jpeg",
+  "beer_abv": 5,
+  "beer_slug": "jungle-brewery-spin-it-baby-one-more-time",
+  "beer_ibu": 35,
+  "beer_description": "Light and refreshing Hazy IPA, brewed specially for Spin Bar's 5th anniversary\r\n\r\nDDH with Krush, Citra, Citra Lupomax",
+  "created_at": "Mon, 23 Mar 2026 07:43:36 +0000",
+  "beer_style": "IPA - Session New England / Hazy",
+  "in_production": 1,
+  "auth_rating": 0,
+  "wish_list": false,
+  "checkin_count": 188,
+  "id": "jungle-brewery-spin-it-baby-one-more-time",
+  "brewery": "jungle-brewery",
+  "term": "Jungle Spin it Baby One More Time",
+  "parsed_term": "Jungle Spin it Baby One More Time",
+  "hash": "4a756e676c65205370696e2069742042616279204f6e65204d6f72652054696d65"
+}

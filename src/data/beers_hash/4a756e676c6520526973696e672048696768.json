@@ -1,0 +1,20 @@
+{
+  "bid": 6662363,
+  "beer_name": "Rising High",
+  "beer_label": "https://assets.untappd.com/site/beer_logos/beer-6662363_6b0f1_sm.jpeg",
+  "beer_abv": 5.9,
+  "beer_slug": "jungle-brewery-rising-high",
+  "beer_ibu": 55,
+  "beer_description": "West Coast American IPA with Enigma, Idaho 7, Citra, Citra Cryo hops",
+  "created_at": "Mon, 06 Apr 2026 07:41:24 +0000",
+  "beer_style": "IPA - American",
+  "in_production": 1,
+  "auth_rating": 0,
+  "wish_list": false,
+  "checkin_count": 67,
+  "id": "jungle-brewery-rising-high",
+  "brewery": "jungle-brewery",
+  "term": "Jungle Rising High",
+  "parsed_term": "Jungle Rising High",
+  "hash": "4a756e676c6520526973696e672048696768"
+}
