@@ -78,9 +78,7 @@ const getYMLFeed = async (site: string = pkg.homepage): Promise<string> => {
     <offers>
       ${offers
 				.map(
-					(
-						offer,
-					) => `<offer id="${offer.id}"${offer.available ? (popular.includes(offer.id) ? ' popular="true"' : '') : ' available="unknown"'}>
+					(offer) => `<offer id="${offer.id}"${offer.available ? '' : ' available="unknown"'}>
 				<categoryId>${offer.categoryId}</categoryId>
 				<count>${offer.count}</count>
         <measure>${offer.measure}</measure>
@@ -93,9 +91,15 @@ const getYMLFeed = async (site: string = pkg.homepage): Promise<string> => {
         <url>${offer.url}</url>
         ${offer.abv > 0 ? `<param name="ABV">${offer.abv}</param>` : ''}
         ${offer.ibu > 0 ? `<param name="IBU">${offer.ibu}</param>` : ''}
+        ${
+					popular.includes(offer.id)
+						? `
+        <param name="is_popular">true</param>
+        <param name="top_sales">true</param>`
+						: ''
+				}
         <param name="Объём" unit="мл">500</param>
         <pickup>${String(offer.available)}</pickup>
-        ${popular.includes(offer.id) ? `<popular>true</popular>` : ''}
         <age unit="year">18</age>
       </offer>`,
 				)
