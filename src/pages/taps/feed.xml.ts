@@ -91,14 +91,15 @@ const getYMLFeed = async (site: string = pkg.homepage): Promise<string> => {
         <url>${offer.url}</url>
         ${offer.abv > 0 ? `<param name="ABV">${offer.abv}</param>` : ''}
         ${offer.ibu > 0 ? `<param name="IBU">${offer.ibu}</param>` : ''}
+        <param name="Объём" unit="мл">500</param>
         ${
 					popular.includes(offer.id)
 						? `
         <param name="is_popular">true</param>
-        <param name="top_sales">true</param>`
+        <param name="top_sales">true</param>
+        <sales_notes>Хит продаж</sales_notes>`
 						: ''
 				}
-        <param name="Объём" unit="мл">500</param>
         <pickup>${String(offer.available)}</pickup>
         <age unit="year">18</age>
       </offer>`,
