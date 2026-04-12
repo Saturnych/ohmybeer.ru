@@ -41,8 +41,8 @@ const getYMLFeed = async (site: string = pkg.homepage): Promise<string> => {
 				: categories[0].id,
 			count: 500,
 			measure: 'mlit',
-			price: !!tap?.price ? Math.round(tap.price / 2) : 1,
 			currencyId: 'RUB',
+			price: !!tap?.price ? Math.round(tap.price / 2) : 1,
 			name: `${!!tap?.brewery && brewery.brewery_name?.length > 20 ? tap.brewery : brewery.brewery_name} - ${!!tap?.beer && beer.beer_name.length > 30 ? tap.beer : beer.beer_name}`,
 			vendor: brewery.brewery_name.trim(),
 			shortDescription: `${beer.beer_style}${beer.beer_abv > 0 ? ', ABV: ' + beer.beer_abv : ''}${beer.beer_ibu > 0 ? ', IBU: ' + beer.beer_ibu : ''}, Чекинов в Untappd: ${beer.checkin_count}`,
@@ -55,16 +55,32 @@ const getYMLFeed = async (site: string = pkg.homepage): Promise<string> => {
 	}
 	offers.sort((a, b) => a.tap - b.tap);
 
+	const popular: number[] = offers
+		.filter((offer) => offer.available)
+		.map((offer) => ({ id: offer.id, price: offer.price }))
+		.sort((a, b) => b.price - a.price)
+		.map((obj) => obj.id)
+		.slice(0, 10);
+	console.log('popular:', popular);
+
 	return `<?xml version="1.0" encoding="UTF-8"?>
 	<yml_catalog date="${updatedAt}">
   <shop>
+    <name>${encodeHTMLEntities(pkg.title)}</name>
+    <company>${encodeHTMLEntities(pkg.title)}</company>
+    <url>${pkg.homepage}</url>
+    <currencies>
+     <currency id="RUB" rate="1"></currency>
+    </currencies>
     <categories>
       ${categories.map((category) => `<category id="${category.id}">${category.name}</category>`).join('\n')}
     </categories>
     <offers>
       ${offers
 				.map(
-					(offer) => `<offer id="${offer.id}"${offer.available ? '' : ' available="unknown"'}>
+					(
+						offer,
+					) => `<offer id="${offer.id}"${offer.available ? (popular.includes(offer.id) ? ' popular="true"' : '') : ' available="unknown"'}>
 				<categoryId>${offer.categoryId}</categoryId>
 				<count>${offer.count}</count>
         <measure>${offer.measure}</measure>
@@ -79,6 +95,7 @@ const getYMLFeed = async (site: string = pkg.homepage): Promise<string> => {
         ${offer.ibu > 0 ? `<param name="IBU">${offer.ibu}</param>` : ''}
         <param name="Объём" unit="мл">500</param>
         <pickup>${String(offer.available)}</pickup>
+        ${popular.includes(offer.id) ? `<popular>true</popular>` : ''}
         <age unit="year">18</age>
       </offer>`,
 				)
