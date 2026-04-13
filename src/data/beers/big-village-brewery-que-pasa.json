@@ -1,0 +1,20 @@
+{
+  "bid": 5917687,
+  "beer_name": "QUÉ PASA",
+  "beer_label": "https://assets.untappd.com/site/beer_logos/beer-5917687_37bdb_sm.jpeg",
+  "beer_abv": 5,
+  "beer_slug": "big-village-brewery-que-pasa",
+  "beer_ibu": 15,
+  "beer_description": "Классическая интерпретация мексиканского Лагера: кукуруза и солод Pilsner, ненавязчивое охмеление, лагерный дрожжевой штамм. Максимально светлый, освежающий, сухой и хрустящий, добавляем лайм по желанию.",
+  "created_at": "Mon, 22 Jul 2024 14:14:48 +0000",
+  "beer_style": "Lager - Mexican",
+  "in_production": 1,
+  "auth_rating": 0,
+  "wish_list": false,
+  "checkin_count": 957,
+  "id": "big-village-brewery-que-pasa",
+  "brewery": "big-village-brewery",
+  "term": "Big Village Que Pasa",
+  "parsed_term": "Big Village Que Pasa",
+  "hash": "4269672056696c6c616765205175652050617361"
+}

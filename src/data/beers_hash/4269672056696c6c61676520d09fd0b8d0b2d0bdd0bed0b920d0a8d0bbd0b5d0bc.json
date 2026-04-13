@@ -1,0 +1,20 @@
+{
+  "bid": 6662345,
+  "beer_name": "ПИВНОЙ ШЛЕМ",
+  "beer_label": "https://assets.untappd.com/site/beer_logos/beer-6662345_6b38c_sm.jpeg",
+  "beer_abv": 8.5,
+  "beer_slug": "big-village-brewery-pivnoy-shlem",
+  "beer_ibu": 40,
+  "beer_description": "Двойной Хейзи АйПиЭй с массивной овсяной базой, охмелённый свежими гранулами Galaxy/Nectaron/Citra CRYO и соком ананса\r\nСпециально к 10-и летию легендарного Ботлшопа \"DOGMA\" г. Москва, сваренный с нашими друзьями, пивоварней \"Zagovor\"",
+  "created_at": "Mon, 06 Apr 2026 06:33:21 +0000",
+  "beer_style": "IPA - Imperial / Double New England / Hazy",
+  "in_production": 1,
+  "auth_rating": 0,
+  "wish_list": false,
+  "checkin_count": 13,
+  "id": "big-village-brewery-pivnoy-shlem",
+  "brewery": "big-village-brewery",
+  "term": "Big Village Пивной Шлем",
+  "parsed_term": "Big Village Пивной Шлем",
+  "hash": "4269672056696c6c61676520d09fd0b8d0b2d0bdd0bed0b920d0a8d0bbd0b5d0bc"
+}
