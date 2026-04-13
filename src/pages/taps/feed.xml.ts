@@ -14,7 +14,7 @@ const getYMLFeed = async (site: string = pkg.homepage): Promise<string> => {
 	console.log(beers?.length);
 	const tapsCollection = await getCollection('taps');
 	const taps: Record<string, any>[] = tapsCollection.map((item) => item.data);
-	console.log(taps[0]);
+	//console.log(taps[0]);
 
 	const { updatedAt } = taps[0];
 
@@ -61,7 +61,7 @@ const getYMLFeed = async (site: string = pkg.homepage): Promise<string> => {
 		.sort((a, b) => b.price - a.price)
 		.map((obj) => obj.id)
 		.slice(0, 10);
-	console.log('popular:', popular);
+	//console.log('popular:', popular);
 
 	return `<?xml version="1.0" encoding="UTF-8"?>
 	<yml_catalog date="${updatedAt}">
