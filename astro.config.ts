@@ -12,11 +12,8 @@ export default defineConfig({
 	},
 	site: pkg.homepage,
 	integrations: [
-		sitemap(),
-		/*
 		sitemap({
-			filter: (page) => page !== 'https://example.com/beers/',
-    }),
-		*/
+			filter: (page) => page !== 'https://ohmybeer.ru/untappd/',
+		}),
 	],
 });
