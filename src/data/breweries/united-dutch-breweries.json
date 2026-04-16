@@ -1,0 +1,24 @@
+{
+  "brewery_id": 11478,
+  "brewery_name": "United Dutch Breweries",
+  "brewery_slug": "united-dutch-breweries",
+  "brewery_page_url": "/UnitedDutchBreweries",
+  "brewery_type": "Macro Brewery",
+  "brewery_label": "https://assets.untappd.com/site/brewery_logos/brewery-11478_bcfee.jpeg",
+  "brewery_stamp": "/brewery_logos/brewery-11478_bcfee.jpeg",
+  "country_name": "Netherlands",
+  "contact": {
+    "twitter": "",
+    "facebook": "https://www.facebook.com/uniteddutchbreweries",
+    "instagram": "uniteddutchbreweries",
+    "url": "https://www.uniteddutchbreweries.com"
+  },
+  "location": {
+    "brewery_city": "Breda",
+    "brewery_state": "Noord-Brabant",
+    "lat": 51.5998993,
+    "lng": 4.8081899
+  },
+  "brewery_active": 1,
+  "id": "united-dutch-breweries"
+}

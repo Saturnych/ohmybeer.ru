@@ -1,0 +1,20 @@
+{
+  "bid": 6670358,
+  "beer_name": "Brace Up!",
+  "beer_label": "https://assets.untappd.com/site/beer_logos/beer-6670358_6a0c9_sm.jpeg",
+  "beer_abv": 5.5,
+  "beer_slug": "zagovor-brewery-brace-up",
+  "beer_ibu": 0,
+  "beer_description": "First Spring Cider from local apples!",
+  "created_at": "Sun, 12 Apr 2026 14:05:57 +0000",
+  "beer_style": "Cider - Dry",
+  "in_production": 1,
+  "auth_rating": 0,
+  "wish_list": false,
+  "checkin_count": 30,
+  "id": "zagovor-brewery-brace-up",
+  "brewery": "zagovor-brewery",
+  "term": "Zagovor Brace Up",
+  "parsed_term": "Zagovor Brace Up",
+  "hash": "5a61676f766f72204272616365205570"
+}
