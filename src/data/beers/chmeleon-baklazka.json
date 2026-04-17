@@ -1,0 +1,20 @@
+{
+  "bid": 6575755,
+  "beer_name": "Baklažka",
+  "beer_label": "https://assets.untappd.com/site/beer_logos/beer-6575755_c2d56_sm.jpeg",
+  "beer_abv": 5.7,
+  "beer_slug": "chmeleon-baklazka",
+  "beer_ibu": 40,
+  "beer_description": "Сварили ершистый, с характером лагерок. Ознаменовав этим начало неожиданно завязавшейся дружбе с воронежскими парнями из \"Прайм Бир\".\r\nДобротно охмеленный и 6 недель вызревший на лагеризации, был разлит он по разным  баклажкам и отправлен по всем пивным приютам, от Камчатки до двух столиц. Пейте сами, угощайте друзей и нас вспоминайте!\r\n\r\nNelson Sauvin/ Hallertau Blanc",
+  "created_at": "Wed, 21 Jan 2026 19:44:00 +0000",
+  "beer_style": "Lager - IPL (India Pale Lager)",
+  "in_production": 1,
+  "auth_rating": 0,
+  "wish_list": false,
+  "checkin_count": 79,
+  "id": "chmeleon-baklazka",
+  "brewery": "chmeleon",
+  "term": "Chmeleon Baklazka",
+  "parsed_term": "Chmeleon Baklazka",
+  "hash": "43686d656c656f6e2042616b6c617a6b61"
+}

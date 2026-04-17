@@ -1,0 +1,24 @@
+{
+  "brewery_id": 551487,
+  "brewery_name": "Chmeleon",
+  "brewery_slug": "chmeleon",
+  "brewery_page_url": "/Chmeleon",
+  "brewery_type": "Nano Brewery",
+  "brewery_label": "https://assets.untappd.com/site/brewery_logos/brewery-551487_00f67.jpeg",
+  "brewery_stamp": "/brewery_logos/brewery-551487_00f67.jpeg",
+  "country_name": "Russia",
+  "contact": {
+    "twitter": "",
+    "facebook": "",
+    "instagram": "",
+    "url": "https://t.me/chmeleon_spb"
+  },
+  "location": {
+    "brewery_city": "Sankt-Peterburg",
+    "brewery_state": "Sankt-Peterburg",
+    "lat": 60.0195007,
+    "lng": 30.3738995
+  },
+  "brewery_active": 1,
+  "id": "chmeleon"
+}
