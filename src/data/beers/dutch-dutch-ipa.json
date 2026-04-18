@@ -1,0 +1,20 @@
+{
+  "bid": 5912924,
+  "beer_name": "dutch. ipa",
+  "beer_label": "https://assets.untappd.com/site/beer_logos/beer-5912924_c6f33_sm.jpeg",
+  "beer_abv": 5.8,
+  "beer_slug": "dutch-dutch-ipa",
+  "beer_ibu": 52,
+  "beer_description": "Уверенная хмелевая горечь с цитрусовым и тропическим ароматом. Сладость карамельного солода дополнена нотами чёрной смородины и бабл-гама, полученными от щедрого комбо американских хмелей Mosaic, Ekuanot cryo и Columbus.\r\n\r\nИдеально сочетается с острыми мясными блюдами, мексиканской кухней, пиццей и другим стритфудом.",
+  "created_at": "Fri, 19 Jul 2024 11:48:27 +0000",
+  "beer_style": "IPA - American",
+  "in_production": 1,
+  "auth_rating": 0,
+  "wish_list": false,
+  "checkin_count": 392,
+  "id": "dutch-dutch-ipa",
+  "brewery": "dutch",
+  "term": "Khoffner dutch. ipa",
+  "parsed_term": "Khoffner dutch. ipa",
+  "hash": "4b686f66666e65722064757463682e20697061"
+}

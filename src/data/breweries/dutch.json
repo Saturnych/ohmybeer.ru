@@ -1,0 +1,24 @@
+{
+  "brewery_id": 556459,
+  "brewery_name": "dutch",
+  "brewery_slug": "dutch",
+  "brewery_page_url": "/Dutch_beer",
+  "brewery_type": "Micro Brewery",
+  "brewery_label": "https://assets.untappd.com/site/brewery_logos/brewery-556459_8c273.jpeg",
+  "brewery_stamp": "/brewery_logos/brewery-556459_8c273.jpeg",
+  "country_name": "Russia",
+  "contact": {
+    "twitter": "",
+    "facebook": "",
+    "instagram": "dutch.beers",
+    "url": ""
+  },
+  "location": {
+    "brewery_city": "Sankt-Peterburg",
+    "brewery_state": "Sankt-Peterburg",
+    "lat": 59.7873993,
+    "lng": 30.4391003
+  },
+  "brewery_active": 1,
+  "id": "dutch"
+}
