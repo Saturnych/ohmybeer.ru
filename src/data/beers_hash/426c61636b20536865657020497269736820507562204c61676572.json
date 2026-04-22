@@ -1,0 +1,20 @@
+{
+  "bid": 6655531,
+  "beer_name": "Black Sheep Irish Lager",
+  "beer_label": "https://assets.untappd.com/site/beer_logos/beer-6655531_06b60_sm.jpeg",
+  "beer_abv": 5,
+  "beer_slug": "obedinyonnye-pivovarni-holding-black-sheep-irish-lager",
+  "beer_ibu": 0,
+  "beer_description": "Это пиво с характером: мягкий лавинный эффект при наливе, кремовая пена, насыщенный вкус и долгое бархатистое послевкусие со сливочными оттенками создают ощущение по‑настоящему премиального пива.\r\n\r\nВ основе Black Sheep Pub Lager — тщательно подобранный состав: карамельный и жженый солод придают пиву глубину, насыщенный вкус и выразительный цвет, а три вида хмеля — Magnum, Aurora и Saaz — балансируют хмелевую горчинку и аромат.\r\n\r\nBlack Sheep — это линейка премиальных специалитетов Пивоварен Бочкарев, родившаяся в атмосфере пабов благодаря пивоварам‑энтузиастам, которые решили бросить вызов стандартам масс‑маркета. Название Black Sheep переводится как «белая ворона» — дерзкий аутсайдер, играющий по своим правилам и поддерживающий тех, кто выбирает пиво, а не стереотипы.",
+  "created_at": "Wed, 01 Apr 2026 11:56:19 +0000",
+  "beer_style": "Lager - Pale",
+  "in_production": 1,
+  "auth_rating": 0,
+  "wish_list": false,
+  "checkin_count": 64,
+  "id": "obedinyonnye-pivovarni-holding-black-sheep-irish-lager",
+  "brewery": "obedinyonnye-pivovarni-holding",
+  "term": "Black Sheep Irish Pub Lager",
+  "parsed_term": "Black Sheep Irish Pub Lager",
+  "hash": "426c61636b20536865657020497269736820507562204c61676572"
+}
