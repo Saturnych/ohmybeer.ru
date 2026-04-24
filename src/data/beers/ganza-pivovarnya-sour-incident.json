@@ -1,0 +1,20 @@
+{
+  "bid": 6339481,
+  "beer_name": "SOUR INCIDENT",
+  "beer_label": "https://assets.untappd.com/site/beer_logos/beer-6339481_c6cae_sm.jpeg",
+  "beer_abv": 6,
+  "beer_slug": "ganza-pivovarnya-sour-incident",
+  "beer_ibu": 0,
+  "beer_description": "8 ИЮЛЯ 1947 ГОДА, В НЕБОЛЬШОМ АМЕРИКАНСКОМ ГОРОДКЕ РОЗУЭЛЛ ПРОИЗОШЛО КРУШЕНИЕ НЛО. ЭТО ПРОИСШЕСТВИЕ СТАЛО МИРОВОЙ СЕНСАЦИЕЙ ПОД НАЗВАНИЕМ \r\n“РОЗУЭЛЛЬСКИЙ ИНЦИДЕНТ”.\r\nВ ИЮЛЕ 2025 ГОДА МЫ ВЫПУСТИЛИ НАШ СОЧНЫЙ САУР С ОТЛИЧНЫМ СОЧЕТАНИЕМ АПЕЛЬСИНА, МАРАКУЙИ И ЛАЙМА, КОТОРЫЙ СЕНСАЦИОННО ОСВЕЖИТ КАЖДОГО ЭТИМ ЖАРКИМ ЛЕТОМ. НАСЛАЖДАЙТЕСЬ И ПОМНИТЕ...\r\nИСТИНА ГДЕ-ТО РЯДОМ.",
+  "created_at": "Mon, 14 Jul 2025 06:32:15 +0000",
+  "beer_style": "Sour - Fruited",
+  "in_production": 1,
+  "auth_rating": 0,
+  "wish_list": false,
+  "checkin_count": 172,
+  "id": "ganza-pivovarnya-sour-incident",
+  "brewery": "ganza-brewery",
+  "term": "Ganza Sour Incident",
+  "parsed_term": "Ganza Sour Incident",
+  "hash": "47616e7a6120536f757220496e636964656e74"
+}

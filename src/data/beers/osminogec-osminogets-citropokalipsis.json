@@ -1,0 +1,20 @@
+{
+  "bid": 6679839,
+  "beer_name": "Цитропокалипсис",
+  "beer_label": "https://assets.untappd.com/site/beer_logos/beer-6679839_88399_sm.jpeg",
+  "beer_abv": 6.5,
+  "beer_slug": "osminogec-osminogets-citropokalipsis",
+  "beer_ibu": 0,
+  "beer_description": "Мутный джуси айпиэй с охмелением разными вариациями Цитры",
+  "created_at": "Mon, 20 Apr 2026 08:56:11 +0000",
+  "beer_style": "IPA - New England / Hazy",
+  "in_production": 1,
+  "auth_rating": 0,
+  "wish_list": false,
+  "checkin_count": 1,
+  "id": "osminogec-osminogets-citropokalipsis",
+  "brewery": "osminogec-osminogets",
+  "term": "Осьминогец Цитрапокалипсис",
+  "parsed_term": "Осьминогец Цитрапокалипсис",
+  "hash": "d09ed181d18cd0bcd0b8d0bdd0bed0b3d0b5d18620d0a6d0b8d182d180d0b0d0bfd0bed0bad0b0d0bbd0b8d0bfd181d0b8d181"
+}

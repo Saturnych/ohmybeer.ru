@@ -1,0 +1,20 @@
+{
+  "bid": 6647334,
+  "beer_name": "Перфект Дэй",
+  "beer_label": "https://assets.untappd.com/site/beer_logos/beer-6647334_ea572_sm.jpeg",
+  "beer_abv": 6,
+  "beer_slug": "white-stone-perfekt-dey",
+  "beer_ibu": 71,
+  "beer_description": "India Pale Ale\r\nABV: 6%\r\nPlato: 15%\r\nIBU: 71\r\nHops: Sultana, Nectaron, Simcoe\r\n\r\nOh, it's such a perfect day\r\nI'm glad I spent it with you\r\nOh, such a perfect day\r\nYou just keep me hanging on\r\nYou just keep me hanging on\r\n\r\nLou Reed — Perfect Day (OST Trainspotting, 1996)\r\n\r\nТридцатилетию культового фильма посвещается.",
+  "created_at": "Wed, 25 Mar 2026 13:53:53 +0000",
+  "beer_style": "IPA - American",
+  "in_production": 1,
+  "auth_rating": 0,
+  "wish_list": false,
+  "checkin_count": 0,
+  "id": "white-stone-perfekt-dey",
+  "brewery": "white-stone",
+  "term": "White Stone Перфект Дэй",
+  "parsed_term": "White Stone Перфект Дэй",
+  "hash": "57686974652053746f6e6520d09fd0b5d180d184d0b5d0bad18220d094d18dd0b9"
+}

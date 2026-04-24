@@ -1,0 +1,20 @@
+{
+  "bid": 6673691,
+  "beer_name": "Многорукий Человек",
+  "beer_label": "https://assets.untappd.com/site/beer_logos/beer-6673691_d77f5_sm.jpeg",
+  "beer_abv": 4.7,
+  "beer_slug": "osminogec-osminogets-mnogorukiy-chelovek",
+  "beer_ibu": 45,
+  "beer_description": "Коллаборация с Hoppy Star - сессионный айпиэй с хитрым охмелением mosaic lupomax и sabro на дип-хопинг и драйхоп.",
+  "created_at": "Thu, 16 Apr 2026 08:45:30 +0000",
+  "beer_style": "IPA - Session",
+  "in_production": 1,
+  "auth_rating": 0,
+  "wish_list": false,
+  "checkin_count": 9,
+  "id": "osminogec-osminogets-mnogorukiy-chelovek",
+  "brewery": "osminogec-osminogets",
+  "term": "Осьминогец Многорукий Человек",
+  "parsed_term": "Осьминогец Многорукий Человек",
+  "hash": "d09ed181d18cd0bcd0b8d0bdd0bed0b3d0b5d18620d09cd0bdd0bed0b3d0bed180d183d0bad0b8d0b920d0a7d0b5d0bbd0bed0b2d0b5d0ba"
+}
