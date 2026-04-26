@@ -1,0 +1,20 @@
+{
+  "bid": 6501975,
+  "beer_name": "TripWave",
+  "beer_label": "https://assets.untappd.com/site/beer_logos/beer-6501975_9e9e6_sm.jpeg",
+  "beer_abv": 9,
+  "beer_slug": "valaduta-brovar-tripwave",
+  "beer_ibu": 40,
+  "beer_description": "Сочный и коварный двойной хэйзик, охмелен Citra и Sabro. Сливочно-цитрусовый аромат, с оттенками кокоса",
+  "created_at": "Sat, 22 Nov 2025 13:46:04 +0000",
+  "beer_style": "IPA - Imperial / Double New England / Hazy",
+  "in_production": 1,
+  "auth_rating": 0,
+  "wish_list": false,
+  "checkin_count": 245,
+  "id": "valaduta-brovar-tripwave",
+  "brewery": "valaduta-brovar",
+  "term": "Valaduta Brovar TripWave",
+  "parsed_term": "Valaduta Brovar TripWave",
+  "hash": "56616c61647574612042726f766172205472697057617665"
+}

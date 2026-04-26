@@ -1,0 +1,20 @@
+{
+  "bid": 6524767,
+  "beer_name": "Bremen",
+  "beer_label": "https://assets.untappd.com/site/beer_logos/beer-6524767_e27ae_sm.jpeg",
+  "beer_abv": 5,
+  "beer_slug": "stamm-brewing-bremen",
+  "beer_ibu": 0,
+  "beer_description": "Пилс в немецком стиле",
+  "created_at": "Wed, 10 Dec 2025 09:34:01 +0000",
+  "beer_style": "Pilsner - German",
+  "in_production": 1,
+  "auth_rating": 0,
+  "wish_list": false,
+  "checkin_count": 474,
+  "id": "stamm-brewing-bremen",
+  "brewery": "stamm-brewing",
+  "term": "Stamm Bremen",
+  "parsed_term": "Stamm Bremen",
+  "hash": "5374616d6d204272656d656e"
+}

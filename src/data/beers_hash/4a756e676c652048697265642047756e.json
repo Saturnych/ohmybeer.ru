@@ -1,0 +1,20 @@
+{
+  "bid": 6679831,
+  "beer_name": "Hired Gun",
+  "beer_label": "https://assets.untappd.com/site/beer_logos/beer-6679831_3b904_sm.jpeg",
+  "beer_abv": 5.5,
+  "beer_slug": "jungle-brewery-hired-gun",
+  "beer_ibu": 40,
+  "beer_description": "10 years of BeerCap Barshop!\r\nA special collaboration for a legendary spot in the Minsk craft beer scene.\r\nOur history with BeerCap goes back to 2016, when our second-ever contract brew - \"Contract Killer\" APA - first hit their taps. We’ve been close partners ever since, and there’s no better way to celebrate this decade-long journey than with a tribute to where it all began.\r\nThe soul of our classic, reborn.\r\nWe took the original \"Contract Killer\" recipe as a base: the same malts, the same hops, and the same specs. But we’ve added a modern twist using innovative Lallemand Aurora yeast.\r\nMeet the reincarnation - now in the style of a Northern APA.\r\nCheers to 10 years of BeerCap!",
+  "created_at": "Mon, 20 Apr 2026 08:18:19 +0000",
+  "beer_style": "Pale Ale - Other",
+  "in_production": 1,
+  "auth_rating": 0,
+  "wish_list": false,
+  "checkin_count": 80,
+  "id": "jungle-brewery-hired-gun",
+  "brewery": "jungle-brewery",
+  "term": "Jungle Hired Gun",
+  "parsed_term": "Jungle Hired Gun",
+  "hash": "4a756e676c652048697265642047756e"
+}
