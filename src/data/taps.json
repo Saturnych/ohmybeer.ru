@@ -45,7 +45,7 @@
     "beer_style": "Pilsner - German",
     "term": "Stamm Bremen",
     "hash": "5374616d6d204272656d656e",
-    "price": 0
+    "price": 780
   },
   {
     "id": 2,
@@ -357,7 +357,7 @@
     "beer_style": "Pale Ale - Other",
     "term": "Jungle Hired Gun",
     "hash": "4a756e676c652048697265642047756e",
-    "price": 0
+    "price": 1060
   },
   {
     "id": 15,
@@ -548,7 +548,7 @@
     "beer_style": "IPA - Imperial / Double New England / Hazy",
     "term": "Valaduta Brovar TripWave",
     "hash": "56616c61647574612042726f766172205472697057617665",
-    "price": 0
+    "price": 1100
   },
   {
     "id": 23,
