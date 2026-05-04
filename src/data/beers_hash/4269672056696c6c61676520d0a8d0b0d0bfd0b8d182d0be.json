@@ -1,0 +1,20 @@
+{
+  "bid": 1222885,
+  "beer_name": "Шапито",
+  "beer_label": "https://assets.untappd.com/site/beer_logos/beer-1222885_28d54_sm.jpeg",
+  "beer_abv": 7,
+  "beer_slug": "big-village-brewery-shapito",
+  "beer_ibu": 60,
+  "beer_description": "Светлый, прозрачный, сухой и горький АйПиЭй в стиле западного побережья охмелённый Simcoe/Citra/Riwaka",
+  "created_at": "Thu, 03 Sep 2015 20:39:16 +0000",
+  "beer_style": "IPA - American",
+  "in_production": 1,
+  "auth_rating": 0,
+  "wish_list": false,
+  "checkin_count": 410,
+  "id": "big-village-brewery-shapito",
+  "brewery": "big-village-brewery",
+  "term": "Big Village Шапито",
+  "parsed_term": "Big Village Шапито",
+  "hash": "4269672056696c6c61676520d0a8d0b0d0bfd0b8d182d0be"
+}

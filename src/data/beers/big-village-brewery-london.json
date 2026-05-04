@@ -1,0 +1,20 @@
+{
+  "bid": 6559080,
+  "beer_name": "LONDON",
+  "beer_label": "https://assets.untappd.com/site/beer_logos/beer-6559080_e0f75_sm.jpeg",
+  "beer_abv": 6,
+  "beer_slug": "big-village-brewery-london",
+  "beer_ibu": 10,
+  "beer_description": "Да, в Лондоне! Ну это там, где рыба, чипсы, дрянная еда, отвратная погода, Мэри «***ть её в ***ку» Поппинс!\r\n\r\nИнтерпретация английской классики- Экстра\r\nСпешл Биттер (ESB): солод Marris Otter, охмеление\r\nFuggle & East Kent Golding, аутентичный дрожжевой\r\nштамм.",
+  "created_at": "Mon, 05 Jan 2026 10:08:38 +0000",
+  "beer_style": "Bitter - Extra Special / Strong (ESB)",
+  "in_production": 1,
+  "auth_rating": 0,
+  "wish_list": false,
+  "checkin_count": 611,
+  "id": "big-village-brewery-london",
+  "brewery": "big-village-brewery",
+  "term": "Big Village London",
+  "parsed_term": "Big Village London",
+  "hash": "4269672056696c6c616765204c6f6e646f6e"
+}
