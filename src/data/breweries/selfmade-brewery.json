@@ -1,0 +1,24 @@
+{
+  "brewery_id": 325536,
+  "brewery_name": "Selfmade Brewery",
+  "brewery_slug": "selfmade-brewery",
+  "brewery_page_url": "/Selfmade_Brewery",
+  "brewery_type": "Micro Brewery",
+  "brewery_label": "https://assets.untappd.com/site/brewery_logos/brewery-325536_65f2b.jpeg",
+  "brewery_stamp": "/brewery_logos/brewery-325536_65f2b.jpeg",
+  "country_name": "Russia",
+  "contact": {
+    "twitter": "",
+    "facebook": "",
+    "instagram": "",
+    "url": "https://vk.com/public131675523"
+  },
+  "location": {
+    "brewery_city": "Solnechnogorsk",
+    "brewery_state": "Moskovskaya oblast'",
+    "lat": 56.1996994,
+    "lng": 36.9547005
+  },
+  "brewery_active": 1,
+  "id": "selfmade-brewery"
+}

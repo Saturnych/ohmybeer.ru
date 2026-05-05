@@ -1,0 +1,20 @@
+{
+  "bid": 6689742,
+  "beer_name": "Sunscity Groove",
+  "beer_label": "https://assets.untappd.com/site/beer_logos/beer-6689742_0d6b8_sm.jpeg",
+  "beer_abv": 5,
+  "beer_slug": "selfmade-brewery-sunscity-groove",
+  "beer_ibu": 35,
+  "beer_description": "American Pale Ale\r\nCentennial & Mosaic\r\nABV 5.0\r\n\r\nСовсем скоро наступит время отпусков, а значит многие отправятся за пределы родных окраин на поиски приключений и витамина Д! Но мы вовсе не спешим паковать багаж, ведь в нашем солнечном городке ясно и тепло круглый год! Ловите загар и цветочно-цитрусовый грув вместе с нами, не выходя из зоны комфорта.\r\nFind your groove!",
+  "created_at": "Tue, 28 Apr 2026 12:08:37 +0000",
+  "beer_style": "Pale Ale - American",
+  "in_production": 1,
+  "auth_rating": 0,
+  "wish_list": false,
+  "checkin_count": 15,
+  "id": "selfmade-brewery-sunscity-groove",
+  "brewery": "selfmade-brewery",
+  "term": "Selfmade Suncity Groove",
+  "parsed_term": "Selfmade Suncity Groove",
+  "hash": "53656c666d6164652053756e636974792047726f6f7665"
+}
