@@ -1,0 +1,20 @@
+{
+  "bid": 6675148,
+  "beer_name": "BUT70N 0F 481L17Y",
+  "beer_label": "https://assets.untappd.com/site/beer_logos/beer-6675148_3042e_sm.jpeg",
+  "beer_abv": 30,
+  "beer_slug": "red-button-brewery-but70n-0f-481l17y",
+  "beer_ibu": 0,
+  "beer_description": "Chocolate x Pecan x Pistachio x Dried Prune x Date Syrup\r\n\r\nПлотное пиво с добавлением шоколада, пекана, фисташки, чернослива и финикового сиропа. В аромате — тёмный шоколад, жареный пекан, сливочная фисташка, насыщенные тона сухофруктов и глубокая карамельная сладость фиников. Вкус насыщенный, с ореховой горчинкой и долгим тёплым послевкусием. Финиковый сироп придаёт телу , сладость, густоту и округлость.",
+  "created_at": "Fri, 17 Apr 2026 11:02:14 +0000",
+  "beer_style": "Freeze-Distilled Beer",
+  "in_production": 1,
+  "auth_rating": 0,
+  "wish_list": false,
+  "checkin_count": 0,
+  "id": "red-button-brewery-but70n-0f-481l17y",
+  "brewery": "red-button-brewery",
+  "term": "BUT70N 0F 481L17Y",
+  "parsed_term": "BUT70N 0F 481L17Y",
+  "hash": "52656420427574746f6e2058204162696c6974792042726577696e672050726f6a6563742042555437304e203046203438314c313759"
+}

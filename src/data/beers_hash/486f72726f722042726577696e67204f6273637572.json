@@ -1,0 +1,20 @@
+{
+  "bid": 6532931,
+  "beer_name": "Obscur",
+  "beer_label": "https://assets.untappd.com/site/beer_logos/beer-6532931_762ac_sm.jpeg",
+  "beer_abv": 10,
+  "beer_slug": "horror-brewing-obscur",
+  "beer_ibu": 0,
+  "beer_description": "Классический плотный шоколадно-кофейный имперский стаут, сваренный к третьему Дню Рождения Horror Brewing",
+  "created_at": "Mon, 15 Dec 2025 12:43:52 +0000",
+  "beer_style": "Stout - Russian Imperial",
+  "in_production": 1,
+  "auth_rating": 0,
+  "wish_list": false,
+  "checkin_count": 155,
+  "id": "horror-brewing-obscur",
+  "brewery": "horror-brewing",
+  "term": "Horror Brewing Obscur",
+  "parsed_term": "Horror Brewing Obscur",
+  "hash": "486f72726f722042726577696e67204f6273637572"
+}
