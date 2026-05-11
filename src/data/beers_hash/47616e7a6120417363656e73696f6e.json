@@ -1,0 +1,20 @@
+{
+  "bid": 6584040,
+  "beer_name": "Ascension",
+  "beer_label": "https://assets.untappd.com/site/beer_logos/beer-6584040_d1a6a_sm.jpeg",
+  "beer_abv": 6,
+  "beer_slug": "ganza-pivovarnya-ascension",
+  "beer_ibu": 30,
+  "beer_description": "Nelson sauvin + Mosaic + Motueka",
+  "created_at": "Fri, 30 Jan 2026 06:57:24 +0000",
+  "beer_style": "IPA - New England / Hazy",
+  "in_production": 1,
+  "auth_rating": 0,
+  "wish_list": false,
+  "checkin_count": 110,
+  "id": "ganza-pivovarnya-ascension",
+  "brewery": "ganza-brewery",
+  "term": "Ganza Ascension",
+  "parsed_term": "Ganza Ascension",
+  "hash": "47616e7a6120417363656e73696f6e"
+}
