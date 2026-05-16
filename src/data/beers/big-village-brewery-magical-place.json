@@ -1,0 +1,20 @@
+{
+  "bid": 6688899,
+  "beer_name": "MAGICAL PLACE ",
+  "beer_label": "https://assets.untappd.com/site/beer_logos/beer-6688899_1150a_sm.jpeg",
+  "beer_abv": 8,
+  "beer_slug": "big-village-brewery-magical-place",
+  "beer_ibu": 40,
+  "beer_description": "Двойной Хейзи АйПиЭй с массивной овсяной\r\nбазой, охмелённый гранулами Talus/Nectaron/Nelson Sauvin CRYO",
+  "created_at": "Mon, 27 Apr 2026 10:58:02 +0000",
+  "beer_style": "IPA - Imperial / Double New England / Hazy",
+  "in_production": 1,
+  "auth_rating": 0,
+  "wish_list": false,
+  "checkin_count": 81,
+  "id": "big-village-brewery-magical-place",
+  "brewery": "big-village-brewery",
+  "term": "Big Village Magical Place",
+  "parsed_term": "Big Village Magical Place",
+  "hash": "4269672056696c6c616765204d61676963616c20506c616365"
+}

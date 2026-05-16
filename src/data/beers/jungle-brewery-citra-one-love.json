@@ -1,0 +1,20 @@
+{
+  "bid": 3135445,
+  "beer_name": "Citra One Love",
+  "beer_label": "https://assets.untappd.com/site/beer_logos/beer-3135445_de694_sm.jpeg",
+  "beer_abv": 5,
+  "beer_slug": "jungle-brewery-citra-one-love",
+  "beer_ibu": 40,
+  "beer_description": "Super fresh, super smooth and super easy drinking series of single hop hazy session IPA's. We dedicate it to our Citra love",
+  "created_at": "Wed, 20 Mar 2019 09:38:02 +0000",
+  "beer_style": "IPA - Session New England / Hazy",
+  "in_production": 1,
+  "auth_rating": 0,
+  "wish_list": false,
+  "checkin_count": 1960,
+  "id": "jungle-brewery-citra-one-love",
+  "brewery": "jungle-brewery",
+  "term": "Jungle Citra One Love",
+  "parsed_term": "Jungle Citra One Love",
+  "hash": "4a756e676c65204369747261204f6e65204c6f7665"
+}
