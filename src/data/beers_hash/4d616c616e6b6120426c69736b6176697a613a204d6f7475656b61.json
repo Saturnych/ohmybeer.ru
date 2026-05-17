@@ -1,0 +1,20 @@
+{
+  "bid": 6690558,
+  "beer_name": "Bliskavica: Motueka",
+  "beer_label": "https://assets.untappd.com/site/beer_logos/beer-6690558_ad833_sm.jpeg",
+  "beer_abv": 7,
+  "beer_slug": "malanka-bliskavica-motueka",
+  "beer_ibu": 40,
+  "beer_description": "We used plenty of hops in our new DDH IPA from the Bliskavica series. But this time the variety is quite unusual, because it is Motueka (from New Zealand, yes), which was first sent to the States for processing by the real masters of Yakima Chief Hops, and only after that the finished hops came to us. That is, they literally went around the whole wide world and came to visit us! An opaque, thick Bliskavica, filled with the aromas of New Zealand rains, sweet limes and forbidden plants, is already waiting for you in chilled glasses!",
+  "created_at": "Wed, 29 Apr 2026 08:41:16 +0000",
+  "beer_style": "IPA - New England / Hazy",
+  "in_production": 1,
+  "auth_rating": 0,
+  "wish_list": false,
+  "checkin_count": 151,
+  "id": "malanka-bliskavica-motueka",
+  "brewery": "malanka",
+  "term": "Malanka Bliskaviza: Motueka",
+  "parsed_term": "Malanka Bliskaviza: Motueka",
+  "hash": "4d616c616e6b6120426c69736b6176697a613a204d6f7475656b61"
+}
