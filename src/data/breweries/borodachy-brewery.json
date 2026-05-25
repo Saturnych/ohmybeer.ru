@@ -1,0 +1,24 @@
+{
+  "brewery_id": 470077,
+  "brewery_name": "Borodachy Brewery",
+  "brewery_slug": "borodachy-brewery",
+  "brewery_page_url": "/BorodachyBrewery",
+  "brewery_type": "Contract Brewery",
+  "brewery_label": "https://assets.untappd.com/site/brewery_logos/brewery-470077_bb47e.jpeg",
+  "brewery_stamp": "/brewery_logos/brewery-470077_bb47e.jpeg",
+  "country_name": "Belarus",
+  "contact": {
+    "twitter": "",
+    "facebook": "https://www.facebook.com/BorodachyBrewery",
+    "instagram": "borodachy_brewery",
+    "url": ""
+  },
+  "location": {
+    "brewery_city": "",
+    "brewery_state": "",
+    "lat": 0,
+    "lng": 0
+  },
+  "brewery_active": 1,
+  "id": "borodachy-brewery"
+}

@@ -1,0 +1,20 @@
+{
+  "bid": 5626500,
+  "beer_name": "ALL CATS ARE CUTE",
+  "beer_label": "https://assets.untappd.com/site/beer_logos/beer-5626500_8e90b_sm.jpeg",
+  "beer_abv": 6,
+  "beer_slug": "big-village-brewery-all-cats-are-cute",
+  "beer_ibu": 25,
+  "beer_description": "Хейзи Пейл Эль с щепоткой лактозы, массивной овсяной базой и мягкой сливочной текстурой охмелённый Mosaic/Talus/Motueka ",
+  "created_at": "Fri, 01 Dec 2023 12:53:39 +0000",
+  "beer_style": "Pale Ale - New England / Hazy",
+  "in_production": 1,
+  "auth_rating": 0,
+  "wish_list": false,
+  "checkin_count": 1530,
+  "id": "big-village-brewery-all-cats-are-cute",
+  "brewery": "big-village-brewery",
+  "term": "Big Village All Cats Are Cute",
+  "parsed_term": "Big Village All Cats Are Cute",
+  "hash": "4269672056696c6c61676520416c6c2043617473204172652043757465"
+}

@@ -1,0 +1,20 @@
+{
+  "bid": 6712977,
+  "beer_name": "Синтез IPL: Galaxy Mosaic",
+  "beer_label": "https://assets.untappd.com/site/beer_logos/beer-6712977_ba909_sm.jpeg",
+  "beer_abv": 5,
+  "beer_slug": "borodachy-brewery-sintez-ipl-galaxy-mosaic",
+  "beer_ibu": 30,
+  "beer_description": "Это серия наших India Pale Lager (IPL), где чистая база лагера становится холстом для экспериментов с лучшими сортами хмеля. Меняются ингредиенты, цвета на этикетке и вкусовые акценты, но концепция остается неизменной: идеальный баланс формы и содержания.\r\n\r\nДля первого релиза мы выбрали визуальный стиль витебского авангарда и супрематизма, а в сам котел отправили мощное трио:Каскад (Cascade) — на варку. Он отвечает за мягкую, благородную и понятную горчинку.Mosaic + Galaxy — на сухое охмеление. Точка взрыва. Mosaic дает сложную фруктово-ягодную глубину, а австралийский Galaxy накрывает волной космических тропиков и спелого персика.",
+  "created_at": "Sat, 16 May 2026 09:10:44 +0000",
+  "beer_style": "Lager - IPL (India Pale Lager)",
+  "in_production": 1,
+  "auth_rating": 0,
+  "wish_list": false,
+  "checkin_count": 57,
+  "id": "borodachy-brewery-sintez-ipl-galaxy-mosaic",
+  "brewery": "borodachy-brewery",
+  "term": "Borodachy Brewery Синтез",
+  "parsed_term": "Borodachy Brewery Синтез",
+  "hash": "426f726f6461636879204272657765727920d0a1d0b8d0bdd182d0b5d0b7"
+}

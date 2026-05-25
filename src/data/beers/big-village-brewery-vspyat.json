@@ -1,0 +1,20 @@
+{
+  "bid": 6688909,
+  "beer_name": "ВСПЯТЬ",
+  "beer_label": "https://assets.untappd.com/site/beer_logos/beer-6688909_17c3e_sm.jpeg",
+  "beer_abv": 5.5,
+  "beer_slug": "big-village-brewery-vspyat",
+  "beer_ibu": 40,
+  "beer_description": "Пейл эль в стиле западного побережья: светлый, сухой, с уверенной горечью и освежающим ароматом хмелевого тандема Mosaic/Nelson Sauvin",
+  "created_at": "Mon, 27 Apr 2026 11:03:12 +0000",
+  "beer_style": "Pale Ale - American",
+  "in_production": 1,
+  "auth_rating": 0,
+  "wish_list": false,
+  "checkin_count": 270,
+  "id": "big-village-brewery-vspyat",
+  "brewery": "big-village-brewery",
+  "term": "Big Village Вспять",
+  "parsed_term": "Big Village Вспять",
+  "hash": "4269672056696c6c61676520d092d181d0bfd18fd182d18c"
+}
