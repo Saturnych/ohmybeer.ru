@@ -1,0 +1,20 @@
+{
+  "bid": 6706530,
+  "beer_name": "Vibe: Simcoe El Dorado & Green Bullet",
+  "beer_label": "https://assets.untappd.com/site/beer_logos/beer-6706530_03ccc_sm.jpeg",
+  "beer_abv": 6.8,
+  "beer_slug": "valaduta-brovar-vibe-simcoe-el-dorado-green-bullet",
+  "beer_ibu": 60,
+  "beer_description": "Мощный Double IPA, на варку охмелен Simcoe, на сухое El Dorado & Green Bullet. В аромате манго, ананас, тропические фрукты и виноград",
+  "created_at": "Mon, 11 May 2026 05:06:58 +0000",
+  "beer_style": "IPA - Imperial / Double",
+  "in_production": 1,
+  "auth_rating": 0,
+  "wish_list": false,
+  "checkin_count": 142,
+  "id": "valaduta-brovar-vibe-simcoe-el-dorado-green-bullet",
+  "brewery": "valaduta-brovar",
+  "term": "Valaduta Brovar Vibe: Simcoe",
+  "parsed_term": "Valaduta Brovar Vibe: Simcoe",
+  "hash": "56616c61647574612042726f76617220566962653a2053696d636f65"
+}

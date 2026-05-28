@@ -1,0 +1,20 @@
+{
+  "bid": 6605601,
+  "beer_name": "Полусухой",
+  "beer_label": "https://assets.untappd.com/site/beer_logos/beer-6605601_4f12d_sm.jpeg",
+  "beer_abv": 5,
+  "beer_slug": "kak-s-kusta-polusuhoy",
+  "beer_ibu": 0,
+  "beer_description": "Яркий яблочный сидр с умеренной танинностью и кислотностью. Меньше сладости и больше свежих садовых нот во вкусе.",
+  "created_at": "Wed, 18 Feb 2026 12:04:10 +0000",
+  "beer_style": "Cider - Applewine",
+  "in_production": 1,
+  "auth_rating": 0,
+  "wish_list": false,
+  "checkin_count": 31,
+  "id": "kak-s-kusta-polusuhoy",
+  "brewery": "kak-s-kusta",
+  "term": "Как С Куста Полусухой",
+  "parsed_term": "Как С Куста Полусухой",
+  "hash": "d09ad0b0d0ba20d0a120d09ad183d181d182d0b020d09fd0bed0bbd183d181d183d185d0bed0b9"
+}

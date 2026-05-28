@@ -1,0 +1,24 @@
+{
+  "brewery_id": 594134,
+  "brewery_name": "Как с куста",
+  "brewery_slug": "kak-s-kusta",
+  "brewery_page_url": "/Kak_s_kusta",
+  "brewery_type": "Cidery",
+  "brewery_label": "https://assets.untappd.com/site/brewery_logos/brewery-594134_67252.jpeg",
+  "brewery_stamp": "/brewery_logos/brewery-594134_67252.jpeg",
+  "country_name": "Russia",
+  "contact": {
+    "twitter": "",
+    "facebook": "",
+    "instagram": "",
+    "url": "https://kakskusta.ru/"
+  },
+  "location": {
+    "brewery_city": "",
+    "brewery_state": "",
+    "lat": 0,
+    "lng": 0
+  },
+  "brewery_active": 1,
+  "id": "kak-s-kusta"
+}
