@@ -45,7 +45,7 @@
     "beer_style": "Bitter - Extra Special / Strong (ESB)",
     "term": "Midnight Project Course Of The Queen",
     "hash": "4d69646e696768742050726f6a65637420436f75727365204f662054686520517565656e",
-    "price": 900
+    "price": 920
   },
   {
     "id": 2,
@@ -535,7 +535,7 @@
     "beer_style": "IPA - American",
     "term": "Big Village Предисловие",
     "hash": "4269672056696c6c61676520d09fd180d0b5d0b4d0b8d181d0bbd0bed0b2d0b8d0b5",
-    "price": 0
+    "price": 1000
   },
   {
     "id": 23,
