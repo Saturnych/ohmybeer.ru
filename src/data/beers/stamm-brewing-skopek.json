@@ -1,0 +1,20 @@
+{
+  "bid": 6729379,
+  "beer_name": "Škopek",
+  "beer_label": "https://assets.untappd.com/site/beer_logos/beer-6729379_d11ac_sm.jpeg",
+  "beer_abv": 4.8,
+  "beer_slug": "stamm-brewing-skopek",
+  "beer_ibu": 0,
+  "beer_description": "",
+  "created_at": "Fri, 29 May 2026 08:10:21 +0000",
+  "beer_style": "Pilsner - Czech / Bohemian",
+  "in_production": 1,
+  "auth_rating": 0,
+  "wish_list": false,
+  "checkin_count": 86,
+  "id": "stamm-brewing-skopek",
+  "brewery": "stamm-brewing",
+  "term": "Stamm Skopek",
+  "parsed_term": "Stamm Skopek",
+  "hash": "5374616d6d20536b6f70656b"
+}
