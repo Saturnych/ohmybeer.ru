@@ -1,0 +1,20 @@
+{
+  "bid": 6648190,
+  "beer_name": "Hoppy Hike: Krush Cryo+Simcoe+Motueka",
+  "beer_label": "https://assets.untappd.com/site/beer_logos/beer-6648190_8ae77_sm.jpeg",
+  "beer_abv": 6.5,
+  "beer_slug": "pivovarnya-odna-tonna-odna-tonna-brewery-hoppy-hike-krush-cryo-simcoe-motueka",
+  "beer_ibu": 0,
+  "beer_description": "Hoppy Hike — это энергичный West Coast IPA, созданный для тех, кто любит двигаться вперёд и открывать новые вкусовые тропы. Линейка меняет хмели от версии к версии, но неизменно остаётся яркой, хрустящей и наполненной приключенческим настроением. Во втором выпуске дорожка проторена через сочное сочетание Krush Cryo, Simcoe и Motueka. Идеальный ипа, чтобы отправиться в свой собственный хмельной поход. ",
+  "created_at": "Thu, 26 Mar 2026 11:40:17 +0000",
+  "beer_style": "IPA - American",
+  "in_production": 1,
+  "auth_rating": 0,
+  "wish_list": false,
+  "checkin_count": 23,
+  "id": "pivovarnya-odna-tonna-odna-tonna-brewery-hoppy-hike-krush-cryo-simcoe-motueka",
+  "brewery": "pivovarnya-odna-tonna-odna-tonna-brewery",
+  "term": "Одна тонна Hoppy Hike: Krush Cryo",
+  "parsed_term": "Одна тонна Hoppy Hike: Krush Cryo",
+  "hash": "d09ed0b4d0bdd0b020d182d0bed0bdd0bdd0b020486f7070792048696b653a204b72757368204372796f20262053696d636f652026204d6f7475656b61"
+}

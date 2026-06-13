@@ -1,0 +1,20 @@
+{
+  "bid": 5955289,
+  "beer_name": "Recovery Pils",
+  "beer_label": "https://assets.untappd.com/site/beer_logos/beer-5955289_94893_sm.jpeg",
+  "beer_abv": 4.5,
+  "beer_slug": "zagovor-brewery-recovery-pils",
+  "beer_ibu": 30,
+  "beer_description": "Crispy and refreshing New Zealand style pilsner with noble Motueka hops (New Zealand origin)",
+  "created_at": "Thu, 22 Aug 2024 15:19:19 +0000",
+  "beer_style": "Pilsner - New Zealand",
+  "in_production": 1,
+  "auth_rating": 0,
+  "wish_list": false,
+  "checkin_count": 2204,
+  "id": "zagovor-brewery-recovery-pils",
+  "brewery": "zagovor-brewery",
+  "term": "Zagovor Recovery Pils",
+  "parsed_term": "Zagovor Recovery Pils",
+  "hash": "5a61676f766f72205265636f766572792050696c73"
+}

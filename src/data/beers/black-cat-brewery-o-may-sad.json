@@ -1,0 +1,20 @@
+{
+  "bid": 6738602,
+  "beer_name": "О май сад!",
+  "beer_label": "https://assets.untappd.com/site/beer_logos/beer-6738602_66927_sm.jpeg",
+  "beer_abv": 4,
+  "beer_slug": "black-cat-brewery-o-may-sad",
+  "beer_ibu": 0,
+  "beer_description": "Сочное сочетание апельсина и эстрагона, идеальный sour ale для летней жары.",
+  "created_at": "Fri, 05 Jun 2026 13:46:46 +0000",
+  "beer_style": "Sour - Fruited",
+  "in_production": 1,
+  "auth_rating": 0,
+  "wish_list": false,
+  "checkin_count": 0,
+  "id": "black-cat-brewery-o-may-sad",
+  "brewery": "black-cat-brewery",
+  "term": "Black Cat О Май Сад!",
+  "parsed_term": "Black Cat О Май Сад!",
+  "hash": "426c61636b2043617420d09e20d09cd0b0d0b920d0a1d0b0d0b421"
+}

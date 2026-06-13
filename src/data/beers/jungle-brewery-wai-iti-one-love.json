@@ -1,0 +1,20 @@
+{
+  "bid": 6725173,
+  "beer_name": "Wai-Iti One Love",
+  "beer_label": "https://assets.untappd.com/site/beer_logos/beer-6725173_071f0_sm.jpeg",
+  "beer_abv": 5,
+  "beer_slug": "jungle-brewery-wai-iti-one-love",
+  "beer_ibu": 35,
+  "beer_description": "Super fresh, super smooth and super easy drinking series of single hop hazy session IPA's. We dedicate it to our Wai-Iti love",
+  "created_at": "Mon, 25 May 2026 08:25:35 +0000",
+  "beer_style": "IPA - Session New England / Hazy",
+  "in_production": 1,
+  "auth_rating": 0,
+  "wish_list": false,
+  "checkin_count": 202,
+  "id": "jungle-brewery-wai-iti-one-love",
+  "brewery": "jungle-brewery",
+  "term": "Jungle Wai-Iti One Love",
+  "parsed_term": "Jungle Wai-Iti One Love",
+  "hash": "4a756e676c65205761692d497469204f6e65204c6f7665"
+}
