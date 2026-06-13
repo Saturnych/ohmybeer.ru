@@ -47,7 +47,7 @@ const getYMLFeed = async (site: string = pkg.homepage): Promise<string> => {
 			vendor: brewery.brewery_name.trim(),
 			shortDescription: `${beer.beer_style}${beer.beer_abv > 0 ? ', ABV: ' + beer.beer_abv : ''}${beer.beer_ibu > 0 ? ', IBU: ' + beer.beer_ibu : ''}, Чекинов в Untappd: ${beer.checkin_count}`,
 			description: beer.beer_description,
-			url: `${site}beers/${beer.beer_slug}/`,
+			url: !!beer.beer_slug ? `${site}beers/${beer.beer_slug}/` : ``,
 			abv: beer.beer_abv,
 			ibu: beer.beer_ibu,
 			tap: tap ? tap.tap : 1000,
