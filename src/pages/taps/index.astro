@@ -80,7 +80,7 @@ const title = `${header} || ${siteData.name}`;
 					taps.map((item) => (
 						<li class="menu__item">
 							<div class="menu__item-header">
-								<a href={`/beers/${item.beer_slug}/`}>
+								<a href={!!item.beer_slug ? `/beers/${item.beer_slug}/` : `#`}>
 									<span class="menu__item-name">
 										{`${item.tap}. `}
 										{`${!!item.brewery_name && item.brewery_name?.length < 20 && !!item.brewery ? item.brewery_name : !!item.brewery ? item.brewery : '⟡'} -`}
@@ -96,7 +96,7 @@ const title = `${header} || ${siteData.name}`;
 								{!!item.beer_ibu && (
 									<span class={`badge badge--seasonal`}>IBU:{item.beer_ibu}</span>
 								)}
-								<a href={`/beers/${item.beer_slug}/`}>
+								<a href={!!item.beer_slug ? `/beers/${item.beer_slug}/` : `#`}>
 									<span class="badge">
 										{!!item.price ? Math.round(item.price / 2) + ' ₽' : ' >> '}
 									</span>
