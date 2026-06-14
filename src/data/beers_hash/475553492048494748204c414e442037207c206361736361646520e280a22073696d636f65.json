@@ -1,0 +1,20 @@
+{
+  "bid": 6674978,
+  "beer_name": "HIGH LAND 7 | cascade • simcoe",
+  "beer_label": "https://assets.untappd.com/site/beer_logos/beer-6674978_a843f_sm.jpeg",
+  "beer_abv": 5.2,
+  "beer_slug": "gusi-high-land-7-cascade-simcoe",
+  "beer_ibu": 30,
+  "beer_description": "Легкий, освежающий, базовый Пэйл Эль с сухим охмелением Cascade и Simcoe.",
+  "created_at": "Fri, 17 Apr 2026 06:02:01 +0000",
+  "beer_style": "Pale Ale - American",
+  "in_production": 1,
+  "auth_rating": 0,
+  "wish_list": false,
+  "checkin_count": 147,
+  "id": "gusi-high-land-7-cascade-simcoe",
+  "brewery": "gusi",
+  "term": "GUSI HIGH LAND 7 | cascade • simcoe",
+  "parsed_term": "GUSI HIGH LAND 7 | cascade • simcoe",
+  "hash": "475553492048494748204c414e442037207c206361736361646520e280a22073696d636f65"
+}

@@ -1,0 +1,20 @@
+{
+  "bid": 2427008,
+  "beer_name": "Most Wonderful Time 4 A Beer",
+  "beer_label": "https://assets.untappd.com/site/beer_logos/beer-2427008_a824c_sm.jpeg",
+  "beer_abv": 5,
+  "beer_slug": "red-button-brewery-most-wonderful-time-4-a-beer",
+  "beer_ibu": 30,
+  "beer_description": "Milk Stout.\r\nМаршмэлоу , обезжиренный темный шоколад , обезжиренный молочный шоколад. молочный сахар , конфеты Tofi и немного немного ванили.",
+  "created_at": "Tue, 12 Dec 2017 16:55:33 +0000",
+  "beer_style": "Stout - Milk / Sweet",
+  "in_production": 1,
+  "auth_rating": 0,
+  "wish_list": false,
+  "checkin_count": 9097,
+  "id": "red-button-brewery-most-wonderful-time-4-a-beer",
+  "brewery": "red-button-brewery",
+  "term": "Red Button MOST WONDERFUL TIME 4 A BEER",
+  "parsed_term": "Red Button MOST WONDERFUL TIME 4 A BEER",
+  "hash": "52656420427574746f6e204d4f535420574f4e44455246554c2054494d45203420412042454552"
+}
