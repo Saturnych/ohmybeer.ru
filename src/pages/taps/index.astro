@@ -16,6 +16,7 @@ const { DEV, PUBLIC_UNTAPPD_API_URL } = import.meta.env;
 console.log(`\n PUBLIC_UNTAPPD_API_URL:`, PUBLIC_UNTAPPD_API_URL);
 
 let { taps, updatedAt }: { taps: any[]; updatedAt: string } = await getPriceTableData();
+if (DEV) console.log('taps[0]', taps[0]);
 
 if (taps?.length < 1) {
 	const tapsCollection: Record<string, any>[] = await getCollection('taps');
@@ -29,6 +30,7 @@ if (taps?.length < 1) {
 		});
 	}
 }
+if (DEV) console.log('taps[0]', taps[0]);
 
 const search: Record<string, any[]> = ({
 	results: [],
@@ -38,23 +40,25 @@ if (taps?.length > 0) {
 	const filename = './src/data/rozliv.xlsx';
 	const workbook = parseExcelFile(filename);
 	const pricelist = workbook?.length > 0 ? workbook[0].data || [] : [];
-	taps = taps.map((tap) => {
-		let { beer, brewery, hash, raw, name } = tap;
-		if (!hash) hash = hashWithTextEncoder(`${brewery ? brewery + ' ' : ''}${beer}`);
-		let price: number = 0;
-		if (pricelist?.length > 0) {
-			const row: any[] = pricelist.find((item) => item[0].trim().startsWith(raw));
-			if (DEV) console.log(row);
-			const last: number = (row?.length || 0) - 1;
-			price = last > 0 && isNumeric(row[last]) ? row[last] : 0;
-		}
-		let foundTap;
-		if (search?.taps?.length > 0) {
-			saveJsonFile(search?.taps, './src/data/search.json');
-			foundTap = search.taps.find((tap) => tap.hash === hash);
-		}
-		return foundTap ? Object.assign({ ...tap, price }, foundTap) : { ...tap, price };
-	});
+	taps = taps
+		.map((tap) => {
+			let { beer, brewery, hash, raw } = tap;
+			if (!hash) hash = hashWithTextEncoder(`${brewery ? brewery + ' ' : ''}${beer}`);
+			let price: number = 0;
+			if (pricelist?.length > 0) {
+				const row: any[] = pricelist.find((item) => item[0].trim().startsWith(raw));
+				if (DEV) console.log(row);
+				const last: number = (row?.length || 0) - 1;
+				price = last > 0 && isNumeric(row[last]) ? row[last] : 0;
+			}
+			let foundTap;
+			if (search?.taps?.length > 0) {
+				saveJsonFile(search?.taps, './src/data/search.json');
+				foundTap = search.taps.find((tap) => tap.hash === hash);
+			}
+			return foundTap ? Object.assign({ ...tap, price }, foundTap) : { ...tap, price };
+		})
+		.sort((a, b) => Number(a.tap) - Number(b.tap));
 	saveJsonFile(taps, './src/data/taps.json');
 }
 
