@@ -1,0 +1,20 @@
+{
+  "bid": 6688901,
+  "beer_name": "MAGNUS MAXIMUS",
+  "beer_label": "https://assets.untappd.com/site/beer_logos/beer-6688901_ac07e_sm.jpeg",
+  "beer_abv": 8.1,
+  "beer_slug": "saliwa-magnus-maximus",
+  "beer_ibu": 30,
+  "beer_description": "Коллаборационный сорт, приуроченный к 6-й годовщине пивоварни.\r\nДвойной хейзи IPA, охмелённый Nectaron, Galaxy, Krush CRYO и новозеландским бустером тиолов Phantasm. Сброжен Cosmic Punch.\r\nСорт посвящён Максиму Владиславовичу, наследнику ABILITY!",
+  "created_at": "Mon, 27 Apr 2026 10:58:32 +0000",
+  "beer_style": "IPA - Imperial / Double New England / Hazy",
+  "in_production": 1,
+  "auth_rating": 0,
+  "wish_list": false,
+  "checkin_count": 188,
+  "id": "saliwa-magnus-maximus",
+  "brewery": "saliwa-brew",
+  "term": "Saliwa Magnus Maximus",
+  "parsed_term": "Saliwa Magnus Maximus",
+  "hash": "53616c697761204d61676e7573204d6178696d7573"
+}
