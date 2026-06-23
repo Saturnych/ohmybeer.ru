@@ -1,0 +1,20 @@
+{
+  "bid": 3250537,
+  "beer_name": "Pure Shores (Festival Edition)",
+  "beer_label": "https://assets.untappd.com/site/assets/images/temp/badge-beer-default.png",
+  "beer_abv": 11,
+  "beer_slug": "red-button-brewery-pure-shores-festival-edition",
+  "beer_ibu": 0,
+  "beer_description": "",
+  "created_at": "Mon, 27 May 2019 03:13:35 +0000",
+  "beer_style": "Stout - Imperial / Double",
+  "in_production": 1,
+  "auth_rating": 0,
+  "wish_list": false,
+  "checkin_count": 3,
+  "id": "red-button-brewery-pure-shores-festival-edition",
+  "brewery": "red-button-brewery",
+  "term": "Red Button Pure Shores",
+  "parsed_term": "Red Button Pure Shores",
+  "hash": "52656420427574746f6e20507572652053686f726573"
+}
