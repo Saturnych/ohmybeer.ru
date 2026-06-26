@@ -1,0 +1,20 @@
+{
+  "bid": 6754946,
+  "beer_name": "Selfmade ESB",
+  "beer_label": "https://assets.untappd.com/site/beer_logos/beer-6754946_139b4_sm.jpeg",
+  "beer_abv": 5.3,
+  "beer_slug": "selfmade-brewery-selfmade-esb",
+  "beer_ibu": 30,
+  "beer_description": "",
+  "created_at": "Wed, 17 Jun 2026 17:19:56 +0000",
+  "beer_style": "Bitter - Extra Special / Strong (ESB)",
+  "in_production": 1,
+  "auth_rating": 0,
+  "wish_list": false,
+  "checkin_count": 2,
+  "id": "selfmade-brewery-selfmade-esb",
+  "brewery": "selfmade-brewery",
+  "term": "Selfmade ESB",
+  "parsed_term": "Selfmade ESB",
+  "hash": "53656c666d61646520455342"
+}
