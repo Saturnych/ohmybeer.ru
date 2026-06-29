@@ -1,0 +1,20 @@
+{
+  "bid": 6683143,
+  "beer_name": "Интернеты",
+  "beer_label": "https://assets.untappd.com/site/beer_logos/beer-6683143_bcecd_sm.jpeg",
+  "beer_abv": 6,
+  "beer_slug": "white-stone-internety",
+  "beer_ibu": 32,
+  "beer_description": "New England IPA\r\nABV: 6%\r\nPlato: 16%\r\nIBU: 32\r\nHops: Galaxy, Simcoe, Mosaic Cryo\r\n\r\n«Он нам не нужон, интернет ваш», — твёрдо заявила бабуля с мема. И как в воду глядела: теперь сбои, блокировки и отключения стали реальностью. Пейте пиво «Интернеты» — оно точно не подведёт.",
+  "created_at": "Thu, 23 Apr 2026 15:46:36 +0000",
+  "beer_style": "IPA - New England / Hazy",
+  "in_production": 1,
+  "auth_rating": 0,
+  "wish_list": false,
+  "checkin_count": 411,
+  "id": "white-stone-internety",
+  "brewery": "white-stone",
+  "term": "White Stone Интернеты",
+  "parsed_term": "White Stone Интернеты",
+  "hash": "57686974652053746f6e6520d098d0bdd182d0b5d180d0bdd0b5d182d18b"
+}

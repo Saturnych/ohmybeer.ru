@@ -1,0 +1,20 @@
+{
+  "bid": 6683141,
+  "beer_name": "Кубок Мира",
+  "beer_label": "https://assets.untappd.com/site/beer_logos/beer-6683141_89817_sm.jpeg",
+  "beer_abv": 6,
+  "beer_slug": "white-stone-kubok-mira",
+  "beer_ibu": 75,
+  "beer_description": "India Pale Ale\r\nABV: 6%\r\nPlato: 15%\r\nIBU: 75\r\nHops: Eclipse, Ekuanot, Motueka, Enigma\r\n\r\nС этой женщиной тесно связана мировая история футбола. Богиня Ника —та самая статуэтка с кубка Жюля Риме, повидавшая страны, континенты, преступников и героев. Её прятали от войны в обувной коробке, находили с помощью собак, а легендарный Пеле целовал её при всех. Сегодня она возвращается — на этикетке каждой банки нашего IPA «Кубок Мира».",
+  "created_at": "Thu, 23 Apr 2026 15:45:09 +0000",
+  "beer_style": "IPA - American",
+  "in_production": 1,
+  "auth_rating": 0,
+  "wish_list": false,
+  "checkin_count": 320,
+  "id": "white-stone-kubok-mira",
+  "brewery": "white-stone",
+  "term": "White Stone Кубок Мира",
+  "parsed_term": "White Stone Кубок Мира",
+  "hash": "57686974652053746f6e6520d09ad183d0b1d0bed0ba20d09cd0b8d180d0b0"
+}
