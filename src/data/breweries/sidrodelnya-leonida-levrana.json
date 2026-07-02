@@ -1,0 +1,24 @@
+{
+  "brewery_id": 555588,
+  "brewery_name": "Сидродельня Леонида Леврана",
+  "brewery_slug": "sidrodelnya-leonida-levrana",
+  "brewery_page_url": "/LevranaCider",
+  "brewery_type": "Cidery",
+  "brewery_label": "https://assets.untappd.com/site/brewery_logos/brewery-555588_d3060.jpeg",
+  "brewery_stamp": "/brewery_logos/brewery-555588_d3060.jpeg",
+  "country_name": "Russia",
+  "contact": {
+    "twitter": "",
+    "facebook": "",
+    "instagram": "",
+    "url": ""
+  },
+  "location": {
+    "brewery_city": "Izborsk",
+    "brewery_state": "Pskov Oblast",
+    "lat": 0,
+    "lng": 0
+  },
+  "brewery_active": 1,
+  "id": "sidrodelnya-leonida-levrana"
+}

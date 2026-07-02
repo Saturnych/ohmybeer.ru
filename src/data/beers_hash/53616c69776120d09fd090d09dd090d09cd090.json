@@ -1,0 +1,20 @@
+{
+  "bid": 6772699,
+  "beer_name": "ПАНАМА",
+  "beer_label": "https://assets.untappd.com/site/brewery_logos/brewery-454914_b141c.jpeg",
+  "beer_abv": 7,
+  "beer_slug": "saliwa-panama",
+  "beer_ibu": 35,
+  "beer_description": "Коллаборация с Oh, My Beer.\r\nХейзи IPA, сброженный штаммом Mango Madness при экстремально высоких температурах. Сухое охмеление Krush, Krush Lupomax, Motueka.",
+  "created_at": "Tue, 30 Jun 2026 18:25:15 +0000",
+  "beer_style": "IPA - New England / Hazy",
+  "in_production": 1,
+  "auth_rating": 0,
+  "wish_list": false,
+  "checkin_count": 0,
+  "id": "saliwa-panama",
+  "brewery": "saliwa-brew",
+  "term": "Saliwa ПАНАМА",
+  "parsed_term": "Saliwa ПАНАМА",
+  "hash": "53616c69776120d09fd090d09dd090d09cd090"
+}

@@ -1,0 +1,20 @@
+{
+  "bid": 5949954,
+  "beer_name": "Старый Изборск (2023)",
+  "beer_label": "https://assets.untappd.com/site/beer_logos/beer-5949954_2ad30_sm.jpeg",
+  "beer_abv": 5.5,
+  "beer_slug": "sidrodelnya-leonida-levrana-staryy-izborsk-2023",
+  "beer_ibu": 0,
+  "beer_description": "Классический сидр с чистым и прямым вкусом яблока. Яркая кислотность, мягкое послевкусие и природная свежесть",
+  "created_at": "Sat, 17 Aug 2024 15:34:24 +0000",
+  "beer_style": "Cider - Dry",
+  "in_production": 1,
+  "auth_rating": 0,
+  "wish_list": false,
+  "checkin_count": 376,
+  "id": "sidrodelnya-leonida-levrana-staryy-izborsk-2023",
+  "brewery": "sidrodelnya-leonida-levrana",
+  "term": "Леонида Леврана Старый Изборск",
+  "parsed_term": "Леонида Леврана Старый Изборск",
+  "hash": "d09bd0b5d0bed0bdd0b8d0b4d0b020d09bd0b5d0b2d180d0b0d0bdd0b020d0a1d182d0b0d180d18bd0b920d098d0b7d0b1d0bed180d181d0ba"
+}
