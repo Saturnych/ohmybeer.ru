@@ -29,11 +29,3 @@ jobs:
     #needs: playwright
     uses: './.github/workflows/build-deploy.yml'
     secrets: inherit
-
-  email:
-    needs: deploy
-    uses: 'Saturnych/actions-workflows/.github/workflows/email.yml@develop'
-    with:
-      name: 'ohmybeer.ru deploy'
-      status: ${{ needs.deploy.outputs.status }}
-    secrets: inherit
