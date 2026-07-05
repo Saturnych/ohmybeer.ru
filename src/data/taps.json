@@ -9,7 +9,7 @@
     "style": "Lager",
     "format": "РОЗЛИВ",
     "country": "Россия",
-    "updatedAt": "2026-07-02T19:06",
+    "updatedAt": "2026-07-04T23:14",
     "brewery_name": "Augustine (Августин)",
     "brewery_slug": "augustine-avgustin",
     "brewery_type": "Micro Brewery",
@@ -25,29 +25,6 @@
   },
   {
     "id": 1,
-    "tap": 2,
-    "raw": "Selfmade - ESB,  РОЗЛИВ ,Россия",
-    "name": "Selfmade - ESB,  РОЗЛИВ ,Россия",
-    "brewery": "Selfmade",
-    "beer": "ESB",
-    "format": "РОЗЛИВ",
-    "country": "Россия",
-    "updatedAt": "2026-07-02T19:06",
-    "brewery_name": "Selfmade Brewery",
-    "brewery_slug": "selfmade-brewery",
-    "brewery_type": "Micro Brewery",
-    "beer_name": "Selfmade ESB",
-    "beer_label": "https://assets.untappd.com/site/beer_logos/beer-6754946_139b4_sm.jpeg",
-    "beer_slug": "selfmade-brewery-selfmade-esb",
-    "beer_abv": 5.3,
-    "beer_ibu": 30,
-    "beer_style": "Bitter - Extra Special / Strong (ESB)",
-    "term": "Selfmade ESB",
-    "hash": "53656c666d61646520455342",
-    "price": 0
-  },
-  {
-    "id": 2,
     "tap": 3,
     "raw": "Augustine - Ледяное (Helles), РОЗЛИВ, Россия",
     "name": "Augustine - Ледяное (Helles), РОЗЛИВ, Россия",
@@ -56,7 +33,7 @@
     "style": "Helles",
     "format": "РОЗЛИВ",
     "country": "Россия",
-    "updatedAt": "2026-07-02T19:06",
+    "updatedAt": "2026-07-04T23:14",
     "brewery_name": "Augustine (Августин)",
     "brewery_slug": "augustine-avgustin",
     "brewery_type": "Micro Brewery",
@@ -71,7 +48,7 @@
     "price": 760
   },
   {
-    "id": 3,
+    "id": 2,
     "tap": 4,
     "raw": "Plan B - Murquell Pilsner (Pils), РОЗЛИВ, Россия",
     "name": "Plan B - Murquell Pilsner (Pils), РОЗЛИВ, Россия",
@@ -80,7 +57,7 @@
     "style": "Pils",
     "format": "РОЗЛИВ",
     "country": "Россия",
-    "updatedAt": "2026-07-02T19:06",
+    "updatedAt": "2026-07-04T23:14",
     "brewery_name": "Plan B Brewery",
     "brewery_slug": "plan-b-brewery",
     "brewery_type": "Micro Brewery",
@@ -95,7 +72,7 @@
     "price": 780
   },
   {
-    "id": 4,
+    "id": 3,
     "tap": 5,
     "raw": "Stamm - StraBenbahn (Weisse), РОЗЛИВ, Россия",
     "name": "Stamm - StraBenbahn (Weisse), РОЗЛИВ, Россия",
@@ -104,7 +81,7 @@
     "style": "Weisse",
     "format": "РОЗЛИВ",
     "country": "Россия",
-    "updatedAt": "2026-07-02T19:06",
+    "updatedAt": "2026-07-04T23:14",
     "brewery_name": "Stamm Brewing",
     "brewery_slug": "stamm-brewing",
     "brewery_type": "Micro Brewery",
@@ -119,7 +96,7 @@
     "price": 760
   },
   {
-    "id": 5,
+    "id": 4,
     "tap": 6,
     "raw": "Gletcher - Milk Of Amnesia (Milkshake IPA), Розлив, Россия",
     "name": "Gletcher - Milk Of Amnesia (Milkshake IPA), Розлив, Россия",
@@ -128,7 +105,7 @@
     "style": "Milkshake IPA",
     "format": "Розлив",
     "country": "Россия",
-    "updatedAt": "2026-07-02T19:06",
+    "updatedAt": "2026-07-04T23:14",
     "brewery_name": "Gletcher Brewery (Глетчер)",
     "brewery_slug": "gletcher-brewery-gletcher",
     "brewery_type": "Micro Brewery",
@@ -143,7 +120,7 @@
     "price": 680
   },
   {
-    "id": 6,
+    "id": 5,
     "tap": 7,
     "raw": "Big Village - Urban Flow (NEIPA), РОЗЛИВ, Россия",
     "name": "Big Village - Urban Flow (NEIPA), РОЗЛИВ, Россия",
@@ -152,7 +129,7 @@
     "style": "NEIPA",
     "format": "РОЗЛИВ",
     "country": "Россия",
-    "updatedAt": "2026-07-02T19:06",
+    "updatedAt": "2026-07-04T23:14",
     "brewery_name": "Big Village Brewery",
     "brewery_slug": "big-village-brewery",
     "brewery_type": "Micro Brewery",
@@ -164,10 +141,10 @@
     "beer_style": "IPA - New England / Hazy",
     "term": "Big Village Urban Flow",
     "hash": "4269672056696c6c61676520557262616e20466c6f77",
-    "price": 0
+    "price": 960
   },
   {
-    "id": 7,
+    "id": 6,
     "tap": 8,
     "raw": "GUSI - HIGH LAND 7 | cascade • simcoe (APA), РОЗЛИВ, Россия",
     "name": "GUSI - HIGH LAND 7 | cascade • simcoe (APA), РОЗЛИВ, Россия",
@@ -176,7 +153,7 @@
     "style": "APA",
     "format": "РОЗЛИВ",
     "country": "Россия",
-    "updatedAt": "2026-07-02T19:06",
+    "updatedAt": "2026-07-04T23:14",
     "brewery_name": "GUSI",
     "brewery_slug": "gusi",
     "brewery_type": "Micro Brewery",
@@ -191,7 +168,7 @@
     "price": 840
   },
   {
-    "id": 8,
+    "id": 7,
     "tap": 9,
     "raw": "Zagovor  - Recovery Pils (NZ Pils), РОЗЛИВ, Россия",
     "name": "Zagovor  - Recovery Pils (NZ Pils), РОЗЛИВ, Россия",
@@ -200,7 +177,7 @@
     "style": "NZ Pils",
     "format": "РОЗЛИВ",
     "country": "Россия",
-    "updatedAt": "2026-07-02T19:06",
+    "updatedAt": "2026-07-04T23:14",
     "brewery_name": "Zagovor Brewery",
     "brewery_slug": "zagovor-brewery",
     "brewery_type": "Micro Brewery",
@@ -215,7 +192,7 @@
     "price": 800
   },
   {
-    "id": 9,
+    "id": 8,
     "tap": 10,
     "raw": "Jungle - Wai-Iti One Love (Session NEIPA), РОЗЛИВ, Россия",
     "name": "Jungle - Wai-Iti One Love (Session NEIPA), РОЗЛИВ, Россия",
@@ -224,7 +201,7 @@
     "style": "Session NEIPA",
     "format": "РОЗЛИВ",
     "country": "Россия",
-    "updatedAt": "2026-07-02T19:06",
+    "updatedAt": "2026-07-04T23:14",
     "brewery_name": "Jungle Brewery",
     "brewery_slug": "jungle-brewery",
     "brewery_type": "Micro Brewery",
@@ -239,7 +216,7 @@
     "price": 1080
   },
   {
-    "id": 10,
+    "id": 9,
     "tap": 11,
     "raw": "Ostrovica - B-Day Lager (Lager), РОЗЛИВ, Россия",
     "name": "Ostrovica - B-Day Lager (Lager), РОЗЛИВ, Россия",
@@ -248,7 +225,7 @@
     "style": "Lager",
     "format": "РОЗЛИВ",
     "country": "Россия",
-    "updatedAt": "2026-07-02T19:06",
+    "updatedAt": "2026-07-04T23:14",
     "brewery_name": "OSTROVICA",
     "brewery_slug": "ostrovica",
     "brewery_type": "Micro Brewery",
@@ -263,7 +240,7 @@
     "price": 780
   },
   {
-    "id": 11,
+    "id": 10,
     "tap": 12,
     "raw": "Black Cat \"О Май Сад!\"  (Sour), РОЗЛИВ, Россия",
     "name": "Black Cat  - О Май Сад!  (Sour), РОЗЛИВ, Россия",
@@ -272,7 +249,7 @@
     "style": "Sour",
     "format": "РОЗЛИВ",
     "country": "Россия",
-    "updatedAt": "2026-07-02T19:06",
+    "updatedAt": "2026-07-04T23:14",
     "brewery_name": "Black Cat Brewery",
     "brewery_slug": "black-cat-brewery",
     "brewery_type": "Micro Brewery",
@@ -287,7 +264,7 @@
     "price": 900
   },
   {
-    "id": 12,
+    "id": 11,
     "tap": 13,
     "raw": "Horror Brewing - Obscur (RIS),  РОЗЛИВ ,Россия",
     "name": "Horror Brewing - Obscur (RIS),  РОЗЛИВ ,Россия",
@@ -296,7 +273,7 @@
     "style": "RIS",
     "format": "РОЗЛИВ",
     "country": "Россия",
-    "updatedAt": "2026-07-02T19:06",
+    "updatedAt": "2026-07-04T23:14",
     "brewery_name": "Horror Brewing",
     "brewery_slug": "horror-brewing",
     "brewery_type": "Contract Brewery",
@@ -311,7 +288,7 @@
     "price": 900
   },
   {
-    "id": 13,
+    "id": 12,
     "tap": 14,
     "raw": "Леонида Леврана - Старый Изборск, РОЗЛИВ, Россия",
     "name": "Леонида Леврана - Старый Изборск, РОЗЛИВ, Россия",
@@ -319,7 +296,7 @@
     "beer": "Старый Изборск",
     "format": "РОЗЛИВ",
     "country": "Россия",
-    "updatedAt": "2026-07-02T19:06",
+    "updatedAt": "2026-07-04T23:14",
     "brewery_name": "Сидродельня Леонида Леврана",
     "brewery_slug": "sidrodelnya-leonida-levrana",
     "brewery_type": "Cidery",
@@ -331,10 +308,10 @@
     "beer_style": "Cider - Dry",
     "term": "Леонида Леврана Старый Изборск",
     "hash": "d09bd0b5d0bed0bdd0b8d0b4d0b020d09bd0b5d0b2d180d0b0d0bdd0b020d0a1d182d0b0d180d18bd0b920d098d0b7d0b1d0bed180d181d0ba",
-    "price": 0
+    "price": 840
   },
   {
-    "id": 14,
+    "id": 13,
     "tap": 15,
     "raw": "Red Button - Pure Shores (Milk stout), РОЗЛИВ, Россия",
     "name": "Red Button - Pure Shores (Milk stout), РОЗЛИВ, Россия",
@@ -343,7 +320,7 @@
     "style": "Milk stout",
     "format": "РОЗЛИВ",
     "country": "Россия",
-    "updatedAt": "2026-07-02T19:06",
+    "updatedAt": "2026-07-04T23:14",
     "brewery_name": "Red Button Brewery",
     "brewery_slug": "red-button-brewery",
     "brewery_type": "Micro Brewery",
@@ -355,10 +332,10 @@
     "beer_style": "Stout - Imperial / Double",
     "term": "Red Button Pure Shores",
     "hash": "52656420427574746f6e20507572652053686f726573",
-    "price": 640
+    "price": 800
   },
   {
-    "id": 15,
+    "id": 14,
     "tap": 16,
     "raw": "Plan B - Rise Of The Zombies (APA), РОЗЛИВ, Россия",
     "name": "Plan B - Rise Of The Zombies (APA), РОЗЛИВ, Россия",
@@ -367,7 +344,7 @@
     "style": "APA",
     "format": "РОЗЛИВ",
     "country": "Россия",
-    "updatedAt": "2026-07-02T19:06",
+    "updatedAt": "2026-07-04T23:14",
     "brewery_name": "Plan B Brewery",
     "brewery_slug": "plan-b-brewery",
     "brewery_type": "Micro Brewery",
@@ -382,7 +359,7 @@
     "price": 840
   },
   {
-    "id": 16,
+    "id": 15,
     "tap": 17,
     "raw": "White Stone - Кубок Мира (IPA), РОЗЛИВ, Россия",
     "name": "White Stone - Кубок Мира (IPA), РОЗЛИВ, Россия",
@@ -391,7 +368,7 @@
     "style": "IPA",
     "format": "РОЗЛИВ",
     "country": "Россия",
-    "updatedAt": "2026-07-02T19:06",
+    "updatedAt": "2026-07-04T23:14",
     "brewery_name": "White Stone",
     "brewery_slug": "white-stone",
     "brewery_type": "Micro Brewery",
@@ -403,10 +380,10 @@
     "beer_style": "IPA - American",
     "term": "White Stone Кубок Мира",
     "hash": "57686974652053746f6e6520d09ad183d0b1d0bed0ba20d09cd0b8d180d0b0",
-    "price": 0
+    "price": 900
   },
   {
-    "id": 17,
+    "id": 16,
     "tap": 18,
     "raw": "Black Cat \"70\"  (IPA), РОЗЛИВ, Россия",
     "name": "Black Cat  - 70  (IPA), РОЗЛИВ, Россия",
@@ -415,7 +392,7 @@
     "style": "IPA",
     "format": "РОЗЛИВ",
     "country": "Россия",
-    "updatedAt": "2026-07-02T19:06",
+    "updatedAt": "2026-07-04T23:14",
     "brewery_name": "Black Cat Brewery",
     "brewery_slug": "black-cat-brewery",
     "brewery_type": "Micro Brewery",
@@ -430,7 +407,7 @@
     "price": 840
   },
   {
-    "id": 18,
+    "id": 17,
     "tap": 19,
     "raw": "Augustine - Карт-Бланш (Blanche), РОЗЛИВ, Россия",
     "name": "Augustine - Карт-Бланш (Blanche), РОЗЛИВ, Россия",
@@ -439,7 +416,7 @@
     "style": "Blanche",
     "format": "РОЗЛИВ",
     "country": "Россия",
-    "updatedAt": "2026-07-02T19:06",
+    "updatedAt": "2026-07-04T23:14",
     "brewery_name": "Augustine (Августин)",
     "brewery_slug": "augustine-avgustin",
     "brewery_type": "Micro Brewery",
@@ -454,7 +431,7 @@
     "price": 740
   },
   {
-    "id": 19,
+    "id": 18,
     "tap": 20,
     "raw": "Plan B - Ковбой Мальборо (AIPA), РОЗЛИВ, Россия",
     "name": "Plan B - Ковбой Мальборо (AIPA), РОЗЛИВ, Россия",
@@ -463,7 +440,7 @@
     "style": "AIPA",
     "format": "РОЗЛИВ",
     "country": "Россия",
-    "updatedAt": "2026-07-02T19:06",
+    "updatedAt": "2026-07-04T23:14",
     "brewery_name": "Plan B Brewery",
     "brewery_slug": "plan-b-brewery",
     "brewery_type": "Micro Brewery",
@@ -478,7 +455,7 @@
     "price": 780
   },
   {
-    "id": 20,
+    "id": 19,
     "tap": 21,
     "raw": "White Stone - Вишневый Бум (Sour), РОЗЛИВ, Россия",
     "name": "White Stone - Вишневый Бум (Sour), РОЗЛИВ, Россия",
@@ -487,7 +464,7 @@
     "style": "Sour",
     "format": "РОЗЛИВ",
     "country": "Россия",
-    "updatedAt": "2026-07-02T19:06",
+    "updatedAt": "2026-07-04T23:14",
     "brewery_name": "WS Brew",
     "brewery_slug": "ws-brew",
     "brewery_type": "Micro Brewery",
@@ -502,7 +479,7 @@
     "price": 780
   },
   {
-    "id": 21,
+    "id": 20,
     "tap": 22,
     "raw": "Valaduta Brovar - Vibe: Simcoe, El Dorado & Green Bullet (NEDIPA), РОЗИВ",
     "name": "Valaduta Brovar - Vibe: Simcoe, El Dorado & Green Bullet (NEDIPA), РОЗИВ",
@@ -510,7 +487,7 @@
     "beer": "Vibe: Simcoe",
     "format": "El Dorado & Green Bullet (NEDIPA)",
     "country": "РОЗИВ",
-    "updatedAt": "2026-07-02T19:06",
+    "updatedAt": "2026-07-04T23:14",
     "brewery_name": "Valaduta Brovar",
     "brewery_slug": "valaduta-brovar",
     "brewery_type": "Contract Brewery",
@@ -525,7 +502,7 @@
     "price": 1100
   },
   {
-    "id": 22,
+    "id": 21,
     "tap": 23,
     "raw": "Big Village - Предисловие (WC IPA), РОЗЛИВ, Россия",
     "name": "Big Village - Предисловие (WC IPA), РОЗЛИВ, Россия",
@@ -534,7 +511,7 @@
     "style": "WC IPA",
     "format": "РОЗЛИВ",
     "country": "Россия",
-    "updatedAt": "2026-07-02T19:06",
+    "updatedAt": "2026-07-04T23:14",
     "brewery_name": "Big Village Brewery",
     "brewery_slug": "big-village-brewery",
     "brewery_type": "Micro Brewery",
@@ -549,7 +526,7 @@
     "price": 1000
   },
   {
-    "id": 23,
+    "id": 22,
     "tap": 24,
     "raw": "White Stone - Интернеты (NEIPA), РОЗЛИВ, Россия",
     "name": "White Stone - Интернеты (NEIPA), РОЗЛИВ, Россия",
@@ -558,7 +535,7 @@
     "style": "NEIPA",
     "format": "РОЗЛИВ",
     "country": "Россия",
-    "updatedAt": "2026-07-02T19:06",
+    "updatedAt": "2026-07-04T23:14",
     "brewery_name": "White Stone",
     "brewery_slug": "white-stone",
     "brewery_type": "Micro Brewery",
@@ -570,10 +547,10 @@
     "beer_style": "IPA - New England / Hazy",
     "term": "White Stone Интернеты",
     "hash": "57686974652053746f6e6520d098d0bdd182d0b5d180d0bdd0b5d182d18b",
-    "price": 0
+    "price": 900
   },
   {
-    "id": 24,
+    "id": 23,
     "tap": 25,
     "raw": "Saliwa - Magnus Maximus (NE DIPA), РОЗЛИВ, Россия",
     "name": "Saliwa - Magnus Maximus (NE DIPA), РОЗЛИВ, Россия",
@@ -582,7 +559,7 @@
     "style": "NE DIPA",
     "format": "РОЗЛИВ",
     "country": "Россия",
-    "updatedAt": "2026-07-02T19:06",
+    "updatedAt": "2026-07-04T23:14",
     "brewery_name": "SALIWA",
     "brewery_slug": "saliwa-brew",
     "brewery_type": "Nano Brewery",
@@ -597,7 +574,7 @@
     "price": 1000
   },
   {
-    "id": 25,
+    "id": 24,
     "tap": 26,
     "raw": "Big Village - Шапито (AIPA), РОЗЛИВ, Россия",
     "name": "Big Village - Шапито (AIPA), РОЗЛИВ, Россия",
@@ -606,7 +583,7 @@
     "style": "AIPA",
     "format": "РОЗЛИВ",
     "country": "Россия",
-    "updatedAt": "2026-07-02T19:06",
+    "updatedAt": "2026-07-04T23:14",
     "brewery_name": "Big Village Brewery",
     "brewery_slug": "big-village-brewery",
     "brewery_type": "Micro Brewery",
@@ -621,7 +598,7 @@
     "price": 1000
   },
   {
-    "id": 26,
+    "id": 25,
     "tap": 28,
     "raw": "Saliwa - ПАНАМА (Hazy IPA), РОЗЛИВ, Россия",
     "name": "Saliwa - ПАНАМА (Hazy IPA), РОЗЛИВ, Россия",
@@ -630,7 +607,7 @@
     "style": "Hazy IPA",
     "format": "РОЗЛИВ",
     "country": "Россия",
-    "updatedAt": "2026-07-02T19:06",
+    "updatedAt": "2026-07-04T23:14",
     "brewery_name": "SALIWA",
     "brewery_slug": "saliwa-brew",
     "brewery_type": "Nano Brewery",
@@ -642,17 +619,17 @@
     "beer_style": "IPA - New England / Hazy",
     "term": "Saliwa ПАНАМА",
     "hash": "53616c69776120d09fd090d09dd090d09cd090",
-    "price": 0
+    "price": 840
   },
   {
-    "id": 27,
+    "id": 26,
     "tap": 31,
     "raw": "Black Sheep Irish Stout, РОЗЛИВ, Россия",
     "name": "Black Sheep Irish Stout, РОЗЛИВ, Россия",
     "beer": "Black Sheep Irish Stout",
     "format": "РОЗЛИВ",
     "country": "Россия",
-    "updatedAt": "2026-07-02T19:06",
+    "updatedAt": "2026-07-04T23:14",
     "brewery_name": "Объединённые Пивоварни - Холдинг",
     "brewery_slug": "obedinyonnye-pivovarni-holding",
     "brewery_type": "Macro Brewery",
@@ -667,7 +644,7 @@
     "price": 660
   },
   {
-    "id": 28,
+    "id": 27,
     "tap": 32,
     "raw": "Хамовники - Кеговое, РОЗЛИВ, Россия",
     "name": "Хамовники - Кеговое, РОЗЛИВ, Россия",
@@ -675,7 +652,7 @@
     "beer": "Кеговое",
     "format": "РОЗЛИВ",
     "country": "Россия",
-    "updatedAt": "2026-07-02T19:06",
+    "updatedAt": "2026-07-04T23:14",
     "brewery_name": "Moscow Brewing Company (Московская Пивоваренная Компания)",
     "brewery_slug": "moscow-brewing-company-moskovskaya-pivovarennaya-kompaniya",
     "brewery_type": "Macro Brewery",
@@ -690,14 +667,14 @@
     "price": 660
   },
   {
-    "id": 29,
+    "id": 28,
     "tap": 33,
     "raw": "Black Sheep Irish Pub Lager, РОЗЛИВ, Россия",
     "name": "Black Sheep Irish Pub Lager, РОЗЛИВ, Россия",
     "beer": "Black Sheep Irish Pub Lager",
     "format": "РОЗЛИВ",
     "country": "Россия",
-    "updatedAt": "2026-07-02T19:06",
+    "updatedAt": "2026-07-04T23:14",
     "brewery_name": "Объединённые Пивоварни - Холдинг",
     "brewery_slug": "obedinyonnye-pivovarni-holding",
     "brewery_type": "Macro Brewery",
