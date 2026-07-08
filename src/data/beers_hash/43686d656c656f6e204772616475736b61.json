@@ -1,0 +1,20 @@
+{
+  "bid": 6681163,
+  "beer_name": "Gräduška",
+  "beer_label": "https://assets.untappd.com/site/beer_logos/beer-6681163_6be50_sm.jpeg",
+  "beer_abv": 5.2,
+  "beer_slug": "chmeleon-graduska",
+  "beer_ibu": 40,
+  "beer_description": "Не надружились, не навеселились.\r\nВстречайте!\r\nВторая совместная варка с командой воронежского \"Прайм Бир\". \r\nСамоуверенный пилс. Козыряет местным диалектом.  Дерзко охмелен Vista.",
+  "created_at": "Tue, 21 Apr 2026 18:18:08 +0000",
+  "beer_style": "Pilsner - Other",
+  "in_production": 1,
+  "auth_rating": 0,
+  "wish_list": false,
+  "checkin_count": 114,
+  "id": "chmeleon-graduska",
+  "brewery": "chmeleon",
+  "term": "Chmeleon Graduska",
+  "parsed_term": "Chmeleon Graduska",
+  "hash": "43686d656c656f6e204772616475736b61"
+}
