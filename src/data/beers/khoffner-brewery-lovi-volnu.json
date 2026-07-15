@@ -1,0 +1,20 @@
+{
+  "bid": 6716935,
+  "beer_name": "Лови волну",
+  "beer_label": "https://assets.untappd.com/site/beer_logos/beer-6716935_06983_sm.jpeg",
+  "beer_abv": 5,
+  "beer_slug": "khoffner-brewery-lovi-volnu",
+  "beer_ibu": 0,
+  "beer_description": "Лето - идеальная пора, чтобы быть на волне\r\n\r\nСессионный IPA для жаркого летнего дня.\r\nЦитрусовый и тропический аромат и насыщенный вкус грейпфрута в лёгком солодовом теле\r\n\r\nСоздано в коллаборации Khoffner x Surf SPB",
+  "created_at": "Tue, 19 May 2026 12:48:45 +0000",
+  "beer_style": "IPA - Session",
+  "in_production": 1,
+  "auth_rating": 0,
+  "wish_list": false,
+  "checkin_count": 20,
+  "id": "khoffner-brewery-lovi-volnu",
+  "brewery": "khoffner-brewery",
+  "term": "Khoffner Лови Волну",
+  "parsed_term": "Khoffner Лови Волну",
+  "hash": "4b686f66666e657220d09bd0bed0b2d0b820d092d0bed0bbd0bdd183"
+}

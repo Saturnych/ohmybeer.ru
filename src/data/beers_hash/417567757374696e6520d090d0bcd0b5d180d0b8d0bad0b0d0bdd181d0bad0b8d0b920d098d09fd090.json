@@ -1,0 +1,20 @@
+{
+  "bid": 2663983,
+  "beer_name": "Американский ИПА",
+  "beer_label": "https://assets.untappd.com/site/beer_logos/beer-2663983_d6ddd_sm.jpeg",
+  "beer_abv": 6.8,
+  "beer_slug": "augustine-avgustin-amerikanskiy-ipa",
+  "beer_ibu": 50,
+  "beer_description": "Классика, симко+мозаик, английский солод, сочная этикетка, оптимальная плотность, яркий вкус и аромат, отличный ценник! Просто для тебя! ",
+  "created_at": "Wed, 23 May 2018 13:14:10 +0000",
+  "beer_style": "IPA - American",
+  "in_production": 1,
+  "auth_rating": 0,
+  "wish_list": false,
+  "checkin_count": 1452,
+  "id": "augustine-avgustin-amerikanskiy-ipa",
+  "brewery": "augustine-avgustin",
+  "term": "Augustine Американский ИПА",
+  "parsed_term": "Augustine Американский ИПА",
+  "hash": "417567757374696e6520d090d0bcd0b5d180d0b8d0bad0b0d0bdd181d0bad0b8d0b920d098d09fd090"
+}
