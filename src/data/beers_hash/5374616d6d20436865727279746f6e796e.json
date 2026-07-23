@@ -1,0 +1,20 @@
+{
+  "bid": 4989056,
+  "beer_name": "Cherrytonin",
+  "beer_label": "https://assets.untappd.com/site/beer_logos/beer-4989056_31189_sm.jpeg",
+  "beer_abv": 5,
+  "beer_slug": "stamm-brewing-cherrytonin",
+  "beer_ibu": 0,
+  "beer_description": "Лёгкий вишнёвый сауэр эль с добавлением ароматного эстрагона. ",
+  "created_at": "Mon, 22 Aug 2022 17:44:59 +0000",
+  "beer_style": "Sour - Fruited",
+  "in_production": 1,
+  "auth_rating": 0,
+  "wish_list": false,
+  "checkin_count": 2308,
+  "id": "stamm-brewing-cherrytonin",
+  "brewery": "stamm-brewing",
+  "term": "Stamm Cherrytonyn",
+  "parsed_term": "Stamm Cherrytonyn",
+  "hash": "5374616d6d20436865727279746f6e796e"
+}

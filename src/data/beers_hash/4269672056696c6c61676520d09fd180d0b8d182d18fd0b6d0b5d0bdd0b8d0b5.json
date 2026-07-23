@@ -1,0 +1,20 @@
+{
+  "bid": 6783149,
+  "beer_name": "ПРИТЯЖЕНИЕ",
+  "beer_label": "https://assets.untappd.com/site/beer_logos/beer-6783149_ef564_sm.jpeg",
+  "beer_abv": 7,
+  "beer_slug": "big-village-brewery-prityazhenie",
+  "beer_ibu": 60,
+  "beer_description": "Светлый, сухой и горький АйПиЭй в стиле западного побережья охмелённый Krush/Mosaic/El Dorado",
+  "created_at": "Thu, 09 Jul 2026 11:05:52 +0000",
+  "beer_style": "IPA - American",
+  "in_production": 1,
+  "auth_rating": 0,
+  "wish_list": false,
+  "checkin_count": 14,
+  "id": "big-village-brewery-prityazhenie",
+  "brewery": "big-village-brewery",
+  "term": "Big Village Притяжение",
+  "parsed_term": "Big Village Притяжение",
+  "hash": "4269672056696c6c61676520d09fd180d0b8d182d18fd0b6d0b5d0bdd0b8d0b5"
+}

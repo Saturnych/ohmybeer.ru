@@ -1,0 +1,20 @@
+{
+  "bid": 6517519,
+  "beer_name": "Белое солнце",
+  "beer_label": "https://assets.untappd.com/site/beer_logos/beer-6517519_34217_sm.jpeg",
+  "beer_abv": 8,
+  "beer_slug": "ganza-pivovarnya-beloe-solnce",
+  "beer_ibu": 30,
+  "beer_description": "HBC 638 + Motueka + Citra",
+  "created_at": "Fri, 05 Dec 2025 08:06:35 +0000",
+  "beer_style": "IPA - Imperial / Double New England / Hazy",
+  "in_production": 1,
+  "auth_rating": 0,
+  "wish_list": false,
+  "checkin_count": 196,
+  "id": "ganza-pivovarnya-beloe-solnce",
+  "brewery": "ganza-brewery",
+  "term": "Ganza Белое солнце",
+  "parsed_term": "Ganza Белое солнце",
+  "hash": "47616e7a6120d091d0b5d0bbd0bed0b520d181d0bed0bbd0bdd186d0b5"
+}

@@ -1,0 +1,20 @@
+{
+  "bid": 6734893,
+  "beer_name": "Механика вкуса",
+  "beer_label": "https://assets.untappd.com/site/beer_logos/beer-6734893_33ad2_sm.jpeg",
+  "beer_abv": 6.5,
+  "beer_slug": "ganza-pivovarnya-mehanika-vkusa",
+  "beer_ibu": 70,
+  "beer_description": "Сорт сварен в коллаборации с краснодарским пабом Кулибин  в честь его десятилетия. С юбилеем! Citra + Cascade + Amarillo",
+  "created_at": "Tue, 02 Jun 2026 07:32:39 +0000",
+  "beer_style": "IPA - Other",
+  "in_production": 1,
+  "auth_rating": 0,
+  "wish_list": false,
+  "checkin_count": 77,
+  "id": "ganza-pivovarnya-mehanika-vkusa",
+  "brewery": "ganza-brewery",
+  "term": "Ganza Механика Вкуса",
+  "parsed_term": "Ganza Механика Вкуса",
+  "hash": "47616e7a6120d09cd0b5d185d0b0d0bdd0b8d0bad0b020d092d0bad183d181d0b0"
+}

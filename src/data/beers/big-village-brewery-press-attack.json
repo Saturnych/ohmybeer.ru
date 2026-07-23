@@ -1,0 +1,20 @@
+{
+  "bid": 6783158,
+  "beer_name": "PRESS ATTACK",
+  "beer_label": "https://assets.untappd.com/site/beer_logos/beer-6783158_277f3_sm.jpeg",
+  "beer_abv": 4,
+  "beer_slug": "big-village-brewery-press-attack",
+  "beer_ibu": 10,
+  "beer_description": "Американ Лайт Лагер: кукуруза, рис и солод Pilsner,\r\nделикатное охмеление, лагерный дрожжевой\r\nштамм. Максимально светлый, освежающий,\r\nсухой и хрустящий, с тонким хмелевым ароматом.",
+  "created_at": "Thu, 09 Jul 2026 11:14:48 +0000",
+  "beer_style": "Lager - American Light",
+  "in_production": 1,
+  "auth_rating": 0,
+  "wish_list": false,
+  "checkin_count": 18,
+  "id": "big-village-brewery-press-attack",
+  "brewery": "big-village-brewery",
+  "term": "Big Village Press Attack",
+  "parsed_term": "Big Village Press Attack",
+  "hash": "4269672056696c6c6167652050726573732041747461636b"
+}

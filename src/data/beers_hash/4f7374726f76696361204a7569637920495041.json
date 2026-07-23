@@ -1,0 +1,20 @@
+{
+  "bid": 4837657,
+  "beer_name": "JUICY IPA",
+  "beer_label": "https://assets.untappd.com/site/beer_logos/beer-4837657_e2d80_sm.jpeg",
+  "beer_abv": 6.2,
+  "beer_slug": "ostrovica-juicy-ipa",
+  "beer_ibu": 0,
+  "beer_description": "IPA в стиле Новой Англии с ярким ароматом тропических и цитрусовых фруктов. Мягкая горечь и акцент на сочной фруктовой свежести. Охмеление Citra и Mosaic.",
+  "created_at": "Thu, 12 May 2022 14:18:23 +0000",
+  "beer_style": "IPA - New England / Hazy",
+  "in_production": 1,
+  "auth_rating": 0,
+  "wish_list": false,
+  "checkin_count": 6658,
+  "id": "ostrovica-juicy-ipa",
+  "brewery": "ostrovica",
+  "term": "Ostrovica Juicy IPA",
+  "parsed_term": "Ostrovica Juicy IPA",
+  "hash": "4f7374726f76696361204a7569637920495041"
+}
