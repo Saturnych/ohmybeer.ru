@@ -1,0 +1,20 @@
+{
+  "bid": 453428,
+  "beer_name": "St. Anton Apple Semi-Dry Cider (Яблочный Полусухой)",
+  "beer_label": "https://assets.untappd.com/site/beer_logos/beer-453428_a7e63_sm.jpeg",
+  "beer_abv": 5,
+  "beer_slug": "yablochny-spas-yablochnyy-spas-st-anton-apple-semi-dry-cider-yablochnyy-polusuhoy",
+  "beer_ibu": 0,
+  "beer_description": "A drink for the summer evening\r\n",
+  "created_at": "Sat, 14 Sep 2013 13:18:24 +0000",
+  "beer_style": "Cider - Traditional / Apfelwein",
+  "in_production": 1,
+  "auth_rating": 0,
+  "wish_list": false,
+  "checkin_count": 1055,
+  "id": "yablochny-spas-yablochnyy-spas-st-anton-apple-semi-dry-cider-yablochnyy-polusuhoy",
+  "brewery": "yablochny-spas-yablochnyj-spas",
+  "term": "St.Anton Semi-Dry",
+  "parsed_term": "St.Anton Semi-Dry",
+  "hash": "53742e416e746f6e2053656d692d447279"
+}

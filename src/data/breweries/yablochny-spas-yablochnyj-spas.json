@@ -1,0 +1,24 @@
+{
+  "brewery_id": 42694,
+  "brewery_name": "Yablochny Spas (Яблочный Спас)",
+  "brewery_slug": "yablochny-spas-yablochnyj-spas",
+  "brewery_page_url": "/StAntonBrewery",
+  "brewery_type": "Cidery",
+  "brewery_label": "https://assets.untappd.com/site/brewery_logos/brewery-yablochnyspas_42694.jpeg",
+  "brewery_stamp": "/brewery_logos/brewery-yablochnyspas_42694.jpeg",
+  "country_name": "Russia",
+  "contact": {
+    "twitter": "",
+    "facebook": "http://www.facebook.com/ru.st.anton",
+    "instagram": "cider_st.anton",
+    "url": "http://www.yablochny-spas.ru"
+  },
+  "location": {
+    "brewery_city": "Suvorov",
+    "brewery_state": "Тульская область",
+    "lat": 54.1254997,
+    "lng": 36.4855995
+  },
+  "brewery_active": 1,
+  "id": "yablochny-spas-yablochnyj-spas"
+}
