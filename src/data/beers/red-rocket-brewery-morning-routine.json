@@ -1,0 +1,20 @@
+{
+  "bid": 6728078,
+  "beer_name": "MORNING ROUTINE",
+  "beer_label": "https://assets.untappd.com/site/beer_logos/beer-6728078_e5046_sm.jpeg",
+  "beer_abv": 6,
+  "beer_slug": "red-rocket-brewery-morning-routine",
+  "beer_ibu": 0,
+  "beer_description": "NITRO OATMEAL STOUT W/ COFFEE\r\n\r\nLOBODAY 2026 PREMIERE",
+  "created_at": "Thu, 28 May 2026 05:57:39 +0000",
+  "beer_style": "Stout - Coffee",
+  "in_production": 1,
+  "auth_rating": 0,
+  "wish_list": false,
+  "checkin_count": 147,
+  "id": "red-rocket-brewery-morning-routine",
+  "brewery": "red-rocket-brewery",
+  "term": "Red Rocket Morning Routine",
+  "parsed_term": "Red Rocket Morning Routine",
+  "hash": "52656420526f636b6574204d6f726e696e6720526f7574696e65"
+}
