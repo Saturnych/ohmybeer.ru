@@ -1,0 +1,20 @@
+{
+  "bid": 6802587,
+  "beer_name": "Gonzo Trip",
+  "beer_label": "https://assets.untappd.com/site/beer_logos/beer-6802587_759d0_sm.jpeg",
+  "beer_abv": 5.2,
+  "beer_slug": "zagovor-brewery-gonzo-trip",
+  "beer_ibu": 35,
+  "beer_description": "Crispy Pilsner, delicate dry hop with Saphir & Hallertau Blanc. Special collab with puck rock SMENA fest 26! ",
+  "created_at": "Fri, 24 Jul 2026 11:50:03 +0000",
+  "beer_style": "Pilsner - Italian",
+  "in_production": 1,
+  "auth_rating": 0,
+  "wish_list": false,
+  "checkin_count": 72,
+  "id": "zagovor-brewery-gonzo-trip",
+  "brewery": "zagovor-brewery",
+  "term": "Zagovor Gonzo Trip",
+  "parsed_term": "Zagovor Gonzo Trip",
+  "hash": "5a61676f766f7220476f6e7a6f2054726970"
+}
