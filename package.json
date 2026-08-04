@@ -39,7 +39,7 @@
 		"typescript": "^7.0.2"
 	},
 	"dependencies": {
-		"astro": "^7.0.7",
+		"astro": "^7.1.6",
 		"axios": "^1.18.1",
 		"axios-retry": "^4.5.0",
 		"cheerio": "^1.2.0",

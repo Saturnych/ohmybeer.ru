@@ -1,0 +1,20 @@
+{
+  "bid": 6781056,
+  "beer_name": "На районе",
+  "beer_label": "https://assets.untappd.com/site/beer_logos/beer-6781056_88eea_sm.jpeg",
+  "beer_abv": 6,
+  "beer_slug": "white-stone-na-rayone",
+  "beer_ibu": 73,
+  "beer_description": "India Pale Ale\r\nABV: 6%\r\nPlato: 15%\r\nIBU: 73\r\nHops: Mosaic, Eclipse, Chinook\r\n\r\nЭто не просто пиво, это СD с приятной ностальгией. Сделай глоток, закрой глаза, и он погрузит тебя в воспоминания… Ты услышишь голоса друзей из далёкого прошлого, подпевающих гитаре на лавке, визг шин новенькой «тринашки» — гордости дворовых парней, почувствуешь последние лучи солнца перед закатом и улыбнёшься, вспоминая своё лучшее лето.\r\n\r\nКоллаборация с «Паб 13» из Самары.",
+  "created_at": "Tue, 07 Jul 2026 10:52:39 +0000",
+  "beer_style": "IPA - American",
+  "in_production": 1,
+  "auth_rating": 0,
+  "wish_list": false,
+  "checkin_count": 131,
+  "id": "white-stone-na-rayone",
+  "brewery": "white-stone",
+  "term": "White Stone На Районе",
+  "parsed_term": "White Stone На Районе",
+  "hash": "57686974652053746f6e6520d09dd0b020d0a0d0b0d0b9d0bed0bdd0b5"
+}
