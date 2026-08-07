@@ -1,0 +1,20 @@
+{
+  "bid": 6801067,
+  "beer_name": "Gluckshafen",
+  "beer_label": "https://assets.untappd.com/site/beer_logos/beer-6801067_febf8_sm.jpeg",
+  "beer_abv": 5.1,
+  "beer_slug": "stamm-brewing-gluckshafen",
+  "beer_ibu": 0,
+  "beer_description": "",
+  "created_at": "Thu, 23 Jul 2026 08:40:49 +0000",
+  "beer_style": "Lager - Dortmunder / Export",
+  "in_production": 1,
+  "auth_rating": 0,
+  "wish_list": false,
+  "checkin_count": 138,
+  "id": "stamm-brewing-gluckshafen",
+  "brewery": "stamm-brewing",
+  "term": "Stamm glukshafen",
+  "parsed_term": "Stamm glukshafen",
+  "hash": "5374616d6d20676c756b73686166656e"
+}

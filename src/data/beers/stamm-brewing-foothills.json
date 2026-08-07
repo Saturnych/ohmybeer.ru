@@ -1,0 +1,20 @@
+{
+  "bid": 6798308,
+  "beer_name": "Foothills",
+  "beer_label": "https://assets.untappd.com/site/beer_logos/beer-6798308_8e711_sm.jpeg",
+  "beer_abv": 5.5,
+  "beer_slug": "stamm-brewing-foothills",
+  "beer_ibu": 0,
+  "beer_description": "",
+  "created_at": "Mon, 20 Jul 2026 13:24:13 +0000",
+  "beer_style": "Pilsner - New Zealand",
+  "in_production": 1,
+  "auth_rating": 0,
+  "wish_list": false,
+  "checkin_count": 58,
+  "id": "stamm-brewing-foothills",
+  "brewery": "stamm-brewing",
+  "term": "Stamm Foothills",
+  "parsed_term": "Stamm Foothills",
+  "hash": "5374616d6d20466f6f7468696c6c73"
+}

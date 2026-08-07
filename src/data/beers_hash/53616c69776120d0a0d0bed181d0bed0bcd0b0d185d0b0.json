@@ -1,0 +1,20 @@
+{
+  "bid": 6726079,
+  "beer_name": "РОСОМАХА",
+  "beer_label": "https://assets.untappd.com/site/beer_logos/beer-6726079_bd52f_sm.jpeg",
+  "beer_abv": 5.6,
+  "beer_slug": "saliwa-rosomaha",
+  "beer_ibu": 30,
+  "beer_description": "МУТНЫЙ ПЕЙЛ ЭЛЬ, ОХМЕЛЁННЫЙ CITRA + WAI-ITI. СБРОЖЕН ШТАММОМ GULO, ЧТО В ПЕРЕВОДЕ С ЛАТЫНИ ОЗНАЧАЕТ «РОСОМАХА».",
+  "created_at": "Tue, 26 May 2026 08:44:53 +0000",
+  "beer_style": "Pale Ale - New England / Hazy",
+  "in_production": 1,
+  "auth_rating": 0,
+  "wish_list": false,
+  "checkin_count": 111,
+  "id": "saliwa-rosomaha",
+  "brewery": "saliwa-brew",
+  "term": "Saliwa Росомаха",
+  "parsed_term": "Saliwa Росомаха",
+  "hash": "53616c69776120d0a0d0bed181d0bed0bcd0b0d185d0b0"
+}

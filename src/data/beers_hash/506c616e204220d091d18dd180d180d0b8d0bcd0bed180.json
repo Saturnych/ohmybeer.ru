@@ -1,0 +1,20 @@
+{
+  "bid": 1018996,
+  "beer_name": "Бэрримор",
+  "beer_label": "https://assets.untappd.com/site/beer_logos/beer-1018996_d05dc_sm.jpeg",
+  "beer_abv": 6,
+  "beer_slug": "plan-b-brewery-berrimor",
+  "beer_ibu": 50,
+  "beer_description": "",
+  "created_at": "Sat, 21 Mar 2015 21:34:38 +0000",
+  "beer_style": "Stout - Oatmeal",
+  "in_production": 1,
+  "auth_rating": 0,
+  "wish_list": false,
+  "checkin_count": 5337,
+  "id": "plan-b-brewery-berrimor",
+  "brewery": "plan-b-brewery",
+  "term": "Plan B Бэрримор",
+  "parsed_term": "Plan B Бэрримор",
+  "hash": "506c616e204220d091d18dd180d180d0b8d0bcd0bed180"
+}

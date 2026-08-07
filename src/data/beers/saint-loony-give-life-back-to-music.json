@@ -1,0 +1,20 @@
+{
+  "bid": 6808043,
+  "beer_name": "Give life back to music ",
+  "beer_label": "https://assets.untappd.com/site/beer_logos/beer-6808043_3fa50_sm.jpeg",
+  "beer_abv": 5,
+  "beer_slug": "saint-loony-give-life-back-to-music",
+  "beer_ibu": 0,
+  "beer_description": "Верни в жизнь вкусную музыку! Сочный мандарин задает бодрый ритм, сладкий ананас наполняет тропическим вайбом, а бархатистый персик делает каждую ноту мягкой и насыщенной. Яркий, фруктовый и невероятно красивый сорт, который хочется включать на повтор.",
+  "created_at": "Tue, 28 Jul 2026 08:33:25 +0000",
+  "beer_style": "Sour - Fruited",
+  "in_production": 1,
+  "auth_rating": 0,
+  "wish_list": false,
+  "checkin_count": 2,
+  "id": "saint-loony-give-life-back-to-music",
+  "brewery": "saint-loony",
+  "term": "Saint Loony Give Life Back to Music",
+  "parsed_term": "Saint Loony Give Life Back to Music",
+  "hash": "5361696e74204c6f6f6e792047697665204c696665204261636b20746f204d75736963"
+}
