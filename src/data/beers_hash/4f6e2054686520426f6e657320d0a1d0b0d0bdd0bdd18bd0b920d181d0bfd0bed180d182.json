@@ -1,0 +1,20 @@
+{
+  "bid": 4137399,
+  "beer_name": "Санный Спорт",
+  "beer_label": "https://assets.untappd.com/site/beer_logos/beer-4137399_504ff_sm.jpeg",
+  "beer_abv": 4.8,
+  "beer_slug": "on-the-bones-contract-brewery-sannyy-sport",
+  "beer_ibu": 25,
+  "beer_description": "Лагер, простой и понятный, как санная трасса",
+  "created_at": "Sun, 10 Jan 2021 20:41:56 +0000",
+  "beer_style": "Lager - Helles",
+  "in_production": 1,
+  "auth_rating": 0,
+  "wish_list": false,
+  "checkin_count": 2116,
+  "id": "on-the-bones-contract-brewery-sannyy-sport",
+  "brewery": "toksovskaya-sidreriya-on-the-bones-contract-brewery",
+  "term": "On The Bones Санный спорт",
+  "parsed_term": "On The Bones Санный спорт",
+  "hash": "4f6e2054686520426f6e657320d0a1d0b0d0bdd0bdd18bd0b920d181d0bfd0bed180d182"
+}
