@@ -1,0 +1,20 @@
+{
+  "bid": 6157412,
+  "beer_name": "SAY MY NAME",
+  "beer_label": "https://assets.untappd.com/site/beer_logos/beer-6157412_8e12c_sm.jpeg",
+  "beer_abv": 5.5,
+  "beer_slug": "ganza-pivovarnya-say-my-name",
+  "beer_ibu": 40,
+  "beer_description": "ВОПЛОЩЕНИЕ ОСНОВНОЙ ИДЕЙ КРАФТОВОГО ПИВОВАРЕНИЯ - ВОЗРОЖДЕНИЕ ОРИГИНАЛЬНЫХ РЕЦЕПТОВ И КЛАССИЧЕСКОГО ПОДХОДА К ИДЕАЛЬНО ВЫВЕРЕННОМУ СТИЛЮ.\r\nБРУТАЛЬНАЯ КЛАССИКА И НИЧЕГО ЛИШНЕГО. ПИТКИЙ, ЯРКИЙ И ОСВЕЖАЮЩИЙ PALE ALE.\r\nКОГДА УЖЕ НИЧЕГО НЕ НУЖНО ДОКАЗЫВАТЬ\r\nSAY MY NAME.",
+  "created_at": "Thu, 13 Feb 2025 12:58:53 +0000",
+  "beer_style": "Pale Ale - American",
+  "in_production": 1,
+  "auth_rating": 0,
+  "wish_list": false,
+  "checkin_count": 640,
+  "id": "ganza-pivovarnya-say-my-name",
+  "brewery": "ganza-brewery",
+  "term": "Ganza Say My Name",
+  "parsed_term": "Ganza Say My Name",
+  "hash": "47616e7a6120536179204d79204e616d65"
+}
