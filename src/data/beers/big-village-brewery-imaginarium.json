@@ -1,0 +1,20 @@
+{
+  "bid": 2588758,
+  "beer_name": "IMAGINARIUM",
+  "beer_label": "https://assets.untappd.com/site/beer_logos/beer-2588758_45dc1_sm.jpeg",
+  "beer_abv": 7,
+  "beer_slug": "big-village-brewery-imaginarium",
+  "beer_ibu": 60,
+  "beer_description": "Линейка \"City\"\r\nНаш регулярный IPA как продолжение вечного поиска идеального баланса в направление West Coast: лишенная всех карамельных задатков солодовая база, максимально сухое тело и двухэтапное охмеление  Mosaic & Citra.",
+  "created_at": "Fri, 06 Apr 2018 16:13:51 +0000",
+  "beer_style": "IPA - American",
+  "in_production": 1,
+  "auth_rating": 0,
+  "wish_list": false,
+  "checkin_count": 7475,
+  "id": "big-village-brewery-imaginarium",
+  "brewery": "big-village-brewery",
+  "term": "Big Village Imaginarium",
+  "parsed_term": "Big Village Imaginarium",
+  "hash": "4269672056696c6c61676520496d6167696e617269756d"
+}

@@ -1,0 +1,20 @@
+{
+  "bid": 1803102,
+  "beer_name": "Tropical Painkiller",
+  "beer_label": "https://assets.untappd.com/site/beer_logos/beer-1803102_30bc0_sm.jpeg",
+  "beer_abv": 8.5,
+  "beer_slug": "plan-b-brewery-tropical-painkiller",
+  "beer_ibu": 70,
+  "beer_description": "OG 19P.  Хорошо сбалансированный, ароматный, плотный, слегка согревающий горло double ipa.  Ах, да! Если вы под абсентом или текилой, то дегустацию Tropical Painkiller лучше отложить на завтра)",
+  "created_at": "Wed, 02 Nov 2016 12:06:07 +0000",
+  "beer_style": "IPA - Imperial / Double",
+  "in_production": 1,
+  "auth_rating": 0,
+  "wish_list": false,
+  "checkin_count": 8630,
+  "id": "plan-b-brewery-tropical-painkiller",
+  "brewery": "plan-b-brewery",
+  "term": "Plan B Tropical Painkiller",
+  "parsed_term": "Plan B Tropical Painkiller",
+  "hash": "506c616e20422054726f706963616c205061696e6b696c6c6572"
+}
