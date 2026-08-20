@@ -1,0 +1,24 @@
+{
+  "brewery_id": 53009,
+  "brewery_name": "Velka Morava",
+  "brewery_slug": "velka-morava",
+  "brewery_page_url": "/VelkaMorava",
+  "brewery_type": "Micro Brewery",
+  "brewery_label": "https://assets.untappd.com/site/brewery_logos/brewery-53009_0e5ee.jpeg",
+  "brewery_stamp": "/brewery_logos/brewery-53009_0e5ee.jpeg",
+  "country_name": "Russia",
+  "contact": {
+    "twitter": "",
+    "facebook": "https://t.me/velkamorava",
+    "instagram": "velkamorava",
+    "url": "http://moravabeer.ru"
+  },
+  "location": {
+    "brewery_city": "Moskva",
+    "brewery_state": "Moskva",
+    "lat": 55.8216019,
+    "lng": 37.7313995
+  },
+  "brewery_active": 1,
+  "id": "velka-morava"
+}

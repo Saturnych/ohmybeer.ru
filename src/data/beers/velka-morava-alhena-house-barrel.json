@@ -1,0 +1,20 @@
+{
+  "bid": 6497841,
+  "beer_name": "Alhena House Barrel",
+  "beer_label": "https://assets.untappd.com/site/beer_logos/beer-6497841_962d9_sm.jpeg",
+  "beer_abv": 11,
+  "beer_slug": "velka-morava-alhena-house-barrel",
+  "beer_ibu": 0,
+  "beer_description": "Специальная лимитированная версия, довыдерженно в бочках от коньяка в ресторанах Ян Примус",
+  "created_at": "Wed, 19 Nov 2025 11:59:47 +0000",
+  "beer_style": "Stout - Imperial / Double",
+  "in_production": 1,
+  "auth_rating": 0,
+  "wish_list": false,
+  "checkin_count": 6,
+  "id": "velka-morava-alhena-house-barrel",
+  "brewery": "velka-morava",
+  "term": "Velka Morava Alhena",
+  "parsed_term": "Velka Morava Alhena",
+  "hash": "56656c6b61204d6f7261766120416c68656e61"
+}

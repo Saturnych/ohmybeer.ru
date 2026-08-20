@@ -1,0 +1,20 @@
+{
+  "bid": 6622416,
+  "beer_name": "ЗМЕЙ УШИНЫЧ",
+  "beer_label": "https://assets.untappd.com/site/beer_logos/beer-6622416_f5927_sm.jpeg",
+  "beer_abv": 5.7,
+  "beer_slug": "saliwa-zmey-ushinych",
+  "beer_ibu": 20,
+  "beer_description": "Коллаборация с настоящими легендами севера Петербурга - магазином Пиво на Ушинке!\r\nНовозеландский пилс, охмелённый Ривакой. Сброжен штаммом Лунар Краш от Омеги.",
+  "created_at": "Thu, 05 Mar 2026 13:20:29 +0000",
+  "beer_style": "Pilsner - New Zealand",
+  "in_production": 1,
+  "auth_rating": 0,
+  "wish_list": false,
+  "checkin_count": 376,
+  "id": "saliwa-zmey-ushinych",
+  "brewery": "saliwa-brew",
+  "term": "Saliwa Змей Ушиныч",
+  "parsed_term": "Saliwa Змей Ушиныч",
+  "hash": "53616c69776120d097d0bcd0b5d0b920d0a3d188d0b8d0bdd18bd187"
+}
