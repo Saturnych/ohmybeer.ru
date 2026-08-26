@@ -1,0 +1,20 @@
+{
+  "bid": 2993531,
+  "beer_name": "Персик Маракуйя Милкшейк",
+  "beer_label": "https://assets.untappd.com/site/beer_logos/beer-2993531_a1e25_sm.jpeg",
+  "beer_abv": 6,
+  "beer_slug": "augustine-avgustin-persik-marakuyya-milksheyk",
+  "beer_ibu": 17,
+  "beer_description": "Когда хочется фруктов, парадиза и голубого неба, а не серых туч и мороза над оружейном городом, тогда пивовары варят тропический милкшейк с персиком и маракуйей. ",
+  "created_at": "Mon, 17 Dec 2018 05:42:16 +0000",
+  "beer_style": "IPA - Milkshake",
+  "in_production": 1,
+  "auth_rating": 0,
+  "wish_list": false,
+  "checkin_count": 2501,
+  "id": "augustine-avgustin-persik-marakuyya-milksheyk",
+  "brewery": "augustine-avgustin",
+  "term": "Augustine Персик Маракуйя Милкшейк",
+  "parsed_term": "Augustine Персик Маракуйя Милкшейк",
+  "hash": "417567757374696e6520d09fd0b5d180d181d0b8d0ba20d09cd0b0d180d0b0d0bad183d0b9d18f20d09cd0b8d0bbd0bad188d0b5d0b9d0ba"
+}

@@ -1,0 +1,20 @@
+{
+  "bid": 6797076,
+  "beer_name": "Space Camp",
+  "beer_label": "https://assets.untappd.com/site/beer_logos/beer-6797076_a87d1_sm.jpeg",
+  "beer_abv": 6,
+  "beer_slug": "rocket-city-brewery-space-camp",
+  "beer_ibu": 45,
+  "beer_description": "Новый IPA в стиле West Coast на ароматных хмелях Эклипс и Гелакси",
+  "created_at": "Sun, 19 Jul 2026 10:49:33 +0000",
+  "beer_style": "IPA - American",
+  "in_production": 1,
+  "auth_rating": 0,
+  "wish_list": false,
+  "checkin_count": 72,
+  "id": "rocket-city-brewery-space-camp",
+  "brewery": "rocket-city-brewery",
+  "term": "Rocket City Space Camp",
+  "parsed_term": "Rocket City Space Camp",
+  "hash": "526f636b657420436974792053706163652043616d70"
+}
