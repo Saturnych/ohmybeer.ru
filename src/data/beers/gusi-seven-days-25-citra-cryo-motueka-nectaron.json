@@ -1,0 +1,20 @@
+{
+  "bid": 6809075,
+  "beer_name": "SEVEN DAYS 25 | citra cryo • motueka • nectaron",
+  "beer_label": "https://assets.untappd.com/site/beer_logos/beer-6809075_1b88f_sm.jpeg",
+  "beer_abv": 5.6,
+  "beer_slug": "gusi-seven-days-25-citra-cryo-motueka-nectaron",
+  "beer_ibu": 30,
+  "beer_description": "Двадцать пятая версия пейл эля на каждый день. Легкая солодовая база, овсяные хлопья, двойное сухое охмеление Citra cryo, Motueka и Nectaron. ",
+  "created_at": "Wed, 29 Jul 2026 08:51:33 +0000",
+  "beer_style": "Pale Ale - New England / Hazy",
+  "in_production": 1,
+  "auth_rating": 0,
+  "wish_list": false,
+  "checkin_count": 17,
+  "id": "gusi-seven-days-25-citra-cryo-motueka-nectaron",
+  "brewery": "gusi",
+  "term": "GUSI Seven Days 25",
+  "parsed_term": "GUSI Seven Days 25",
+  "hash": "4755534920536576656e2044617973203235"
+}
