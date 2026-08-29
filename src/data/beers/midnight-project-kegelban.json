@@ -1,0 +1,20 @@
+{
+  "bid": 6816392,
+  "beer_name": "Кегельбан",
+  "beer_label": "https://assets.untappd.com/site/beer_logos/beer-6816392_1ebc0_sm.jpeg",
+  "beer_abv": 7.1,
+  "beer_slug": "midnight-project-kegelban",
+  "beer_ibu": 24,
+  "beer_description": "Фестивальчик 2026\r\n\r\nHOPFENWEISSE W/ AZACCA CGX\r\n\r\nКегельбан, кегельбан\r\nКег, кег, кег\r\nКегельбан\r\n\r\nМожно и в кегах\r\nМожно и в кеглях\r\nЭто всё - Ке-Гель-Бан",
+  "created_at": "Mon, 03 Aug 2026 13:27:46 +0000",
+  "beer_style": "Wheat Beer - Hopfenweisse",
+  "in_production": 1,
+  "auth_rating": 0,
+  "wish_list": false,
+  "checkin_count": 52,
+  "id": "midnight-project-kegelban",
+  "brewery": "midnight-project",
+  "term": "Midnight Project Кегельбан",
+  "parsed_term": "Midnight Project Кегельбан",
+  "hash": "4d69646e696768742050726f6a65637420d09ad0b5d0b3d0b5d0bbd18cd0b1d0b0d0bd"
+}
