@@ -1,0 +1,20 @@
+{
+  "bid": 6827079,
+  "beer_name": "Мейнстрит: Strata+Krush Cryo",
+  "beer_label": "https://assets.untappd.com/site/beer_logos/beer-6827079_44603_sm.jpeg",
+  "beer_abv": 5.5,
+  "beer_slug": "pivovarnya-odna-tonna-odna-tonna-brewery-meynstrit-strata-krush-cryo",
+  "beer_ibu": 0,
+  "beer_description": "Мейнстрит - линейка American Pale Ale, вдохновлённая летней американской глубинкой: выцветшими вывесками, бейсбольными полями, старыми кинотеатрами и пыльными дорогами, уходящими за маленький город. Сохраняя тело сухим, чистым и питким, серия уходит от карамельной тяжести, хвои и классической \"ёлки\", оставляя место для сладких сочетаний современных хмелей. Каждый новый выпуск - это очередная прогулка по Мейнстрит, где поверх сухой основы раскрываются мягкие фруктовые, ягодные и цветочные ассоциации без фруктовых добавок. Эта версия охмелена Strata и Krush Cryo.",
+  "created_at": "Wed, 12 Aug 2026 07:38:36 +0000",
+  "beer_style": "Pale Ale - American",
+  "in_production": 1,
+  "auth_rating": 0,
+  "wish_list": false,
+  "checkin_count": 25,
+  "id": "pivovarnya-odna-tonna-odna-tonna-brewery-meynstrit-strata-krush-cryo",
+  "brewery": "pivovarnya-odna-tonna-odna-tonna-brewery",
+  "term": "Одна тонна Мейнстрит: Strata   Krush Cryo",
+  "parsed_term": "Одна тонна Мейнстрит: Strata   Krush Cryo",
+  "hash": "d09ed0b4d0bdd0b020d182d0bed0bdd0bdd0b020d09cd0b5d0b9d0bdd181d182d180d0b8d1823a20537472617461202b204b72757368204372796f"
+}

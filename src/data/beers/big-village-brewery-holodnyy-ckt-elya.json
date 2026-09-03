@@ -1,0 +1,20 @@
+{
+  "bid": 6833848,
+  "beer_name": "ХОЛОДНЫЙ ЦКТ ЭЛЯ",
+  "beer_label": "https://assets.untappd.com/site/beer_logos/beer-6833848_f5cbe_sm.jpeg",
+  "beer_abv": 7,
+  "beer_slug": "big-village-brewery-holodnyy-ckt-elya",
+  "beer_ibu": 60,
+  "beer_description": "Cухой и яркий Cold IPA, на максимально светлой солодовой базе, сброженный лагерными дрожжами и охмеленный Simcoe & Riwaka.\r\nЮжный подгон на \"Фестивальчик\" для наших корешков из Ростова!",
+  "created_at": "Mon, 17 Aug 2026 11:07:38 +0000",
+  "beer_style": "IPA - Cold",
+  "in_production": 1,
+  "auth_rating": 0,
+  "wish_list": false,
+  "checkin_count": 58,
+  "id": "big-village-brewery-holodnyy-ckt-elya",
+  "brewery": "big-village-brewery",
+  "term": "Big Village Холодный ЦКТ Эля",
+  "parsed_term": "Big Village Холодный ЦКТ Эля",
+  "hash": "4269672056696c6c61676520d0a5d0bed0bbd0bed0b4d0bdd18bd0b920d0a6d09ad0a220d0add0bbd18f"
+}

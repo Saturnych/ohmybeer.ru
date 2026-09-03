@@ -1,0 +1,20 @@
+{
+  "bid": 6845958,
+  "beer_name": "Jungle Boogie",
+  "beer_label": "https://assets.untappd.com/site/beer_logos/beer-6845958_fe1da_sm.jpeg",
+  "beer_abv": 6.9,
+  "beer_slug": "velka-morava-jungle-boogie",
+  "beer_ibu": 0,
+  "beer_description": "Яркий, ароматный новоанглийский индиа пейл, охмелённый Galaxy, Citra Cryo и Cascade, и углублённый работой с тиолами. В букете доминируют ноты спелого манго, гуавы, ананаса и спелых косточновых. Шелковистый, сочный, с достаточно сладким хмелевым профилем.",
+  "created_at": "Fri, 28 Aug 2026 11:58:13 +0000",
+  "beer_style": "IPA - New England / Hazy",
+  "in_production": 1,
+  "auth_rating": 0,
+  "wish_list": false,
+  "checkin_count": 42,
+  "id": "velka-morava-jungle-boogie",
+  "brewery": "velka-morava",
+  "term": "Velka Morava Jungle Boogie",
+  "parsed_term": "Velka Morava Jungle Boogie",
+  "hash": "56656c6b61204d6f72617661204a756e676c6520426f6f676965"
+}
