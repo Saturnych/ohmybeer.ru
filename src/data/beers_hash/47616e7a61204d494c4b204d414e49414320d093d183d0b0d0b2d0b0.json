@@ -1,0 +1,20 @@
+{
+  "bid": 6799049,
+  "beer_name": "Milk Maniac Гуава",
+  "beer_label": "https://assets.untappd.com/site/beer_logos/beer-6799049_745c0_sm.jpeg",
+  "beer_abv": 7,
+  "beer_slug": "ganza-pivovarnya-milk-maniac-guava",
+  "beer_ibu": 25,
+  "beer_description": "Citra + Motueka",
+  "created_at": "Tue, 21 Jul 2026 07:58:42 +0000",
+  "beer_style": "IPA - Milkshake",
+  "in_production": 1,
+  "auth_rating": 0,
+  "wish_list": false,
+  "checkin_count": 92,
+  "id": "ganza-pivovarnya-milk-maniac-guava",
+  "brewery": "ganza-brewery",
+  "term": "Ganza MILK MANIAC Гуава",
+  "parsed_term": "Ganza MILK MANIAC Гуава",
+  "hash": "47616e7a61204d494c4b204d414e49414320d093d183d0b0d0b2d0b0"
+}
