@@ -1,0 +1,20 @@
+{
+  "bid": 6315683,
+  "beer_name": "CODENAME #LBD025_NEDIPA",
+  "beer_label": "https://assets.untappd.com/site/beer_logos/beer-6315683_86c7c_sm.jpeg",
+  "beer_abv": 8,
+  "beer_slug": "velka-morava-codename-lbd025-nedipa",
+  "beer_ibu": 0,
+  "beer_description": "Ароматный яркий двойной нью ингланд индиа пейл с двойным сухим охмелением нетривиальным сочетанием новозеландского Riwaka, нежного Hallertau Blanc и пыльцой неоклассических Mosaic и Simcoe.",
+  "created_at": "Tue, 24 Jun 2025 12:00:03 +0000",
+  "beer_style": "IPA - Imperial / Double New England / Hazy",
+  "in_production": 1,
+  "auth_rating": 0,
+  "wish_list": false,
+  "checkin_count": 798,
+  "id": "velka-morava-codename-lbd025-nedipa",
+  "brewery": "velka-morava",
+  "term": "Velka Morava Codename LBD",
+  "parsed_term": "Velka Morava Codename LBD",
+  "hash": "56656c6b61204d6f7261766120436f64656e616d65204c4244"
+}
