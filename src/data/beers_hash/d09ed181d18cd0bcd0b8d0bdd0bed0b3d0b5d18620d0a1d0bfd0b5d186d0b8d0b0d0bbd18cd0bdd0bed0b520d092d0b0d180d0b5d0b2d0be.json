@@ -1,0 +1,20 @@
+{
+  "bid": 6849612,
+  "beer_name": "Специальное варево",
+  "beer_label": "https://assets.untappd.com/site/beer_logos/beer-6849612_63127_sm.jpeg",
+  "beer_abv": 6.8,
+  "beer_slug": "osminogec-osminogets-specialnoe-varevo",
+  "beer_ibu": 40,
+  "beer_description": "Джуси айпиэй с повышенным содержанием овсовой составляющей и охмелением Citra + Galaxy + Nectaron.",
+  "created_at": "Sun, 30 Aug 2026 16:32:56 +0000",
+  "beer_style": "IPA - New England / Hazy",
+  "in_production": 1,
+  "auth_rating": 0,
+  "wish_list": false,
+  "checkin_count": 39,
+  "id": "osminogec-osminogets-specialnoe-varevo",
+  "brewery": "osminogec-osminogets",
+  "term": "Осьминогец Специальное Варево",
+  "parsed_term": "Осьминогец Специальное Варево",
+  "hash": "d09ed181d18cd0bcd0b8d0bdd0bed0b3d0b5d18620d0a1d0bfd0b5d186d0b8d0b0d0bbd18cd0bdd0bed0b520d092d0b0d180d0b5d0b2d0be"
+}
