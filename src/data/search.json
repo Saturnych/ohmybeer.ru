@@ -9,7 +9,7 @@
     "style": "Lager",
     "format": "РОЗЛИВ",
     "country": "Россия",
-    "updatedAt": "2026-09-12T19:40",
+    "updatedAt": "2026-09-15T22:07",
     "brewery_name": "Augustine (Августин)",
     "brewery_slug": "augustine-avgustin",
     "brewery_type": "Micro Brewery",
@@ -24,28 +24,6 @@
   },
   {
     "id": 1,
-    "tap": 2,
-    "raw": "Одна тонна - Мейнстрит: Strata + Krush Cryo, РОЗЛИВ, Россия",
-    "name": "Одна тонна - Мейнстрит: Strata + Krush Cryo, РОЗЛИВ, Россия",
-    "brewery": "Одна тонна",
-    "beer": "Мейнстрит: Strata + Krush Cryo",
-    "format": "РОЗЛИВ",
-    "country": "Россия",
-    "updatedAt": "2026-09-12T19:40",
-    "brewery_name": "Пивоварня Одна тонна / Odna Tonna Brewery",
-    "brewery_slug": "pivovarnya-odna-tonna-odna-tonna-brewery",
-    "brewery_type": "Micro Brewery",
-    "beer_name": "Мейнстрит: Strata+Krush Cryo",
-    "beer_label": "https://assets.untappd.com/site/beer_logos/beer-6827079_44603_sm.jpeg",
-    "beer_slug": "pivovarnya-odna-tonna-odna-tonna-brewery-meynstrit-strata-krush-cryo",
-    "beer_abv": 5.5,
-    "beer_ibu": 0,
-    "beer_style": "Pale Ale - American",
-    "term": "Одна тонна Мейнстрит: Strata   Krush Cryo",
-    "hash": "d09ed0b4d0bdd0b020d182d0bed0bdd0bdd0b020d09cd0b5d0b9d0bdd181d182d180d0b8d1823a20537472617461202b204b72757368204372796f"
-  },
-  {
-    "id": 2,
     "tap": 3,
     "raw": "Augustine - Ледяное (Helles), РОЗЛИВ, Россия",
     "name": "Augustine - Ледяное (Helles), РОЗЛИВ, Россия",
@@ -54,7 +32,7 @@
     "style": "Helles",
     "format": "РОЗЛИВ",
     "country": "Россия",
-    "updatedAt": "2026-09-12T19:40",
+    "updatedAt": "2026-09-15T22:07",
     "brewery_name": "Augustine (Августин)",
     "brewery_slug": "augustine-avgustin",
     "brewery_type": "Micro Brewery",
@@ -68,7 +46,7 @@
     "hash": "417567757374696e6520d09bd0b5d0b4d18fd0bdd0bed0b5"
   },
   {
-    "id": 3,
+    "id": 2,
     "tap": 4,
     "raw": "Одна тонна - Жуковская Деситка , РОЗЛИВ, Россия",
     "name": "Одна тонна - Жуковская Деситка , РОЗЛИВ, Россия",
@@ -76,7 +54,7 @@
     "beer": "Жуковская Деситка",
     "format": "РОЗЛИВ",
     "country": "Россия",
-    "updatedAt": "2026-09-12T19:40",
+    "updatedAt": "2026-09-15T22:07",
     "brewery_name": "Пивоварня Одна тонна / Odna Tonna Brewery",
     "brewery_slug": "pivovarnya-odna-tonna-odna-tonna-brewery",
     "brewery_type": "Micro Brewery",
@@ -90,7 +68,7 @@
     "hash": "d09ed0b4d0bdd0b020d182d0bed0bdd0bdd0b020d096d183d0bad0bed0b2d181d0bad0b0d18f20d094d0b5d181d0b8d182d0bad0b0"
   },
   {
-    "id": 4,
+    "id": 3,
     "tap": 5,
     "raw": "Stamm - StraBenbahn (Weisse), РОЗЛИВ, Россия",
     "name": "Stamm - StraBenbahn (Weisse), РОЗЛИВ, Россия",
@@ -99,7 +77,7 @@
     "style": "Weisse",
     "format": "РОЗЛИВ",
     "country": "Россия",
-    "updatedAt": "2026-09-12T19:40",
+    "updatedAt": "2026-09-15T22:07",
     "brewery_name": "Stamm Brewing",
     "brewery_slug": "stamm-brewing",
     "brewery_type": "Micro Brewery",
@@ -113,7 +91,7 @@
     "hash": "5374616d6d205374726142656e6261686e"
   },
   {
-    "id": 5,
+    "id": 4,
     "tap": 6,
     "raw": "Ganza - MILK MANIAC Гуава (milkshake), РОЗЛИВ, Россия",
     "name": "Ganza - MILK MANIAC Гуава (milkshake), РОЗЛИВ, Россия",
@@ -122,7 +100,7 @@
     "style": "milkshake",
     "format": "РОЗЛИВ",
     "country": "Россия",
-    "updatedAt": "2026-09-12T19:40",
+    "updatedAt": "2026-09-15T22:07",
     "brewery_name": "ГАНЗА Пивоварня",
     "brewery_slug": "ganza-brewery",
     "brewery_type": "Micro Brewery",
@@ -136,7 +114,7 @@
     "hash": "47616e7a61204d494c4b204d414e49414320d093d183d0b0d0b2d0b0"
   },
   {
-    "id": 6,
+    "id": 5,
     "tap": 7,
     "raw": "Plan B - Бэрримор (Stout), РОЗЛИВ, Россия",
     "name": "Plan B - Бэрримор (Stout), РОЗЛИВ, Россия",
@@ -145,7 +123,7 @@
     "style": "Stout",
     "format": "РОЗЛИВ",
     "country": "Россия",
-    "updatedAt": "2026-09-12T19:40",
+    "updatedAt": "2026-09-15T22:07",
     "brewery_name": "Plan B Brewery",
     "brewery_slug": "plan-b-brewery",
     "brewery_type": "Micro Brewery",
@@ -159,7 +137,7 @@
     "hash": "506c616e204220d091d18dd180d180d0b8d0bcd0bed180"
   },
   {
-    "id": 7,
+    "id": 6,
     "tap": 8,
     "raw": "Stamm - Foothills (NZ PILS), РОЗЛИВ, Россия",
     "name": "Stamm - Foothills (NZ PILS), РОЗЛИВ, Россия",
@@ -168,7 +146,7 @@
     "style": "NZ PILS",
     "format": "РОЗЛИВ",
     "country": "Россия",
-    "updatedAt": "2026-09-12T19:40",
+    "updatedAt": "2026-09-15T22:07",
     "brewery_name": "Stamm Brewing",
     "brewery_slug": "stamm-brewing",
     "brewery_type": "Micro Brewery",
@@ -182,7 +160,7 @@
     "hash": "5374616d6d20466f6f7468696c6c73"
   },
   {
-    "id": 8,
+    "id": 7,
     "tap": 9,
     "raw": "Saliwa - Змей Ушиныч (NZ Pils), РОЗЛИВ, Россия",
     "name": "Saliwa - Змей Ушиныч (NZ Pils), РОЗЛИВ, Россия",
@@ -191,7 +169,7 @@
     "style": "NZ Pils",
     "format": "РОЗЛИВ",
     "country": "Россия",
-    "updatedAt": "2026-09-12T19:40",
+    "updatedAt": "2026-09-15T22:07",
     "brewery_name": "SALIWA",
     "brewery_slug": "saliwa-brew",
     "brewery_type": "Nano Brewery",
@@ -205,7 +183,7 @@
     "hash": "53616c69776120d097d0bcd0b5d0b920d0a3d188d0b8d0bdd18bd187"
   },
   {
-    "id": 9,
+    "id": 8,
     "tap": 10,
     "raw": "Ganza - Механика Вкуса  (IPA), РОЗЛИВ, Россия",
     "name": "Ganza - Механика Вкуса  (IPA), РОЗЛИВ, Россия",
@@ -214,7 +192,7 @@
     "style": "IPA",
     "format": "РОЗЛИВ",
     "country": "Россия",
-    "updatedAt": "2026-09-12T19:40",
+    "updatedAt": "2026-09-15T22:07",
     "brewery_name": "ГАНЗА Пивоварня",
     "brewery_slug": "ganza-brewery",
     "brewery_type": "Micro Brewery",
@@ -228,7 +206,7 @@
     "hash": "47616e7a6120d09cd0b5d185d0b0d0bdd0b8d0bad0b020d092d0bad183d181d0b0"
   },
   {
-    "id": 10,
+    "id": 9,
     "tap": 11,
     "raw": "Ostrovica - B-Day Lager (Lager), РОЗЛИВ, Россия",
     "name": "Ostrovica - B-Day Lager (Lager), РОЗЛИВ, Россия",
@@ -237,7 +215,7 @@
     "style": "Lager",
     "format": "РОЗЛИВ",
     "country": "Россия",
-    "updatedAt": "2026-09-12T19:40",
+    "updatedAt": "2026-09-15T22:07",
     "brewery_name": "OSTROVICA",
     "brewery_slug": "ostrovica",
     "brewery_type": "Micro Brewery",
@@ -251,7 +229,7 @@
     "hash": "4f7374726f7669636120422d446179204c61676572"
   },
   {
-    "id": 11,
+    "id": 10,
     "tap": 12,
     "raw": "Saint Loony - Give Life Back to Music (Sour), РОЗЛИВ, Россия",
     "name": "Saint Loony - Give Life Back to Music (Sour), РОЗЛИВ, Россия",
@@ -260,7 +238,7 @@
     "style": "Sour",
     "format": "РОЗЛИВ",
     "country": "Россия",
-    "updatedAt": "2026-09-12T19:40",
+    "updatedAt": "2026-09-15T22:07",
     "brewery_name": "Saint Loony",
     "brewery_slug": "saint-loony",
     "brewery_type": "Micro Brewery",
@@ -274,7 +252,7 @@
     "hash": "5361696e74204c6f6f6e792047697665204c696665204261636b20746f204d75736963"
   },
   {
-    "id": 12,
+    "id": 11,
     "tap": 13,
     "raw": "Velka Morava - Alhena (Imperial Stout), РОЗЛИВ, Россия",
     "name": "Velka Morava - Alhena (Imperial Stout), РОЗЛИВ, Россия",
@@ -283,7 +261,7 @@
     "style": "Imperial Stout",
     "format": "РОЗЛИВ",
     "country": "Россия",
-    "updatedAt": "2026-09-12T19:40",
+    "updatedAt": "2026-09-15T22:07",
     "brewery_name": "Velka Morava",
     "brewery_slug": "velka-morava",
     "brewery_type": "Micro Brewery",
@@ -297,7 +275,7 @@
     "hash": "56656c6b61204d6f7261766120416c68656e61"
   },
   {
-    "id": 13,
+    "id": 12,
     "tap": 14,
     "raw": "Как С Куста - Полусухой, РОЗЛИВ, Россия",
     "name": "Как С Куста - Полусухой, РОЗЛИВ, Россия",
@@ -305,7 +283,7 @@
     "beer": "Полусухой",
     "format": "РОЗЛИВ",
     "country": "Россия",
-    "updatedAt": "2026-09-12T19:40",
+    "updatedAt": "2026-09-15T22:07",
     "brewery_name": "Как с куста",
     "brewery_slug": "kak-s-kusta",
     "brewery_type": "Cidery",
@@ -319,7 +297,7 @@
     "hash": "d09ad0b0d0ba20d0a120d09ad183d181d182d0b020d09fd0bed0bbd183d181d183d185d0bed0b9"
   },
   {
-    "id": 14,
+    "id": 13,
     "tap": 15,
     "raw": "Red Button - MOST WONDERFUL TIME 4 A BEER (Stout), РОЗЛИВ, Россия",
     "name": "Red Button - MOST WONDERFUL TIME 4 A BEER (Stout), РОЗЛИВ, Россия",
@@ -328,7 +306,7 @@
     "style": "Stout",
     "format": "РОЗЛИВ",
     "country": "Россия",
-    "updatedAt": "2026-09-12T19:40",
+    "updatedAt": "2026-09-15T22:07",
     "brewery_name": "Red Button Brewery",
     "brewery_slug": "red-button-brewery",
     "brewery_type": "Micro Brewery",
@@ -342,7 +320,7 @@
     "hash": "52656420427574746f6e204d4f535420574f4e44455246554c2054494d45203420412042454552"
   },
   {
-    "id": 15,
+    "id": 14,
     "tap": 16,
     "raw": "Plan B - Rise Of The Zombies (APA), РОЗЛИВ, Россия",
     "name": "Plan B - Rise Of The Zombies (APA), РОЗЛИВ, Россия",
@@ -351,7 +329,7 @@
     "style": "APA",
     "format": "РОЗЛИВ",
     "country": "Россия",
-    "updatedAt": "2026-09-12T19:40",
+    "updatedAt": "2026-09-15T22:07",
     "brewery_name": "Plan B Brewery",
     "brewery_slug": "plan-b-brewery",
     "brewery_type": "Micro Brewery",
@@ -365,7 +343,7 @@
     "hash": "506c616e20422052697365204f6620546865205a6f6d62696573"
   },
   {
-    "id": 16,
+    "id": 15,
     "tap": 17,
     "raw": "Осьминогец - Специальное Варево (NEIPA),  Розлив, Россия",
     "name": "Осьминогец - Специальное Варево (NEIPA),  Розлив, Россия",
@@ -374,7 +352,7 @@
     "style": "NEIPA",
     "format": "Розлив",
     "country": "Россия",
-    "updatedAt": "2026-09-12T19:40",
+    "updatedAt": "2026-09-15T22:07",
     "brewery_name": "Осьминогец / Osminogets",
     "brewery_slug": "osminogec-osminogets",
     "brewery_type": "Nano Brewery",
@@ -388,7 +366,7 @@
     "hash": "d09ed181d18cd0bcd0b8d0bdd0bed0b3d0b5d18620d0a1d0bfd0b5d186d0b8d0b0d0bbd18cd0bdd0bed0b520d092d0b0d180d0b5d0b2d0be"
   },
   {
-    "id": 17,
+    "id": 16,
     "tap": 18,
     "raw": "Black Cat \"70\"  (IPA), РОЗЛИВ, Россия",
     "name": "Black Cat  - 70  (IPA), РОЗЛИВ, Россия",
@@ -397,7 +375,7 @@
     "style": "IPA",
     "format": "РОЗЛИВ",
     "country": "Россия",
-    "updatedAt": "2026-09-12T19:40",
+    "updatedAt": "2026-09-15T22:07",
     "brewery_name": "Black Cat Brewery",
     "brewery_slug": "black-cat-brewery",
     "brewery_type": "Micro Brewery",
@@ -411,7 +389,7 @@
     "hash": "426c61636b20436174203730"
   },
   {
-    "id": 18,
+    "id": 17,
     "tap": 19,
     "raw": "Augustine - Карт-Бланш (Blanche), РОЗЛИВ, Россия",
     "name": "Augustine - Карт-Бланш (Blanche), РОЗЛИВ, Россия",
@@ -420,7 +398,7 @@
     "style": "Blanche",
     "format": "РОЗЛИВ",
     "country": "Россия",
-    "updatedAt": "2026-09-12T19:40",
+    "updatedAt": "2026-09-15T22:07",
     "brewery_name": "Augustine (Августин)",
     "brewery_slug": "augustine-avgustin",
     "brewery_type": "Micro Brewery",
@@ -434,7 +412,7 @@
     "hash": "417567757374696e6520d09ad0b0d180d1822dd091d0bbd0b0d0bdd188"
   },
   {
-    "id": 19,
+    "id": 18,
     "tap": 20,
     "raw": "Plan B - Ковбой Мальборо (AIPA), РОЗЛИВ, Россия",
     "name": "Plan B - Ковбой Мальборо (AIPA), РОЗЛИВ, Россия",
@@ -443,7 +421,7 @@
     "style": "AIPA",
     "format": "РОЗЛИВ",
     "country": "Россия",
-    "updatedAt": "2026-09-12T19:40",
+    "updatedAt": "2026-09-15T22:07",
     "brewery_name": "Plan B Brewery",
     "brewery_slug": "plan-b-brewery",
     "brewery_type": "Micro Brewery",
@@ -457,7 +435,7 @@
     "hash": "506c616e204220d09ad0bed0b2d0b1d0bed0b920d09cd0b0d0bbd18cd0b1d0bed180d0be"
   },
   {
-    "id": 20,
+    "id": 19,
     "tap": 21,
     "raw": "Stamm - Cherrytonyn  (Fruit Beer), РОЗЛИВ, Россия",
     "name": "Stamm - Cherrytonyn  (Fruit Beer), РОЗЛИВ, Россия",
@@ -466,7 +444,7 @@
     "style": "Fruit Beer",
     "format": "РОЗЛИВ",
     "country": "Россия",
-    "updatedAt": "2026-09-12T19:40",
+    "updatedAt": "2026-09-15T22:07",
     "brewery_name": "Stamm Brewing",
     "brewery_slug": "stamm-brewing",
     "brewery_type": "Micro Brewery",
@@ -480,7 +458,7 @@
     "hash": "5374616d6d20436865727279746f6e796e"
   },
   {
-    "id": 21,
+    "id": 20,
     "tap": 22,
     "raw": "Velka Morava - Codename LBD (NEIPA), РОЗЛИВ, Россия",
     "name": "Velka Morava - Codename LBD (NEIPA), РОЗЛИВ, Россия",
@@ -489,7 +467,7 @@
     "style": "NEIPA",
     "format": "РОЗЛИВ",
     "country": "Россия",
-    "updatedAt": "2026-09-12T19:40",
+    "updatedAt": "2026-09-15T22:07",
     "brewery_name": "Velka Morava",
     "brewery_slug": "velka-morava",
     "brewery_type": "Micro Brewery",
@@ -503,14 +481,14 @@
     "hash": "56656c6b61204d6f7261766120436f64656e616d65204c4244"
   },
   {
-    "id": 22,
+    "id": 21,
     "tap": 23,
     "raw": "Big Village Imaginarium , РОЗЛИВ, Россия",
     "name": "Big Village Imaginarium , РОЗЛИВ, Россия",
     "beer": "Big Village Imaginarium",
     "format": "РОЗЛИВ",
     "country": "Россия",
-    "updatedAt": "2026-09-12T19:40",
+    "updatedAt": "2026-09-15T22:07",
     "brewery_name": "Big Village Brewery",
     "brewery_slug": "big-village-brewery",
     "brewery_type": "Micro Brewery",
@@ -524,7 +502,7 @@
     "hash": "4269672056696c6c61676520496d6167696e617269756d"
   },
   {
-    "id": 23,
+    "id": 22,
     "tap": 24,
     "raw": "Big Village - Холодный ЦКТ Эля (Cold IPA), РОЗЛИВ, Россия",
     "name": "Big Village - Холодный ЦКТ Эля (Cold IPA), РОЗЛИВ, Россия",
@@ -533,7 +511,7 @@
     "style": "Cold IPA",
     "format": "РОЗЛИВ",
     "country": "Россия",
-    "updatedAt": "2026-09-12T19:40",
+    "updatedAt": "2026-09-15T22:07",
     "brewery_name": "Big Village Brewery",
     "brewery_slug": "big-village-brewery",
     "brewery_type": "Micro Brewery",
@@ -547,7 +525,7 @@
     "hash": "4269672056696c6c61676520d0a5d0bed0bbd0bed0b4d0bdd18bd0b920d0a6d09ad0a220d0add0bbd18f"
   },
   {
-    "id": 24,
+    "id": 23,
     "tap": 25,
     "raw": "Plan B - Tropical Painkiller (DIPA), РОЗЛИВ, Россия",
     "name": "Plan B - Tropical Painkiller (DIPA), РОЗЛИВ, Россия",
@@ -556,7 +534,7 @@
     "style": "DIPA",
     "format": "РОЗЛИВ",
     "country": "Россия",
-    "updatedAt": "2026-09-12T19:40",
+    "updatedAt": "2026-09-15T22:07",
     "brewery_name": "Plan B Brewery",
     "brewery_slug": "plan-b-brewery",
     "brewery_type": "Micro Brewery",
@@ -570,14 +548,14 @@
     "hash": "506c616e20422054726f706963616c205061696e6b696c6c6572"
   },
   {
-    "id": 25,
+    "id": 24,
     "tap": 31,
     "raw": "Black Sheep Irish Stout, РОЗЛИВ, Россия",
     "name": "Black Sheep Irish Stout, РОЗЛИВ, Россия",
     "beer": "Black Sheep Irish Stout",
     "format": "РОЗЛИВ",
     "country": "Россия",
-    "updatedAt": "2026-09-12T19:40",
+    "updatedAt": "2026-09-15T22:07",
     "brewery_name": "Объединённые Пивоварни - Холдинг",
     "brewery_slug": "obedinyonnye-pivovarni-holding",
     "brewery_type": "Macro Brewery",
@@ -591,7 +569,7 @@
     "hash": "426c61636b2053686565702049726973682053746f7574"
   },
   {
-    "id": 26,
+    "id": 25,
     "tap": 32,
     "raw": "Red Rocket - Morning Routine (Breakfast Nitro Stout), РОЗЛИВ, Россия",
     "name": "Red Rocket - Morning Routine (Breakfast Nitro Stout), РОЗЛИВ, Россия",
@@ -600,7 +578,7 @@
     "style": "Breakfast Nitro Stout",
     "format": "РОЗЛИВ",
     "country": "Россия",
-    "updatedAt": "2026-09-12T19:40",
+    "updatedAt": "2026-09-15T22:07",
     "brewery_name": "Red Rocket Brewery",
     "brewery_slug": "red-rocket-brewery",
     "brewery_type": "Micro Brewery",
@@ -614,14 +592,14 @@
     "hash": "52656420526f636b6574204d6f726e696e6720526f7574696e65"
   },
   {
-    "id": 27,
+    "id": 26,
     "tap": 33,
     "raw": "Black Sheep Irish Pub Lager, РОЗЛИВ, Россия",
     "name": "Black Sheep Irish Pub Lager, РОЗЛИВ, Россия",
     "beer": "Black Sheep Irish Pub Lager",
     "format": "РОЗЛИВ",
     "country": "Россия",
-    "updatedAt": "2026-09-12T19:40",
+    "updatedAt": "2026-09-15T22:07",
     "brewery_name": "Объединённые Пивоварни - Холдинг",
     "brewery_slug": "obedinyonnye-pivovarni-holding",
     "brewery_type": "Macro Brewery",
