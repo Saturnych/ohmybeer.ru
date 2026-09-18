@@ -1,0 +1,20 @@
+{
+  "bid": 6417005,
+  "beer_name": "Brezn",
+  "beer_label": "https://assets.untappd.com/site/beer_logos/beer-6417005_404d6_sm.jpeg",
+  "beer_abv": 5.6,
+  "beer_slug": "stamm-brewing-brezn",
+  "beer_ibu": 0,
+  "beer_description": "Наше прочтение главного пива Октоберфеста. Ein, zwei, g’zuffa!",
+  "created_at": "Fri, 19 Sep 2025 09:55:58 +0000",
+  "beer_style": "Festbier",
+  "in_production": 1,
+  "auth_rating": 0,
+  "wish_list": false,
+  "checkin_count": 589,
+  "id": "stamm-brewing-brezn",
+  "brewery": "stamm-brewing",
+  "term": "Stamm Brezn",
+  "parsed_term": "Stamm Brezn",
+  "hash": "5374616d6d204272657a6e"
+}

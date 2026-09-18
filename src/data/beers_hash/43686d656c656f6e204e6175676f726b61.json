@@ -1,0 +1,20 @@
+{
+  "bid": 6772753,
+  "beer_name": "Naugorka",
+  "beer_label": "https://assets.untappd.com/site/beer_logos/beer-6772753_87226_sm.jpeg",
+  "beer_abv": 4.8,
+  "beer_slug": "chmeleon-naugorka",
+  "beer_ibu": 41,
+  "beer_description": "Микрон? Выгонка? Ботаника? 909 квартал, а также Монастырка?\r\nЧто объединяет их?\r\nЛюбимый Орел и пиво, что мы сварили для них и для вас вместе с Наугоркой 86.\r\nКоллаборация с командой \"Пенная\".\r\n\r\nChinook/Cascade/Cashmere\r\n",
+  "created_at": "Tue, 30 Jun 2026 19:04:38 +0000",
+  "beer_style": "IPA - Session",
+  "in_production": 1,
+  "auth_rating": 0,
+  "wish_list": false,
+  "checkin_count": 104,
+  "id": "chmeleon-naugorka",
+  "brewery": "chmeleon",
+  "term": "Chmeleon Naugorka",
+  "parsed_term": "Chmeleon Naugorka",
+  "hash": "43686d656c656f6e204e6175676f726b61"
+}
