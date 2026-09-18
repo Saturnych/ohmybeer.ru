@@ -1,0 +1,20 @@
+{
+  "bid": 6743769,
+  "beer_name": "Death From Above",
+  "beer_label": "https://assets.untappd.com/site/beer_logos/beer-6743769_6465d_sm.jpeg",
+  "beer_abv": 6,
+  "beer_slug": "horror-brewing-death-from-above",
+  "beer_ibu": 0,
+  "beer_description": "Heads up, Raiders!\r\n\r\nSlightly bitter summer ale\r\n\r\nAmerican IPA w/Citra & Simcoe CRYO\r\n\r\nПосвящен самому злобному роботу в Arc Raiders. \r\nЛетающая башня с маленьким углом обзора спокойно парит в небе, не обращая ни на кого внимания без надобности. Но стоит тебе оступиться, как инопланетный гнев сотрет все с лица земли, выпустив несколько десятков ракет, попадающих точно в цель. Убежать от него сложно, а выйти на честный поединок - поступок настоящего героя. Чаще смотрите на небо и не совершайте глупых ошибок - Сперанца ближе, чем кажется. \r\n\r\n",
+  "created_at": "Mon, 08 Jun 2026 19:55:16 +0000",
+  "beer_style": "IPA - American",
+  "in_production": 1,
+  "auth_rating": 0,
+  "wish_list": false,
+  "checkin_count": 200,
+  "id": "horror-brewing-death-from-above",
+  "brewery": "horror-brewing",
+  "term": "Horror Brewing Death From Above",
+  "parsed_term": "Horror Brewing Death From Above",
+  "hash": "486f72726f722042726577696e672044656174682046726f6d2041626f7665"
+}

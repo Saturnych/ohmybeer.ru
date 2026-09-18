@@ -1,0 +1,20 @@
+{
+  "bid": 6818037,
+  "beer_name": "Отступники",
+  "beer_label": "https://assets.untappd.com/site/beer_logos/beer-6818037_2c06c_sm.jpeg",
+  "beer_abv": 8.5,
+  "beer_slug": "ganza-pivovarnya-otstupniki",
+  "beer_ibu": 75,
+  "beer_description": "Сварено в коллаборации с пивоварней White Stone. Citra + Cryo Nectaron + Eclipse",
+  "created_at": "Wed, 05 Aug 2026 07:39:44 +0000",
+  "beer_style": "IPA - Imperial / Double",
+  "in_production": 1,
+  "auth_rating": 0,
+  "wish_list": false,
+  "checkin_count": 129,
+  "id": "ganza-pivovarnya-otstupniki",
+  "brewery": "ganza-brewery",
+  "term": "Ganza Отступники",
+  "parsed_term": "Ganza Отступники",
+  "hash": "47616e7a6120d09ed182d181d182d183d0bfd0bdd0b8d0bad0b8"
+}
