@@ -1,0 +1,20 @@
+{
+  "bid": 6825727,
+  "beer_name": "RUMI ÑAWI",
+  "beer_label": "https://assets.untappd.com/site/beer_logos/beer-6825727_02a18_sm.jpeg",
+  "beer_abv": 7,
+  "beer_slug": "saliwa-rumi-nawi",
+  "beer_ibu": 35,
+  "beer_description": "Сорт сброжен штаммом Cosmic Punch. Охмеление El Dorado Incognito, Citra и новым криоконцентированным хмелем El Dorado CGX.",
+  "created_at": "Mon, 10 Aug 2026 20:49:01 +0000",
+  "beer_style": "IPA - Other",
+  "in_production": 1,
+  "auth_rating": 0,
+  "wish_list": false,
+  "checkin_count": 37,
+  "id": "saliwa-rumi-nawi",
+  "brewery": "saliwa-brew",
+  "term": "Saliwa RUMI NAWI",
+  "parsed_term": "Saliwa RUMI NAWI",
+  "hash": "53616c6977612052554d49204e415749"
+}

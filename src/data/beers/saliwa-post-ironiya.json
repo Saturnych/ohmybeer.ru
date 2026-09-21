@@ -1,0 +1,20 @@
+{
+  "bid": 6844856,
+  "beer_name": "ПОСТ-ИРОНИЯ",
+  "beer_label": "https://assets.untappd.com/site/beer_logos/beer-6844856_c0994_sm.jpeg",
+  "beer_abv": 8.3,
+  "beer_slug": "saliwa-post-ironiya",
+  "beer_ibu": 0,
+  "beer_description": "Двойное мутное, сброженное Heaven Haze при поддержке Cosmic Punch с двойным сухим охмелением Galaxy, Rakau, Simcoe. Для баланса на вирпул бахнули El Dorado Incognito и Ekuanot Cryo.",
+  "created_at": "Thu, 27 Aug 2026 15:31:23 +0000",
+  "beer_style": "IPA - Imperial / Double New England / Hazy",
+  "in_production": 1,
+  "auth_rating": 0,
+  "wish_list": false,
+  "checkin_count": 45,
+  "id": "saliwa-post-ironiya",
+  "brewery": "saliwa-brew",
+  "term": "Saliwa ПОСТ-ИРОНИЯ",
+  "parsed_term": "Saliwa ПОСТ-ИРОНИЯ",
+  "hash": "53616c69776120d09fd09ed0a1d0a22dd098d0a0d09ed09dd098d0af"
+}
