@@ -1,0 +1,20 @@
+{
+  "bid": 6854117,
+  "beer_name": "OKTOBERFEST 2026",
+  "beer_label": "https://assets.untappd.com/site/beer_logos/beer-6854117_05db0_sm.jpeg",
+  "beer_abv": 5.8,
+  "beer_slug": "gusi-oktoberfest-2026",
+  "beer_ibu": 22,
+  "beer_description": "Фестбир, который мы варим только 1 раз в год. Мягкий, чистый, светлый лагер с умеренно сильным солодовым вкусом и легким хмелевым характером.\r\nСовременное немецкое пиво, подаваемое на Октоберфесте.",
+  "created_at": "Fri, 04 Sep 2026 06:21:46 +0000",
+  "beer_style": "Festbier",
+  "in_production": 1,
+  "auth_rating": 0,
+  "wish_list": false,
+  "checkin_count": 29,
+  "id": "gusi-oktoberfest-2026",
+  "brewery": "gusi",
+  "term": "GUSI Octoberfest 2026",
+  "parsed_term": "GUSI Octoberfest 2026",
+  "hash": "47555349204f63746f626572666573742032303236"
+}
