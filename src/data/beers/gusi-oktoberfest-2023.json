@@ -1,0 +1,20 @@
+{
+  "bid": 5503904,
+  "beer_name": "OKTOBERFEST 2023",
+  "beer_label": "https://assets.untappd.com/site/beer_logos/beer-5503904_d9170_sm.jpeg",
+  "beer_abv": 5.8,
+  "beer_slug": "gusi-oktoberfest-2023",
+  "beer_ibu": 22,
+  "beer_description": "Фестбир, который мы варим только 1 раз в год.\r\nМягкий, чистый, светлый лагер с умеренно сильным солодовым вкусом и легким хмелевым характером.",
+  "created_at": "Mon, 28 Aug 2023 02:22:06 +0000",
+  "beer_style": "Festbier",
+  "in_production": 1,
+  "auth_rating": 0,
+  "wish_list": false,
+  "checkin_count": 197,
+  "id": "gusi-oktoberfest-2023",
+  "brewery": "gusi",
+  "term": "GUSI Octoberfest",
+  "parsed_term": "GUSI Octoberfest",
+  "hash": "47555349204f63746f62657266657374"
+}
