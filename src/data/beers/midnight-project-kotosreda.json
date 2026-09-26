@@ -1,0 +1,20 @@
+{
+  "bid": 6834706,
+  "beer_name": "КОТОСРЕДА",
+  "beer_label": "https://assets.untappd.com/site/beer_logos/beer-6834706_69875_sm.jpeg",
+  "beer_abv": 6.1,
+  "beer_slug": "midnight-project-kotosreda",
+  "beer_ibu": 55,
+  "beer_description": "Котосреда — весткоаст айпией с добавлением хмеля Mosaic и Mosaic LUPOMAX на всех этапах производства, а также ароматной кошачей мяты. Совместная варка с баром Share House, в чате которого заведена замечательная традиция: каждую среду любой участник чата может прислать фотографию своего котика (а если своего нет — в принципе, подойдёт и абсолютно любой другой). Такая среда в чате домика издавна называется Котосредой. Бери баночку Котосреды и присоединяйся к нашим котикам, присылай фото пушистых и хвостатых в наш домашний чатик! Готовы поспорить, они как раз сбегутся на аромат кошачьей мяты. Пусть всем котикам будет приятно!",
+  "created_at": "Tue, 18 Aug 2026 14:41:16 +0000",
+  "beer_style": "IPA - American",
+  "in_production": 1,
+  "auth_rating": 0,
+  "wish_list": false,
+  "checkin_count": 89,
+  "id": "midnight-project-kotosreda",
+  "brewery": "midnight-project",
+  "term": "Midnight Project КОТОСРЕДА",
+  "parsed_term": "Midnight Project КОТОСРЕДА",
+  "hash": "4d69646e696768742050726f6a65637420d09ad09ed0a2d09ed0a1d0a0d095d094d090"
+}
