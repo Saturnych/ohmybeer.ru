@@ -1,0 +1,20 @@
+{
+  "bid": 6656954,
+  "beer_name": "Делирий Красный",
+  "beer_label": "https://assets.untappd.com/site/beer_logos/beer-6656954_1535d_sm.jpeg",
+  "beer_abv": 7.3,
+  "beer_slug": "osminogec-osminogets-deliriy-krasnyy",
+  "beer_ibu": 0,
+  "beer_description": "Вишневый эль в бельгийском стиле",
+  "created_at": "Thu, 02 Apr 2026 15:43:43 +0000",
+  "beer_style": "Fruit Beer",
+  "in_production": 1,
+  "auth_rating": 0,
+  "wish_list": false,
+  "checkin_count": 109,
+  "id": "osminogec-osminogets-deliriy-krasnyy",
+  "brewery": "osminogec-osminogets",
+  "term": "Осьминогец Делирий Красный",
+  "parsed_term": "Осьминогец Делирий Красный",
+  "hash": "d09ed181d18cd0bcd0b8d0bdd0bed0b3d0b5d18620d094d0b5d0bbd0b8d180d0b8d0b920d09ad180d0b0d181d0bdd18bd0b9"
+}
