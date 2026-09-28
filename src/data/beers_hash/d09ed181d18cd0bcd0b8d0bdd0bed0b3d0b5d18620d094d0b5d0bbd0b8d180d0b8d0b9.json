@@ -1,0 +1,20 @@
+{
+  "bid": 6160289,
+  "beer_name": "Делирий",
+  "beer_label": "https://assets.untappd.com/site/beer_logos/beer-6160289_06406_sm.jpeg",
+  "beer_abv": 7.7,
+  "beer_slug": "osminogec-osminogets-deliriy",
+  "beer_ibu": 0,
+  "beer_description": "Десертный вишневый эль на базе крепкого бельгийского пива. Внутри кислая и сладкая вишня + бузина.\r\n",
+  "created_at": "Sat, 15 Feb 2025 15:50:05 +0000",
+  "beer_style": "Fruit Beer",
+  "in_production": 1,
+  "auth_rating": 0,
+  "wish_list": false,
+  "checkin_count": 110,
+  "id": "osminogec-osminogets-deliriy",
+  "brewery": "osminogec-osminogets",
+  "term": "Осьминогец Делирий",
+  "parsed_term": "Осьминогец Делирий",
+  "hash": "d09ed181d18cd0bcd0b8d0bdd0bed0b3d0b5d18620d094d0b5d0bbd0b8d180d0b8d0b9"
+}
