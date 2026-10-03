@@ -1,0 +1,20 @@
+{
+  "bid": 6844866,
+  "beer_name": "ТИЛИКУМ",
+  "beer_label": "https://assets.untappd.com/site/beer_logos/beer-6844866_5022c_sm.jpeg",
+  "beer_abv": 4.5,
+  "beer_slug": "saliwa-tilikum",
+  "beer_ibu": 0,
+  "beer_description": "Премьера Ростовского Фестивальчика! \r\n\r\nВест-кост пилс с небольшим количеством тиолов от штамма Lunar Crush, в этом сорте выступающим в роли коферментёра. Охмеление сортами Sultana (горечь) и Simcoe (вирпул). Строго никакого сухого охмеления, вся виноградно-тропическая ароматика от вирпула и биотрансформации. Назван в честь печально известного самца косатки Тиликум из аквапарка Sealand of the Pacific (западное побережье Канады).",
+  "created_at": "Thu, 27 Aug 2026 15:40:26 +0000",
+  "beer_style": "Pilsner - American",
+  "in_production": 1,
+  "auth_rating": 0,
+  "wish_list": false,
+  "checkin_count": 95,
+  "id": "saliwa-tilikum",
+  "brewery": "saliwa-brew",
+  "term": "Saliwa ТИЛИКУМ",
+  "parsed_term": "Saliwa ТИЛИКУМ",
+  "hash": "53616c69776120d0a2d098d09bd098d09ad0a3d09c"
+}

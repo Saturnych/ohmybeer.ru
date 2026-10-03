@@ -1,0 +1,20 @@
+{
+  "bid": 6860663,
+  "beer_name": "Red Alert",
+  "beer_label": "https://assets.untappd.com/site/beer_logos/beer-6860663_b222a_sm.jpeg",
+  "beer_abv": 5.5,
+  "beer_slug": "midnight-project-red-alert",
+  "beer_ibu": 30,
+  "beer_description": "American Amber Ale w/ Simcoe\r\n\r\nКогда система выходит на полную мощность, воздух буквально начинает потрескивать от электричества. Разряды бьют в небо, генераторы гудят, а на панели управления загорается знакомый красный сигнал.\r\n\r\nRed Alert — сорт, вдохновлённый культовой эстетикой компьютерных стратегий и тем самым Tesla Coil из Command & Conquer: Red Alert, который для целого поколения стал символом электрической мощи и технологического превосходства.\r\n\r\nЗаряд накоплен. Система готова.\r\nRed Alert.",
+  "created_at": "Wed, 09 Sep 2026 09:35:42 +0000",
+  "beer_style": "Red Ale - American Amber / Red",
+  "in_production": 1,
+  "auth_rating": 0,
+  "wish_list": false,
+  "checkin_count": 54,
+  "id": "midnight-project-red-alert",
+  "brewery": "midnight-project",
+  "term": "Midnight Project Red Alert",
+  "parsed_term": "Midnight Project Red Alert",
+  "hash": "4d69646e696768742050726f6a6563742052656420416c657274"
+}
