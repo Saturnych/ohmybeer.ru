@@ -1,0 +1,20 @@
+{
+  "bid": 6920486,
+  "beer_name": "Barrio",
+  "beer_label": "https://assets.untappd.com/site/beer_logos/beer-6920486_189df_sm.jpeg",
+  "beer_abv": 4.2,
+  "beer_slug": "zagovor-brewery-barrio",
+  "beer_ibu": 15,
+  "beer_description": "METHOD Beer&Munchies B-DAY SPECIAL Mexican Lager! ",
+  "created_at": "Thu, 24 Sep 2026 08:19:40 +0000",
+  "beer_style": "Lager - Mexican",
+  "in_production": 1,
+  "auth_rating": 0,
+  "wish_list": false,
+  "checkin_count": 142,
+  "id": "zagovor-brewery-barrio",
+  "brewery": "zagovor-brewery",
+  "term": "Zagovor Barrio",
+  "parsed_term": "Zagovor Barrio",
+  "hash": "5a61676f766f722042617272696f"
+}
