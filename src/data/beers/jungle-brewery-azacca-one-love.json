@@ -1,0 +1,21 @@
+{
+  "bid": 6841865,
+  "beer_name": "Azacca One Love",
+  "beer_label": "https://assets.untappd.com/site/beer_logos/beer-6841865_7de1a_sm.jpeg",
+  "beer_abv": 5,
+  "beer_slug": "jungle-brewery-azacca-one-love",
+  "beer_ibu": 30,
+  "beer_description": "Super fresh, super smooth and super easy drinking series of single hop hazy session IPA's. We dedicate it to our Azacca love",
+  "created_at": "Mon, 24 Aug 2026 06:58:52 +0000",
+  "beer_style": "IPA - Session New England / Hazy",
+  "in_production": 1,
+  "auth_rating": 0,
+  "wish_list": false,
+  "is_non_alcoholic": false,
+  "checkin_count": 248,
+  "id": "jungle-brewery-azacca-one-love",
+  "brewery": "jungle-brewery",
+  "term": "Jungle Azacca One Love",
+  "parsed_term": "Jungle Azacca One Love",
+  "hash": "4a756e676c6520417a61636361204f6e65204c6f7665"
+}

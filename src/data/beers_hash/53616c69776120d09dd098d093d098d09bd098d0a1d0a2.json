@@ -1,0 +1,21 @@
+{
+  "bid": 6844868,
+  "beer_name": "НИГИЛИСТ",
+  "beer_label": "https://assets.untappd.com/site/beer_logos/beer-6844868_30608_sm.jpeg",
+  "beer_abv": 8.5,
+  "beer_slug": "saliwa-nigilist",
+  "beer_ibu": 0,
+  "beer_description": "Премьера Ростовского Фестивальчика!\r\n\r\nДвойной хейзи айпиэй на восемь с половиной оборотов, сброженный блендом Pinapple Passion и Cosmic Punch. Охмеление Azacca, Cashmere CGX и Enigma. Очень хотелось сделать ананасовый пивас без ананаса, поэтому взяли основной ананасовый штамм WHC Pineapple Passion и вдовесок к нему чуть гуавовых тиолов от Cosmic Punch. Охмеление подобрали с базовой нотой в ананас/тропики, чтоб не опошлить цитрусами дрожжевой профиль.",
+  "created_at": "Thu, 27 Aug 2026 15:42:17 +0000",
+  "beer_style": "IPA - Imperial / Double New England / Hazy",
+  "in_production": 1,
+  "auth_rating": 0,
+  "wish_list": false,
+  "is_non_alcoholic": false,
+  "checkin_count": 139,
+  "id": "saliwa-nigilist",
+  "brewery": "saliwa-brew",
+  "term": "Saliwa НИГИЛИСТ",
+  "parsed_term": "Saliwa НИГИЛИСТ",
+  "hash": "53616c69776120d09dd098d093d098d09bd098d0a1d0a2"
+}

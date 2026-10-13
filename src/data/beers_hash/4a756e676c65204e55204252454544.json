@@ -1,0 +1,21 @@
+{
+  "bid": 6958793,
+  "beer_name": "Nu Breed",
+  "beer_label": "https://assets.untappd.com/site/beer_logos/beer-6958793_d8566_sm.jpeg",
+  "beer_abv": 6.1,
+  "beer_slug": "jungle-brewery-nu-breed",
+  "beer_ibu": 70,
+  "beer_description": "Brewed with Warrior and double dry-hopped with Mosaic Lupomax, Chinook Lupomax and Mosaic pellets. Expect a powerful wave of pine resin, citrus, and tropical fruits with a sharp, clean finish",
+  "created_at": "Mon, 28 Sep 2026 06:49:02 +0000",
+  "beer_style": "IPA - American",
+  "in_production": 1,
+  "auth_rating": 0,
+  "wish_list": false,
+  "is_non_alcoholic": false,
+  "checkin_count": 114,
+  "id": "jungle-brewery-nu-breed",
+  "brewery": "jungle-brewery",
+  "term": "Jungle NU BREED",
+  "parsed_term": "Jungle NU BREED",
+  "hash": "4a756e676c65204e55204252454544"
+}
