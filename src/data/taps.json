@@ -45,7 +45,7 @@
     "beer_style": "IPA - Session New England / Hazy",
     "term": "Jungle Azacca One Love",
     "hash": "4a756e676c6520417a61636361204f6e65204c6f7665",
-    "price": 0
+    "price": 980
   },
   {
     "id": 2,
@@ -404,7 +404,7 @@
     "beer_style": "IPA - Imperial / Double New England / Hazy",
     "term": "Saliwa НИГИЛИСТ",
     "hash": "53616c69776120d09dd098d093d098d09bd098d0a1d0a2",
-    "price": 0
+    "price": 1000
   },
   {
     "id": 17,
@@ -570,7 +570,7 @@
     "beer_style": "IPA - American",
     "term": "Jungle NU BREED",
     "hash": "4a756e676c65204e55204252454544",
-    "price": 0
+    "price": 1000
   },
   {
     "id": 24,
