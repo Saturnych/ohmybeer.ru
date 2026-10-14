@@ -1,0 +1,21 @@
+{
+  "bid": 6862053,
+  "beer_name": "ПОБЕГ",
+  "beer_label": "https://assets.untappd.com/site/beer_logos/beer-6862053_d69b9_sm.jpeg",
+  "beer_abv": 7,
+  "beer_slug": "big-village-brewery-pobeg",
+  "beer_ibu": 30,
+  "beer_description": "Хейзи АйПиЭй с массивной овсяной базой, охмелённый свежими гранулами трио: Galaxy/Wai-iti/Citra",
+  "created_at": "Thu, 10 Sep 2026 15:04:34 +0000",
+  "beer_style": "IPA - New England / Hazy",
+  "in_production": 1,
+  "auth_rating": 0,
+  "wish_list": false,
+  "is_non_alcoholic": false,
+  "checkin_count": 283,
+  "id": "big-village-brewery-pobeg",
+  "brewery": "big-village-brewery",
+  "term": "Big Village ПОБЕГ",
+  "parsed_term": "Big Village ПОБЕГ",
+  "hash": "4269672056696c6c61676520d09fd09ed091d095d093"
+}
