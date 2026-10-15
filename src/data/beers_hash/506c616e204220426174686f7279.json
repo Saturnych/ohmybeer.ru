@@ -1,0 +1,21 @@
+{
+  "bid": 1055659,
+  "beer_name": "Bathory",
+  "beer_label": "https://assets.untappd.com/site/beer_logos/beer-1055659_1a7a2_sm.jpeg",
+  "beer_abv": 5.7,
+  "beer_slug": "plan-b-brewery-bathory",
+  "beer_ibu": 50,
+  "beer_description": "Bathory Red Ale V 2.0 (Simcoe и Citra) 5,7/14,5/50\r\nВ первой варке, по мнению многих, мы переборщили с хмелем и пиво больше походило на Red IPA, нежели на Red Ale.\r\nДля второй версии мы немного поправили рецепт и сварили, как нам кажется, именно Red Ale.\r\nВ итоге получилось пиво, мягко охмеленное сортами Simcoe и Citra и отличающееся богатой солодовой основой.\r\nВ аромате буйство цитрусовых и ягодных ароматов. Во вкусе не грубая горечь противостоит жженной сахарной сладости, в финале свежее послевкусие с фруктовыми оттенками.",
+  "created_at": "Mon, 20 Apr 2015 22:45:03 +0000",
+  "beer_style": "Red Ale - American Amber / Red",
+  "in_production": 1,
+  "auth_rating": 0,
+  "wish_list": false,
+  "is_non_alcoholic": false,
+  "checkin_count": 4120,
+  "id": "plan-b-brewery-bathory",
+  "brewery": "plan-b-brewery",
+  "term": "Plan B Bathory",
+  "parsed_term": "Plan B Bathory",
+  "hash": "506c616e204220426174686f7279"
+}

@@ -45,17 +45,17 @@ export const searchTap = async (tap: Record<string, any>): Promise<Record<string
 		console.log('beers.items.length:', beers.items?.length);
 
 		if (found && found > 0) {
-			let i: number = 0;
-			beers.items.forEach((item, index) => {
-				const breweryMatches: boolean = !!tap.brewery
-					? micromatch.isMatch(item.brewery.brewery_name.trim(), `${tap.brewery.trim()}*`)
+      let i: number = 0;
+      for (let ind = 0; ind < beers.items.length; ind++) {
+        const breweryMatches: boolean = !!tap.brewery
+					? micromatch.isMatch(beers.items[ind].brewery.brewery_name.trim(), `${tap.brewery.trim()}*`)
 					: !tap.brewery;
 				const beerMatches: boolean = micromatch.isMatch(
-					item.beer.beer_name.trim(),
+					beers.items[ind].beer.beer_name.trim(),
 					`${tap.beer.trim()}*`,
 				);
-				if (breweryMatches && beerMatches) i = index;
-			});
+        if (breweryMatches && beerMatches) { i = ind; break;  }
+      }
 			beer = beers.items[i].beer;
 			beer.checkin_count = beers.items[i].checkin_count;
 			beer.id = beer.beer_slug;
