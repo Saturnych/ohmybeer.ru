@@ -33,5 +33,6 @@ pnpm-debug.log*
 !.env.test
 
 # OS
+.~*
 .DS_Store
 Thumbs.db
