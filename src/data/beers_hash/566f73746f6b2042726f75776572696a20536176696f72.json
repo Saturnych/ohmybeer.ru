@@ -1,0 +1,21 @@
+{
+  "bid": 6764212,
+  "beer_name": "Savior",
+  "beer_label": "https://assets.untappd.com/site/beer_logos/beer-6764212_8e350_sm.jpeg",
+  "beer_abv": 6,
+  "beer_slug": "vostok-brouwerij-cidery-savior",
+  "beer_ibu": 0,
+  "beer_description": "Сухой газированный традиционный сидр спонтанного брожения. Выдержан на тонком осадке в течение 9 месяцев.",
+  "created_at": "Wed, 24 Jun 2026 11:59:03 +0000",
+  "beer_style": "Cider - Dry",
+  "in_production": 1,
+  "auth_rating": 0,
+  "wish_list": false,
+  "is_non_alcoholic": false,
+  "checkin_count": 68,
+  "id": "vostok-brouwerij-cidery-savior",
+  "brewery": "vostok-brouwerij-cidery",
+  "term": "Vostok Brouwerij Savior",
+  "parsed_term": "Vostok Brouwerij Savior",
+  "hash": "566f73746f6b2042726f75776572696a20536176696f72"
+}

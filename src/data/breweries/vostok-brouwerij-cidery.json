@@ -1,0 +1,24 @@
+{
+  "brewery_id": 606951,
+  "brewery_name": "Vøstok Brouwerij & Cidery",
+  "brewery_slug": "vostok-brouwerij-cidery",
+  "brewery_page_url": "/VostokBrouwerijCidery",
+  "brewery_type": "Cidery",
+  "brewery_label": "https://assets.untappd.com/site/brewery_logos/brewery-606951_c8574.jpeg",
+  "brewery_stamp": "/brewery_logos/brewery-606951_c8574.jpeg",
+  "country_name": "Russia",
+  "contact": {
+    "twitter": "",
+    "facebook": "",
+    "instagram": "",
+    "url": ""
+  },
+  "location": {
+    "brewery_city": "",
+    "brewery_state": "",
+    "lat": 0,
+    "lng": 0
+  },
+  "brewery_active": 1,
+  "id": "vostok-brouwerij-cidery"
+}
