@@ -1,0 +1,21 @@
+{
+  "bid": 5817903,
+  "beer_name": "Rare Bird. Amarillo / Citra",
+  "beer_label": "https://assets.untappd.com/site/beer_logos/beer-5817903_6fce3_sm.jpeg",
+  "beer_abv": 4.5,
+  "beer_slug": "plan-b-brewery-rare-bird-amarillo-citra",
+  "beer_ibu": 35,
+  "beer_description": "Охмеление Amarillo, Citra",
+  "created_at": "Mon, 06 May 2024 07:46:21 +0000",
+  "beer_style": "IPA - Session",
+  "in_production": 1,
+  "auth_rating": 0,
+  "wish_list": false,
+  "is_non_alcoholic": false,
+  "checkin_count": 928,
+  "id": "plan-b-brewery-rare-bird-amarillo-citra",
+  "brewery": "plan-b-brewery",
+  "term": "Plan B Rare Bird",
+  "parsed_term": "Plan B Rare Bird",
+  "hash": "506c616e204220526172652042697264"
+}

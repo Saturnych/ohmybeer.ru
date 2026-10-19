@@ -1,0 +1,21 @@
+{
+  "bid": 6862052,
+  "beer_name": "СУББОТНИЙ ВЕЧЕР",
+  "beer_label": "https://assets.untappd.com/site/beer_logos/beer-6862052_f0ce8_sm.jpeg",
+  "beer_abv": 7,
+  "beer_slug": "big-village-brewery-subbotnii-vecher",
+  "beer_ibu": 60,
+  "beer_description": "Коллаборация с ботлшопом RAIL в честь 6-й годовщины!\r\nТемный, прозрачный, сухой и горький АйПиЭй в стиле западного побережья охмелённый: Citra/Simcoe/Galaxy\r\n",
+  "created_at": "Thu, 10 Sep 2026 15:03:30 +0000",
+  "beer_style": "IPA - Black / Cascadian Dark Ale",
+  "in_production": 1,
+  "auth_rating": 0,
+  "wish_list": false,
+  "is_non_alcoholic": false,
+  "checkin_count": 366,
+  "id": "big-village-brewery-subbotnii-vecher",
+  "brewery": "big-village-brewery",
+  "term": "Big Village Субботний вечер",
+  "parsed_term": "Big Village Субботний вечер",
+  "hash": "4269672056696c6c61676520d0a1d183d0b1d0b1d0bed182d0bdd0b8d0b920d0b2d0b5d187d0b5d180"
+}
