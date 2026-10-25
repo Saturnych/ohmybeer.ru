@@ -1,0 +1,21 @@
+{
+  "bid": 6818033,
+  "beer_name": "Milk Maniac Ананас",
+  "beer_label": "https://assets.untappd.com/site/beer_logos/beer-6818033_7598f_sm.jpeg",
+  "beer_abv": 7,
+  "beer_slug": "ganza-pivovarnia-milk-maniac-ananas",
+  "beer_ibu": 25,
+  "beer_description": "Citra + Galaxy",
+  "created_at": "Wed, 05 Aug 2026 07:28:24 +0000",
+  "beer_style": "IPA - Milkshake",
+  "in_production": 1,
+  "auth_rating": 0,
+  "wish_list": false,
+  "is_non_alcoholic": false,
+  "checkin_count": 100,
+  "id": "ganza-pivovarnia-milk-maniac-ananas",
+  "brewery": "ganza-brewery",
+  "term": "Ganza MILK MANIAC Ананас",
+  "parsed_term": "Ganza MILK MANIAC Ананас",
+  "hash": "47616e7a61204d494c4b204d414e49414320d090d0bdd0b0d0bdd0b0d181"
+}

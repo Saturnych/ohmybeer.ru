@@ -1,0 +1,21 @@
+{
+  "bid": 6826251,
+  "beer_name": "Sprezzatura",
+  "beer_label": "https://assets.untappd.com/site/beer_logos/beer-6826251_b8073_sm.jpeg",
+  "beer_abv": 5.7,
+  "beer_slug": "piotr-petrovich-petr-petrovich-sprezzatura",
+  "beer_ibu": 40,
+  "beer_description": "Modern Italian Pilsner w/ Hallertau Blanc & Nelson Sauvin\r\n\r\nСпреццатура — это не спонтанность и не отсутствие мастерства, а результат точного расчёта и подготовки. Сочетание уверенности, непринуждённости и умения скрыть старательность за внешней лёгкостью.\r\n\r\nИменно это определение из итальянской моды, как нам показалось, лучше всего описывает наш первый в истории пивоварни пилснер в итальянском стиле. Вроде бы простой и внешне понятный, но с незаметной глазу изюминкой. Ведь классический немецкий хмель Hallertau Blanc мы использовали не на варке, а на сухом охмелении. А тот самый интересный, и может не самый очевидный штрих, придали небольшим добавлением новозеландского хмеля Nelson Sauvin и экспериментальных дрожжей Lunar Crush, придавших пиву слегка тропический профиль с нотами маракуйи, гуавы и белого винограда сорта Совиньон-блан.",
+  "created_at": "Tue, 11 Aug 2026 12:36:49 +0000",
+  "beer_style": "Pilsner - Italian",
+  "in_production": 1,
+  "auth_rating": 0,
+  "wish_list": false,
+  "is_non_alcoholic": false,
+  "checkin_count": 127,
+  "id": "piotr-petrovich-petr-petrovich-sprezzatura",
+  "brewery": "pyotr-petrovich-petr-petrovich",
+  "term": "Петр Петрович Sprezzatura",
+  "parsed_term": "Петр Петрович Sprezzatura",
+  "hash": "d09fd0b5d182d18020d09fd0b5d182d180d0bed0b2d0b8d18720537072657a7a6174757261"
+}
