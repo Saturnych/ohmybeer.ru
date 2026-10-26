@@ -1,4 +1,4 @@
-name: Deploy GH Pages workflow
+name: Build & Deploy workflow
 
 on:
   workflow_call:
@@ -7,11 +7,7 @@ on:
         value: ${{ jobs.deploy.outputs.status }}
 
 jobs:
-  deploy:
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-
+  build:
     outputs:
       status: ${{ job.status }}
 
@@ -45,14 +41,8 @@ jobs:
           yarn
           yarn build
 
-      - name: Setup Pages
-        uses: actions/configure-pages@v6
-
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v5
-        with:
-          path: './dist'
-
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v5
+  deploy:
+    uses: 'Saturnych/actions-workflows/.github/workflows/pages-deploy.yml@develop'
+    with:
+       dir: './dist'
+    secrets: inherit
