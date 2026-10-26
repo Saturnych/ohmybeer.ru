@@ -1,0 +1,38 @@
+name: GitHub Pages Deploy
+
+on:
+  workflow_call:
+    inputs:
+      dir:
+        required: true
+        type: string
+    outputs:
+      status:
+        value: ${{ jobs.deploy.outputs.status }}
+
+jobs:
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    outputs:
+      status: ${{ job.status }}
+
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v7
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v6
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v5
+        with:
+          path: "./${{ inputs.dir }}"
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v5
