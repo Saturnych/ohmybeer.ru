@@ -33,9 +33,9 @@
 		"@astrojs/sitemap": "^3.7.4",
 		"@playwright/test": "^1.64.1",
 		"@types/node": "^26.6.5",
-		"dotenv": "^18.0.8",
+		"dotenv": "^18.0.9",
 		"prettier": "^3.9.10",
-		"prettier-plugin-astro": "^1.1.1",
+		"prettier-plugin-astro": "^1.1.2",
 		"typescript": "^7.0.2"
 	},
 	"dependencies": {
