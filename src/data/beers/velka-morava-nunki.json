@@ -1,0 +1,21 @@
+{
+  "bid": 6498944,
+  "beer_name": "Nunki",
+  "beer_label": "https://assets.untappd.com/site/beer_logos/beer-6498944_14037_sm.jpeg",
+  "beer_abv": 10.5,
+  "beer_slug": "velka-morava-nunki",
+  "beer_ibu": 0,
+  "beer_description": "Округлый полнотелый имперский стаут, играющий нотами шоколада, кофе лёгкой обжарки, карамели и ириса, слегка углублённый тоном натуральной ванили.",
+  "created_at": "Thu, 20 Nov 2025 11:36:41 +0000",
+  "beer_style": "Stout - Imperial / Double",
+  "in_production": 1,
+  "auth_rating": 0,
+  "wish_list": false,
+  "is_non_alcoholic": false,
+  "checkin_count": 770,
+  "id": "velka-morava-nunki",
+  "brewery": "velka-morava",
+  "term": "Velka Morava Nunki",
+  "parsed_term": "Velka Morava Nunki",
+  "hash": "56656c6b61204d6f72617661204e756e6b69"
+}
