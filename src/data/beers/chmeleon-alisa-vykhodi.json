@@ -1,0 +1,21 @@
+{
+  "bid": 6846109,
+  "beer_name": "Алиса, выходи",
+  "beer_label": "https://assets.untappd.com/site/beer_logos/beer-6846109_b8744_sm.jpeg",
+  "beer_abv": 5.5,
+  "beer_slug": "chmeleon-alisa-vykhodi",
+  "beer_ibu": 40,
+  "beer_description": "Привет! Знаешь, что за баночка пива сейчас у тебя в руках? Смотри, это самая необычная наша коллаборация - с прекрасной девушкой Алисой,  пивоваром из Красноярска. Северная столица и сердце Сибири объединились для совместной варки пива в стиле APA. И весомо аргументировали ее ароматными хмелями Chinook, Elani и Eldorado.",
+  "created_at": "Fri, 28 Aug 2026 14:27:16 +0000",
+  "beer_style": "Pale Ale - American",
+  "in_production": 1,
+  "auth_rating": 0,
+  "wish_list": false,
+  "is_non_alcoholic": false,
+  "checkin_count": 48,
+  "id": "chmeleon-alisa-vykhodi",
+  "brewery": "chmeleon",
+  "term": "Chmeleon Алиса",
+  "parsed_term": "Chmeleon Алиса",
+  "hash": "43686d656c656f6e20d090d0bbd0b8d181d0b0"
+}
