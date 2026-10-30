@@ -1,0 +1,21 @@
+{
+  "bid": 7646291,
+  "beer_name": "Синтез IPL: Pink Boots & Nectaron",
+  "beer_label": "https://assets.untappd.com/site/beer_logos/beer-7646291_9b85b_sm.jpeg",
+  "beer_abv": 5,
+  "beer_slug": "borodachy-brewery-sintez-ipl-pink-boots-nectaron",
+  "beer_ibu": 30,
+  "beer_description": "Новый релиз в линейке «Синтез». Освежающий и сухой India Pale Lager, в котором классическая горчинка хмеля Cascade соединилась с ярким фруктовым профилем купажа Pink Boots Blend (Ahtanum, El Dorado, Idaho 7, HBC 638) и взрывным тропическим характером новозеландского Nectaron. В аромате — спелый персик, маракуйя, нектарин и легкие цитрусовые ноты на фоне безупречно чистого лагерного профиля.",
+  "created_at": "Tue, 27 Oct 2026 18:15:53 +0000",
+  "beer_style": "Lager - IPL (India Pale Lager)",
+  "in_production": 1,
+  "auth_rating": 0,
+  "wish_list": false,
+  "is_non_alcoholic": false,
+  "checkin_count": 0,
+  "id": "borodachy-brewery-sintez-ipl-pink-boots-nectaron",
+  "brewery": "borodachy-brewery",
+  "term": "Borodachy Brewery Синтез: Pink Boost",
+  "parsed_term": "Borodachy Brewery Синтез: Pink Boost",
+  "hash": "426f726f6461636879204272657765727920d0a1d0b8d0bdd182d0b5d0b73a2050696e6b20426f6f73742026204e65637461726f6e"
+}

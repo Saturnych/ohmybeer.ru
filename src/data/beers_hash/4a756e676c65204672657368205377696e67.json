@@ -1,0 +1,21 @@
+{
+  "bid": 7614414,
+  "beer_name": "Fresh Swing",
+  "beer_label": "https://assets.untappd.com/site/beer_logos/beer-7614414_5f144_sm.jpeg",
+  "beer_abv": 4.9,
+  "beer_slug": "jungle-brewery-fresh-swing",
+  "beer_ibu": 40,
+  "beer_description": "Juicy, refreshing and aroma-forward everyday crusher. Powered by Cascade, Sabro & Sabro Cryo, this Session White IPA is crafted for easy, everyday drinking",
+  "created_at": "Mon, 19 Oct 2026 07:03:16 +0000",
+  "beer_style": "IPA - White / Wheat",
+  "in_production": 1,
+  "auth_rating": 0,
+  "wish_list": false,
+  "is_non_alcoholic": false,
+  "checkin_count": 99,
+  "id": "jungle-brewery-fresh-swing",
+  "brewery": "jungle-brewery",
+  "term": "Jungle Fresh Swing",
+  "parsed_term": "Jungle Fresh Swing",
+  "hash": "4a756e676c65204672657368205377696e67"
+}
