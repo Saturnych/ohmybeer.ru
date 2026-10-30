@@ -1,0 +1,24 @@
+{
+  "brewery_id": 568959,
+  "brewery_name": "LET ME BREW",
+  "brewery_slug": "let-me-brew",
+  "brewery_page_url": "/LET_ME_BREW",
+  "brewery_type": "Micro Brewery",
+  "brewery_label": "https://assets.untappd.com/site/brewery_logos/brewery-568959_897ce.jpeg",
+  "brewery_stamp": "/brewery_logos/brewery-568959_897ce.jpeg",
+  "country_name": "Russia",
+  "contact": {
+    "twitter": "",
+    "facebook": "",
+    "instagram": "",
+    "url": ""
+  },
+  "location": {
+    "brewery_city": "Sankt-Peterburg",
+    "brewery_state": "Sankt-Peterburg",
+    "lat": 59.9389,
+    "lng": 30.3150005
+  },
+  "brewery_active": 1,
+  "id": "let-me-brew"
+}

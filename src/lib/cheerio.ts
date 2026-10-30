@@ -42,7 +42,7 @@ export const getTableData = (source: string): string => {
 		const [brewery, data]: [string, string[]] =
 			parsed?.length > 1
 				? [
-						parsed[0],
+						parsed[0].replaceAll(`&`, ``),
 						parsed[1]
 							.replaceAll(`"`, ``)
 							.split(',')
