@@ -3,10 +3,11 @@ import { getCollection } from 'astro:content';
 import { getPriceTableData } from '$/lib/price';
 import { searchTaps } from '$/lib/search';
 import {
+	type ExcelRecords,
 	dateToIntlFormat,
 	hashWithTextEncoder,
 	isNumeric,
-	parseExcelFile,
+	parseExcelFiles,
 	saveJsonFile,
 } from '$/lib/utils';
 import siteData from '$/data/site.json';
@@ -37,8 +38,8 @@ const search: Record<string, any[]> = ({
 	taps: [],
 } = await searchTaps(taps));
 if (taps?.length > 0) {
-	const filename = './src/data/rozliv.xlsx';
-	const workbook = parseExcelFile(filename);
+	const filenames: string[] = ['./src/data/rozliv.xlsx', './src/data/rozliv.xls'];
+	const workbook: ExcelRecords = parseExcelFiles(filenames);
 	const pricelist = workbook?.length > 0 ? workbook[0].data || [] : [];
 	taps = taps
 		.map((tap) => {
@@ -74,42 +75,38 @@ const title = `${header} || ${siteData.name}`;
 <Layout title={title}>
 	<section class="menu section section--alt" aria-labelledby="taps-title" id="taps">
 		<div class="container container--narrow">
-			<h2 id="taps-title" class="section__title">{header}</h2>
+			<h2 id="taps-title" class="section__title">
+				{header}
+			</h2>
 			<div class="menu__category-header">
 				<h4 class="menu__category-title">Обновлено: {updatedAt}</h4>
 			</div>
 
 			<ul class="menu__items" role="list">
-				{
-					taps.map((item) => (
-						<li class="menu__item">
-							<div class="menu__item-header">
-								<a href={!!item.beer_slug ? `/beers/${item.beer_slug}/` : `#`}>
-									<span class="menu__item-name">
-										{`${item.tap}. `}
-										{`${!!item.brewery_name && item.brewery_name?.length < 20 && !!item.brewery ? item.brewery_name : !!item.brewery ? item.brewery : '⟡'} -`}
-									</span>
-									<span class="menu__item-name">
-										{!!item.beer_name && item.beer_name?.length < 30 ? item.beer_name : item.beer}
-									</span>
-								</a>
-								<span class="badge badge--seasonal">{item.beer_style || item.style || '★'}</span>
-								{!!item.beer_abv && (
-									<span class={`badge badge--featured`}>ABV: {item.beer_abv}</span>
-								)}
-								{!!item.beer_ibu && (
-									<span class={`badge badge--seasonal`}>IBU:{item.beer_ibu}</span>
-								)}
-								<a href={!!item.beer_slug ? `/beers/${item.beer_slug}/` : `#`}>
-									<span class="badge">
-										{!!item.price ? Math.round(item.price / 2) + ' ₽' : ' >> '}
-									</span>
-								</a>
-							</div>
-							{item.desc && <p class="menu__item-desc">{item.desc}</p>}
-						</li>
-					))
-				}
+				{taps.map((item) => (
+					<li class="menu__item">
+						<div class="menu__item-header">
+							<a href={!!item.beer_slug ? `/beers/${item.beer_slug}/` : `#`}>
+								<span class="menu__item-name">
+									{`${item.tap}. `}
+									{`${!!item.brewery_name && item.brewery_name?.length < 20 && !!item.brewery ? item.brewery_name : !!item.brewery ? item.brewery : '⟡'} -`}
+								</span>
+								<span class="menu__item-name">
+									{!!item.beer_name && item.beer_name?.length < 30 ? item.beer_name : item.beer}
+								</span>
+							</a>
+							<span class="badge badge--seasonal">{item.beer_style || item.style || '★'}</span>
+							{!!item.beer_abv && <span class={`badge badge--featured`}>ABV: {item.beer_abv}</span>}
+							{!!item.beer_ibu && <span class={`badge badge--seasonal`}>IBU:{item.beer_ibu}</span>}
+							<a href={!!item.beer_slug ? `/beers/${item.beer_slug}/` : `#`}>
+								<span class="badge">
+									{!!item.price ? Math.round(item.price / 2) + ' ₽' : ' >> '}
+								</span>
+							</a>
+						</div>
+						{item.desc && <p class="menu__item-desc">{item.desc}</p>}
+					</li>
+				))}
 			</ul>
 		</div>
 	</section>
