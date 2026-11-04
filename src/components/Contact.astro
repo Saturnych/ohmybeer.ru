@@ -7,7 +7,9 @@ const emailHref = `mailto:${siteData.email}`;
 
 <section class="contact section" aria-labelledby="contact-title" id="contact">
 	<div class="container container--narrow">
-		<h2 id="contact-title" class="section__title">Контакты</h2>
+		<h2 id="contact-title" class="section__title">
+			Контакты
+		</h2>
 
 		<div class="contact__grid">
 			<a
@@ -15,13 +17,17 @@ const emailHref = `mailto:${siteData.email}`;
 				class="contact__card"
 				aria-label={`Звоните нам по телефону ${siteData.phone}`}
 			>
-				<span class="contact__icon" aria-hidden="true">☎</span>
+				<span class="contact__icon" aria-hidden="true">
+					☎
+				</span>
 				<span class="contact__label">Телефон:</span>
 				<span class="contact__value">{siteData.phone}</span>
 			</a>
 
 			<a href={emailHref} class="contact__card" aria-label={`Email us at ${siteData.email}`}>
-				<span class="contact__icon" aria-hidden="true">✉</span>
+				<span class="contact__icon" aria-hidden="true">
+					✉
+				</span>
 				<span class="contact__label">Email:</span>
 				<span class="contact__value">{siteData.email}</span>
 			</a>
@@ -32,7 +38,9 @@ const emailHref = `mailto:${siteData.email}`;
 				target="_blank"
 				aria-label={`Наша канал в Telegram: ${siteData.social.telegram}`}
 			>
-				<span class="contact__icon" aria-hidden="true">◉</span>
+				<span class="contact__icon" aria-hidden="true">
+					◉
+				</span>
 				<span class="contact__label">Канал в Telegram:</span>
 				<span class="contact__value">{siteData.social.telegram}</span>
 			</a>

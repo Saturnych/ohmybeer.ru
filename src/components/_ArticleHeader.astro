@@ -16,29 +16,25 @@ const formattedDate = new Date(date).toLocaleDateString('en-US', {
 ---
 
 <header class="article-header">
-	{
-		coverImage && (
-			<div class="article-header__image-wrapper">
-				<img src={coverImage} alt={title} class="article-header__image" loading="eager" />
-			</div>
-		)
-	}
+	{coverImage && (
+		<div class="article-header__image-wrapper">
+			<img src={coverImage} alt={title} class="article-header__image" loading="eager" />
+		</div>
+	)}
 
 	<div class="article-header__content">
 		<div class="article-header__meta">
 			<time class="article-header__date" datetime={date}>
 				{formattedDate}
 			</time>
-			{
-				author && (
-					<>
-						<span class="article-header__separator" aria-hidden="true">
-							·
-						</span>
-						<span class="article-header__author">By {author}</span>
-					</>
-				)
-			}
+			{author && (
+				<>
+					<span class="article-header__separator" aria-hidden="true">
+						·
+					</span>
+					<span class="article-header__author">By {author}</span>
+				</>
+			)}
 		</div>
 	</div>
 </header>

@@ -12,38 +12,33 @@ const pressItems: PressItem[] = siteData.press;
 
 <section class="press section section--alt" aria-labelledby="press-title" id="press">
 	<div class="container container--narrow">
-		<h2 id="press-title" class="section__title">What They Say</h2>
+		<h2 id="press-title" class="section__title">
+			What They Say
+		</h2>
 
 		<div class="press__grid">
-			{
-				pressItems.map((item) => (
-					<article class="press__item">
-						<blockquote class="press__quote">
-							<p class="press__text">{item.quote}</p>
-							<footer class="press__footer">
-								<cite class="press__source">
-									{item.url ? (
-										<a
-											href={item.url}
-											target="_blank"
-											rel="noopener noreferrer"
-											class="press__link"
-										>
-											— {item.source}
-											<span class="sr-only">(opens in new tab)</span>
-											<span class="press__external-icon" aria-hidden="true">
-												↗
-											</span>
-										</a>
-									) : (
-										<span>— {item.source}</span>
-									)}
-								</cite>
-							</footer>
-						</blockquote>
-					</article>
-				))
-			}
+			{pressItems.map((item) => (
+				<article class="press__item">
+					<blockquote class="press__quote">
+						<p class="press__text">{item.quote}</p>
+						<footer class="press__footer">
+							<cite class="press__source">
+								{item.url ? (
+									<a href={item.url} target="_blank" rel="noopener noreferrer" class="press__link">
+										— {item.source}
+										<span class="sr-only">(opens in new tab)</span>
+										<span class="press__external-icon" aria-hidden="true">
+											↗
+										</span>
+									</a>
+								) : (
+									<span>— {item.source}</span>
+								)}
+							</cite>
+						</footer>
+					</blockquote>
+				</article>
+			))}
 		</div>
 	</div>
 </section>

@@ -17,50 +17,50 @@ const menuCategories: MenuCategory[] = siteData.menu;
 
 <section class="taps section section--alt" aria-labelledby="taps-title" id="taps">
 	<div class="container">
-		<h2 id="taps-title" class="section__title">Сегодня на кранах</h2>
+		<h2 id="taps-title" class="section__title">
+			Сегодня на кранах
+		</h2>
 
 		<div class="menu__categories">
-			{
-				menuCategories.map((category, index) => (
-					<div class="menu__category" data-category={index}>
-						<button
-							class="menu__category-header"
-							aria-expanded="true"
-							aria-controls={`menu-panel-${index}`}
-							id={`menu-button-${index}`}
-						>
-							<h3 class="menu__category-title">{category.category}</h3>
-							<span class="menu__toggle" aria-hidden="true">
-								<span class="menu__toggle-bar" />
-								<span class="menu__toggle-bar" />
-							</span>
-						</button>
+			{menuCategories.map((category, index) => (
+				<div class="menu__category" data-category={index}>
+					<button
+						class="menu__category-header"
+						aria-expanded="true"
+						aria-controls={`menu-panel-${index}`}
+						id={`menu-button-${index}`}
+					>
+						<h3 class="menu__category-title">{category.category}</h3>
+						<span class="menu__toggle" aria-hidden="true">
+							<span class="menu__toggle-bar" />
+							<span class="menu__toggle-bar" />
+						</span>
+					</button>
 
-						<div
-							class="menu__panel"
-							id={`menu-panel-${index}`}
-							role="region"
-							aria-labelledby={`menu-button-${index}`}
-						>
-							<ul class="menu__items" role="list">
-								{category.items.map((item) => (
-									<li class="menu__item">
-										<div class="menu__item-header">
-											<span class="menu__item-name">{item.name}</span>
-											{item.badge && (
-												<span class={`badge badge--${item.badge}`}>
-													{item.badge === 'featured' ? '★ Featured' : '⟡ Seasonal'}
-												</span>
-											)}
-										</div>
-										<p class="menu__item-desc">{item.description}</p>
-									</li>
-								))}
-							</ul>
-						</div>
+					<div
+						class="menu__panel"
+						id={`menu-panel-${index}`}
+						role="region"
+						aria-labelledby={`menu-button-${index}`}
+					>
+						<ul class="menu__items" role="list">
+							{category.items.map((item) => (
+								<li class="menu__item">
+									<div class="menu__item-header">
+										<span class="menu__item-name">{item.name}</span>
+										{item.badge && (
+											<span class={`badge badge--${item.badge}`}>
+												{item.badge === 'featured' ? '★ Featured' : '⟡ Seasonal'}
+											</span>
+										)}
+									</div>
+									<p class="menu__item-desc">{item.description}</p>
+								</li>
+							))}
+						</ul>
 					</div>
-				))
-			}
+				</div>
+			))}
 		</div>
 	</div>
 </section>

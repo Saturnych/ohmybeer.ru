@@ -11,18 +11,28 @@ const currentYear = new Date().getFullYear();
 				<a href="/" class="footer__logo" aria-label="На главную">
 					<span class="footer__logo-text">{siteData.shortName}</span>
 				</a>
-				<p class="footer__tagline"><Fragment set:html={siteData.tagline} /></p>
+				<p class="footer__tagline">
+					<Fragment set:html={siteData.tagline} />
+				</p>
 			</div>
 
 			<nav class="footer__nav" aria-label="Footer navigation">
-				<a href="/taps/" class="footer__link">На кранах</a>
-				<a href="/#location" class="footer__link">Расположение</a>
-				<a href="/#contact" class="footer__link">Контакты</a>
+				<a href="/taps/" class="footer__link">
+					На кранах
+				</a>
+				<a href="/#location" class="footer__link">
+					Расположение
+				</a>
+				<a href="/#contact" class="footer__link">
+					Контакты
+				</a>
 			</nav>
 
 			<div class="footer__back-to-top">
 				<a href="#top" class="footer__top-btn" aria-label="Наверх">
-					<span class="footer__top-arrow" aria-hidden="true">↑</span>
+					<span class="footer__top-arrow" aria-hidden="true">
+						↑
+					</span>
 					<span class="footer__top-text">Наверх</span>
 				</a>
 			</div>
@@ -32,9 +42,7 @@ const currentYear = new Date().getFullYear();
 			<p class="footer__copyright">
 				© {siteData.established} - {currentYear} · {siteData.name}
 			</p>
-			<p class="footer__credits">
-				{siteData.address.full}
-			</p>
+			<p class="footer__credits">{siteData.address.full}</p>
 		</div>
 	</div>
 </footer>

@@ -8,7 +8,9 @@ const mapsUrl = `https://www.google.com/maps/search/?api=1&query=${encodeURIComp
 <nav class="info-bar" aria-label="Quick contact information">
 	<div class="info-bar__content">
 		<div class="info-bar__item info-bar__item--established">
-			<span class="info-bar__label" aria-hidden="true">Est.</span>
+			<span class="info-bar__label" aria-hidden="true">
+				Est.
+			</span>
 			<span class="info-bar__value">{siteData.established}</span>
 		</div>
 
@@ -17,7 +19,9 @@ const mapsUrl = `https://www.google.com/maps/search/?api=1&query=${encodeURIComp
 			class="info-bar__item info-bar__item--phone"
 			aria-label={`Звоните нам по номеру ${siteData.phone}`}
 		>
-			<span class="info-bar__icon" aria-hidden="true">☎</span>
+			<span class="info-bar__icon" aria-hidden="true">
+				☎
+			</span>
 			<span class="info-bar__value">{siteData.phone}</span>
 		</a>
 
@@ -28,7 +32,9 @@ const mapsUrl = `https://www.google.com/maps/search/?api=1&query=${encodeURIComp
 			rel="noopener noreferrer"
 			aria-label={`Смотреть ${siteData.address.short} на карте`}
 		>
-			<span class="info-bar__icon" aria-hidden="true">⚐</span>
+			<span class="info-bar__icon" aria-hidden="true">
+				⚐
+			</span>
 			<span class="info-bar__value">{siteData.address.short}</span>
 		</a>
 	</div>

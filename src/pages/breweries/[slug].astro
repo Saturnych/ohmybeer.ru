@@ -21,7 +21,9 @@ const description = `${brewery.brewery_name}: ${brewery.brewery_type} - ${brewer
 <Layout title={title} description={description}>
 	<section class="articles section" aria-labelledby="articles-title">
 		<div class="container">
-			<h2 id="articles-title" class="section__title">{header}</h2>
+			<h2 id="articles-title" class="section__title">
+				{header}
+			</h2>
 			<article class="article-card">
 				<div class="article-card__content">
 					<h4 class="menu__category-title">{brewery.brewery_name}</h4>

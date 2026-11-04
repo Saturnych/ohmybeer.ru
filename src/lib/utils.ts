@@ -93,23 +93,19 @@ export const saveJsonFile = (data: Record<string, any>, filename: string): boole
 
 export type ExcelRecords = Record<string, { name: string; data: any[] }>[] | null;
 
-export const parseExcelFile = (
-	filename: string,
-): ExcelRecords => {
+export const parseExcelFile = (filename: string): ExcelRecords => {
 	if (!fileExists(filename)) {
 		return null;
 	}
 	return xlsx.parse(filename);
 };
 
-export const parseExcelFiles = (
-	filenames: string[],
-): ExcelRecords => {
-  let records: ExcelRecords = [];
-  for (let i = 0; i < filenames.length; i++){
-    const res: ExcelRecords = parseExcelFile(filenames[i]);
-    if (res) records = records.concat(res);
-  }
+export const parseExcelFiles = (filenames: string[]): ExcelRecords => {
+	let records: ExcelRecords = [];
+	for (let i = 0; i < filenames.length; i++) {
+		const res: ExcelRecords = parseExcelFile(filenames[i]);
+		if (res) records = records.concat(res);
+	}
 	return records;
 };
 

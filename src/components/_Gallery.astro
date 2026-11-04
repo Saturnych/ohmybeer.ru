@@ -11,31 +11,31 @@ const galleryImages: GalleryImage[] = siteData.gallery;
 
 <section class="gallery section" aria-labelledby="gallery-title" id="gallery">
 	<div class="container">
-		<h2 id="gallery-title" class="section__title">The Space</h2>
+		<h2 id="gallery-title" class="section__title">
+			The Space
+		</h2>
 
 		<div class="gallery__grid">
-			{
-				galleryImages.map((image, index) => (
-					<button
-						class="gallery__item"
-						type="button"
-						data-gallery-trigger
-						data-index={index}
-						aria-label={`View ${image.alt}`}
-					>
-						<img
-							src={image.src}
-							alt={image.alt}
-							class="gallery__image"
-							loading="lazy"
-							decoding="async"
-						/>
-						<span class="gallery__overlay" aria-hidden="true">
-							<span class="gallery__zoom-icon">⊕</span>
-						</span>
-					</button>
-				))
-			}
+			{galleryImages.map((image, index) => (
+				<button
+					class="gallery__item"
+					type="button"
+					data-gallery-trigger
+					data-index={index}
+					aria-label={`View ${image.alt}`}
+				>
+					<img
+						src={image.src}
+						alt={image.alt}
+						class="gallery__image"
+						loading="lazy"
+						decoding="async"
+					/>
+					<span class="gallery__overlay" aria-hidden="true">
+						<span class="gallery__zoom-icon">⊕</span>
+					</span>
+				</button>
+			))}
 		</div>
 	</div>
 </section>
@@ -52,7 +52,9 @@ const galleryImages: GalleryImage[] = siteData.gallery;
 	<div class="lightbox__backdrop" data-lightbox-close></div>
 
 	<div class="lightbox__content">
-		<button class="lightbox__close" data-lightbox-close aria-label="Close gallery"> ✕ </button>
+		<button class="lightbox__close" data-lightbox-close aria-label="Close gallery">
+			✕
+		</button>
 
 		<button
 			class="lightbox__nav lightbox__nav--prev"

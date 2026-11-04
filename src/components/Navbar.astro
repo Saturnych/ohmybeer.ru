@@ -20,28 +20,28 @@ const navItems = [
 			aria-expanded="false"
 			id="navbar-toggle"
 		>
-			<span class="navbar__toggle-icon" aria-hidden="true">☰</span>
+			<span class="navbar__toggle-icon" aria-hidden="true">
+				☰
+			</span>
 		</button>
 
 		<ul class="navbar__menu" id="navbar-menu">
-			{
-				navItems.map((item) => (
-					<li class="navbar__item">
-						<a
-							href={item.href}
-							class="navbar__link"
-							{...(item.href.startsWith('/#')
-								? {}
-								: {
-										target: item.href.startsWith('http') ? '_blank' : undefined,
-										rel: item.href.startsWith('http') ? 'noopener noreferrer' : undefined,
-									})}
-						>
-							{item.label}
-						</a>
-					</li>
-				))
-			}
+			{navItems.map((item) => (
+				<li class="navbar__item">
+					<a
+						href={item.href}
+						class="navbar__link"
+						{...(item.href.startsWith('/#')
+							? {}
+							: {
+									target: item.href.startsWith('http') ? '_blank' : undefined,
+									rel: item.href.startsWith('http') ? 'noopener noreferrer' : undefined,
+								})}
+					>
+						{item.label}
+					</a>
+				</li>
+			))}
 		</ul>
 	</div>
 </nav>

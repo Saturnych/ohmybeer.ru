@@ -117,7 +117,10 @@ const structuredData = {
 		<meta property="og:url" content={Astro.url} />
 		<meta property="og:title" content={title} />
 		<meta property="og:description" content={description} />
-		<meta property="og:image" content={`${image ? image : '${Astro.url.origin}/assets/logo.png'}`} />
+		<meta
+			property="og:image"
+			content={`${image ? image : '${Astro.url.origin}/assets/logo.png'}`}
+		/>
 		<meta property="og:locale" content="ru_RU" />
 
 		<!-- Twitter -->
@@ -138,11 +141,12 @@ const structuredData = {
 
 		<!-- Structured Data / JSON-LD -->
 		<script type="application/ld+json" set:html={JSON.stringify(structuredData)} />
-
 		<Metrika />
 	</head>
 	<body>
-		<a href="#main-content" class="sr-only">На главную</a>
+		<a href="#main-content" class="sr-only">
+			На главную
+		</a>
 		<Navbar />
 		<main id="main-content">
 			<slot />

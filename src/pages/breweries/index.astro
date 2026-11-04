@@ -14,25 +14,25 @@ const title = `${header} || ${siteData.name}`;
 <Layout title={title}>
 	<section class="articles section" aria-labelledby="articles-title">
 		<div class="container">
-			<h1 id="articles-title" class="section__title">{header}</h1>
-			{
-				breweries.length > 0 && (
-					<div class="articles__grid">
-						{breweries.map((brewery) => (
-							<article class="article-card">
-								<div class="article-card__content">
-									<a href={`/breweries/${brewery.brewery_slug}/`} class="article-card__read-more">
-										{brewery.brewery_name}
-										<span class="article-card__arrow" aria-hidden="true">
-											→
-										</span>
-									</a>
-								</div>
-							</article>
-						))}
-					</div>
-				)
-			}
+			<h1 id="articles-title" class="section__title">
+				{header}
+			</h1>
+			{breweries.length > 0 && (
+				<div class="articles__grid">
+					{breweries.map((brewery) => (
+						<article class="article-card">
+							<div class="article-card__content">
+								<a href={`/breweries/${brewery.brewery_slug}/`} class="article-card__read-more">
+									{brewery.brewery_name}
+									<span class="article-card__arrow" aria-hidden="true">
+										→
+									</span>
+								</a>
+							</div>
+						</article>
+					))}
+				</div>
+			)}
 		</div>
 	</section>
 </Layout>
