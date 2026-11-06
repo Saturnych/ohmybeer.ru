@@ -1,0 +1,21 @@
+{
+  "bid": 6914945,
+  "beer_name": "Наблюдатель // Citra + HBC 638",
+  "beer_label": "https://assets.untappd.com/site/beer_logos/beer-6914945_4b81d_sm.jpeg",
+  "beer_abv": 7,
+  "beer_slug": "saliwa-nabliudatel-citra-hbc-638",
+  "beer_ibu": 60,
+  "beer_description": "Первый релиз моносолодовой серии в стиле Cali IPA - современный подвид вест-кост айпиэй на базе светлого пильзенского солода и фокусом охмеления на раскрытие фруктовых/тропических нюансов хмеля.\r\nСброжен блендом двух нейтральных американских штаммов с лёгким заигрыванием с тиолами.\r\n\r\nОхмелён новым сортом HBC 638 и уже ставшей классической Citra.",
+  "created_at": "Sun, 20 Sep 2026 14:21:09 +0000",
+  "beer_style": "IPA - American",
+  "in_production": 1,
+  "auth_rating": 0,
+  "wish_list": false,
+  "is_non_alcoholic": false,
+  "checkin_count": 150,
+  "id": "saliwa-nabliudatel-citra-hbc-638",
+  "brewery": "saliwa-brew",
+  "term": "Saliwa НАБЛЮДАТЕЛЬ",
+  "parsed_term": "Saliwa НАБЛЮДАТЕЛЬ",
+  "hash": "53616c69776120d09dd090d091d09bd0aed094d090d0a2d095d09bd0ac"
+}
