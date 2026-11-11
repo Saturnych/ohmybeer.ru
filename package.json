@@ -40,7 +40,7 @@
 		"typescript": "^7.0.2"
 	},
 	"dependencies": {
-		"astro": "^7.4.7",
+		"astro": "^7.4.10",
 		"axios": "^1.21.0",
 		"axios-retry": "^4.5.0",
 		"cheerio": "^1.2.0",
