@@ -1,0 +1,21 @@
+{
+  "bid": 6781053,
+  "beer_name": "Много не бывает",
+  "beer_label": "https://assets.untappd.com/site/beer_logos/beer-6781053_be7b0_sm.jpeg",
+  "beer_abv": 6,
+  "beer_slug": "white-stone-mnogo-ne-byvaet",
+  "beer_ibu": 36,
+  "beer_description": "New England IPA\r\nABV: 6%\r\nPlato: 16%\r\nIBU: 36\r\nHops: HBC 638, Simcoe, Amarillo Cryo\r\n\r\nКаждый любитель пива знает — хмеля много не бывает. До контейнеров  мы ещё не дошли, но надеемся, что всё впереди! Встречайте новый NEIPA «Много не бывает» с тремя хмелями в составе: HBC 638, Simcoe, Amarillo Cryo.",
+  "created_at": "Tue, 07 Jul 2026 10:45:14 +0000",
+  "beer_style": "IPA - New England / Hazy",
+  "in_production": 1,
+  "auth_rating": 0,
+  "wish_list": false,
+  "is_non_alcoholic": false,
+  "checkin_count": 535,
+  "id": "white-stone-mnogo-ne-byvaet",
+  "brewery": "white-stone",
+  "term": "White Stone Много Не Бывает",
+  "parsed_term": "White Stone Много Не Бывает",
+  "hash": "57686974652053746f6e6520d09cd0bdd0bed0b3d0be20d09dd0b520d091d18bd0b2d0b0d0b5d182"
+}
