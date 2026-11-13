@@ -1,0 +1,21 @@
+{
+  "bid": 6752939,
+  "beer_name": "Great Idea, Mr. Monish!",
+  "beer_label": "https://assets.untappd.com/site/beer_logos/beer-6752939_bd149_sm.jpeg",
+  "beer_abv": 4.5,
+  "beer_slug": "horror-brewing-great-idea-mr-monish",
+  "beer_ibu": 0,
+  "beer_description": "Домашнее задание LD'2026\r\n\r\nSession IPA w/ Equinot & Mosaic CRYO",
+  "created_at": "Mon, 15 Jun 2026 17:37:24 +0000",
+  "beer_style": "IPA - Session",
+  "in_production": 1,
+  "auth_rating": 0,
+  "wish_list": false,
+  "is_non_alcoholic": false,
+  "checkin_count": 202,
+  "id": "horror-brewing-great-idea-mr-monish",
+  "brewery": "horror-brewing",
+  "term": "Horror Brewing Great Idea",
+  "parsed_term": "Horror Brewing Great Idea",
+  "hash": "486f72726f722042726577696e672047726561742049646561"
+}

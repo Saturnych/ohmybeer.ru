@@ -1,0 +1,21 @@
+{
+  "bid": 7667857,
+  "beer_name": "Lucky Escape",
+  "beer_label": "https://assets.untappd.com/site/beer_logos/beer-7667857_01ce0_sm.jpeg",
+  "beer_abv": 6.5,
+  "beer_slug": "stamm-brewing-lucky-escape",
+  "beer_ibu": 0,
+  "beer_description": "Australian IPA, охмелённый новым сортом Luna, при поддержке Galaxy",
+  "created_at": "Mon, 09 Nov 2026 08:53:32 +0000",
+  "beer_style": "IPA - Other",
+  "in_production": 1,
+  "auth_rating": 0,
+  "wish_list": false,
+  "is_non_alcoholic": false,
+  "checkin_count": 19,
+  "id": "stamm-brewing-lucky-escape",
+  "brewery": "stamm-brewing",
+  "term": "Stamm Lucky Escape",
+  "parsed_term": "Stamm Lucky Escape",
+  "hash": "5374616d6d204c75636b7920457363617065"
+}
