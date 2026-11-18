@@ -1,0 +1,21 @@
+{
+  "bid": 7671415,
+  "beer_name": "48",
+  "beer_label": "https://assets.untappd.com/site/beer_logos/beer-7671415_94a9e_sm.jpeg",
+  "beer_abv": 4.8,
+  "beer_slug": "stamm-brewing-48",
+  "beer_ibu": 0,
+  "beer_description": "Бест биттер, сваренный в содружестве с небезызвестным пабом на Покровке 48",
+  "created_at": "Wed, 11 Nov 2026 14:28:29 +0000",
+  "beer_style": "Bitter - Best",
+  "in_production": 1,
+  "auth_rating": 0,
+  "wish_list": false,
+  "is_non_alcoholic": false,
+  "checkin_count": 0,
+  "id": "stamm-brewing-48",
+  "brewery": "stamm-brewing",
+  "term": "Stamm 48",
+  "parsed_term": "Stamm 48",
+  "hash": "5374616d6d203438"
+}
