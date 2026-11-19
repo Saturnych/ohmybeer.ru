@@ -1,0 +1,21 @@
+{
+  "bid": 7650677,
+  "beer_name": "Out of Office",
+  "beer_label": "https://assets.untappd.com/site/beer_logos/beer-7650677_166b6_sm.jpeg",
+  "beer_abv": 7,
+  "beer_slug": "ganza-pivovarnia-out-of-office",
+  "beer_ibu": 65,
+  "beer_description": "В сериале «Офис» даже самые обычные рабочие будни превращались в череду веселых нелепых ситуаций и неожиданных развлечений. Наш American IPA предлагает ненадолго выйти из этой рутины: закрыть ноутбук, отключить уведомления и сменить рабочий статус на Out of Officе.\r\nСухое охмеление Galaxy, Cashmere и Mosaic создаёт насыщенный аромат маракуйи, манго и цитрусовых с оттенками спелой дыни и лёгкой хвойной свежести. Яркий фруктовый профиль дополняют освежающая цитрусовая кислинка и ненавязчивая хмелевая горечь.\r\nРабочий день может продолжаться сколько угодно. Но ваше отсутствие уже согласовано.",
+  "created_at": "Fri, 30 Oct 2026 07:56:17 +0000",
+  "beer_style": "IPA - American",
+  "in_production": 1,
+  "auth_rating": 0,
+  "wish_list": false,
+  "is_non_alcoholic": false,
+  "checkin_count": 14,
+  "id": "ganza-pivovarnia-out-of-office",
+  "brewery": "ganza-brewery",
+  "term": "Ganza OUT OF OFFICE",
+  "parsed_term": "Ganza OUT OF OFFICE",
+  "hash": "47616e7a61204f5554204f46204f4646494345"
+}
