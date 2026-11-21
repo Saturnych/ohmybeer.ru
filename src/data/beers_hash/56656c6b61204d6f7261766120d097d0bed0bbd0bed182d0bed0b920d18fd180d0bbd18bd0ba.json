@@ -1,0 +1,21 @@
+{
+  "bid": 411903,
+  "beer_name": "Zolotoy Yarlyk (Золотой Ярлык)",
+  "beer_label": "https://assets.untappd.com/site/beer_logos/beer-411903_b6d68_sm.jpeg",
+  "beer_abv": 5.4,
+  "beer_slug": "velka-morava-zolotoy-yarlyk-zolotoi-iarlyk",
+  "beer_ibu": 40,
+  "beer_description": "The revival of the pre-revolutionary variety “Golden Label”, twice awarded the royal emblem. It is a dense golden lager, with a rich malt base and long hop bitterness, slightly stronger than traditional pilsner. Clean, perfectly clear, sparkling, with a smooth and lasting snow-white foam cap.\r\n\r\nВозрождение дореволюционного, дважды награждённого царским гербом сорта «Золотой Ярлык», - это плотный золотистый лагер, с насыщенной солодовой базой и долгой хмелевой горчинкой, слегка крепче традиционного пилса. Чистый, идеально осветлённый, искристый, с крепкой мелкозернистой белоснежной шапкой пены.",
+  "created_at": "Mon, 22 Jul 2013 20:09:36 +0000",
+  "beer_style": "Lager - Dortmunder / Export",
+  "in_production": 1,
+  "auth_rating": 0,
+  "wish_list": false,
+  "is_non_alcoholic": false,
+  "checkin_count": 9148,
+  "id": "velka-morava-zolotoy-yarlyk-zolotoi-iarlyk",
+  "brewery": "velka-morava",
+  "term": "Velka Morava Золотой ярлык",
+  "parsed_term": "Velka Morava Золотой ярлык",
+  "hash": "56656c6b61204d6f7261766120d097d0bed0bbd0bed182d0bed0b920d18fd180d0bbd18bd0ba"
+}
