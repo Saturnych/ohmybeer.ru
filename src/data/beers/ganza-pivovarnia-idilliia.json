@@ -1,0 +1,21 @@
+{
+  "bid": 6773277,
+  "beer_name": "Идиллия",
+  "beer_label": "https://assets.untappd.com/site/beer_logos/beer-6773277_e903f_sm.jpeg",
+  "beer_abv": 4.5,
+  "beer_slug": "ganza-pivovarnia-idilliia",
+  "beer_ibu": 0,
+  "beer_description": "Вишневый эль с соком прямого отжима.",
+  "created_at": "Wed, 01 Jul 2026 08:12:00 +0000",
+  "beer_style": "Fruit Beer",
+  "in_production": 1,
+  "auth_rating": 0,
+  "wish_list": false,
+  "is_non_alcoholic": false,
+  "checkin_count": 77,
+  "id": "ganza-pivovarnia-idilliia",
+  "brewery": "ganza-brewery",
+  "term": "Ganza Идиллия",
+  "parsed_term": "Ganza Идиллия",
+  "hash": "47616e7a6120d098d0b4d0b8d0bbd0bbd0b8d18f"
+}

@@ -487,6 +487,17 @@
     "format": "РОЗЛИВ",
     "country": "Россия",
     "updatedAt": "2026-11-22T16:40",
+    "brewery_name": "ГАНЗА Пивоварня",
+    "brewery_slug": "ganza-brewery",
+    "brewery_type": "Micro Brewery",
+    "beer_name": "Идиллия",
+    "beer_label": "https://assets.untappd.com/site/beer_logos/beer-6773277_e903f_sm.jpeg",
+    "beer_slug": "ganza-pivovarnia-idilliia",
+    "beer_abv": 4.5,
+    "beer_ibu": 0,
+    "beer_style": "Fruit Beer",
+    "term": "Ganza Идиллия",
+    "hash": "47616e7a6120d098d0b4d0b8d0bbd0bbd0b8d18f",
     "price": 0
   },
   {
