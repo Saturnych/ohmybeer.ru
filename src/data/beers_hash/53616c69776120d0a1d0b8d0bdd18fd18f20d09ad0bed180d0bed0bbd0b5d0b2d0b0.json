@@ -1,0 +1,21 @@
+{
+  "bid": 6914949,
+  "beer_name": "СИНЯЯ КОРОЛЕВА",
+  "beer_label": "https://assets.untappd.com/site/beer_logos/beer-6914949_3aecf_sm.jpeg",
+  "beer_abv": 7.4,
+  "beer_slug": "saliwa-siniaia-koroleva",
+  "beer_ibu": 60,
+  "beer_description": "Коллаборация с друзьями из нижегородского бара ХОПЧИК!\r\n\r\nСорт приурочен к шахматному турниру \"Синяя Королева\", проходящему 1 ноября 2026-го года.\r\n\r\nНовозеландский прозрачный айпиэй, охмелённый новым сортом CIP076 при поддержке Motueka урожая 2026-го года. Сброжен нейтральным американским штаммом в кооперации с лёгкой тиолизацией от штамма Star Party для более многогранной вкусоароматики.",
+  "created_at": "Sun, 20 Sep 2026 14:22:34 +0000",
+  "beer_style": "IPA - New Zealand",
+  "in_production": 1,
+  "auth_rating": 0,
+  "wish_list": false,
+  "is_non_alcoholic": false,
+  "checkin_count": 141,
+  "id": "saliwa-siniaia-koroleva",
+  "brewery": "saliwa-brew",
+  "term": "Saliwa Синяя Королева",
+  "parsed_term": "Saliwa Синяя Королева",
+  "hash": "53616c69776120d0a1d0b8d0bdd18fd18f20d09ad0bed180d0bed0bbd0b5d0b2d0b0"
+}
