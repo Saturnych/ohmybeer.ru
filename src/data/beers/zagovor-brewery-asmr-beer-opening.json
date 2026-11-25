@@ -1,0 +1,21 @@
+{
+  "bid": 7666633,
+  "beer_name": "ASMR Beer Opening",
+  "beer_label": "https://assets.untappd.com/site/beer_logos/beer-7666633_9d5c6_sm.jpeg",
+  "beer_abv": 4.6,
+  "beer_slug": "zagovor-brewery-asmr-beer-opening",
+  "beer_ibu": 0,
+  "beer_description": "Nelson Sauvin Pilsner! \r\n\r\nASMR (Autonomous Sensory Meridian Response) - A relaxing tingling sensation triggered by gentle sounds and visuals. This is what will please you when you hear and see a beer opening move!  ",
+  "created_at": "Sun, 08 Nov 2026 14:23:42 +0000",
+  "beer_style": "Pilsner - New Zealand",
+  "in_production": 1,
+  "auth_rating": 0,
+  "wish_list": false,
+  "is_non_alcoholic": false,
+  "checkin_count": 326,
+  "id": "zagovor-brewery-asmr-beer-opening",
+  "brewery": "zagovor-brewery",
+  "term": "Zagovor ASMR Beer Opening",
+  "parsed_term": "Zagovor ASMR Beer Opening",
+  "hash": "5a61676f766f722041534d522042656572204f70656e696e67"
+}

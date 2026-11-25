@@ -1,0 +1,21 @@
+{
+  "bid": 666424,
+  "beer_name": "Based On: Pale Lager | Светлый Лагер",
+  "beer_label": "https://assets.untappd.com/site/beer_logos/beer-666424_847da_sm.jpeg",
+  "beer_abv": 4.5,
+  "beer_slug": "piotr-petrovich-petr-petrovich-based-on-pale-lager-svetlyi-lager",
+  "beer_ibu": 25,
+  "beer_description": "Лагер соломенного цвета с ароматом благородного хмеля, свежим зерновым вкусом и легкой горчинкой в финале. Классический, гастрономически универсальный сорт.",
+  "created_at": "Fri, 02 May 2014 11:15:25 +0000",
+  "beer_style": "Lager - Pale",
+  "in_production": 1,
+  "auth_rating": 0,
+  "wish_list": false,
+  "is_non_alcoholic": false,
+  "checkin_count": 444,
+  "id": "piotr-petrovich-petr-petrovich-based-on-pale-lager-svetlyi-lager",
+  "brewery": "pyotr-petrovich-petr-petrovich",
+  "term": "Петр Петрович Based On: Pale Lager",
+  "parsed_term": "Петр Петрович Based On: Pale Lager",
+  "hash": "d09fd0b5d182d18020d09fd0b5d182d180d0bed0b2d0b8d187204261736564204f6e3a2050616c65204c61676572"
+}
